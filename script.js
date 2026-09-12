@@ -1,300 +1,55 @@
-/* ───────── 응원 문구 60개 (날짜 기반 로테이션) ───────── */
-const CHEERS = [
-  "오늘 읽은 한 지문이 시험장에서 너를 구한다!",
-  "빈칸은 흐름을 잡은 사람이 이긴다. 천천히 가자!",
-  "밥 한 술, 지문 한 컷. 가볍게 쌓아가자!",
-  "어휘 하나가 1점을 만든다. 오늘도 한 개 더!",
-  "독해는 속도가 아니라 이해다. 꼭꼭 씹자!",
-  "모르는 문장은 적이 아니라 다음 레벨로 가는 문이다!",
-  "어제의 너보다 한 지문만큼 더 똑똑해졌다!",
-  "지문 구조가 보이면 정답도 보인다!",
-  "밑줄 함축은 결국 글의 큰 그림. 멀리서 보자!",
-  "오늘의 5지문이 모여 시험날의 자신감이 된다!",
-  "헷갈리는 문장일수록 주어·동사부터 찾자!",
-  "포기하지 않는 사람만 빈칸을 채운다!",
-  "한 입 먹고 한 문장. 그게 쌓이면 실력!",
-  "순서·삽입은 연결어가 길을 알려준다!",
-  "단어를 외우는 게 아니라 친해지는 거다!",
-  "오답도 데이터다. 왜 틀렸는지가 보물이다!",
-  "지문은 작가와의 대화. 무슨 말 하나 들어보자!",
-  "꾸준함이 재능을 이긴다. 오늘도 출석!",
-  "어려운 41·42번도 한 컷씩 보면 쉬워진다!",
-  "주제문 한 줄만 잡아도 절반은 푼 거다!",
-  "긴장될 땐 심호흡, 그리고 첫 문장부터!",
-  "today의 너는 어제보다 분명히 강하다!",
-  "감정 단어 vs 이성 단어, 대조를 즐기자!",
-  "밥은 든든하게, 공부는 가볍게!",
-  "한 지문을 끝까지 이해하면 열 지문이 보인다!",
-  "어휘 문제는 반의어 함정만 피하면 OK!",
-  "글의 반전(however)을 찾으면 출제 포인트가 보인다!",
-  "느려도 괜찮아, 멈추지만 않으면 도착한다!",
-  "오늘 만난 표현, 시험에서 반갑게 만나자!",
-  "독해 근육도 매일 써야 자란다!",
-  "복습은 미래의 나에게 주는 선물이다!",
-  "지문 속 'this/that'이 가리키는 걸 찾자!",
-  "5지문이면 충분해. 욕심보다 꾸준함!",
-  "어려웠다면, 그만큼 성장한 거다!",
-  "정답은 항상 지문 안에 있다. 근거를 찾자!",
-  "오늘도 한 컷 한 컷, 만화 보듯 가볍게!",
-  "빈칸 앞뒤 문장이 정답의 힌트다!",
-  "긴 문장은 끊어 읽기. 한 덩이씩!",
-  "모의고사는 연습. 틀려도 괜찮은 무대다!",
-  "지문의 마지막 문장에 주제가 숨어 있다!",
-  "한 술 더 뜨듯, 지문 하나 더!",
-  "영어는 매일 조금씩이 정답이다!",
-  "오늘의 집중이 시험날 1등급을 만든다!",
-  "어휘·구조·흐름, 셋만 잡으면 끝!",
-  "막히면 한국어 해석부터, 그다음 영어로!",
-  "작은 진전도 진전이다. 박수!",
-  "독해는 추리 게임. 단서를 모으자!",
-  "오늘 배운 10초 복습 문장, 꼭 떠올리자!",
-  "꾸준한 한 끼 공부가 너를 바꾼다!",
-  "지문이 길어도 핵심은 한 문장이다!",
-  "어제 헷갈린 지문, 오늘은 친구가 됐다!",
-  "시험은 결국 평소 실력의 거울이다!",
-  "한 지문의 깊은 이해 > 열 지문 대충!",
-  "오늘도 밥상 앞에서 1점씩 모으자!",
-  "글쓴이가 진짜 하고 싶은 말을 찾자!",
-  "반복되는 단어가 곧 주제어다!",
-  "천천히 읽어도 정확히 읽으면 이긴다!",
-  "오늘의 다섯 지문, 내일의 든든함!",
-  "할 수 있다. 이미 하고 있으니까!",
-  "마지막 한 지문까지, 가볍게 끝내자!"
-];
-function todayKey(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
-function dayOfYear(){const d=new Date();const s=new Date(d.getFullYear(),0,0);return Math.floor((d-s)/86400000);}
-(function setCheer(){
-  document.getElementById("cheerMsg").textContent = CHEERS[dayOfYear()%CHEERS.length];
-  const k=todayKey();
-  document.getElementById("cheerLbl").textContent = "📌 오늘의 응원 · "+k.slice(5).replace("-","/");
+(() => {
+'use strict';
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const groups=window.EXAM_INDEX||[], all=groups.flatMap(g=>g.passages.map(p=>({...p,group:g.id,type:g.name})));
+let saved={};try{saved=JSON.parse(localStorage.getItem('yeolgong.study.v2')||'{}')}catch{}
+if(!saved||typeof saved!=='object'||Array.isArray(saved))saved={};
+let mode='analysis', section='flow', current=null, request=0, filter='all', query='', status='all', font=Number(saved.font)||18;
+const pending=new Map(), app=$('#app');
+const getMark=id=>saved[id]||{};
+function persist(){try{localStorage.setItem('yeolgong.study.v2',JSON.stringify(saved))}catch{notify('저장 공간을 사용할 수 없습니다. 이 창에서만 유지됩니다.')}}
+document.querySelector('.skip').addEventListener('click',e=>{e.preventDefault();const m=$('#main');if(m){m.tabIndex=-1;m.focus()}});
+let noticeTimer;function notify(text){$('#notice').textContent=text;$('#notice').classList.add('show');clearTimeout(noticeTimer);noticeTimer=setTimeout(()=>$('#notice').classList.remove('show'),2500)}
+function load(g){if(window.EXAM_DATA?.[g.id])return Promise.resolve(window.EXAM_DATA[g.id]);if(pending.has(g.id))return pending.get(g.id);const promise=new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=g.file;s.onload=()=>window.EXAM_DATA?.[g.id]?resolve(window.EXAM_DATA[g.id]):reject(Error('자료 형식을 확인해 주세요.'));s.onerror=()=>{s.remove();reject(Error('자료를 불러오지 못했습니다.'));};document.head.append(s)}).finally(()=>pending.delete(g.id));pending.set(g.id,promise);return promise}
+function brand(){return '<a class="brand" href="#">열공<span>·</span><small>문장 사이를 읽다</small></a>'}
+function library(){current=null;document.title='열공 · 문장 사이를 읽다';app.innerHTML=`<header class="site-header">${brand()}<span class="edition">ENGLISH STUDY / 01</span></header><main id="main" class="library"><section class="hero"><div><p class="eyebrow">READ THE LOGIC</p><h1>해석을 넘어,<br>문장 사이의 이유를 읽다.</h1><p>전체 흐름에서 한 문장의 역할까지.<br>지문을 깊이 읽고, 수능의 여러 유형으로 다시 바라보세요.</p></div><div class="summary"><span>이번 시험의 읽기 자료</span><strong>${all.length}<small>지문</small></strong><div>${groups.length}개 유형 <span>·</span> 1차 자료</div><div id="progressText"></div><div class="progress-track"><i id="progressBar"></i></div></div></section><section class="library-tools" aria-label="지문 찾기"><div class="tool-row"><h2>학습 서재 <span>${all.length}</span></h2><label class="search"><span>검색</span><input id="search" type="search" placeholder="주제, 출처, 지문 이름" value="${esc(query)}"></label></div><div class="filters" aria-label="원래 문제 유형"><button data-filter="all">전체 <small>${all.length}</small></button>${groups.map(g=>`<button data-filter="${g.id}">${g.name} <small>${g.passages.length}</small></button>`).join('')}</div><div class="list-toolbar"><p class="muted">사진의 원래 출제 유형으로 분류했습니다.</p><label>학습 상태 <select id="status"><option value="all">전체</option><option value="star">보관한 지문</option><option value="done">학습 완료</option><option value="new">아직 읽지 않음</option></select></label></div></section><div id="cards" class="cards"></div><footer class="library-footer"><b>두 번의 읽기</b><span>01 지문 분석 · 왜 이 문장이 여기에 있을까?</span><span>02 수능 유형 대비 · 이 논리는 어떻게 출제될까?</span><small>학습 표시와 메모는 이 브라우저에 저장됩니다.</small></footer></main>`;
+$('#search').addEventListener('input',e=>{query=e.target.value;cards()});$('#status').value=status;$('#status').onchange=e=>{status=e.target.value;cards()};$$('[data-filter]').forEach(b=>b.onclick=()=>{filter=b.dataset.filter;cards()});cards()}
+function cards(){const done=all.filter(p=>getMark(p.id).done).length;$('#progressText').textContent=`${done} / ${all.length} 학습 완료`;$('#progressBar').style.width=`${all.length?done/all.length*100:0}%`;$$('[data-filter]').forEach(b=>{b.classList.toggle('selected',b.dataset.filter===filter);b.setAttribute('aria-pressed',String(b.dataset.filter===filter))});const list=all.filter(p=>(filter==='all'||p.group===filter)&&(!query||`${p.title} ${p.source} ${p.central} ${p.type}`.toLowerCase().includes(query.toLowerCase()))&&(status==='all'||(status==='star'?getMark(p.id).star:status==='done'?getMark(p.id).done:!getMark(p.id).done)));
+$('#cards').innerHTML=list.length?list.map(p=>`<a class="passage-card" href="#${p.id}"><div class="card-top"><span class="type-tag">${p.type}</span><span>${getMark(p.id).star?'★ ':''}${getMark(p.id).done?'✓ 완료':String(p.num).padStart(2,'0')}</span></div><h3>${esc(p.title)}</h3><p>${esc(p.central)}</p><div class="card-bottom"><span>${esc(p.source)}</span><span>${p.count}문장 ↗</span></div></a>`).join(''):'<div class="empty"><h3>조건에 맞는 지문이 없습니다.</h3><p>검색어나 학습 상태 필터를 바꿔 보세요.</p></div>'}
+const navs={analysis:[['flow','전체 흐름'],['sentences','문장 연결'],['logic','전환·범위'],['language','지시·구문'],['summary','핵심 정리']],prep:[['answers','주제·요지·제목'],['order','순서'],['positions','삽입·빈칸'],['words','어법·어휘']]};
+async function route(){const ticket=++request;let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{id=''}if(!id){library();return}const meta=all.find(p=>p.id===id);if(!meta){library();notify('해당 지문을 찾지 못해 목록을 열었습니다.');return}app.innerHTML=`<header class="site-header">${brand()}</header><main id="main" class="empty" role="status">지문과 분석을 불러오는 중입니다…</main>`;try{const data=await load(groups.find(g=>g.id===meta.group));if(ticket!==request)return;current=data.find(p=>p.id===id);if(!current)throw Error('지문을 찾을 수 없습니다.');mode='analysis';section='flow';study()}catch(e){if(ticket!==request)return;app.innerHTML=`<header class="site-header">${brand()}</header><main id="main" class="empty"><h2>${esc(e.message)}</h2><p>자료 파일이 같은 폴더에 있는지 확인해 주세요.</p><button id="retry">다시 불러오기</button><a class="button" href="#">목록</a></main>`;$('#retry').onclick=route}}
+function study(){const p=current,i=all.findIndex(x=>x.id===p.id);document.title=`${p.title} · 열공`;app.innerHTML=`<header class="study-header"><a class="back" href="#" aria-label="학습 서재로 돌아가기">← <span>학습 서재</span></a><div class="study-title"><span>${p.type} ${String(p.num).padStart(2,'0')} <i>·</i> ${esc(p.source)}</span><h1>${esc(p.title)}</h1></div><div class="study-actions"><button id="star" aria-label="지문 보관"></button><button id="done"></button></div></header><main id="main" class="study-main"><div class="reading-layout"><aside class="original-pane" aria-label="영어 원문"><div class="original-toolbar"><span class="eyebrow">PASSAGE</span><div><button id="smaller" aria-label="원문 글자 줄이기">A−</button><button id="larger" aria-label="원문 글자 키우기">A＋</button><button id="source">사진 원본 ↗</button></div></div><div class="source-info"><span>${p.sentences.length}문장</span><span>S 번호는 학습용 문장 번호입니다.</span></div>${p.edits?'<p class="source-warning">사진 원문의 출제 오류를 밑줄로 표시했습니다. 교정 내용은 해당 문장과 어법·어휘 영역에서 확인하세요.</p>':''}${p.irrelevant?'<p class="source-warning">흐름과 무관한 문장도 원문대로 보존했습니다. 해당 문장은 별도로 표시합니다.</p>':''}${p.sequence?`<p class="source-warning">읽기 순서 <b>${p.sequence}</b>로 연결했습니다. 원래 A·B·C 구획은 아래에 표시합니다.</p>`:''}<div id="original" class="original" style="--reading-size:${font}px">${p.sentences.map(s=>`${blockLabel(p,s.n)}<button class="sentence ${s.n===p.irrelevant?'irrelevant':''}" data-s="${s.n}" aria-label="S${s.n} 문장 분석 보기"><span class="sentence-num">${String(s.n).padStart(2,'0')}</span><span lang="en">${originalText(p,s)}</span>${s.n===p.irrelevant?'<em>흐름과 무관</em>':''}</button>`).join('')}</div><div class="original-footer">문장을 누르면 해석과 앞뒤 연결로 이동합니다.</div><div class="passage-nav"><button id="prev" ${i===0?'disabled':''}>← 이전 지문</button><span>${i+1} / ${all.length}</span><button id="next" ${i===all.length-1?'disabled':''}>다음 지문 →</button></div></aside><section class="analysis-pane" aria-label="학습 해설"><div class="mode-tabs" role="tablist" aria-label="학습 영역"><button role="tab" id="analysisTab" data-mode="analysis" aria-controls="studyContent">01 <strong>지문 분석</strong></button><button role="tab" id="prepTab" data-mode="prep" aria-controls="studyContent">02 <strong>수능 유형 대비</strong></button></div><nav id="sectionNav" class="section-nav" aria-label="해설 목차"></nav><div id="studyContent" class="study-content" role="tabpanel" tabindex="0"></div></section></div></main>`;
+$('#star').onclick=()=>toggle('star');$('#done').onclick=()=>toggle('done');updateMarks();$('#smaller').onclick=()=>resize(-1);$('#larger').onclick=()=>resize(1);$('#source').onclick=photos;$('#prev').onclick=()=>location.hash=all[i-1].id;$('#next').onclick=()=>location.hash=all[i+1].id;
+$$('[data-s]').forEach(b=>b.onclick=()=>showSentence(Number(b.dataset.s)));$$('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;section=navs[mode][0][0];renderContent()});$$('[role="tab"]').forEach((b,i,a)=>b.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const next=e.key==='Home'?0:e.key==='End'?a.length-1:(i+1)%a.length;a[next].click();a[next].focus()}});renderContent()}
+function blockLabel(p,n){if(!p.sequence)return '';if(n===1)return '<div class="block-label">주어진 글</div>';const b=p.order.find(b=>b[0]===n);return b?`<div class="block-label">${esc(b[2])}</div>`:''}
+function originalText(p,s){let t=esc(s.en);for(const e of p.edits||[])if(e[0]===s.n)t=t.replace(esc(e[1]),`<u class="source-error">${esc(e[1])}</u>`);return t}
+function resize(d){font=Math.min(24,Math.max(16,font+d));$('#original').style.setProperty('--reading-size',`${font}px`);saved.font=font;persist()}
+function toggle(key){saved[current.id]={...getMark(current.id),[key]:!getMark(current.id)[key]};persist();updateMarks()}
+function updateMarks(){const m=getMark(current.id);$('#star').textContent=m.star?'★ 보관 중':'☆ 보관';$('#star').setAttribute('aria-pressed',String(!!m.star));$('#done').textContent=m.done?'✓ 학습 완료':'완료 표시';$('#done').setAttribute('aria-pressed',String(!!m.done))}
+function pick(a,b=a){$$('[data-s]').forEach(x=>x.classList.toggle('active',Number(x.dataset.s)>=a&&Number(x.dataset.s)<=b));const el=$(`[data-s="${a}"]`);if(el){const pane=$('.original-pane');pane.scrollTo({top:Math.max(0,el.getBoundingClientRect().top-pane.getBoundingClientRect().top+pane.scrollTop-$('.original-toolbar').offsetHeight-12),behavior:'smooth'})}}
+function showSentence(n){mode='analysis';section='sentences';renderContent();pick(n);const card=$(`#analysis-s${n}`);if(card){const pane=$('#studyContent');pane.scrollTo({top:card.getBoundingClientRect().top-pane.getBoundingClientRect().top+pane.scrollTop-16,behavior:'smooth'});card.classList.add('selected-card')}if(innerWidth<720&&card)card.scrollIntoView({behavior:'smooth',block:'start'})}
+const range=(a,b=a)=>`<button class="ref-button" data-range="${a},${b}">S${a}${b!==a?'–'+b:''} ↖</button>`;
+const heading=(num,title,sub='')=>`<div class="section-heading"><span class="eyebrow">${num}</span><h2>${title}</h2>${sub?`<p>${sub}</p>`:''}</div>`;
+const quote=(p,n)=>`<blockquote lang="en">${esc(p.sentences[n-1].en)}</blockquote>`;
+function flow(p){return `<div class="flow-list">${p.flow.map((f,i)=>`<article class="flow-step"><span class="step-number">${i+1}</span><div><h3>${esc(f[0])} ${range(f[1],f[2])}</h3><p>${esc(f[3])}</p></div></article>`).join('')}</div>`}
+function edits(p,n){return (p.edits||[]).filter(e=>!n||e[0]===n).map(e=>`<div class="correction"><span>출제 표현 교정 ${range(e[0])}</span><p><del>${esc(e[1])}</del> → <b>${esc(e[2])}</b></p><p>${esc(e[3])}</p></div>`).join('')}
+function renderContent(){const p=current;$$('[data-mode]').forEach(b=>{const on=b.dataset.mode===mode;b.setAttribute('aria-selected',String(on));b.tabIndex=on?0:-1});$('#studyContent').setAttribute('aria-labelledby',mode==='analysis'?'analysisTab':'prepTab');$('#sectionNav').innerHTML=navs[mode].map(([key,label])=>`<button data-section="${key}" ${section===key?'aria-current="true"':''}>${label}</button>`).join('');$$('[data-section]').forEach(b=>b.onclick=()=>{section=b.dataset.section;renderContent()});let html='';
+if(mode==='analysis'){
+ if(section==='flow')html=heading('01 / FIRST READ','전체 흐름 먼저','세부 해석 전에, 다음 내용이 필요한 이유부터 확인하세요.')+flow(p)+`<div class="takeaway"><span>읽기의 출발점</span><p>${esc(p.tip)}</p></div><button class="primary" data-go="sentences">이 흐름으로 문장 읽기 →</button>`;
+ if(section==='sentences')html=heading('02 / SENTENCE LOGIC','문장별 해석과 기능','영문 → 자연스러운 해석 → 앞뒤 연결. 원문의 문장 번호와 함께 읽으세요.')+p.sentences.map(s=>`<article id="analysis-s${s.n}" class="sentence-card"><div class="card-top">${range(s.n)}<span class="role-tag">${esc(s.role)}</span></div><p lang="en" class="sentence-quote">${esc(s.en)}</p><p class="translation">${esc(s.ko)}</p><div class="reason"><b>왜 여기 있는가</b><p>${esc(s.why)}</p></div>${edits(p,s.n)}</article>`).join('');
+ if(section==='logic')html=heading('03 / CONNECTORS','연결어가 바꾸는 논리')+p.connectors.map(c=>`<article class="content-card"><h3><span lang="en">${esc(c[1])}</span> ${range(c[0])}</h3><div class="before-after"><div><span>이전</span><p>${esc(c[2])}</p></div><div><span>이후</span><p>${esc(c[3])}</p></div></div></article>`).join('')+heading('04 / COMPARISON','모순처럼 보이는 부분 비교','주어·대상·범위·조건과 주장 주체 중 실제 차이를 만드는 축을 비교합니다.')+p.compare.map(c=>`<article class="content-card"><div class="comparison"><b>${esc(c[0])}</b><span>↔</span><b>${esc(c[1])}</b></div><p class="axis">비교 기준 · ${esc(c[2])}</p><p>${esc(c[3])}</p></article>`).join('')+heading('05 / SCOPE','같은 말처럼 보여도 범위는 다르다')+`<div class="content-card"><p>${esc(p.tip)}</p>${p.compare.map(c=>`<p><b>${esc(c[2])}</b><br>${esc(c[0])}와 ${esc(c[1])}를 같은 뜻으로 합치지 말고, 위의 조건과 범위를 적용해 읽습니다.</p>`).join('')}</div>`;
+ if(section==='language')html=heading('06 / REFERENCES','지시어가 가리키는 것','명사 하나를 받는지, 앞선 내용 전체를 받는지 구분합니다.')+`<div class="reference-list">${p.refs.map(r=>`<article><div>${range(r[0])}<strong lang="en">${esc(r[1])}</strong></div><p>↳ ${esc(r[2])}</p></article>`).join('')}</div>`+heading('07 / STRUCTURE','어려운 문장만 뼈대 잡기')+p.syntax.map(s=>`<article class="content-card">${range(s[0])}${quote(p,s[0])}<p>${esc(s[1])}</p></article>`).join('');
+ if(section==='summary')html=heading('08 / CLAIM & EVIDENCE','주장과 설명을 구분하기')+`<div class="takeaway"><span>사례를 포괄하는 핵심 주장</span><p>${esc(p.central)}</p></div><div class="role-map">${p.sentences.map(s=>`<div>${range(s.n)}<b>${esc(s.role)}</b><p>${esc(s.why)}</p></div>`).join('')}</div>`+heading('09 / TURNING POINT','핵심 전환점')+(p.turns||[p.connectors[0][0]]).map(n=>`<article class="content-card"><h3>${esc(p.sentences[n-1].role)} ${range(n)}</h3>${quote(p,n)}<p>${esc(p.sentences[n-1].why)}</p></article>`).join('')+heading('11 / ORIGINAL QUESTION','원래 문제의 판단 근거','새 문제를 만든 것이 아니라 사진에 실린 원래 문제의 정답과 근거입니다.')+`<details class="content-card"><summary>원래 문제 정답·해설 펼치기</summary><p>${esc(p.answer)}</p></details>`+heading('10 · 12 / FINAL READ','전체 논리와 최종 요약')+`<div class="arrow-flow">${p.flow.map(f=>`<span>${esc(f[0])}</span>`).join('<i>↓</i>')}</div><div class="takeaway"><span>[한 문장 핵심]</span><p>${esc(p.central)}</p></div><div class="content-card"><b>[읽을 때 가장 중요한 포인트]</b><p>${esc(p.tip)}</p></div>`+note(p);
+}else{
+ if(section==='answers')html=heading('01 / BIG PICTURE','주제 · 요지 · 제목','출제 대비용 표현 예시입니다. 새 문제나 공식 정답이 아닙니다.')+`<article class="answer-card"><span>예상 주제 · 무엇에 관한 글인가</span><h3 lang="en">${esc(p.topicEN)}</h3></article><article class="answer-card"><span>예상 요지 · 저자가 말하려는 바</span><h3>${esc(p.central)}</h3></article><article class="answer-card"><span>예상 제목 · 글 전체를 포괄하는 표현</span><h3 lang="en">${esc(p.titleEN)}</h3><p>${esc(p.title)}</p></article><div class="content-card"><h3>선지를 볼 때 확인할 변형</h3><div class="checks"><span>원인 ↔ 결과</span><span>주체 변경</span><span>일부 ↔ 전체</span><span>가능성 ↔ 필연</span><span>긍정 ↔ 부정</span><span>시간 순서</span><span>목적 ↔ 결과</span><span>예시 ↔ 중심 주장</span></div><p>${esc(p.tip)}</p></div><details class="content-card"><summary>사진의 원래 문제 해설</summary><p>${esc(p.answer)}</p></details>`;
+ if(section==='order')html=heading('02 / ORDER','논리 덩어리로 나누기',p.sequence?`원래 단락 표기를 유지한 정리 순서: ${p.sequence}`:'학습을 위한 A·B·C 구획입니다. 실제 문제를 출제한 것은 아닙니다.')+(p.introCount?`<article class="content-card"><h3>주어진 글 ${range(1,p.introCount)}</h3><p lang="en">${esc(p.sentences.slice(0,p.introCount).map(s=>s.en).join(' '))}</p></article>`:'')+p.order.map((o,i)=>`<article class="order-card"><span class="order-letter">${p.sequence?esc(p.sequence.split(' → ')[i]):'ABC'[i]}</span><div><h3>${esc(o[2])} ${range(o[0],o[1])}</h3><p lang="en">${esc(p.sentences.slice(o[0]-1,o[1]).filter(s=>s.n!==p.irrelevant).map(s=>s.en).join(' '))}</p></div></article>`).join('')+`<div class="takeaway"><span>다음 덩어리가 필요한 이유</span><p>${p.flow.map(f=>esc(f[0])+': '+esc(f[3])).join('<br>↓<br>')}</p></div>${p.irrelevant?`<p class="muted">S${p.irrelevant}은 무관한 문장이므로 논리 구획에서 제외했습니다.</p>`:''}`;
+ if(section==='positions')html=heading('03 / INSERTION','삽입에 주목할 문장','문장을 지우거나 새 문제를 내지 않고, 제자리에 있어야 하는 단서를 읽습니다.')+`<article class="content-card">${range(p.insert[0])}${quote(p,p.insert[0])}<div class="position-context"><span>앞: ${p.insert[0]>1?'S'+(p.insert[0]-1):'글의 시작'}</span><b>→ S${p.insert[0]} →</b><span>뒤: ${p.insert[0]<p.sentences.length?'S'+(p.insert[0]+1):'글의 끝'}</span></div><p>${esc(p.insert[1])}</p></article>`+heading('04 / BLANK','빈칸으로 바뀌기 쉬운 핵심 표현')+`<article class="content-card">${range(p.blank[0])}<h3 class="blank-phrase" lang="en">${esc(p.blank[1])}</h3>${quote(p,p.blank[0])}<div class="reason"><b>이 표현을 복원할 근거</b><p>${esc(p.blank[2])}</p></div></article><div class="takeaway"><span>상위 논리 확인</span><p>${esc(p.central)}</p></div>`;
+ if(section==='words')html=heading('05 / GRAMMAR','주요 어법',p.edits?'사진의 출제 표현과 권장 교정을 함께 확인하세요.':'문장 구조가 의미와 연결되는 부분에 집중하세요.')+edits(p)+p.syntax.map(s=>`<article class="content-card">${range(s[0])}${quote(p,s[0])}<p>${esc(s[1])}</p></article>`).join('')+heading('06 / VOCABULARY','주요 어휘와 논리 속 역할')+`<div class="vocab-list">${p.vocab.map(v=>`<article><h3 lang="en">${esc(v[0])}</h3><strong>${esc(v[1])}</strong><p>${esc(v[2])}</p></article>`).join('')}</div>`+note(p);
+}
+$('#studyContent').innerHTML=html;$('#studyContent').scrollTop=0;$$('[data-range]').forEach(b=>b.onclick=()=>{const [a,z]=b.dataset.range.split(',').map(Number);pick(a,z)});$$('[data-go]').forEach(b=>b.onclick=()=>{section=b.dataset.go;renderContent()});const n=$('#note');if(n)n.addEventListener('input',()=>{saved[p.id]={...getMark(p.id),note:n.value};persist();$('#noteState').textContent='이 브라우저에 저장됨'});
+}
+function note(p){return `<section class="note"><label for="note">나의 연결 메모</label><p>헷갈렸던 연결이나 다시 읽을 이유를 남겨 보세요.</p><textarea id="note" placeholder="예: However 앞의 통념과 뒤의 실제 주장을 구분하기">${esc(getMark(p.id).note||'')}</textarea><small id="noteState">이 브라우저에 자동 저장됩니다.</small></section>`}
+function photos(){$('#photoBody').innerHTML=current.photos.map(n=>`<figure><figcaption>자료 사진 ${String(n+1).padStart(2,'0')}</figcaption><img src="assets/sources/${String(n).padStart(2,'0')}.jpg" alt="${esc(current.title)}이 실린 자료 사진 ${n+1}" loading="lazy"></figure>`).join('');$('#photos').showModal()}
+$('#closePhotos').onclick=()=>$('#photos').close();$('#photos').addEventListener('click',e=>{if(e.target===$('#photos'))$('#photos').close()});window.addEventListener('hashchange',route);route();
 })();
-
-/* ───────── 시험 동적 로딩 ───────── */
-// 시험 목록은 data/index.js의 EXAM_INDEX (본문 없음). 본문은 선택 시 파일에서 로드.
-const EXAM_LIST = window.EXAM_INDEX || [];
-const loadedExams = {};   // id → 시험 데이터(본문 포함) 캐시
-
-function loadScript(src){
-  return new Promise((resolve,reject)=>{
-    const s=document.createElement("script");
-    s.src=src; s.onload=resolve; s.onerror=()=>reject(new Error("로드 실패: "+src));
-    document.head.appendChild(s);
-  });
-}
-
-async function loadExam(id){
-  if(loadedExams[id]) return loadedExams[id];
-  const info = EXAM_LIST.find(e=>e.id===id);
-  if(!info) throw new Error("시험 데이터를 찾을 수 없습니다: "+id);
-  await loadScript(`./data/exams/${info.file}`);
-  const data = window.EXAM_DATA && window.EXAM_DATA[id];
-  if(!data) throw new Error("시험 파일은 불러왔지만 데이터가 없습니다: "+id);
-  loadedExams[id]=data;
-  return data;
-}
-
-// 총복습 등 전체가 필요할 때: 모든 시험을 한 번에 로드
-async function loadAllExams(){
-  await Promise.all(EXAM_LIST.map(e=>loadExam(e.id)));
-}
-
-/* ───────── 상태 ───────── */
-const MODES=[{id:"basic",l:"기본"},{id:"exam",l:"실전(수능형)"},{id:"easy",l:"더 쉽게"},{id:"short",l:"더 짧게"},{id:"quiz",l:"문제 중심"},{id:"vocab",l:"단어 중심"},{id:"final",l:"시험 직전용"}];
-// examId: 현재 선택된 시험 id (없으면 첫 시험). 인덱스 대신 id로 식별.
-let state={tab:"study",examId:(EXAM_LIST[0]&&EXAM_LIST[0].id)||null,passage:null,mode:"basic"};
-const app=document.getElementById("app");
-const esc=s=>(s==null?"":String(s)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-
-// 현재 선택된 시험의 (로드된) 데이터. 아직 로드 전이면 null.
-function currentExam(){ return state.examId ? loadedExams[state.examId] : null; }
-
-/* ───────── 렌더 ───────── */
-function render(){
-  if(state.tab==="review") return renderReview();
-  if(state.passage!=null) return renderPassage();
-  renderList();
-}
-
-function renderList(){
-  // 칩은 EXAM_LIST(목록)로 그림 — 본문 없이도 가능
-  const examChips=EXAM_LIST.map(e=>`<button class="chip ${e.id===state.examId?'on':''}" data-ex="${e.id}">${esc(e.name)}</button>`).join("");
-  const exam=currentExam();   // 선택된 시험이 이미 로드됐으면 본문 표시
-  let cells="";
-  if(exam){
-    cells=exam.passages.map((p,i)=>`
-      <button class="pcell done" data-p="${i}">${esc(p.num)}번 ✓
-        <span class="tp">${esc(p.topic||"")}</span>
-      </button>`).join("");
-  } else if(state.examId){
-    cells='<div class="empty">불러오는 중…</div>';
-  }
-  app.innerHTML=`
-    <h2 class="sec"><span class="mark">1. 모의고사 고르기</span></h2>
-    <div class="chips">${examChips}</div>
-    <h2 class="sec"><span class="mark">2. 지문 고르기</span><span class="hint">✓ 분석 완료 · 탭하면 바로 학습</span></h2>
-    <div class="grid">${cells||'<div class="empty">아직 지문이 없어요.</div>'}</div>
-  `;
-  app.querySelectorAll("[data-ex]").forEach(b=>b.onclick=()=>selectExam(b.dataset.ex));
-  app.querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{state.passage=+b.dataset.p;state.mode="basic";render();window.scrollTo(0,0);});
-
-  // 선택된 시험이 아직 로드 안 됐으면 로드 후 다시 렌더
-  if(state.examId && !exam){
-    loadExam(state.examId).then(render).catch(err=>{
-      app.querySelector(".grid").innerHTML='<div class="empty">'+esc(err.message)+'</div>';
-    });
-  }
-}
-
-// 시험 칩 클릭: id 저장 후 (필요시 로드) 렌더
-function selectExam(id){
-  state.examId=id; state.passage=null;
-  render();
-}
-
-function modeData(p,mode){
-  // 모드별 가공: 데이터는 basic 1벌, 나머지는 클라이언트에서 변형
-  if(mode==="short"){
-    return {...p, comic:p.comic.slice(0,3), easy:p.easy.split(/(?<=[.!?。])\s/).slice(0,2).join(" "),
-      vocab:p.vocab.slice(0,4), sentences:p.sentences.slice(0,1)};
-  }
-  if(mode==="quiz"){
-    return {...p, comic:[], easy:"", structure:null, vocab:[], sentences:[]};
-  }
-  if(mode==="vocab"){
-    return {...p, comic:[], structure:null, sentences:[], examPoints:"", _vocabFocus:true};
-  }
-  if(mode==="final"){
-    return {...p, comic:[], easy:"", structure:null, sentences:[], quiz:[], vocab:p.vocab.slice(0,5)};
-  }
-  if(mode==="easy"){
-    return {...p, _easyNote:true};
-  }
-  return p;
-}
-
-function renderPassage(){
-  const exam=currentExam();
-  if(!exam){ // 안전장치: 본문이 아직 없으면 로드 후 재렌더
-    loadExam(state.examId).then(render);
-    app.innerHTML='<div class="empty">불러오는 중…</div>'; return;
-  }
-  const base=exam.passages[state.passage];
-  const p=modeData(base,state.mode);
-  const has=v=>v&&(Array.isArray(v)?v.length:(typeof v==="object"?Object.values(v).some(x=>x):String(v).trim()));
-
-  const modeBtns=MODES.map(m=>`<button class="mbtn ${m.id===state.mode?'on':''}" data-m="${m.id}">${m.l}</button>`).join("");
-
-  let html=`<a class="back" id="back">← 지문 목록으로</a>
-    <div class="ptitle">${esc(exam.name)} <span class="n">${esc(base.num)}번</span></div>
-    <div class="ptopic">${esc(base.topic||"")}</div>
-    <div class="modes">${modeBtns}</div>`;
-
-  if(state.mode==="exam"){
-    const hasExam = base.examTheme||base.examPoint||base.examTitle||has(base.grammarQ)||has(base.orderABC)||has(base.insertPrep);
-    if(!hasExam){
-      html+=`<div class="card"><div class="exam-empty">📝 이 지문은 아직 <b>실전(수능형)</b> 분석이 준비되지 않았어요.<br>‘기본’ 모드로 보거나, 다음 업데이트를 기다려 주세요!</div></div>`;
-    } else {
-      if(base.examTheme) html+=card("①","예상 주제 (Topic)",`<div class="en-line">${esc(base.examTheme)}</div>`);
-      if(base.examPoint) html+=card("②","예상 요지 (요지)",`<div class="lead">${esc(base.examPoint)}</div>`);
-      if(base.examTitle) html+=card("③","예상 제목 (Title)",`<div class="txt">${esc(base.examTitle)}</div>`);
-      if(has(base.easy)) html+=card("④","쉬운 설명",`<div class="txt">${esc(base.easy)}</div>`);
-      if(has(base.vocab)) html+=card("⑤","주요 어휘",base.vocab.map(v=>
-        `<div class="voc"><b>${esc(v.word)}</b> — ${esc(v.mean)}<span class="role">↳ ${esc(v.role)}</span></div>`).join(""));
-      if(has(base.grammarQ)) html+=card("⑥","예상 문법 문제",`<div class="gqlist">${base.grammarQ.map(g=>`<div class="gq">▸ ${esc(g)}</div>`).join("")}</div>`);
-      if(has(base.orderABC)) html+=card("⑦","순서 대비 (A·B·C)",
-        base.orderABC.blocks.map(b=>`<div class="strow"><span class="stag abc">${esc(b.tag)}</span><span>${esc(b.text)}</span></div>`).join("")
-        + (base.orderABC.clue?`<div class="clue">🔗 연결 단서: ${esc(base.orderABC.clue)}</div>`:""));
-      if(has(base.insertPrep)) html+=card("⑧","삽입 대비",`<div class="inslist">${base.insertPrep.map(s=>
-        `<div class="ins"><div class="ins-sent">"${esc(s.sent)}"</div><div class="ins-clue">👉 ${esc(s.clue)}</div></div>`).join("")}</div>`);
-      html+=card("⑨","10초 복습",`<div class="reviewline">⏱️ <span class="mark">${esc(base.review)}</span></div>`);
-      if(has(base.quiz)) html+=card("⑩","확인 질문",quizHtml(base.quiz));
-    }
-  } else if(state.mode==="vocab"){
-    html+=card("⑤","핵심 단어·표현 (집중)", base.vocab.map(v=>
-      `<div class="voc"><b>${esc(v.word)}</b> — ${esc(v.mean)}<span class="role">↳ ${esc(v.role)}</span></div>`).join(""));
-    html+=card("⑧","10초 복습",`<div class="reviewline">⏱️ <span class="mark">${esc(base.review)}</span></div>`);
-  } else if(state.mode==="final"){
-    html+=card("①","한 줄 요약",`<div class="lead">${esc(base.summary)}</div>`);
-    html+=card("⑤","핵심 단어 5",p.vocab.map(v=>`<div class="voc"><b>${esc(v.word)}</b> — ${esc(v.mean)}</div>`).join(""));
-    html+=card("⑦","시험 포인트",`<div class="exambox txt">${esc(base.examPoints)}</div>`);
-    html+=card("⑧","10초 복습",`<div class="reviewline">⏱️ <span class="mark">${esc(base.review)}</span></div>`);
-  } else if(state.mode==="quiz"){
-    html+=card("⑦","시험 포인트",`<div class="exambox txt">${esc(base.examPoints)}</div>`);
-    html+=card("⑨","확인 질문",quizHtml(base.quiz));
-    html+=card("⑧","10초 복습",`<div class="reviewline">⏱️ <span class="mark">${esc(base.review)}</span></div>`);
-  } else {
-    html+=card("①","한 줄 핵심 요약",`<div class="lead">${esc(p.summary)}</div>`);
-    if(has(p.comic)) html+=card("②","만화처럼 이해하기",`<div class="comic">${p.comic.map(c=>{
-      const m=String(c).match(/^(\d+컷)\s*[:：]?\s*([\s\S]*)$/);
-      return `<div class="cut"><b>${m?esc(m[1]):''}</b>${esc(m?m[2]:c)}</div>`;}).join("")}</div>`);
-    if(has(p.easy)) html+=card("③","쉬운 설명",`<div class="txt">${esc(p.easy)}</div>`);
-    if(has(p.structure)) html+=card("④","지문 구조",Object.entries(p.structure).map(([k,v])=>
-      `<div class="strow"><span class="stag">${esc(k)}</span><span>${esc(v)}</span></div>`).join(""));
-    if(has(p.vocab)) html+=card("⑤","핵심 단어·표현",p.vocab.map(v=>
-      `<div class="voc"><b>${esc(v.word)}</b> — ${esc(v.mean)}<span class="role">↳ ${esc(v.role)}</span></div>`).join(""));
-    if(has(p.sentences)) html+=card("⑥","헷갈리는 문장 풀기",p.sentences.map(s=>
-      `<div class="sent"><div class="en">"${esc(s.sent)}"</div><div class="ko">👉 ${esc(s.explain)}</div></div>`).join(""));
-    if(has(base.examPoints)) html+=card("⑦","시험 포인트",`<div class="exambox txt">${esc(base.examPoints)}</div>`);
-    html+=card("⑧","10초 복습",`<div class="reviewline">⏱️ <span class="mark">${esc(base.review)}</span></div>`);
-    if(has(base.quiz)) html+=card("⑨","확인 질문",quizHtml(base.quiz));
-  }
-
-  app.innerHTML=html;
-  document.getElementById("back").onclick=()=>{state.passage=null;render();window.scrollTo(0,0);};
-  app.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>{state.mode=b.dataset.m;render();});
-  bindQuiz();
-}
-
-function card(no,title,inner){
-  return `<div class="card"><div class="stitle"><span class="no">${no}</span><h3>${esc(title)}</h3></div>${inner}</div>`;
-}
-function quizHtml(qz){
-  return (qz||[]).map((q,i)=>`<div class="qz"><div class="q"><b>Q${i+1}.</b> ${esc(q.q)}</div>
-    <button class="qbtn" data-a="${esc(q.a)}">정답 보기 👆</button></div>`).join("");
-}
-function bindQuiz(){
-  app.querySelectorAll(".qbtn").forEach(b=>{
-    b.onclick=()=>{
-      if(b.classList.contains("open")){b.classList.remove("open");b.textContent="정답 보기 👆";}
-      else{b.classList.add("open");b.textContent=b.dataset.a;}
-    };
-  });
-}
-
-function renderReview(){
-  // 총복습은 모든 시험 본문이 필요 → 먼저 다 로드
-  const allLoaded = EXAM_LIST.every(e=>loadedExams[e.id]);
-  if(!allLoaded){
-    app.innerHTML='<h2 class="sec"><span class="mark">⏱️ 10초 복습 모아보기</span></h2><div class="empty">불러오는 중…</div>';
-    loadAllExams().then(render).catch(err=>{ app.innerHTML='<div class="empty">'+esc(err.message)+'</div>'; });
-    return;
-  }
-  let items=[];
-  EXAM_LIST.forEach(info=>{
-    const e=loadedExams[info.id];
-    e.passages.forEach((p,pi)=>items.push({eid:info.id,pi,exam:e.name,num:p.num,review:p.review,summary:p.summary}));
-  });
-  app.innerHTML=`<h2 class="sec"><span class="mark">⏱️ 10초 복습 모아보기</span><span class="hint">${items.length}개 지문</span></h2>`
-    + items.map(it=>`<div class="rv" data-eid="${it.eid}" data-pi="${it.pi}">
-        <div class="meta">${esc(it.exam)} · ${esc(it.num)}번</div>
-        <div class="rl">${esc(it.review)}</div>
-        <div class="sm">${esc(it.summary)}</div></div>`).join("");
-  app.querySelectorAll(".rv").forEach(b=>b.onclick=()=>{
-    state.tab="study";state.examId=b.dataset.eid;state.passage=+b.dataset.pi;state.mode="basic";
-    document.getElementById("tabStudy").classList.add("on");
-    document.getElementById("tabReview").classList.remove("on");
-    render();window.scrollTo(0,0);
-  });
-}
-
-/* ───────── 탭 ───────── */
-document.getElementById("tabStudy").onclick=function(){
-  state.tab="study";this.classList.add("on");document.getElementById("tabReview").classList.remove("on");render();window.scrollTo(0,0);
-};
-document.getElementById("tabReview").onclick=function(){
-  state.tab="review";this.classList.add("on");document.getElementById("tabStudy").classList.remove("on");render();window.scrollTo(0,0);
-};
-
-render();
-
-// (위 render(); 가 첫 화면을 그리고 첫 시험을 자동 로드합니다)
