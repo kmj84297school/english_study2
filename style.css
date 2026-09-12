@@ -1,0 +1,120 @@
+  :root{
+    --ink:#1B2430; --paper:#F5F3EC; --card:#FFFFFF;
+    --hl:#FFE15A; --red:#E0492F; --gray:#878D96;
+    --line:#E3E0D6; --green:#3E7C59;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:'Noto Sans KR',sans-serif;background:var(--paper);color:var(--ink);
+    line-height:1.5;-webkit-font-smoothing:antialiased;
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+  button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+  .wrap{max-width:640px;margin:0 auto;padding:0 16px 60px}
+
+  /* ── 헤더 ── */
+  header{padding:20px 0 8px}
+  .brand{font-family:'Black Han Sans',sans-serif;font-size:30px;line-height:1;letter-spacing:-.5px}
+  .brand .dot{color:var(--red)}
+  .brand small{font-family:'Noto Sans KR';font-size:12px;font-weight:500;color:var(--gray);margin-left:8px;letter-spacing:0}
+  .navrow{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;flex-wrap:wrap}
+  .tabs{display:flex;gap:6px}
+  .tab{font-size:12px;font-weight:700;padding:7px 14px;border-radius:999px;border:1.5px solid var(--line);color:var(--gray);background:transparent;transition:.15s}
+  .tab.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+  /* ── 포스트잇 응원 ── */
+  .cheer{margin-top:14px;background:var(--hl);border-radius:10px;padding:13px 16px;
+    transform:rotate(-.7deg);box-shadow:3px 4px 0 rgba(27,36,48,.16)}
+  .cheer .lbl{font-size:11px;font-weight:800;color:var(--ink);opacity:.55;letter-spacing:.2px}
+  .cheer .msg{font-family:'Gaegu',cursive;font-weight:700;font-size:21px;line-height:1.25;margin-top:2px}
+
+  h2.sec{font-size:14px;font-weight:800;margin:22px 0 10px}
+  .mark{background:linear-gradient(104deg,transparent 1%,var(--hl) 3%,var(--hl) 97%,transparent 99%);padding:0 5px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+  .hint{font-size:11px;font-weight:500;color:var(--gray);margin-left:6px}
+
+  /* ── 칩 ── */
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip{font-size:12.5px;font-weight:700;padding:8px 14px;border-radius:999px;background:var(--card);border:1.5px solid var(--line);transition:.15s}
+  .chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+  /* ── 지문 그리드 ── */
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:4px}
+  .pcell{border:2px solid var(--ink);border-radius:13px;background:var(--card);
+    padding:14px 6px;font-weight:800;font-size:15px;box-shadow:2px 2px 0 var(--ink);transition:.12s;text-align:center;min-height:78px;display:flex;flex-direction:column;justify-content:center}
+  .pcell:active{transform:translate(2px,2px);box-shadow:0 0 0 var(--ink)}
+  .pcell.done{background:var(--ink);color:var(--hl)}
+  .pcell .tp{display:block;font-size:9px;font-weight:500;color:var(--gray);margin-top:4px;line-height:1.25;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .pcell.done .tp{color:#aeb4bb}
+  .empty{grid-column:1/-1;background:var(--card);border:1.5px dashed var(--line);border-radius:12px;padding:18px;font-size:13px;color:var(--gray);text-align:center}
+
+  /* ── 학습 화면 ── */
+  .back{font-size:12px;font-weight:700;color:var(--gray);margin:6px 0 12px;display:inline-block}
+  .ptitle{font-family:'Black Han Sans',sans-serif;font-size:22px;margin-bottom:2px}
+  .ptitle .n{color:var(--red)}
+  .ptopic{font-size:12.5px;color:var(--gray);margin-bottom:14px}
+  .modes{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+  .mbtn{font-size:12px;font-weight:700;padding:6px 12px;border-radius:999px;background:var(--card);border:1.5px solid var(--line);color:var(--ink);transition:.15s}
+  .mbtn.on{background:var(--red);color:#fff;border-color:var(--red)}
+
+  .card{background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:15px;margin-bottom:11px}
+  .stitle{display:flex;align-items:baseline;gap:7px;margin-bottom:9px}
+  .stitle .no{font-family:'Black Han Sans',sans-serif;color:var(--red);font-size:15px}
+  .stitle h3{font-size:15px;font-weight:800}
+  .lead{font-size:14px;font-weight:600}
+  .txt{font-size:13.5px;white-space:pre-line}
+
+  /* 만화 컷 */
+  .comic{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .cut{border:2px solid var(--ink);background:#FFFEF6;border-radius:8px;padding:9px 10px;font-size:12px;line-height:1.45;box-shadow:2px 2px 0 var(--ink)}
+  .cut:nth-child(odd){transform:rotate(-.6deg)}
+  .cut:nth-child(even){transform:rotate(.6deg)}
+  .cut b{font-family:'Black Han Sans',sans-serif;font-weight:400;color:var(--red);font-size:11px;display:block;margin-bottom:2px}
+
+  /* 구조 */
+  .strow{display:flex;gap:8px;margin-bottom:7px;font-size:13.5px}
+  .stag{flex:none;align-self:flex-start;background:var(--ink);color:#fff;font-size:11px;font-weight:700;border-radius:5px;padding:2px 7px;white-space:nowrap}
+
+  /* 어휘 */
+  .voc{font-size:13.5px;padding-bottom:7px;margin-bottom:7px;border-bottom:1px dashed var(--line)}
+  .voc:last-child{border:none;margin:0;padding:0}
+  .voc b{color:var(--red)}
+  .voc .role{display:block;font-size:11.5px;color:var(--gray);margin-top:2px}
+
+  /* 문장 */
+  .sent{margin-bottom:11px}
+  .sent:last-child{margin:0}
+  .sent .en{font-size:12.5px;font-style:italic;background:#F0EEE6;border-radius:7px;padding:7px 9px;margin-bottom:4px}
+  .sent .ko{font-size:13.5px}
+
+  .exambox{border-left:4px solid var(--red);padding-left:11px}
+  .reviewline{font-size:14px;font-weight:700}
+
+  /* 퀴즈 */
+  .qz{margin-bottom:9px}
+  .qz:last-child{margin:0}
+  .qz .q{font-size:13.5px;margin-bottom:5px}
+  .qbtn{font-size:12px;font-weight:700;border-radius:999px;padding:5px 13px;background:var(--hl);color:var(--ink);transition:.15s}
+  .qbtn.open{background:var(--ink);color:#fff}
+
+  /* 총복습 */
+  .rv{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:13px;margin-bottom:9px}
+  .rv .meta{font-size:11.5px;font-weight:700;color:var(--red);margin-bottom:3px}
+  .rv .rl{font-size:13.5px;font-weight:700}
+  .rv .sm{font-size:11.5px;color:var(--gray);margin-top:2px}
+
+  footer{text-align:center;font-size:11px;color:var(--gray);margin-top:26px;line-height:1.7}
+
+  /* ── 실전(수능형) 모드 ── */
+  .en-line{font-size:13.5px;font-style:italic;background:#F0EEE6;border-radius:7px;padding:8px 10px;font-weight:600}
+  .gqlist .gq{font-size:13px;line-height:1.5;padding:6px 0;border-bottom:1px dashed var(--line)}
+  .gqlist .gq:last-child{border:none}
+  .stag.abc{background:var(--red)}
+  .clue{margin-top:9px;font-size:12px;color:var(--green);font-weight:700;background:#EEF5F0;border-radius:7px;padding:7px 9px;line-height:1.5}
+  .inslist .ins{margin-bottom:10px}
+  .inslist .ins:last-child{margin:0}
+  .ins-sent{font-size:12.5px;font-style:italic;background:#F0EEE6;border-radius:7px;padding:7px 9px;margin-bottom:4px}
+  .ins-clue{font-size:13px;line-height:1.5}
+  .exam-empty{font-size:13px;color:var(--gray);line-height:1.7;text-align:center;padding:8px}
