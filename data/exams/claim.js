@@ -12,35 +12,40 @@ window.EXAM_DATA["claim"] = [
         "en": "The study of literature has repeatedly failed to recognize the influence of modern musical lyricists and their contributions to the evolution of language.",
         "ko": "문학 연구는 현대 작사가의 영향과 언어 발전에 대한 기여를 거듭 인정하지 못했다.",
         "role": "문제 제기",
-        "why": "글의 출발점은 작사가의 능력 부족이 아니라 문학 연구의 인정 부족이다."
+        "why": "글의 출발점은 작사가의 능력 부족이 아니라 문학 연구의 인정 부족이다.",
+        "literal": "문학 연구는 현대 작사가의 영향과 언어 발전에 대한 기여를 거듭 인정하지 못했다."
       },
       {
         "n": 2,
         "en": "Unlike Shakespeare, who has been studied and celebrated for his development of the English language, particularly in vocabulary and grammatical structure, modern songwriters have experienced restraints on the acknowledgement of their contributions and largely been ignored.",
         "ko": "특히 어휘와 문법 구조에서 영어를 발전시켜 연구와 찬사를 받은 셰익스피어와 달리, 현대 작사가는 기여를 인정받는 데 제약을 겪고 대체로 무시되어 왔다.",
         "role": "구체화·대조",
-        "why": "S1의 인정 부족을 셰익스피어와의 대우 차이로 보여준다. 셰익스피어를 비판하는 문장이 아니다."
+        "why": "S1의 인정 부족을 셰익스피어와의 대우 차이로 보여준다. 셰익스피어를 비판하는 문장이 아니다.",
+        "literal": "특히 어휘와 문법 구조에서 영어를 발전시켜 연구와 찬사를 받은 셰익스피어와 달리, 현대 작사가는 기여를 인정받는 데 제약을 겪고 대체로 무시되어 왔다."
       },
       {
         "n": 3,
         "en": "Over the past century, we have witnessed an explosion of incredible literary works by these artists, who, through their music, have used linguistic manipulation and storytelling to enrich our language and literature.",
         "ko": "지난 한 세기 동안 이 예술가들의 뛰어난 문학 작품이 쏟아졌고, 이들은 음악을 통해 언어를 다양하게 구사하고 이야기를 전해 언어와 문학을 풍요롭게 했다.",
         "role": "근거",
-        "why": "대우가 부족하다는 비판을 정당화하려고 실제 성과를 제시한다."
+        "why": "대우가 부족하다는 비판을 정당화하려고 실제 성과를 제시한다.",
+        "literal": "지난 한 세기 동안 / 우리는 이 예술가들에 의한 놀라운 문학 작품의 폭발적 증가를 목격해 왔다. / 이들은 음악을 통해 / 우리의 언어와 문학을 풍부하게 하기 위해 / 언어의 구사와 이야기 전달을 사용해 왔다."
       },
       {
         "n": 4,
         "en": "Producing lyrics of distinct and complex imagery, songwriters have had an incredible literary impact on our language.",
         "ko": "독특하고 복합적인 심상을 담은 가사를 만들어 작사가들은 언어에 큰 문학적 영향을 끼쳤다.",
         "role": "근거의 구체화",
-        "why": "S3의 언어적 기여가 어떤 방식으로 이루어졌는지 심상 표현으로 좁힌다."
+        "why": "S3의 언어적 기여가 어떤 방식으로 이루어졌는지 심상 표현으로 좁힌다.",
+        "literal": "독특하고 복잡한 심상의 가사를 만들어 내면서 / 작사가들은 우리의 언어에 / 엄청난 문학적 영향을 주어 왔다."
       },
       {
         "n": 5,
         "en": "Their remarkable works, including influences on modern language development, must be recognized in the field of modern literature.",
         "ko": "현대 언어 발전에 미친 영향을 포함해 이들의 뛰어난 작품은 현대 문학 분야에서 인정받아야 한다.",
         "role": "저자의 실제 주장",
-        "why": "기여의 증거를 제시했으므로 이제 문학 연구가 평가를 바꿔야 한다는 당위로 끝낸다."
+        "why": "기여의 증거를 제시했으므로 이제 문학 연구가 평가를 바꿔야 한다는 당위로 끝낸다.",
+        "literal": "현대 언어 발전에 미친 영향을 포함해 이들의 뛰어난 작품은 현대 문학 분야에서 인정받아야 한다."
       }
     ],
     "flow": [
@@ -171,7 +176,11 @@ window.EXAM_DATA["claim"] = [
     ],
     "id": "claim-01",
     "num": 1,
-    "type": "주장"
+    "type": "주장",
+    "easy": [
+      "셰익스피어가 언어를 풍부하게 했다고 인정하면서, 노래 가사로 언어와 문학을 발전시킨 작사가를 무시하면 공정하지 않다는 글이야.",
+      "작사가의 작품이 어떤 성과를 냈는지 먼저 보여 준 뒤, 마지막에 문학 연구도 그 기여를 인정해야 한다고 요구해. 셰익스피어는 비교 기준이지 비판 대상이 아니야."
+    ]
   },
   {
     "title": "나쁜 직원인가, 기준을 모르는 직원인가",
@@ -185,49 +194,56 @@ window.EXAM_DATA["claim"] = [
         "en": "Showing up late for work and using abusive language are the kinds of problems that every business wants to eliminate.",
         "ko": "지각과 폭언은 모든 기업이 없애고 싶어 하는 문제다.",
         "role": "문제 제기",
-        "why": "논의할 행동 문제를 먼저 설정한다."
+        "why": "논의할 행동 문제를 먼저 설정한다.",
+        "literal": "지각과 폭언은 모든 기업이 없애고 싶어 하는 문제다."
       },
       {
         "n": 2,
         "en": "Business leaders looking to achieve this often focus on finding “bad apples” who break their rules and then punishing them.",
         "ko": "이를 이루려는 경영자들은 규칙을 어기는 ‘문제 직원’을 찾아 처벌하는 데 흔히 집중한다.",
         "role": "기존 대응 소개",
-        "why": "S1의 문제에 경영자가 보이는 통상적인 해결책을 소개한다."
+        "why": "S1의 문제에 경영자가 보이는 통상적인 해결책을 소개한다.",
+        "literal": "이를 이루려는 경영자들은 규칙을 어기는 ‘문제 직원’을 찾아 처벌하는 데 흔히 집중한다."
       },
       {
         "n": 3,
         "en": "This assumes that the bad apples are acting badly on purpose.",
         "ko": "이 방식은 문제 직원들이 일부러 나쁘게 행동한다고 가정한다.",
         "role": "전제 분석",
-        "why": "처벌 중심 대응에 깔린 ‘고의성’ 가정을 드러내 다음 반박을 준비한다."
+        "why": "처벌 중심 대응에 깔린 ‘고의성’ 가정을 드러내 다음 반박을 준비한다.",
+        "literal": "이 방식은 문제 직원들이 일부러 나쁘게 행동한다고 가정한다."
       },
       {
         "n": 4,
         "en": "In fact, one common reason that employees give for breaking rules is that they were unaware their behavior was undesirable.",
         "ko": "실제로 직원들이 규칙 위반의 이유로 흔히 드는 것은 자신의 행동이 바람직하지 않다는 사실을 몰랐다는 점이다.",
         "role": "반박",
-        "why": "고의가 아닌 무지라는 다른 원인을 제시하므로 처벌만으로는 충분하지 않다."
+        "why": "고의가 아닌 무지라는 다른 원인을 제시하므로 처벌만으로는 충분하지 않다.",
+        "literal": "실제로 직원들이 규칙 위반의 이유로 흔히 드는 것은 자신의 행동이 바람직하지 않다는 사실을 몰랐다는 점이다."
       },
       {
         "n": 5,
         "en": "There are some actors who knowingly act against policy, but many problems are unintentional failings.",
         "ko": "일부는 알면서 방침을 어기지만, 많은 문제는 의도하지 않은 잘못이다.",
         "role": "양보·범위 조정",
-        "why": "고의 위반자의 존재는 인정하되 모든 위반자를 그 범주로 묶지 못하게 한다."
+        "why": "고의 위반자의 존재는 인정하되 모든 위반자를 그 범주로 묶지 못하게 한다.",
+        "literal": "일부는 알면서 방침을 어기지만, 많은 문제는 의도하지 않은 잘못이다."
       },
       {
         "n": 6,
         "en": "If businesses want better employees, those businesses must create clear standards and educate their employees directly about how to follow them.",
         "ko": "더 나은 직원을 원한다면 기업은 명확한 기준을 세우고 따르는 방법을 직원에게 직접 가르쳐야 한다.",
         "role": "저자의 실제 주장",
-        "why": "원인이 기준에 대한 무지일 수 있으므로 기준 명시와 교육이 해결책이 된다."
+        "why": "원인이 기준에 대한 무지일 수 있으므로 기준 명시와 교육이 해결책이 된다.",
+        "literal": "더 나은 직원을 원한다면 기업은 명확한 기준을 세우고 따르는 방법을 직원에게 직접 가르쳐야 한다."
       },
       {
         "n": 7,
         "en": "Without these standards there would be no way to distinguish bad apples from merely uninformed apples.",
         "ko": "이런 기준이 없으면 악의적인 직원과 단지 정보를 모르는 직원을 구별할 방법이 없다.",
         "role": "결론의 근거",
-        "why": "교육은 행동 개선뿐 아니라 고의와 무지를 판별하기 위한 전제라는 점을 보강한다."
+        "why": "교육은 행동 개선뿐 아니라 고의와 무지를 판별하기 위한 전제라는 점을 보강한다.",
+        "literal": "이런 기준이 없으면 악의적인 직원과 단지 정보를 모르는 직원을 구별할 방법이 없다."
       }
     ],
     "flow": [
@@ -371,7 +387,11 @@ window.EXAM_DATA["claim"] = [
     ],
     "id": "claim-02",
     "num": 2,
-    "type": "주장"
+    "type": "주장",
+    "easy": [
+      "규칙을 어긴 직원이라고 모두 일부러 나쁘게 행동한 것은 아닐 수 있어. 어떤 직원은 무엇이 허용되는지 제대로 모르는 거지.",
+      "그래서 처벌할 사람만 찾기보다 행동 기준과 실천 방법을 분명히 알려 주자는 글이야. 같은 행동이라도 고의와 무지는 원인이 다르다는 점을 기억해."
+    ]
   },
   {
     "title": "도움 되는 대비와 끝없는 걱정",
@@ -386,56 +406,64 @@ window.EXAM_DATA["claim"] = [
         "en": "Our ability to respond to danger has been important for survival, so feeling worried in uncertain situations is normal.",
         "ko": "위험에 대응하는 능력은 생존에 중요했으므로 불확실한 상황에서 걱정하는 것은 정상이다.",
         "role": "배경·인과",
-        "why": "걱정 자체를 비정상으로 몰지 않기 위해 생존상의 기능을 인정한다."
+        "why": "걱정 자체를 비정상으로 몰지 않기 위해 생존상의 기능을 인정한다.",
+        "literal": "위험에 대응하는 능력은 생존에 중요했으므로 불확실한 상황에서 걱정하는 것은 정상이다."
       },
       {
         "n": 2,
         "en": "Feelings of worry, which are activated in anticipation of future events, are often experienced in everyday situations.",
         "ko": "미래 일을 예상하며 생기는 걱정은 일상에서도 자주 경험된다.",
         "role": "구체화",
-        "why": "생존이라는 일반 설명을 일상적 미래 걱정으로 좁힌다."
+        "why": "생존이라는 일반 설명을 일상적 미래 걱정으로 좁힌다.",
+        "literal": "미래 일을 예상하며 생기는 걱정은 일상에서도 자주 경험된다."
       },
       {
         "n": 3,
         "en": "For example, we may feel nervous imagining unlikely events, such as a computer crashing during an important presentation.",
         "ko": "예를 들어 중요한 발표 중 컴퓨터가 멈추는 것처럼 가능성이 낮은 일을 상상하며 긴장할 수 있다.",
         "role": "예시",
-        "why": "S2의 일상적 미래 걱정을 구체적 상황으로 보여준다."
+        "why": "S2의 일상적 미래 걱정을 구체적 상황으로 보여준다.",
+        "literal": "예를 들어 중요한 발표 중 컴퓨터가 멈추는 것처럼 가능성이 낮은 일을 상상하며 긴장할 수 있다."
       },
       {
         "n": 4,
         "en": "To some extent, thinking through potential scenarios can be helpful.",
         "ko": "어느 정도는 가능한 상황을 미리 생각해 보는 것이 도움이 된다.",
         "role": "양보",
-        "why": "모든 대비가 무익하다는 극단적 주장을 피한다."
+        "why": "모든 대비가 무익하다는 극단적 주장을 피한다.",
+        "literal": "어느 정도는 가능한 상황을 미리 생각해 보는 것이 도움이 된다."
       },
       {
         "n": 5,
         "en": "When our worries exceed our control, however, they cause us unnecessary suffering.",
         "ko": "그러나 걱정이 통제 범위를 넘으면 불필요한 고통을 준다.",
         "role": "핵심 전환",
-        "why": "유용한 대비에서 통제 불가능한 과잉 걱정으로 조건이 바뀐다."
+        "why": "유용한 대비에서 통제 불가능한 과잉 걱정으로 조건이 바뀐다.",
+        "literal": "그러나 걱정이 통제 범위를 넘으면 불필요한 고통을 준다."
       },
       {
         "n": 6,
         "en": "Consider how many times you have lost sleep thinking about a terrible situation, which, in the end, did not actually take place.",
         "ko": "결국 일어나지도 않은 끔찍한 상황을 생각하느라 잠을 설친 적이 얼마나 많은지 떠올려 보라.",
         "role": "근거·사례",
-        "why": "사건이 발생하지 않은 경우에도 걱정의 고통은 실제였음을 보여준다."
+        "why": "사건이 발생하지 않은 경우에도 걱정의 고통은 실제였음을 보여준다.",
+        "literal": "결국 일어나지도 않은 끔찍한 상황을 생각하느라 잠을 설친 적이 얼마나 많은지 떠올려 보라."
       },
       {
         "n": 7,
         "en": "If that situation actually occurred, it only goes to show that worrying about it did nothing to prevent it from happening.",
         "ko": "그 상황이 실제로 일어났더라도 걱정이 발생을 막는 데 아무 역할도 못했다는 것을 보여줄 뿐이다.",
         "role": "반대 조건 검토",
-        "why": "S6과 다른 발생 조건을 검토해도 끝없는 걱정의 효용은 확보되지 않는다."
+        "why": "S6과 다른 발생 조건을 검토해도 끝없는 걱정의 효용은 확보되지 않는다.",
+        "literal": "그 상황이 실제로 일어났더라도 걱정이 발생을 막는 데 아무 역할도 못했다는 것을 보여줄 뿐이다."
       },
       {
         "n": 8,
         "en": "It is worth making a conscious effort, then, to stop worrying endlessly about events you may not experience.",
         "ko": "그러므로 겪지 않을 수도 있는 일을 끝없이 걱정하는 것을 멈추도록 의식적으로 노력할 가치가 있다.",
         "role": "저자의 실제 주장",
-        "why": "일의 발생 여부와 무관한 고통이라는 근거를 과잉 걱정 중단으로 모은다."
+        "why": "일의 발생 여부와 무관한 고통이라는 근거를 과잉 걱정 중단으로 모은다.",
+        "literal": "그러므로 겪지 않을 수도 있는 일을 끝없이 걱정하는 것을 멈추도록 의식적으로 노력할 가치가 있다."
       }
     ],
     "flow": [
@@ -586,7 +614,11 @@ window.EXAM_DATA["claim"] = [
     ],
     "id": "claim-03",
     "num": 3,
-    "type": "주장"
+    "type": "주장",
+    "easy": [
+      "비가 올까 봐 우산을 챙기는 준비는 도움이 돼. 하지만 내가 바꿀 수 없는 미래를 끝없이 상상하며 걱정하는 것은 다른 일이야. 이 예는 이해를 위한 비유야.",
+      "글은 준비 전체를 버리라고 하지 않아. 대비로 해결할 수 있는 일과 생각만 반복해도 바뀌지 않는 걱정을 구별하자는 거야."
+    ]
   },
   {
     "title": "게임의 집중력을 학습으로 연결하기",
@@ -600,42 +632,48 @@ window.EXAM_DATA["claim"] = [
         "en": "We almost universally accept that playing video games is at best a pleasant break from a student's learning and more often what prevents a student from accomplishing their goals.",
         "ko": "우리는 게임을 잘해야 즐거운 학습 휴식이고 대개는 목표 달성을 방해하는 것이라고 거의 보편적으로 받아들인다.",
         "role": "기존 통념 소개",
-        "why": "독자의 익숙한 부정적 평가를 먼저 제시한다. 아직 최종 주장이 아니다."
+        "why": "독자의 익숙한 부정적 평가를 먼저 제시한다. 아직 최종 주장이 아니다.",
+        "literal": "우리는 게임을 잘해야 즐거운 학습 휴식이고 대개는 목표 달성을 방해하는 것이라고 거의 보편적으로 받아들인다."
       },
       {
         "n": 2,
         "en": "Games catch and hold attention in a way that few things can.",
         "ko": "게임은 다른 것들이 좀처럼 못할 만큼 주의를 끌고 유지한다.",
         "role": "인정·근거",
-        "why": "뒤에서 교육적으로 활용할 수 있는 장점을 먼저 확보한다."
+        "why": "뒤에서 교육적으로 활용할 수 있는 장점을 먼저 확보한다.",
+        "literal": "게임은 다른 것들이 좀처럼 못할 만큼 주의를 끌고 유지한다."
       },
       {
         "n": 3,
         "en": "And yet once they have our focus, they rarely seem to offer anything meaningful to help students grow in their lives outside the games.",
         "ko": "그런데 게임이 관심을 붙든 뒤에는 게임 밖의 삶에서 학생을 성장시키는 의미 있는 것을 거의 주지 않는 듯하다.",
         "role": "문제 제기",
-        "why": "주의를 끄는 능력과 실제 학습 성과 사이의 단절을 드러낸다."
+        "why": "주의를 끄는 능력과 실제 학습 성과 사이의 단절을 드러낸다.",
+        "literal": "그런데 게임이 관심을 붙든 뒤에는 게임 밖의 삶에서 학생을 성장시키는 의미 있는 것을 거의 주지 않는 듯하다."
       },
       {
         "n": 4,
         "en": "While this may be true for many games, we are too easily ignoring a valuable tool that could be used to enhance productivity instead of derailing it.",
         "ko": "많은 게임에 대해서는 그 말이 맞을 수 있지만, 우리는 생산성을 방해하는 대신 높이는 데 쓸 수 있는 귀중한 도구를 너무 쉽게 무시한다.",
         "role": "양보 후 반전",
-        "why": "기존 게임의 한계를 인정하면서도 모든 게임의 가능성까지 부정하는 일반화를 막는다."
+        "why": "기존 게임의 한계를 인정하면서도 모든 게임의 가능성까지 부정하는 일반화를 막는다.",
+        "literal": "많은 게임에 대해서는 그 말이 맞을 수 있지만, 우리는 생산성을 방해하는 대신 높이는 데 쓸 수 있는 귀중한 도구를 너무 쉽게 무시한다."
       },
       {
         "n": 5,
         "en": "Rather, it is desirable that we develop games that connect to the learning outcomes we want for our students.",
         "ko": "오히려 학생에게 바라는 학습 성과와 연결되는 게임을 개발하는 것이 바람직하다.",
         "role": "저자의 실제 주장",
-        "why": "무시하는 태도 대신 학습과 연결하는 구체적인 대안을 제시한다."
+        "why": "무시하는 태도 대신 학습과 연결하는 구체적인 대안을 제시한다.",
+        "literal": "오히려 학생에게 바라는 학습 성과와 연결되는 게임을 개발하는 것이 바람직하다."
       },
       {
         "n": 6,
         "en": "This will enable educators to take advantage of games' attention commanding capacities and allow our students to enjoy their games while learning.",
         "ko": "그러면 교육자는 게임의 주의 집중 능력을 활용하고 학생은 배우면서 게임을 즐길 수 있다.",
         "role": "기대 결과",
-        "why": "S2에서 인정한 능력이 S5의 개발 방향을 통해 학습 효과로 이어진다."
+        "why": "S2에서 인정한 능력이 S5의 개발 방향을 통해 학습 효과로 이어진다.",
+        "literal": "그러면 교육자는 게임의 주의 집중 능력을 활용하고 학생은 배우면서 게임을 즐길 수 있다."
       }
     ],
     "flow": [
@@ -791,7 +829,11 @@ window.EXAM_DATA["claim"] = [
     ],
     "id": "claim-04",
     "num": 4,
-    "type": "주장"
+    "type": "주장",
+    "easy": [
+      "게임에 오래 집중하는 힘을 공부에 잘 연결하면 어떨까 하는 글이야. 게임이 학습을 방해한다는 익숙한 생각에서 출발하지만 거기서 끝나지 않아.",
+      "While 뒤에서는 그 집중력을 학습 성과에 쓰는 방향으로 바꿔. 게임을 아무렇게나 많이 하라는 게 아니라 학습과 연결되는 게임을 만들자는 주장이야."
+    ]
   },
   {
     "title": "소셜 미디어의 사실 확인 책임",
@@ -805,42 +847,48 @@ window.EXAM_DATA["claim"] = [
         "en": "Truth is essential for progress and the development of knowledge, as it serves as the foundation upon which reliable and accurate understanding is built.",
         "ko": "진실은 신뢰할 만하고 정확한 이해의 토대이므로 진보와 지식 발전에 필수적이다.",
         "role": "일반 원칙",
-        "why": "이후 정보의 신뢰성을 평가할 기준을 세운다."
+        "why": "이후 정보의 신뢰성을 평가할 기준을 세운다.",
+        "literal": "진실은 신뢰할 만하고 정확한 이해의 토대이므로 진보와 지식 발전에 필수적이다."
       },
       {
         "n": 2,
         "en": "However, one of the greatest threats to the accumulation of knowledge can now be found on social media platforms.",
         "ko": "그러나 오늘날 지식 축적에 대한 가장 큰 위협 중 하나는 소셜 미디어에서 발견된다.",
         "role": "문제 제기·전환",
-        "why": "S1의 지식 발전을 위협하는 현실을 제시한다."
+        "why": "S1의 지식 발전을 위협하는 현실을 제시한다.",
+        "literal": "그러나 오늘날 지식 축적에 대한 가장 큰 위협 중 하나는 소셜 미디어에서 발견된다."
       },
       {
         "n": 3,
         "en": "As social media becomes a primary source of information for millions, its unregulated nature allows misinformation to spread rapidly.",
         "ko": "소셜 미디어가 수많은 사람의 주요 정보원이 되면서 규제가 미비한 특성 때문에 잘못된 정보가 빠르게 퍼진다.",
         "role": "원인 설명",
-        "why": "왜 소셜 미디어가 위협인지 정보원 규모와 확산 조건으로 설명한다."
+        "why": "왜 소셜 미디어가 위협인지 정보원 규모와 확산 조건으로 설명한다.",
+        "literal": "소셜 미디어가 수많은 사람의 주요 정보원이 되면서 규제가 미비한 특성 때문에 잘못된 정보가 빠르게 퍼진다."
       },
       {
         "n": 4,
         "en": "Social media users may unknowingly participate in creating and circulating misinformation, which can influence elections, cause violence, and create widespread panic, as seen in various global incidents.",
         "ko": "사용자는 모르는 사이 잘못된 정보의 생성·유포에 참여할 수 있고, 여러 세계적 사건에서 보듯 이는 선거에 영향을 주고 폭력이나 광범위한 공포를 일으킬 수 있다.",
         "role": "행위자·피해 구체화",
-        "why": "플랫폼의 특성을 사용자의 행동과 사회적 결과로 연결한다."
+        "why": "플랫폼의 특성을 사용자의 행동과 사회적 결과로 연결한다.",
+        "literal": "사용자는 모르는 사이 잘못된 정보의 생성·유포에 참여할 수 있고, 여러 세계적 사건에서 보듯 이는 선거에 영향을 주고 폭력이나 광범위한 공포를 일으킬 수 있다."
       },
       {
         "n": 5,
         "en": "As creators and consumers, it is our responsibility to take on a greater role in the enhancement of fact-checking protocols in order to ensure accuracy.",
         "ko": "정보 생산자이자 소비자로서 우리는 정확성을 확보하도록 사실 확인 절차를 강화하는 데 더 큰 역할을 맡을 책임이 있다.",
         "role": "저자의 실제 주장",
-        "why": "문제에 참여하는 사용자가 해결에도 책임을 져야 한다는 대안을 제시한다."
+        "why": "문제에 참여하는 사용자가 해결에도 책임을 져야 한다는 대안을 제시한다.",
+        "literal": "정보 생산자이자 소비자로서 우리는 정확성을 확보하도록 사실 확인 절차를 강화하는 데 더 큰 역할을 맡을 책임이 있다."
       },
       {
         "n": 6,
         "en": "It is critical that participants safeguard the reliability of information, supporting a more informed and rational public community.",
         "ko": "참여자는 정보의 신뢰성을 지켜 더 잘 알고 합리적인 공동체를 뒷받침해야 한다.",
         "role": "결론·목적",
-        "why": "사실 확인이라는 실천을 신뢰성·공동체라는 상위 목표로 정리한다."
+        "why": "사실 확인이라는 실천을 신뢰성·공동체라는 상위 목표로 정리한다.",
+        "literal": "참여자는 정보의 신뢰성을 지켜 더 잘 알고 합리적인 공동체를 뒷받침해야 한다."
       }
     ],
     "flow": [
@@ -983,7 +1031,11 @@ window.EXAM_DATA["claim"] = [
     ],
     "id": "claim-05",
     "num": 5,
-    "type": "주장"
+    "type": "주장",
+    "easy": [
+      "소셜 미디어에서는 내가 글을 읽는 사람인 동시에 다른 사람에게 퍼뜨리는 사람이기도 해.",
+      "그러니 올라온 정보를 그냥 믿고 전달하기보다 사실을 확인해야 한다는 거야. 회사의 개인정보 보호 문제보다 이용자의 정확한 정보 공유 책임이 중심이야."
+    ]
   },
   {
     "title": "오류를 아는 인간이 AI를 감독해야 하는 이유",
@@ -997,42 +1049,48 @@ window.EXAM_DATA["claim"] = [
         "en": "As the world seems to be increasingly affected by the ever-expanding influence of machines in general and artificial intelligence (AI) specifically, many begin to imagine, with either fear or anticipation, a future with a diminished role for human decision making.",
         "ko": "기계 전반, 특히 AI의 영향이 계속 커지면서 많은 사람은 두려움이나 기대 속에 인간의 의사결정 역할이 줄어든 미래를 상상한다.",
         "role": "기존 전망 소개",
-        "why": "AI 확산으로 인간의 역할이 감소할 것이라는 통념을 제시한다."
+        "why": "AI 확산으로 인간의 역할이 감소할 것이라는 통념을 제시한다.",
+        "literal": "기계 전반, 특히 AI의 영향이 계속 커지면서 많은 사람은 두려움이나 기대 속에 인간의 의사결정 역할이 줄어든 미래를 상상한다."
       },
       {
         "n": 2,
         "en": "Whether it be due to the growing presence of AI assistants or the emergence of self-driving cars, the necessity of the role of humans as the decision makers would appear to be in decline.",
         "ko": "AI 비서의 확산 때문이든 자율주행차의 등장 때문이든 의사결정자로서 인간의 필요성은 줄어드는 듯하다.",
         "role": "예시·보충",
-        "why": "S1의 추상적 미래상을 익숙한 기술 사례로 구체화한다."
+        "why": "S1의 추상적 미래상을 익숙한 기술 사례로 구체화한다.",
+        "literal": "AI 비서의 확산 때문이든 자율주행차의 등장 때문이든 의사결정자로서 인간의 필요성은 줄어드는 듯하다."
       },
       {
         "n": 3,
         "en": "After all, our capacity for making mistakes is well documented.",
         "ko": "어쨌든 인간이 실수한다는 점은 충분히 알려져 있다.",
         "role": "기존 전망의 근거",
-        "why": "인간 역할 감소론을 지탱하는 인간의 약점을 꺼낸다."
+        "why": "인간 역할 감소론을 지탱하는 인간의 약점을 꺼낸다.",
+        "literal": "어쨌든 인간이 실수한다는 점은 충분히 알려져 있다."
       },
       {
         "n": 4,
         "en": "However, perhaps the saving grace of human determination is to be found here as well.",
         "ko": "그러나 인간의 판단을 여전히 가치 있게 만드는 점도 바로 여기서 찾을 수 있다.",
         "role": "핵심 반전",
-        "why": "실수 가능성이 곧 인간 배제의 이유라는 해석을 뒤집는다."
+        "why": "실수 가능성이 곧 인간 배제의 이유라는 해석을 뒤집는다.",
+        "literal": "그러나 인간의 판단을 여전히 가치 있게 만드는 점도 바로 여기서 찾을 수 있다."
       },
       {
         "n": 5,
         "en": "Little evidence exists that suggests modern AI's infallibility or predicts it in the future.",
         "ko": "현재 AI가 오류를 범하지 않는다거나 미래에 그러리라는 증거는 거의 없다.",
         "role": "반전의 근거",
-        "why": "AI도 완벽하지 않으므로 인간의 오류 가능성만으로 판단 역할을 없앨 수 없다."
+        "why": "AI도 완벽하지 않으므로 인간의 오류 가능성만으로 판단 역할을 없앨 수 없다.",
+        "literal": "현재 AI가 오류를 범하지 않는다거나 미래에 그러리라는 증거는 거의 없다."
       },
       {
         "n": 6,
         "en": "It is crucial that, in light of humanity's acceptance of our own fallibility, we utilize our capacity to overcome such failures to position ourselves as the overseers of AI's own growth and applications for the foreseeable future.",
         "ko": "인간은 자신의 오류 가능성을 인정하는 만큼, 가까운 미래에는 오류를 극복하는 능력을 활용해 AI의 성장과 활용을 감독하는 위치를 맡아야 한다.",
         "role": "저자의 실제 주장",
-        "why": "오류를 인식하고 극복하는 능력을 인간의 새로운 감독 역할로 연결한다."
+        "why": "오류를 인식하고 극복하는 능력을 인간의 새로운 감독 역할로 연결한다.",
+        "literal": "인간은 자신의 오류 가능성을 인정하는 만큼, 가까운 미래에는 오류를 극복하는 능력을 활용해 AI의 성장과 활용을 감독하는 위치를 맡아야 한다."
       }
     ],
     "flow": [
@@ -1187,7 +1245,11 @@ window.EXAM_DATA["claim"] = [
     ],
     "id": "claim-06",
     "num": 6,
-    "type": "주장"
+    "type": "주장",
+    "easy": [
+      "사람도 편견이 있고 틀릴 수 있지. 그런데 사람은 자신의 잘못을 알아차리고 고쳐 온 경험도 있어.",
+      "글은 바로 그 능력이 AI를 감독할 근거라고 해. 인간이 완벽해서 감독하자는 게 아니라 오류를 다루는 능력을 사용하자는 거야."
+    ]
   },
   {
     "title": "가치를 행동으로 만드는 조직의 지침",
@@ -1201,49 +1263,56 @@ window.EXAM_DATA["claim"] = [
         "en": "Values alone do not create and build culture.",
         "ko": "가치만으로는 문화를 만들고 구축하지 못한다.",
         "role": "핵심 문제",
-        "why": "추상적 가치 선언만으로 충분하다는 생각을 제한한다."
+        "why": "추상적 가치 선언만으로 충분하다는 생각을 제한한다.",
+        "literal": "가치만으로는 문화를 만들고 구축하지 못한다."
       },
       {
         "n": 2,
         "en": "Living your values only some of the time does not contribute to the creation and maintenance of culture.",
         "ko": "가치를 가끔만 실천하는 것은 문화의 형성과 유지에 기여하지 못한다.",
         "role": "구체화",
-        "why": "선언을 넘어 행동해도 일관성이 없으면 부족하다고 한 단계 더 나아간다."
+        "why": "선언을 넘어 행동해도 일관성이 없으면 부족하다고 한 단계 더 나아간다.",
+        "literal": "가치를 가끔만 실천하는 것은 문화의 형성과 유지에 기여하지 못한다."
       },
       {
         "n": 3,
         "en": "Changing values into behaviors is only half the battle.",
         "ko": "가치를 행동으로 바꾸는 것은 과제의 절반일 뿐이다.",
         "role": "불충분성 강조",
-        "why": "개인의 행동화 다음에 조직 차원의 공유가 필요함을 예고한다."
+        "why": "개인의 행동화 다음에 조직 차원의 공유가 필요함을 예고한다.",
+        "literal": "가치를 행동으로 바꾸는 것은 과제의 절반일 뿐이다."
       },
       {
         "n": 4,
         "en": "Certainly, this is a step in the right direction, but those behaviors must then be shared and distributed widely throughout the organization, along with a clear and concise description of what is expected.",
         "ko": "물론 이는 올바른 방향의 진전이지만, 그 행동은 기대되는 바를 명확하고 간결하게 설명한 내용과 함께 조직 전체에 널리 공유되어야 한다.",
         "role": "양보·저자의 주장",
-        "why": "행동화의 가치를 인정한 후 그 행동을 조직 전체로 확장하는 조건을 붙인다."
+        "why": "행동화의 가치를 인정한 후 그 행동을 조직 전체로 확장하는 조건을 붙인다.",
+        "literal": "물론 이는 올바른 방향의 진전이지만, 그 행동은 기대되는 바를 명확하고 간결하게 설명한 내용과 함께 조직 전체에 널리 공유되어야 한다."
       },
       {
         "n": 5,
         "en": "It is not enough to simply talk about it.",
         "ko": "그것을 말로만 이야기하는 것으로는 충분하지 않다.",
         "role": "한계 재강조",
-        "why": "공유라는 말을 단순한 구두 전달로 오해하지 못하게 한다."
+        "why": "공유라는 말을 단순한 구두 전달로 오해하지 못하게 한다.",
+        "literal": "그것을 말로만 이야기하는 것으로는 충분하지 않다."
       },
       {
         "n": 6,
         "en": "It is critical to have a visual representation of the specific behaviors that leaders and all people managers can use to coach their people.",
         "ko": "지도자와 모든 인사 관리자가 구성원을 지도하는 데 활용할 구체적인 행동의 시각적 표현이 꼭 필요하다.",
         "role": "해결책 구체화",
-        "why": "공유 방식을 눈에 보이는 행동 지침으로 명확히 한다."
+        "why": "공유 방식을 눈에 보이는 행동 지침으로 명확히 한다.",
+        "literal": "지도자와 모든 인사 관리자가 구성원을 지도하는 데 활용할 구체적인 행동의 시각적 표현이 꼭 필요하다."
       },
       {
         "n": 7,
         "en": "Just like a sports team has a playbook with specific plays designed to help them perform well and win, your company should have a playbook with the key shifts needed to transform your culture into action and turn your values into winning behaviors.",
         "ko": "스포츠 팀에 좋은 경기와 승리를 위한 구체적 작전집이 있듯, 기업도 문화를 실행하고 가치를 성공적 행동으로 바꿀 핵심 변화를 담은 지침서를 갖춰야 한다.",
         "role": "비유·결론",
-        "why": "시각적 행동 지침을 작전집에 빗대 실천 가능한 형태로 마무리한다."
+        "why": "시각적 행동 지침을 작전집에 빗대 실천 가능한 형태로 마무리한다.",
+        "literal": "스포츠 팀에 좋은 경기와 승리를 위한 구체적 작전집이 있듯, 기업도 문화를 실행하고 가치를 성공적 행동으로 바꿀 핵심 변화를 담은 지침서를 갖춰야 한다."
       }
     ],
     "flow": [
@@ -1392,7 +1461,11 @@ window.EXAM_DATA["claim"] = [
     ],
     "id": "claim-07",
     "num": 7,
-    "type": "주장"
+    "type": "주장",
+    "easy": [
+      "회사 벽에 “협력”이라고 적어 놓는 것만으로 직원이 어떻게 행동해야 할지 알지는 못할 수 있어. 이 예는 이해를 위한 비유야.",
+      "가치를 실제 행동으로 바꾸려면 어떤 행동을 해야 하는지 구체적으로 보여 주고 공유해야 한다는 글이야. 가치를 고르는 단계보다 이미 정한 가치를 실천시키는 단계에 집중해."
+    ]
   },
   {
     "title": "과학자의 글쓰기도 독자 중심이어야 한다",
@@ -1407,42 +1480,48 @@ window.EXAM_DATA["claim"] = [
         "en": "The chemists Hans Ebel, Claus Bliefert, and William Russey note: “It goes without saying that scientists need to be skillful readers.",
         "ko": "화학자 한스 에벨, 클라우스 블리페르트, 윌리엄 러시는 과학자에게 능숙한 읽기 능력이 필요하다는 것은 당연하다고 말한다.",
         "role": "기존 중요성 소개",
-        "why": "인용을 통해 독자가 수긍할 읽기의 중요성을 먼저 세운다."
+        "why": "인용을 통해 독자가 수긍할 읽기의 중요성을 먼저 세운다.",
+        "literal": "화학자 한스 에벨, 클라우스 블리페르트, 윌리엄 러시는 과학자에게 능숙한 읽기 능력이 필요하다는 것은 당연하다고 말한다."
       },
       {
         "n": 2,
         "en": "Extensive reading is the principal key to expanding one's knowledge and keeping up with developments in a discipline.",
         "ko": "폭넓은 독서는 지식을 넓히고 학문 분야의 발전을 따라가는 핵심 열쇠다.",
         "role": "이유",
-        "why": "왜 과학자가 잘 읽어야 하는지 설명한다."
+        "why": "왜 과학자가 잘 읽어야 하는지 설명한다.",
+        "literal": "폭넓은 독서는 지식을 넓히고 학문 분야의 발전을 따라가는 핵심 열쇠다."
       },
       {
         "n": 3,
         "en": "However, what is often overlooked here is that scientists are also obliged to be skillful writers.",
         "ko": "그러나 여기서 자주 간과되는 점은 과학자에게 능숙한 글쓰기 능력도 필요하다는 것이다.",
         "role": "핵심 전환",
-        "why": "읽기의 중요성을 부정하지 않고 빠져 있던 쓰기 의무를 추가한다."
+        "why": "읽기의 중요성을 부정하지 않고 빠져 있던 쓰기 의무를 추가한다.",
+        "literal": "그러나 여기서 자주 간과되는 점은 과학자에게 능숙한 글쓰기 능력도 필요하다는 것이다."
       },
       {
         "n": 4,
         "en": "Only the researcher who is competent in the art of written communication can play an active and effective role in contributing to science.”",
         "ko": "문자로 소통하는 기술에 능숙한 연구자만이 과학에 기여하는 적극적이고 효과적인 역할을 할 수 있다.",
         "role": "근거",
-        "why": "쓰기 능력을 과학적 기여의 조건으로 연결한다."
+        "why": "쓰기 능력을 과학적 기여의 조건으로 연결한다.",
+        "literal": "문자로 소통하는 기술에 능숙한 연구자만이 과학에 기여하는 적극적이고 효과적인 역할을 할 수 있다."
       },
       {
         "n": 5,
         "en": "From the perspective of readability, moreover, scientists should always write with a reader-centered mentality; even in the act of writing they must be mindful of the act of reading.",
         "ko": "더욱이 가독성의 관점에서 과학자는 늘 독자 중심으로 써야 하며, 쓰는 중에도 읽는 행위를 염두에 두어야 한다.",
         "role": "저자의 구체적 주장",
-        "why": "잘 쓰라는 일반론을 독자 중심으로 쓰라는 실행 원칙으로 좁힌다."
+        "why": "잘 쓰라는 일반론을 독자 중심으로 쓰라는 실행 원칙으로 좁힌다.",
+        "literal": "더욱이 가독성의 관점에서 과학자는 늘 독자 중심으로 써야 하며, 쓰는 중에도 읽는 행위를 염두에 두어야 한다."
       },
       {
         "n": 6,
         "en": "It would be beneficial for them to understand how readers read in order to improve their writing.",
         "ko": "과학자가 글쓰기를 개선하려면 독자가 어떻게 읽는지 이해하는 것이 도움이 된다.",
         "role": "실천 방향·결론",
-        "why": "독자 중심의 태도를 독자의 읽기 방식 이해라는 구체적 행동으로 마무리한다."
+        "why": "독자 중심의 태도를 독자의 읽기 방식 이해라는 구체적 행동으로 마무리한다.",
+        "literal": "과학자가 글쓰기를 개선하려면 독자가 어떻게 읽는지 이해하는 것이 도움이 된다."
       }
     ],
     "flow": [
@@ -1581,6 +1660,10 @@ window.EXAM_DATA["claim"] = [
     ],
     "id": "claim-08",
     "num": 8,
-    "type": "주장"
+    "type": "주장",
+    "easy": [
+      "과학자는 읽고 연구하는 것뿐 아니라 자신의 연구를 다른 사람이 이해하게 쓰는 일도 해야 해.",
+      "내가 아는 순서대로만 적지 말고 독자가 어디에서 막히는지 생각하며 쓰자는 거야. 읽기가 필요 없다는 말이 아니라 글쓰기에도 독자의 관점이 필요하다는 뜻이야."
+    ]
   }
 ];

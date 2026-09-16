@@ -13,7 +13,9 @@ try{
    const valid=i=>Number.isInteger(i)&&i>=1&&i<=n;
    for(const key of ['title','source','central','tip','topicEN','titleEN','answer'])check(typeof p[key]==='string'&&p[key].trim(),`${tag}: ${key}`);
    const meta=group.passages.find(m=>m.id===p.id);check(meta&&meta.title===p.title&&meta.count===n,`${tag}: index metadata`);
-   p.sentences.forEach((s,i)=>{check(s.n===i+1,`${tag}: sentence number`);for(const key of ['en','ko','role','why'])check(typeof s[key]==='string'&&s[key].trim(),`${tag} S${i+1}: ${key}`)});
+   p.sentences.forEach((s,i)=>{check(s.n===i+1,`${tag}: sentence number`);for(const key of ['en','ko','literal','role','why'])check(typeof s[key]==='string'&&s[key].trim(),`${tag} S${i+1}: ${key}`)});
+   check(Array.isArray(p.easy)&&p.easy.length>=2&&p.easy.every(x=>typeof x==='string'&&x.trim()),`${tag}: easy explanation`);
+   check(p.turns.length>0&&p.turns.every(valid),`${tag}: turning points`);
    check(p.flow.length>=4&&p.flow.length<=7,`${tag}: 4–7 flow steps`);
    for(const f of p.flow)check(valid(f[1])&&valid(f[2])&&f[1]<=f[2]&&f[3],`${tag}: flow range`);
    for(const key of ['connectors','refs','syntax']){check(p[key].length>0,`${tag}: ${key} missing`);for(const item of p[key])check(valid(item[0]),`${tag}: ${key} reference`)}

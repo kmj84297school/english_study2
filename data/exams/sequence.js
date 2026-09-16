@@ -14,63 +14,72 @@ window.EXAM_DATA["sequence"] = [
         "en": "We usually think of a clock as a physical thing, like an alarm clock or a wristwatch.",
         "ko": "우리는 보통 시계를 자명종이나 손목시계 같은 물리적 물건으로 생각한다.",
         "role": "기존 통념",
-        "why": "검토할 익숙한 시계 개념이다."
+        "why": "검토할 익숙한 시계 개념이다.",
+        "literal": "우리는 보통 시계를 자명종이나 손목시계 같은 물리적 물건으로 생각한다."
       },
       {
         "n": 2,
         "en": "But a clock is really a process embodied in a machine, and the nature of that process is repetitive.",
         "ko": "하지만 시계는 실제로 기계에 구현된 과정이며 그 과정의 성질은 반복적이다.",
         "role": "핵심 재정의",
-        "why": "물체에서 반복 과정으로 시계의 본질을 바꾼다."
+        "why": "물체에서 반복 과정으로 시계의 본질을 바꾼다.",
+        "literal": "하지만 시계는 실제로 기계에 구현된 과정이며 그 과정의 성질은 반복적이다."
       },
       {
         "n": 3,
         "en": "A clock can be almost any process that repeats itself over and over again for an indefinite period.",
         "ko": "시계는 정해지지 않은 기간 동안 계속 되풀이되는 거의 어떤 과정도 될 수 있다.",
         "role": "정의 확장",
-        "why": "S2의 process를 받아 반복한다는 기준을 구체화한다."
+        "why": "S2의 process를 받아 반복한다는 기준을 구체화한다.",
+        "literal": "시계는 정해지지 않은 기간 동안 계속 되풀이되는 거의 어떤 과정도 될 수 있다."
       },
       {
         "n": 4,
         "en": "Water clocks drip at a steady pace; quartz crystals vibrate regularly.",
         "ko": "물시계는 일정하게 물방울을 떨어뜨리고 석영은 규칙적으로 진동한다.",
         "role": "예시",
-        "why": "두 시계가 물체는 달라도 반복을 공통으로 지님을 보여준다."
+        "why": "두 시계가 물체는 달라도 반복을 공통으로 지님을 보여준다.",
+        "literal": "물시계는 일정하게 물방울을 떨어뜨리고 석영은 규칙적으로 진동한다."
       },
       {
         "n": 5,
         "en": "Indeed, it is almost impossible to think of a clock that does not depend on a repetitive cycle of events.",
         "ko": "실제로 반복 주기에 의존하지 않는 시계를 떠올리기는 거의 불가능하다.",
         "role": "일반화 강화",
-        "why": "S3–4의 정의와 예를 받은 뒤 예외 가능성을 검토한다."
+        "why": "S3–4의 정의와 예를 받은 뒤 예외 가능성을 검토한다.",
+        "literal": "실제로 반복 주기에 의존하지 않는 시계를 떠올리기는 거의 불가능하다."
       },
       {
         "n": 6,
         "en": "The only example that comes to mind readily is a candle marked in hours.",
         "ko": "쉽게 떠오르는 유일한 예는 시간 눈금이 있는 양초다.",
         "role": "겉보기 반례",
-        "why": "양초는 연속적으로 타는 듯하므로 반복이 없는 것처럼 보인다."
+        "why": "양초는 연속적으로 타는 듯하므로 반복이 없는 것처럼 보인다.",
+        "literal": "쉽게 떠오르는 유일한 예는 시간 눈금이 있는 양초다."
       },
       {
         "n": 7,
         "en": "But here too there is iteration—the repeated burning of molecules of wax—so this too is an iterative process, although at first masked.",
         "ko": "그러나 여기에도 왁스 분자가 반복해서 타는 과정이 있어, 처음에는 가려져 보여도 역시 반복 과정이다.",
         "role": "반례 해소",
-        "why": "전체적으로 매끈한 연소와 분자 수준의 반복을 구별한다."
+        "why": "전체적으로 매끈한 연소와 분자 수준의 반복을 구별한다.",
+        "literal": "그러나 여기에도 왁스 분자가 반복해서 타는 과정이 있어, 처음에는 가려져 보여도 역시 반복 과정이다."
       },
       {
         "n": 8,
         "en": "The use of radiocarbon dating is another, much longer scale clock that also appears to be like this.",
         "ko": "방사성 탄소 연대 측정도 이처럼 보이는 또 하나의 훨씬 긴 시간 규모의 시계다.",
         "role": "병렬 반례",
-        "why": "another와 like this는 앞의 양초라는 겉보기 연속 사례를 필요로 한다."
+        "why": "another와 like this는 앞의 양초라는 겉보기 연속 사례를 필요로 한다.",
+        "literal": "방사성 탄소 연대 측정도 이처럼 보이는 또 하나의 훨씬 긴 시간 규모의 시계다."
       },
       {
         "n": 9,
         "en": "It seems to yield a smooth time scale but in fact does not: the decay of atoms of carbon-14 is repetitive, although on a large scale it gives the appearance of being continuous.",
         "ko": "연속적인 시간 척도를 주는 듯하지만 실제로는 그렇지 않다. 탄소14 원자의 붕괴는 반복적이며 큰 규모에서 연속적으로 보일 뿐이다.",
         "role": "반례 해소·결론",
-        "why": "두 번째 사례도 미시적 반복으로 설명해 처음의 재정의를 유지한다."
+        "why": "두 번째 사례도 미시적 반복으로 설명해 처음의 재정의를 유지한다.",
+        "literal": "연속적인 시간 척도를 주는 듯하지만 실제로는 그렇지 않다. 탄소14 원자의 붕괴는 반복적이며 큰 규모에서 연속적으로 보일 뿐이다."
       }
     ],
     "flow": [
@@ -232,7 +241,11 @@ window.EXAM_DATA["sequence"] = [
     ],
     "id": "sequence-01",
     "num": 1,
-    "type": "글의 순서"
+    "type": "글의 순서",
+    "easy": [
+      "시계를 동그란 물건으로만 생각하지 말고 반복되는 과정을 세는 장치로 생각해 봐.",
+      "양초처럼 계속 이어져 보이는 변화도 더 작은 반복 과정으로 볼 수 있다는 글이야. 먼저 일반 원리를 읽고 양초와 다른 사례를 연결해야 another 같은 말이 이해돼."
+    ]
   },
   {
     "title": "철학의 큰 질문은 경험 과학과 만나야 한다",
@@ -248,49 +261,56 @@ window.EXAM_DATA["sequence"] = [
         "en": "Philosophy allows us to ask much broader questions than many other scientific disciplines.",
         "ko": "철학은 다른 많은 과학 분야보다 더 넓은 질문을 던지게 한다.",
         "role": "가치 제시",
-        "why": "철학의 넓은 질문 능력을 인정한다."
+        "why": "철학의 넓은 질문 능력을 인정한다.",
+        "literal": "철학은 다른 많은 과학 분야보다 더 넓은 질문을 던지게 한다."
       },
       {
         "n": 2,
         "en": "It is capable of looking at the bigger picture and providing important insights into the relationships between different areas of knowledge.",
         "ko": "철학은 큰 그림을 보고 서로 다른 지식 영역 사이의 관계에 중요한 통찰을 줄 수 있다.",
         "role": "가치 구체화",
-        "why": "넓은 질문이 학문 간 연결에 기여함을 설명한다."
+        "why": "넓은 질문이 학문 간 연결에 기여함을 설명한다.",
+        "literal": "철학은 큰 그림을 보고 서로 다른 지식 영역 사이의 관계에 중요한 통찰을 줄 수 있다."
       },
       {
         "n": 3,
         "en": "Philosophy is particularly important for the interdisciplinary efforts of cognitive science, where it helps to bridge gaps between different disciplines and pioneer new ways for research.",
         "ko": "철학은 특히 인지과학의 학제적 노력에서 분야 사이의 간극을 메우고 새로운 연구 길을 여는 데 중요하다.",
         "role": "적용 사례",
-        "why": "S2의 학문 간 연결을 인지과학으로 좁힌다."
+        "why": "S2의 학문 간 연결을 인지과학으로 좁힌다.",
+        "literal": "철학은 특히 인지과학의 학제적 노력에서 분야 사이의 간극을 메우고 새로운 연구 길을 여는 데 중요하다."
       },
       {
         "n": 4,
         "en": "Unlike scientific methods, philosophizing is a non-empirical approach that attempts to validate concepts through logical thinking and argumentation.",
         "ko": "과학적 방법과 달리 철학적 사고는 논리적 생각과 논증으로 개념을 검토하는 비경험적 접근이다.",
         "role": "방법 구분",
-        "why": "철학의 기여 방식과 뒤에서 보완해야 할 한계를 함께 설정한다."
+        "why": "철학의 기여 방식과 뒤에서 보완해야 할 한계를 함께 설정한다.",
+        "literal": "과학적 방법과 달리 철학적 사고는 논리적 생각과 논증으로 개념을 검토하는 비경험적 접근이다."
       },
       {
         "n": 5,
         "en": "Philosophers tend to ask questions rather than provide definitive answers, and their contributions often consist of challenging established assumptions and proposing new research approaches.",
         "ko": "철학자는 확정적 답보다 질문을 던지며, 기존 가정에 도전하고 새로운 연구 접근을 제안한다.",
         "role": "방법 구체화",
-        "why": "S4의 비경험적 접근이 어떤 활동인지 풀어 쓴다."
+        "why": "S4의 비경험적 접근이 어떤 활동인지 풀어 쓴다.",
+        "literal": "철학자는 확정적 답보다 질문을 던지며, 기존 가정에 도전하고 새로운 연구 접근을 제안한다."
       },
       {
         "n": 6,
         "en": "However, for a more comprehensive understanding of the nature of consciousness, close collaboration between philosophy and neuroscience is required.",
         "ko": "그러나 의식의 본성을 더 포괄적으로 이해하려면 철학과 신경과학의 긴밀한 협력이 필요하다.",
         "role": "핵심 전환",
-        "why": "철학의 가치를 인정하되 그것만으로 충분하지 않다는 결론을 연다."
+        "why": "철학의 가치를 인정하되 그것만으로 충분하지 않다는 결론을 연다.",
+        "literal": "그러나 의식의 본성을 더 포괄적으로 이해하려면 철학과 신경과학의 긴밀한 협력이 필요하다."
       },
       {
         "n": 7,
         "en": "This means that while philosophy can provide valuable insights into theoretical concepts and broader ethical questions, it needs to be supplemented by empirical findings and experiments to reach a more comprehensive understanding.",
         "ko": "이는 철학이 이론 개념과 넓은 윤리 문제에 귀중한 통찰을 주지만 포괄적 이해에는 경험적 발견과 실험의 보완이 필요하다는 뜻이다.",
         "role": "재진술·결론",
-        "why": "협력의 구체적 의미를 이론과 경험의 결합으로 해석한다."
+        "why": "협력의 구체적 의미를 이론과 경험의 결합으로 해석한다.",
+        "literal": "이는 철학이 이론 개념과 넓은 윤리 문제에 귀중한 통찰을 주지만 포괄적 이해에는 경험적 발견과 실험의 보완이 필요하다는 뜻이다."
       }
     ],
     "flow": [
@@ -451,7 +471,11 @@ window.EXAM_DATA["sequence"] = [
     ],
     "id": "sequence-02",
     "num": 2,
-    "type": "글의 순서"
+    "type": "글의 순서",
+    "easy": [
+      "철학은 의식에 관해 큰 질문을 던지고 넓은 관점을 줄 수 있어. 그런데 실제 뇌가 어떻게 작동하는지까지 알려면 관찰과 실험도 필요하지.",
+      "철학의 가치를 인정하면서 경험 과학과 함께하자는 글이야. 철학을 칭찬한 뒤 보완이 필요하다고 말하는 것은 모순이 아니야."
+    ]
   },
   {
     "title": "완성품 평가에서 과정 중 수정으로",
@@ -467,42 +491,48 @@ window.EXAM_DATA["sequence"] = [
         "en": "Traditionally, when teachers teach writing, they assign topics for students to write on; perhaps they do a bit of brainstorming about the topic during a pre-writing phase, and then have students write about the topic without interruption.",
         "ko": "전통적으로 교사는 글의 주제를 주고 쓰기 전에 생각을 조금 나누기도 한 뒤, 학생이 중단 없이 글을 쓰게 한다.",
         "role": "기존 방식",
-        "why": "교사가 쓰기 도중에는 관여하지 않는 과정을 제시한다."
+        "why": "교사가 쓰기 도중에는 관여하지 않는 과정을 제시한다.",
+        "literal": "전통적으로 교사는 글의 주제를 주고 쓰기 전에 생각을 조금 나누기도 한 뒤, 학생이 중단 없이 글을 쓰게 한다."
       },
       {
         "n": 2,
         "en": "Subsequently, teachers collect and evaluate what students have written.",
         "ko": "그 후 교사는 학생이 쓴 글을 모아 평가한다.",
         "role": "시간적 후속",
-        "why": "S1의 쓰기 완료 뒤에 이루어지는 단계다."
+        "why": "S1의 쓰기 완료 뒤에 이루어지는 단계다.",
+        "literal": "그 후 교사는 학생이 쓴 글을 모아 평가한다."
       },
       {
         "n": 3,
         "en": "Such instruction is very ‘product-oriented’; there is no involvement of the teacher in the act or ‘process’ of writing.",
         "ko": "이 방식은 매우 결과물 중심이며 교사는 쓰는 행위나 과정에는 참여하지 않는다.",
         "role": "기존 방식 규정",
-        "why": "주제 제시·완성 후 평가는 있어도 쓰기 도중 참여는 없음을 요약한다."
+        "why": "주제 제시·완성 후 평가는 있어도 쓰기 도중 참여는 없음을 요약한다.",
+        "literal": "이 방식은 매우 결과물 중심이며 교사는 쓰는 행위나 과정에는 참여하지 않는다."
       },
       {
         "n": 4,
         "en": "In process writing, on the other hand, students may initially brainstorm ideas about a topic and begin writing, but then they have repeated conferences with the teacher and the other students, during which they receive feedback on their writing up to that point, make revisions, based on the feedback they receive, and carry on writing.",
         "ko": "반면 과정 중심 쓰기에서는 처음 생각을 모아 쓰기 시작한 뒤에도 교사·동료와 반복적으로 협의하며 피드백을 받고 수정한 후 계속 쓴다.",
         "role": "대안·대조",
-        "why": "전통 방식과 다른 핵심은 쓰기 도중 반복되는 피드백과 수정이다."
+        "why": "전통 방식과 다른 핵심은 쓰기 도중 반복되는 피드백과 수정이다.",
+        "literal": "반면 과정 중심 쓰기에서는 처음 생각을 모아 쓰기 시작한 뒤에도 교사·동료와 반복적으로 협의하며 피드백을 받고 수정한 후 계속 쓴다."
       },
       {
         "n": 5,
         "en": "In this way, students learn to view their writing as someone else's reading and to improve both the expression of meaning and the form of their writing as they draft and redraft.",
         "ko": "이렇게 학생은 자신의 글을 다른 사람이 읽는 대상으로 보고 초고와 재작성을 통해 의미 표현과 글의 형식을 모두 개선한다.",
         "role": "효과",
-        "why": "타인의 피드백이 독자 관점과 내용·형식 개선으로 이어진다."
+        "why": "타인의 피드백이 독자 관점과 내용·형식 개선으로 이어진다.",
+        "literal": "이렇게 학생은 자신의 글을 다른 사람이 읽는 대상으로 보고 초고와 재작성을 통해 의미 표현과 글의 형식을 모두 개선한다."
       },
       {
         "n": 6,
         "en": "Process writing shifts the emphasis in teaching writing from evaluation to revision.",
         "ko": "과정 중심 쓰기는 지도 초점을 평가에서 수정으로 옮긴다.",
         "role": "결론",
-        "why": "두 방식의 차이를 한 쌍의 대립어로 정리한다."
+        "why": "두 방식의 차이를 한 쌍의 대립어로 정리한다.",
+        "literal": "과정 중심 쓰기는 지도 초점을 평가에서 수정으로 옮긴다."
       }
     ],
     "flow": [
@@ -657,7 +687,11 @@ window.EXAM_DATA["sequence"] = [
     ],
     "id": "sequence-03",
     "num": 3,
-    "type": "글의 순서"
+    "type": "글의 순서",
+    "easy": [
+      "글을 다 쓴 뒤 점수만 받는 것과 쓰는 중간에 조언을 듣고 고치는 것은 학습 방식이 달라.",
+      "과정 중심 쓰기는 피드백과 재작성으로 독자가 이해할 글을 만들게 한다는 거야. 교사가 교실에 있다는 사실과 작성 과정에 실제로 참여하는 것은 구별해야 해."
+    ]
   },
   {
     "title": "이해하기 어려운 글을 수학이라고 알아보는 기준",
@@ -673,49 +707,56 @@ window.EXAM_DATA["sequence"] = [
         "en": "Perhaps at some point you have seen some mathematical writing and not understood it.",
         "ko": "언젠가 수학적인 글을 보고 이해하지 못한 적이 있을 것이다.",
         "role": "경험 도입",
-        "why": "독자의 흔한 경험으로 시작한다."
+        "why": "독자의 흔한 경험으로 시작한다.",
+        "literal": "언젠가 수학적인 글을 보고 이해하지 못한 적이 있을 것이다."
       },
       {
         "n": 2,
         "en": "You would not be the first; rest assured, even professional mathematicians sometimes have to rely on discussions with colleagues to properly understand problems they are looking at.",
         "ko": "당신만 그런 것은 아니다. 전문 수학자도 문제를 제대로 이해하려고 동료와 논의해야 할 때가 있으니 안심해도 된다.",
         "role": "공감·확장",
-        "why": "이해의 어려움이 비전문가만의 일이 아님을 말한다."
+        "why": "이해의 어려움이 비전문가만의 일이 아님을 말한다.",
+        "literal": "당신만 그런 것은 아니다. 전문 수학자도 문제를 제대로 이해하려고 동료와 논의해야 할 때가 있으니 안심해도 된다."
       },
       {
         "n": 3,
         "en": "But how do you recognise some writing is mathematical in the first place?",
         "ko": "그런데 애초에 그 글이 수학적이라고 어떻게 알아보는가?",
         "role": "핵심 질문 전환",
-        "why": "내용 이해의 어려움에서 수학임을 판별하는 기준으로 질문을 바꾼다."
+        "why": "내용 이해의 어려움에서 수학임을 판별하는 기준으로 질문을 바꾼다.",
+        "literal": "그런데 애초에 그 글이 수학적이라고 어떻게 알아보는가?"
       },
       {
         "n": 4,
         "en": "The complicated notations that might spring to mind—all those strange dashes, squiggles and letters—are obvious signs, but a lot of those are really quite modern.",
         "ko": "떠오르는 복잡한 표기, 즉 낯선 선·기호·문자는 분명한 단서지만 그중 상당수는 아주 현대적이다.",
         "role": "잠정 답과 한계",
-        "why": "수학 기호라는 쉬운 답이 모든 시대에 통하지 않음을 지적한다."
+        "why": "수학 기호라는 쉬운 답이 모든 시대에 통하지 않음을 지적한다.",
+        "literal": "떠오르는 복잡한 표기, 즉 낯선 선·기호·문자는 분명한 단서지만 그중 상당수는 아주 현대적이다."
       },
       {
         "n": 5,
         "en": "Mathematics had been going on for a long time before the dashes and squiggles were invented.",
         "ko": "그런 선과 기호가 발명되기 오래전부터 수학은 존재했다.",
         "role": "반박 근거",
-        "why": "현대 표기가 수학 자체의 필수 조건은 아니라는 시간적 증거다."
+        "why": "현대 표기가 수학 자체의 필수 조건은 아니라는 시간적 증거다.",
+        "literal": "그런 선과 기호가 발명되기 오래전부터 수학은 존재했다."
       },
       {
         "n": 6,
         "en": "Put simply, there has to be something mathematical going on for us to say that it is mathematics.",
         "ko": "간단히 말해 수학이라고 하려면 수학적인 활동이나 내용이 실제로 있어야 한다.",
         "role": "기준 재정리",
-        "why": "표면 기호보다 그 안의 수학적 내용이 판별 기준임을 말한다."
+        "why": "표면 기호보다 그 안의 수학적 내용이 판별 기준임을 말한다.",
+        "literal": "간단히 말해 수학이라고 하려면 수학적인 활동이나 내용이 실제로 있어야 한다."
       },
       {
         "n": 7,
         "en": "And if we are dealing with writing from a very distant past, in a language that is not familiar to us, from a time even before recorded language, that can be sometimes difficult to recognise.",
         "ko": "아주 먼 과거의 익숙하지 않은 언어나 기록 언어 이전 시기의 자료를 다룬다면 그런 수학적 내용을 알아보기는 어려울 수 있다.",
         "role": "적용·결론",
-        "why": "현대 기호를 쓸 수 없는 고대 자료에서 내용 기준의 판별이 어려움을 보여준다."
+        "why": "현대 기호를 쓸 수 없는 고대 자료에서 내용 기준의 판별이 어려움을 보여준다.",
+        "literal": "아주 먼 과거의 익숙하지 않은 언어나 기록 언어 이전 시기의 자료를 다룬다면 그런 수학적 내용을 알아보기는 어려울 수 있다."
       }
     ],
     "flow": [
@@ -872,7 +913,11 @@ window.EXAM_DATA["sequence"] = [
     ],
     "id": "sequence-04",
     "num": 4,
-    "type": "글의 순서"
+    "type": "글의 순서",
+    "easy": [
+      "처음 보는 고대 문서에 지금 쓰는 수학 기호가 없으면 수학이 아니라고 할 수 있을까?",
+      "중요한 것은 익숙한 기호 모양보다 실제로 어떤 수학적 내용을 담는지라는 글이야. 기호라는 잠정 답을 내놓은 뒤 그 한계를 지적하는 순서로 읽어."
+    ]
   },
   {
     "title": "편리한 현대 생활이 빼앗은 신체 활동",
@@ -888,49 +933,56 @@ window.EXAM_DATA["sequence"] = [
         "en": "If we take an evolutionary look at our beginnings, we see a life in which high levels of physical activity were required for survival.",
         "ko": "인류의 시작을 진화적으로 보면 생존에 많은 신체 활동이 필요했던 삶이 보인다.",
         "role": "과거 기준",
-        "why": "인간 생활에서 활동이 필수였다는 출발점이다."
+        "why": "인간 생활에서 활동이 필수였다는 출발점이다.",
+        "literal": "인류의 시작을 진화적으로 보면 생존에 많은 신체 활동이 필요했던 삶이 보인다."
       },
       {
         "n": 2,
         "en": "Even one century ago, most people needed to be physically active to work, to travel, or to take care of homes and families.",
         "ko": "불과 한 세기 전에도 대부분은 일·이동·가사와 가족 돌봄을 위해 몸을 움직여야 했다.",
         "role": "시간 축 연결",
-        "why": "먼 진화의 과거에서 비교적 최근 과거로 다리를 놓는다."
+        "why": "먼 진화의 과거에서 비교적 최근 과거로 다리를 놓는다.",
+        "literal": "불과 한 세기 전에도 대부분은 일·이동·가사와 가족 돌봄을 위해 몸을 움직여야 했다."
       },
       {
         "n": 3,
         "en": "Our modern world has engineered such activity out of our lives.",
         "ko": "현대 세계는 그런 활동을 삶에서 기술적으로 제거해 왔다.",
         "role": "핵심 전환",
-        "why": "과거의 필수 활동과 현재의 편리함을 대비한다."
+        "why": "과거의 필수 활동과 현재의 편리함을 대비한다.",
+        "literal": "현대 세계는 그런 활동을 삶에서 기술적으로 제거해 왔다."
       },
       {
         "n": 4,
         "en": "There are fewer manual jobs, we do not need to travel on foot, we do not need to hunt and harvest for our food, and many domestic chores have been mechanized.",
         "ko": "육체노동은 줄고 걸어서 이동하거나 먹을 것을 사냥·수확할 필요도 줄었으며 많은 가사 일이 기계화되었다.",
         "role": "구체화",
-        "why": "S3의 활동 제거가 일상에서 어떤 변화인지 나열한다."
+        "why": "S3의 활동 제거가 일상에서 어떤 변화인지 나열한다.",
+        "literal": "육체노동은 줄고 걸어서 이동하거나 먹을 것을 사냥·수확할 필요도 줄었으며 많은 가사 일이 기계화되었다."
       },
       {
         "n": 5,
         "en": "While these changes have created many benefits for our longevity and quality of life, they have also created many problems.",
         "ko": "이 변화는 수명과 삶의 질에 많은 이점을 주었지만 여러 문제도 만들었다.",
         "role": "양보 후 문제 제기",
-        "why": "기술의 장점을 인정하면서 신체 활동 감소의 부작용을 연다."
+        "why": "기술의 장점을 인정하면서 신체 활동 감소의 부작용을 연다.",
+        "literal": "이 변화는 수명과 삶의 질에 많은 이점을 주었지만 여러 문제도 만들었다."
       },
       {
         "n": 6,
         "en": "Lack of sufficient physical activity has now been linked to at least 17 unhealthy conditions, almost all of which are chronic diseases or considered risk factors for chronic diseases.",
         "ko": "충분한 신체 활동의 부족은 적어도 17가지 건강하지 못한 상태와 관련되며 대부분은 만성질환이나 그 위험 요인이다.",
         "role": "문제 구체화",
-        "why": "S5의 문제를 건강 결과로 좁힌다. 숫자는 원문이 제시한 내용이다."
+        "why": "S5의 문제를 건강 결과로 좁힌다. 숫자는 원문이 제시한 내용이다.",
+        "literal": "충분한 신체 활동의 부족은 적어도 17가지 건강하지 못한 상태와 관련되며 대부분은 만성질환이나 그 위험 요인이다."
       },
       {
         "n": 7,
         "en": "Adrianne Hardman has summarized this serious situation for public health: “Physical inactivity is a waste of human potential for health and well-being.”",
         "ko": "하드먼은 신체적 비활동이 건강과 안녕을 위한 인간의 잠재력을 낭비한다고 이 공중보건 상황을 요약했다.",
         "role": "인용·결론",
-        "why": "편리함이 만든 비활동의 비용을 잠재력 낭비로 정리한다."
+        "why": "편리함이 만든 비활동의 비용을 잠재력 낭비로 정리한다.",
+        "literal": "하드먼은 신체적 비활동이 건강과 안녕을 위한 인간의 잠재력을 낭비한다고 이 공중보건 상황을 요약했다."
       }
     ],
     "flow": [
@@ -1079,7 +1131,11 @@ window.EXAM_DATA["sequence"] = [
     ],
     "id": "sequence-05",
     "num": 5,
-    "type": "글의 순서"
+    "type": "글의 순서",
+    "easy": [
+      "기계가 많은 일을 대신해 주면 생활은 편해져. 동시에 원래 일상에서 하던 몸 움직임도 줄어들 수 있지.",
+      "편리함의 장점을 부정하는 게 아니라 활동 감소가 건강에 주는 비용도 보자는 글이야. 생활 변화에서 신체 활동 감소, 건강 문제로 이어지는 연결을 따라가."
+    ]
   },
   {
     "title": "반복이 모두 혼돈을 만드는 것은 아니다",
@@ -1095,70 +1151,80 @@ window.EXAM_DATA["sequence"] = [
         "en": "A good example of chaos is the magnetic pendulum sold as an executive toy.",
         "ko": "혼돈의 좋은 예는 책상 장난감으로 팔리는 자기 진자다.",
         "role": "사례 도입",
-        "why": "추상적 개념을 실험 가능한 장치로 시작한다."
+        "why": "추상적 개념을 실험 가능한 장치로 시작한다.",
+        "literal": "혼돈의 좋은 예는 책상 장난감으로 팔리는 자기 진자다."
       },
       {
         "n": 2,
         "en": "It has four magnets arranged in a square at the base and a pendulum that swings back and forth between them.",
         "ko": "바닥에는 네 자석이 정사각형으로 있고 그 사이를 왕복하는 추가 있다.",
         "role": "장치 설명",
-        "why": "이후 움직임을 이해할 구조를 제시한다."
+        "why": "이후 움직임을 이해할 구조를 제시한다.",
+        "literal": "바닥에는 네 자석이 정사각형으로 있고 그 사이를 왕복하는 추가 있다."
       },
       {
         "n": 3,
         "en": "Release the pendulum and note the magnets that it visits, and in what order.",
         "ko": "추를 놓고 어떤 자석을 어떤 순서로 지나는지 기록하라.",
         "role": "관찰 절차",
-        "why": "장치 설명 다음에 실제 움직임을 보도록 한다."
+        "why": "장치 설명 다음에 실제 움직임을 보도록 한다.",
+        "literal": "추를 놓고 어떤 자석을 어떤 순서로 지나는지 기록하라."
       },
       {
         "n": 4,
         "en": "If the pendulum is released from the same position a second time, the pattern of movement may at first be the same but soon it will become completely different.",
         "ko": "같은 위치에서 다시 놓으면 처음에는 움직임이 같아 보일 수 있지만 곧 완전히 달라진다.",
         "role": "관찰 결과",
-        "why": "시작 위치를 맞추려 해도 장기 경로가 다르게 나타남을 보여준다."
+        "why": "시작 위치를 맞추려 해도 장기 경로가 다르게 나타남을 보여준다.",
+        "literal": "같은 위치에서 다시 놓으면 처음에는 움직임이 같아 보일 수 있지만 곧 완전히 달라진다."
       },
       {
         "n": 5,
         "en": "In fact, the pattern of its movement is chaotic.",
         "ko": "실제로 그 움직임의 양상은 혼돈적이다.",
         "role": "관찰 해석",
-        "why": "S4의 결과를 혼돈이라는 개념으로 이름 붙인다."
+        "why": "S4의 결과를 혼돈이라는 개념으로 이름 붙인다.",
+        "literal": "실제로 그 움직임의 양상은 혼돈적이다."
       },
       {
         "n": 6,
         "en": "No matter how much care is taken to start the pendulum in the same position, it will visit an entirely different set of points on the two occasions.",
         "ko": "아무리 주의해서 같은 위치에서 시작해도 두 경우에는 전혀 다른 지점들을 지나게 된다.",
         "role": "강조·재현의 한계",
-        "why": "관찰한 경로 차이를 다시 강조한다."
+        "why": "관찰한 경로 차이를 다시 강조한다.",
+        "literal": "아무리 주의해서 같은 위치에서 시작해도 두 경우에는 전혀 다른 지점들을 지나게 된다."
       },
       {
         "n": 7,
         "en": "Chaotic systems are generated by iteration, though not all iteration leads to chaos.",
         "ko": "혼돈계는 반복으로 생기지만 모든 반복이 혼돈으로 이어지는 것은 아니다.",
         "role": "일반화·한정",
-        "why": "사례에서 원리로 넘어가 반복만으로 충분하지 않음을 밝힌다."
+        "why": "사례에서 원리로 넘어가 반복만으로 충분하지 않음을 밝힌다.",
+        "literal": "혼돈계는 반복으로 생기지만 모든 반복이 혼돈으로 이어지는 것은 아니다."
       },
       {
         "n": 8,
         "en": "In order to produce chaos, the iteration has to be within what is called a nonlinear system.",
         "ko": "혼돈을 만들려면 반복은 비선형계 안에서 일어나야 한다.",
         "role": "필요 조건",
-        "why": "S7의 ‘모든 반복은 아님’에 대한 조건을 설명한다."
+        "why": "S7의 ‘모든 반복은 아님’에 대한 조건을 설명한다.",
+        "literal": "혼돈을 만들려면 반복은 비선형계 안에서 일어나야 한다."
       },
       {
         "n": 9,
         "en": "Nor are all nonlinear systems chaotic: to become so they need to be pushed beyond a certain point, called a bifurcation.",
         "ko": "모든 비선형계가 혼돈적인 것도 아니다. 혼돈적이려면 분기점이라는 특정 지점을 넘어야 한다.",
         "role": "추가 한정",
-        "why": "비선형성만으로도 충분하지 않으며 또 하나의 조건을 붙인다."
+        "why": "비선형성만으로도 충분하지 않으며 또 하나의 조건을 붙인다.",
+        "literal": "모든 비선형계가 혼돈적인 것도 아니다. 혼돈적이려면 분기점이라는 특정 지점을 넘어야 한다."
       },
       {
         "n": 10,
         "en": "Before that point is reached they may behave in a quite orderly fashion.",
         "ko": "그 지점에 이르기 전에는 상당히 질서 있게 작동할 수 있다.",
         "role": "조건 대비·결론",
-        "why": "분기점 전과 후를 대비해 단순한 반복=혼돈 공식을 막는다."
+        "why": "분기점 전과 후를 대비해 단순한 반복=혼돈 공식을 막는다.",
+        "literal": "그 지점에 이르기 전에는 상당히 질서 있게 작동할 수 있다."
       }
     ],
     "flow": [
@@ -1320,7 +1386,11 @@ window.EXAM_DATA["sequence"] = [
     ],
     "id": "sequence-06",
     "num": 6,
-    "type": "글의 순서"
+    "type": "글의 순서",
+    "easy": [
+      "같은 규칙을 반복한다고 결과가 모두 혼란스러워지는 것은 아니야. 어떤 규칙과 조건을 반복하는지가 중요해.",
+      "자기 진자의 혼돈을 설명하면서 반복만으로 충분하지 않다고 제한하는 글이야. 반복이 관련 있다는 말을 반복만 하면 반드시 혼돈이라는 말로 바꾸지 말자."
+    ]
   },
   {
     "title": "평판이 계약을 지키게 만드는 힘",
@@ -1336,56 +1406,64 @@ window.EXAM_DATA["sequence"] = [
         "en": "The potential for market enforcement is greater when contracting parties have developed reputational capital that can be devalued when contracts are violated.",
         "ko": "계약 당사자에게 계약 위반 시 가치가 떨어질 평판 자본이 있으면 시장이 계약 이행을 강제할 가능성이 커진다.",
         "role": "핵심 주장",
-        "why": "평판 손실과 미래 거래를 통한 이행 유인을 제시한다."
+        "why": "평판 손실과 미래 거래를 통한 이행 유인을 제시한다.",
+        "literal": "계약 당사자에게 계약 위반 시 가치가 떨어질 평판 자본이 있으면 시장이 계약 이행을 강제할 가능성이 커진다."
       },
       {
         "n": 2,
         "en": "Farmers and landowners develop reputations for honesty, fairness, producing high yields, and consistently demonstrating that they are good at what they do.",
         "ko": "농부와 지주는 정직·공정·높은 생산량·지속적인 유능함으로 평판을 쌓는다.",
         "role": "사례 도입",
-        "why": "계약 당사자를 농부와 지주로 구체화한다."
+        "why": "계약 당사자를 농부와 지주로 구체화한다.",
+        "literal": "농부와 지주는 정직·공정·높은 생산량·지속적인 유능함으로 평판을 쌓는다."
       },
       {
         "n": 3,
         "en": "In small, close-knit farming communities, reputations are well known.",
         "ko": "작고 긴밀한 농촌 공동체에서는 평판이 잘 알려져 있다.",
         "role": "작동 조건",
-        "why": "개인의 평판 정보가 공유되어야 거래 제재가 가능하다."
+        "why": "개인의 평판 정보가 공유되어야 거래 제재가 가능하다.",
+        "literal": "작고 긴밀한 농촌 공동체에서는 평판이 잘 알려져 있다."
       },
       {
         "n": 4,
         "en": "Over time landowners indirectly monitor farmers by observing the reported output, the general quality of the soil, and any unusual or extreme behavior.",
         "ko": "시간이 지나면서 지주는 보고된 생산량·토양 상태·특이한 행동을 관찰해 농부를 간접적으로 감독한다.",
         "role": "정보 형성",
-        "why": "평판이 단순 소문만이 아니라 행동 관찰로 축적되는 과정을 설명한다."
+        "why": "평판이 단순 소문만이 아니라 행동 관찰로 축적되는 과정을 설명한다.",
+        "literal": "시간이 지나면서 지주는 보고된 생산량·토양 상태·특이한 행동을 관찰해 농부를 간접적으로 감독한다."
       },
       {
         "n": 5,
         "en": "Farmer and landowner reputations act as a bond.",
         "ko": "농부와 지주의 평판은 담보처럼 작용한다.",
         "role": "원리 요약·비유",
-        "why": "잃을 것이 있는 평판이 약속 이행을 보장하는 역할을 한다."
+        "why": "잃을 것이 있는 평판이 약속 이행을 보장하는 역할을 한다.",
+        "literal": "농부와 지주의 평판은 담보처럼 작용한다."
       },
       {
         "n": 6,
         "en": "In any growing season a farmer can reduce effort, overuse soil, or underreport the crop.",
         "ko": "농부는 어느 재배기에든 노력을 줄이거나 토양을 남용하거나 수확량을 적게 보고할 수 있다.",
         "role": "위반 가능성 1",
-        "why": "평판의 담보 기능이 왜 필요한지 농부의 기회주의를 예시한다."
+        "why": "평판의 담보 기능이 왜 필요한지 농부의 기회주의를 예시한다.",
+        "literal": "농부는 어느 재배기에든 노력을 줄이거나 토양을 남용하거나 수확량을 적게 보고할 수 있다."
       },
       {
         "n": 7,
         "en": "Similarly, a landowner can undermaintain fences, ditches, and irrigation systems.",
         "ko": "마찬가지로 지주도 울타리·도랑·관개시설 관리를 소홀히 할 수 있다.",
         "role": "병렬 위반 가능성",
-        "why": "농부만 아니라 상대인 지주도 약속을 어길 수 있다."
+        "why": "농부만 아니라 상대인 지주도 약속을 어길 수 있다.",
+        "literal": "마찬가지로 지주도 울타리·도랑·관개시설 관리를 소홀히 할 수 있다."
       },
       {
         "n": 8,
         "en": "Accurate assessments of farmer and landowner behavior will be made over time, and those farmers and landowners who attempt to gain at each other's expense will find that others may refuse to deal with them in the future.",
         "ko": "시간이 지나면 양쪽 행동이 정확히 평가되고, 상대의 손해로 이익을 얻으려 한 사람은 앞으로 다른 사람들이 거래를 거부할 수 있음을 알게 된다.",
         "role": "시장 제재·결론",
-        "why": "현재의 작은 이익이 미래 거래 손실로 돌아오므로 평판이 이행을 유도한다."
+        "why": "현재의 작은 이익이 미래 거래 손실로 돌아오므로 평판이 이행을 유도한다.",
+        "literal": "시간이 지나면 양쪽 행동이 정확히 평가되고, 상대의 손해로 이익을 얻으려 한 사람은 앞으로 다른 사람들이 거래를 거부할 수 있음을 알게 된다."
       }
     ],
     "flow": [
@@ -1535,7 +1613,11 @@ window.EXAM_DATA["sequence"] = [
     ],
     "id": "sequence-07",
     "num": 7,
-    "type": "글의 순서"
+    "type": "글의 순서",
+    "easy": [
+      "오늘 약속을 어기면 다음에 사람들이 나와 거래하지 않을 수 있어. 그 미래 손해를 생각하면 지금 계약을 지킬 이유가 생기지.",
+      "평판이 공유되고 쌓이는 공동체에서는 농부와 지주 모두에게 이 원리가 적용된다는 글이야. Similarly는 한쪽 사례를 다른 쪽에도 똑같이 적용하는 신호야."
+    ]
   },
   {
     "title": "무리의 감정을 읽으려면 서로 보여야 한다",
@@ -1551,49 +1633,56 @@ window.EXAM_DATA["sequence"] = [
         "en": "Watch the birds in your backyard.",
         "ko": "뒤뜰의 새들을 관찰해 보라.",
         "role": "사례 도입",
-        "why": "익숙한 관찰 장면으로 시작한다."
+        "why": "익숙한 관찰 장면으로 시작한다.",
+        "literal": "뒤뜰의 새들을 관찰해 보라."
       },
       {
         "n": 2,
         "en": "If one bird startles and flies off, others will follow, not waiting around to assess whether the threat is real.",
         "ko": "한 새가 놀라 날아가면 다른 새들도 실제 위협인지 판단하려 기다리지 않고 따라간다.",
         "role": "현상",
-        "why": "개별 판단 없이 행동·감정이 전파됨을 보여준다."
+        "why": "개별 판단 없이 행동·감정이 전파됨을 보여준다.",
+        "literal": "한 새가 놀라 날아가면 다른 새들도 실제 위협인지 판단하려 기다리지 않고 따라간다."
       },
       {
         "n": 3,
         "en": "They have been infected by emotional contagion.",
         "ko": "새들은 감정 전염의 영향을 받은 것이다.",
         "role": "현상 명명",
-        "why": "뒤 연구를 해석할 핵심 개념을 제공한다."
+        "why": "뒤 연구를 해석할 핵심 개념을 제공한다.",
+        "literal": "새들은 감정 전염의 영향을 받은 것이다."
       },
       {
         "n": 4,
         "en": "In a long-term research project that Marc did with some of his students on patterns of antipredatory scanning by western evening grosbeaks, they found that birds in a circle showed more coordination in scanning than did birds who were feeding in a line.",
         "ko": "마크와 학생들의 장기 연구는 원형으로 모인 콩새가 일렬로 먹이를 먹는 새보다 포식자 경계 행동에서 더 잘 협응함을 발견했다.",
         "role": "연구 근거·비교",
-        "why": "감정·행동 전염에 관찰 배치가 어떤 차이를 만드는지 살핀다."
+        "why": "감정·행동 전염에 관찰 배치가 어떤 차이를 만드는지 살핀다.",
+        "literal": "마크와 학생들의 장기 연구는 원형으로 모인 콩새가 일렬로 먹이를 먹는 새보다 포식자 경계 행동에서 더 잘 협응함을 발견했다."
       },
       {
         "n": 5,
         "en": "The birds in a line, who could only see their nearest neighbor, not only were less coordinated when scanning, but also were more nervous, changing their body and head positions significantly more than grosbeaks in a circle, where it was possible for each grosbeak to see every other grosbeak.",
         "ko": "바로 옆 새만 볼 수 있는 일렬의 새는 경계 협응이 낮을 뿐 아니라 더 긴장하여, 모두 서로 볼 수 있는 원형의 새보다 몸과 머리를 더 자주 움직였다.",
         "role": "비교 구체화",
-        "why": "협응 차이뿐 아니라 긴장 차이와 시야 조건을 함께 제시한다."
+        "why": "협응 차이뿐 아니라 긴장 차이와 시야 조건을 함께 제시한다.",
+        "literal": "바로 옆 새만 볼 수 있는 일렬의 새는 경계 협응이 낮을 뿐 아니라 더 긴장하여, 모두 서로 볼 수 있는 원형의 새보다 몸과 머리를 더 자주 움직였다."
       },
       {
         "n": 6,
         "en": "Marc wondered whether the birds in line were more fearful because they didn't know what their flockmates were doing.",
         "ko": "마크는 일렬의 새가 무리의 다른 새들이 하는 일을 몰라서 더 두려워하는 것은 아닌지 생각했다.",
         "role": "해석 가설",
-        "why": "관찰 결과를 정보 부족이라는 이유로 설명하려 한다."
+        "why": "관찰 결과를 정보 부족이라는 이유로 설명하려 한다.",
+        "literal": "마크는 일렬의 새가 무리의 다른 새들이 하는 일을 몰라서 더 두려워하는 것은 아닌지 생각했다."
       },
       {
         "n": 7,
         "en": "Emotional contagion would have been impossible for individual grosbeaks in the linear array except with their nearest neighbors.",
         "ko": "일렬 배치의 개별 새는 가장 가까운 이웃을 제외하면 감정 전염이 불가능했을 것이다.",
         "role": "가설의 기제·결론",
-        "why": "볼 수 있는 범위가 제한되어 무리 전체의 상태 공유가 어려웠다는 설명이다."
+        "why": "볼 수 있는 범위가 제한되어 무리 전체의 상태 공유가 어려웠다는 설명이다.",
+        "literal": "일렬 배치의 개별 새는 가장 가까운 이웃을 제외하면 감정 전염이 불가능했을 것이다."
       }
     ],
     "flow": [
@@ -1755,6 +1844,10 @@ window.EXAM_DATA["sequence"] = [
     ],
     "id": "sequence-08",
     "num": 8,
-    "type": "글의 순서"
+    "type": "글의 순서",
+    "easy": [
+      "무리 안에서 다른 새들이 긴장하는지 보려면 서로가 보여야 하겠지. 시야가 막히면 주변 상태를 알기 어려울 수 있어.",
+      "글은 배치와 시야가 새들의 경계·감정 공유에 어떤 영향을 주는지 관찰하고 설명해. 관찰된 결과와 그것을 설명하는 연구자의 가설은 순서와 증거 수준이 달라."
+    ]
   }
 ];

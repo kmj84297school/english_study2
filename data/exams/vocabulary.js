@@ -12,56 +12,64 @@ window.EXAM_DATA["vocabulary"] = [
         "en": "Situational ethics is an ethical theory that takes into account the context of a situation or an act when judging whether it is ethical.",
         "ko": "상황 윤리는 어떤 상황이나 행위가 윤리적인지 판단할 때 그 맥락을 고려하는 이론이다.",
         "role": "정의",
-        "why": "판단 기준이 행위 자체만이 아니라 상황이라는 점을 설정한다."
+        "why": "판단 기준이 행위 자체만이 아니라 상황이라는 점을 설정한다.",
+        "literal": "상황 윤리는 어떤 상황이나 행위가 윤리적인지 판단할 때 그 맥락을 고려하는 이론이다."
       },
       {
         "n": 2,
         "en": "Supporters of this theory willingly permit casting aside absolute moral standards.",
         "ko": "이 이론의 지지자는 절대적 도덕 기준을 기꺼이 버리는 것을 허용한다.",
         "role": "정의 확장",
-        "why": "상황별 판단이 고정된 기준과 대립함을 설명한다."
+        "why": "상황별 판단이 고정된 기준과 대립함을 설명한다.",
+        "literal": "이 이론의 지지자는 절대적 도덕 기준을 기꺼이 버리는 것을 허용한다."
       },
       {
         "n": 3,
         "en": "In the absence of a universal standard or law, what matters is the outcome or consequences; so, the end justifies the means.",
         "ko": "보편적 기준이나 법이 없다면 중요한 것은 결과이며, 따라서 목적이 수단을 정당화한다.",
         "role": "논리적 귀결",
-        "why": "기준을 고정하지 않으면 결과가 판단의 중심이 된다는 논리를 밝힌다."
+        "why": "기준을 고정하지 않으면 결과가 판단의 중심이 된다는 논리를 밝힌다.",
+        "literal": "보편적 기준이나 법이 없다면 중요한 것은 결과이며, 따라서 목적이 수단을 정당화한다."
       },
       {
         "n": 4,
         "en": "Possibly the following contrasting realities can help illustrate the application of situational ethics.",
         "ko": "다음의 대조적 현실은 상황 윤리가 적용되는 방식을 보여줄 수 있다.",
         "role": "사례 예고",
-        "why": "같은 행위가 상황에 따라 달라지는 두 장면을 준비한다."
+        "why": "같은 행위가 상황에 따라 달라지는 두 장면을 준비한다.",
+        "literal": "다음의 대조적 현실은 상황 윤리가 적용되는 방식을 보여줄 수 있다."
       },
       {
         "n": 5,
         "en": "In a pickup game of basketball played among friends, everyone is expected to call his or her own fouls or acknowledge knocking the ball out-of-bounds.",
         "ko": "친구끼리 하는 농구에서는 각자가 자신의 반칙이나 공을 밖으로 내보낸 사실을 인정하도록 기대된다.",
         "role": "첫 사례",
-        "why": "친선 경기에서는 스스로 인정하는 행동이 선택된다."
+        "why": "친선 경기에서는 스스로 인정하는 행동이 선택된다.",
+        "literal": "친구끼리 하는 농구에서는 각자가 자신의 반칙이나 공을 밖으로 내보낸 사실을 인정하도록 기대된다."
       },
       {
         "n": 6,
         "en": "Caring about one's friends and maybe getting to keep playing with the group leads to these actions.",
         "ko": "친구를 배려하고 계속 함께 경기하고 싶은 마음이 그런 행동으로 이어진다.",
         "role": "사례의 이유",
-        "why": "행동 뒤의 목적이 관계 유지임을 보여준다."
+        "why": "행동 뒤의 목적이 관계 유지임을 보여준다.",
+        "literal": "친구를 배려하고 계속 함께 경기하고 싶은 마음이 그런 행동으로 이어진다."
       },
       {
         "n": 7,
         "en": "But, once an organized game is played with officials, most athletes will not admit to the same fouls or violations as the end goal of winning is more important than expressing concern for competitors.",
         "ko": "하지만 심판이 있는 공식 경기에서는 승리가 상대 배려보다 중요해지므로 대부분의 선수는 같은 반칙도 인정하지 않는다.",
         "role": "대조 사례·이유",
-        "why": "행위가 같아도 목적과 상황이 바뀌어 판단이 달라진다."
+        "why": "행위가 같아도 목적과 상황이 바뀌어 판단이 달라진다.",
+        "literal": "하지만 심판이 있는 공식 경기에서는 승리가 상대 배려보다 중요해지므로 대부분의 선수는 같은 반칙도 인정하지 않는다."
       },
       {
         "n": 8,
         "en": "Situational ethics has been extended by many athletes and coaches to mean trying to get away with as many actions on the field or court as possible to abandon competitive advantages.",
         "ko": "많은 선수와 코치는 경쟁상 이익을 얻으려고 가능한 많은 행위를 처벌 없이 넘기는 의미로 상황 윤리를 확대해 왔다.",
         "role": "확장·결론",
-        "why": "S7의 승리 우선 논리를 일반화한다. 원문 abandon은 gain으로 고쳐 의미를 읽는다."
+        "why": "S7의 승리 우선 논리를 일반화한다. 원문 abandon은 gain으로 고쳐 의미를 읽는다.",
+        "literal": "많은 선수와 코치는 경쟁상 이익을 얻으려고 가능한 많은 행위를 처벌 없이 넘기는 의미로 상황 윤리를 확대해 왔다."
       }
     ],
     "flow": [
@@ -216,7 +224,11 @@ window.EXAM_DATA["vocabulary"] = [
     ],
     "id": "vocabulary-01",
     "num": 1,
-    "type": "어휘"
+    "type": "어휘",
+    "easy": [
+      "친구와 즐기는 경기와 꼭 이겨야 하는 경기에서는 같은 행동을 다르게 판단할 수 있다는 설명이야.",
+      "판단이 상황과 관계의 목적에 따라 달라지는 것을 상황 윤리라고 해. 글쓴이가 모든 반칙을 좋다고 권하는 말로 바꾸지는 말자."
+    ]
   },
   {
     "title": "하천을 지배하기보다 변화에 맞추는 공학",
@@ -230,70 +242,80 @@ window.EXAM_DATA["vocabulary"] = [
         "en": "What is soft-path river engineering?",
         "ko": "소프트 패스 하천 공학은 무엇일까?",
         "role": "문제 제기",
-        "why": "설명할 접근법을 질문으로 제시한다."
+        "why": "설명할 접근법을 질문으로 제시한다.",
+        "literal": "소프트 패스 하천 공학은 무엇일까?"
       },
       {
         "n": 2,
         "en": "One way to visualize its spirit is to liken it to a footpath in the forest.",
         "ko": "그 정신을 이해하는 한 방법은 숲속 오솔길에 비유하는 것이다.",
         "role": "설명 방식",
-        "why": "낯선 공학 개념을 익숙한 길의 사례로 바꾼다."
+        "why": "낯선 공학 개념을 익숙한 길의 사례로 바꾼다.",
+        "literal": "그 정신을 이해하는 한 방법은 숲속 오솔길에 비유하는 것이다."
       },
       {
         "n": 3,
         "en": "Suppose a tree falls across a footpath.",
         "ko": "오솔길에 나무가 쓰러졌다고 하자.",
         "role": "비유의 조건",
-        "why": "자연의 변화에 대응해야 하는 공통 상황을 설정한다."
+        "why": "자연의 변화에 대응해야 하는 공통 상황을 설정한다.",
+        "literal": "오솔길에 나무가 쓰러졌다고 하자."
       },
       {
         "n": 4,
         "en": "A soft-path response would be simply to redirect the trail around the fallen tree.",
         "ko": "소프트 패스 대응은 쓰러진 나무를 돌아가도록 길을 바꾸는 것이다.",
         "role": "대안의 특징",
-        "why": "자연을 그대로 두고 인간의 경로를 조정한다."
+        "why": "자연을 그대로 두고 인간의 경로를 조정한다.",
+        "literal": "소프트 패스 대응은 쓰러진 나무를 돌아가도록 길을 바꾸는 것이다."
       },
       {
         "n": 5,
         "en": "A more interventionist response would be to remove the tree and restore the original route.",
         "ko": "더 개입적인 대응은 나무를 치우고 원래 길을 복구하는 것이다.",
         "role": "대조 1",
-        "why": "자연을 바꾸어 인간의 계획을 유지한다."
+        "why": "자연을 바꾸어 인간의 계획을 유지한다.",
+        "literal": "더 개입적인 대응은 나무를 치우고 원래 길을 복구하는 것이다."
       },
       {
         "n": 6,
         "en": "A still more interventionist response might be to straighten and pave the path to insert it more permanently in the landscape.",
         "ko": "더 강한 개입은 길을 곧게 펴고 포장해 지형에 더 영구적으로 고정하는 것이다.",
         "role": "대조 2",
-        "why": "개입 강도가 올라가는 연속선을 보여준다."
+        "why": "개입 강도가 올라가는 연속선을 보여준다.",
+        "literal": "더 강한 개입은 길을 곧게 펴고 포장해 지형에 더 영구적으로 고정하는 것이다."
       },
       {
         "n": 7,
         "en": "The true high-modernist step would, of course, be to create a superhighway that removes the landscape and bulldozes straight through all obstacles in the topography.",
         "ko": "극단적 고도 근대주의 방식은 지형을 없애고 모든 장애물을 직선으로 밀어 버리는 고속도로를 만드는 것이다.",
         "role": "대조의 극단",
-        "why": "자연 적응과 반대되는 인간 계획의 강제성을 강조한다."
+        "why": "자연 적응과 반대되는 인간 계획의 강제성을 강조한다.",
+        "literal": "극단적 고도 근대주의 방식은 지형을 없애고 모든 장애물을 직선으로 밀어 버리는 고속도로를 만드는 것이다."
       },
       {
         "n": 8,
         "en": "Soft-path engineering has the unique advantage of intellectual modesty with respect to what we actually know about river movement and its environmental effects.",
         "ko": "소프트 패스 공학은 하천의 움직임과 환경 영향에 대해 실제로 아는 범위를 겸손하게 인정한다는 고유한 장점이 있다.",
         "role": "핵심 원칙",
-        "why": "오솔길 비유에서 하천 공학으로 돌아와 자연을 함부로 바꾸지 않는 이유를 설명한다."
+        "why": "오솔길 비유에서 하천 공학으로 돌아와 자연을 함부로 바꾸지 않는 이유를 설명한다.",
+        "literal": "소프트 패스 공학은 하천의 움직임과 환경 영향에 대해 실제로 아는 범위를 겸손하게 인정한다는 고유한 장점이 있다."
       },
       {
         "n": 9,
         "en": "In contrast to hard-path engineering, soft-path engineering accepts variability in the river's movement as insignificant until proven otherwise.",
         "ko": "하드 패스 공학과 달리 소프트 패스 공학은 반증되기 전까지 하천 움직임의 변동성을 중요한 것으로 받아들인다.",
         "role": "원칙 구체화",
-        "why": "자연의 다양성을 보존할 가치가 있다고 보는 관점이다. insignificant는 significant로 고친다."
+        "why": "자연의 다양성을 보존할 가치가 있다고 보는 관점이다. insignificant는 significant로 고친다.",
+        "literal": "하드 패스 공학과 달리 소프트 패스 공학은 반증되기 전까지 하천 움직임의 변동성을 중요한 것으로 받아들인다."
       },
       {
         "n": 10,
         "en": "Backwaters, short-lived wetlands, braids and channels, swamps—all undesirable to hard-path engineering—are presumed by soft-path engineers to be ecologically important.",
         "ko": "정체 수역·일시적 습지·갈래 물길·늪 등 하드 패스가 꺼리는 것들을 소프트 패스 공학자는 생태적으로 중요하다고 본다.",
         "role": "사례·결론",
-        "why": "동일한 자연 요소에 대한 상반된 평가로 핵심을 마무리한다."
+        "why": "동일한 자연 요소에 대한 상반된 평가로 핵심을 마무리한다.",
+        "literal": "정체 수역·일시적 습지·갈래 물길·늪 등 하드 패스가 꺼리는 것들을 소프트 패스 공학자는 생태적으로 중요하다고 본다."
       }
     ],
     "flow": [
@@ -452,7 +474,11 @@ window.EXAM_DATA["vocabulary"] = [
     ],
     "id": "vocabulary-02",
     "num": 2,
-    "type": "어휘"
+    "type": "어휘",
+    "easy": [
+      "강을 내 마음대로 고정하려 하기보다 강의 변화와 생태 관계를 고려하는 공학을 설명해.",
+      "우리가 자연을 전부 알지는 못하니 작은 요소도 함부로 불필요하다고 지우지 말자는 거야. 덜 개입하는 것은 관심이 없어서가 아니라 아는 데 한계가 있음을 인정해서야."
+    ]
   },
   {
     "title": "학술 글쓰기에도 기억되는 목소리가 필요하다",
@@ -466,49 +492,56 @@ window.EXAM_DATA["vocabulary"] = [
         "en": "Gaining an audience for your writing involves not just finding a voice but ensuring that voice resonates with your intended readers.",
         "ko": "글의 독자를 얻으려면 자기 목소리를 찾는 것뿐 아니라 그 목소리가 목표 독자에게 공명하도록 해야 한다.",
         "role": "핵심 주장",
-        "why": "차별성과 독자와의 연결을 함께 요구한다."
+        "why": "차별성과 독자와의 연결을 함께 요구한다.",
+        "literal": "글의 독자를 얻으려면 자기 목소리를 찾는 것뿐 아니라 그 목소리가 목표 독자에게 공명하도록 해야 한다."
       },
       {
         "n": 2,
         "en": "Entrepreneurs understand the importance of building a brand that makes them memorable and distinct from their competitors, drawing customers to their products or services.",
         "ko": "기업가는 경쟁자와 구별되고 기억에 남는 브랜드를 만들어 고객을 끌어들이는 일의 중요성을 안다.",
         "role": "유추 도입",
-        "why": "글쓰기 원리를 설명할 비교 대상으로 브랜딩을 가져온다."
+        "why": "글쓰기 원리를 설명할 비교 대상으로 브랜딩을 가져온다.",
+        "literal": "기업가는 경쟁자와 구별되고 기억에 남는 브랜드를 만들어 고객을 끌어들이는 일의 중요성을 안다."
       },
       {
         "n": 3,
         "en": "They achieve this by pinpointing their target audience, crafting a unique value proposition, and shaping a recognizable identity.",
         "ko": "그들은 목표 고객을 정확히 정하고 고유한 가치 제안과 알아볼 수 있는 정체성을 만들어 이를 이룬다.",
         "role": "방법 구체화",
-        "why": "기업가가 기억되고 구분되는 방식을 설명한다."
+        "why": "기업가가 기억되고 구분되는 방식을 설명한다.",
+        "literal": "그들은 목표 고객을 정확히 정하고 고유한 가치 제안과 알아볼 수 있는 정체성을 만들어 이를 이룬다."
       },
       {
         "n": 4,
         "en": "While scholars might initially find these entrepreneurial concepts alien, they actually engage in similar practices when they set themselves apart in their academic writing.",
         "ko": "학자는 처음에는 이 기업가적 개념을 낯설게 느낄 수 있지만 학술 글에서 자신을 차별화할 때 실제로 비슷한 일을 한다.",
         "role": "양보·연결",
-        "why": "기업 사례를 학술 글쓰기에 적용할 수 있는 이유를 제시한다."
+        "why": "기업 사례를 학술 글쓰기에 적용할 수 있는 이유를 제시한다.",
+        "literal": "학자는 처음에는 이 기업가적 개념을 낯설게 느낄 수 있지만 학술 글에서 자신을 차별화할 때 실제로 비슷한 일을 한다."
       },
       {
         "n": 5,
         "en": "Consider the typical literature review and motivation section of a scholarly article—the aim is to highlight gaps in existing research and position oneself as the one who will address these overlooked areas.",
         "ko": "학술 논문의 선행 연구 검토와 연구 동기 부분을 보라. 기존 연구의 빈틈을 드러내고 자신이 그 부분을 해결할 사람임을 보여주는 것이 목적이다.",
         "role": "학술 사례",
-        "why": "차별화가 학술 글에서 어떻게 실현되는지 보여준다."
+        "why": "차별화가 학술 글에서 어떻게 실현되는지 보여준다.",
+        "literal": "학술 논문의 선행 연구 검토와 연구 동기 부분을 보라. 기존 연구의 빈틈을 드러내고 자신이 그 부분을 해결할 사람임을 보여주는 것이 목적이다."
       },
       {
         "n": 6,
         "en": "The challenge, as Labaree suggests, is not just in developing innovative ideas but in cultivating a distinctive voice that makes readers think, “Ah, this sounds like [the author].”",
         "ko": "라바리의 말처럼 과제는 혁신적 아이디어 개발뿐 아니라 독자가 저자를 알아볼 고유한 목소리를 기르는 데 있다.",
         "role": "핵심 재강조",
-        "why": "연구 빈틈을 찾는 내용 차별화에 더해 표현의 정체성도 필요하다."
+        "why": "연구 빈틈을 찾는 내용 차별화에 더해 표현의 정체성도 필요하다.",
+        "literal": "라바리의 말처럼 과제는 혁신적 아이디어 개발뿐 아니라 독자가 저자를 알아볼 고유한 목소리를 기르는 데 있다."
       },
       {
         "n": 7,
         "en": "It's about balancing the expression of your ideas with the development of a unique voice that leaves a temporary impression on your audience.",
         "ko": "아이디어의 표현과 독자에게 오래 기억될 독특한 목소리의 발전을 균형 있게 결합하는 것이 중요하다.",
         "role": "결론",
-        "why": "기억 가능한 정체성과 독자 연결을 종합한다. temporary는 lasting으로 읽는다."
+        "why": "기억 가능한 정체성과 독자 연결을 종합한다. temporary는 lasting으로 읽는다.",
+        "literal": "아이디어의 표현과 독자에게 오래 기억될 독특한 목소리의 발전을 균형 있게 결합하는 것이 중요하다."
       }
     ],
     "flow": [
@@ -672,7 +705,11 @@ window.EXAM_DATA["vocabulary"] = [
     ],
     "id": "vocabulary-03",
     "num": 3,
-    "type": "어휘"
+    "type": "어휘",
+    "easy": [
+      "비슷한 연구 글 중에서도 어떤 글은 누가 썼는지 떠오를 만큼 목소리가 뚜렷할 수 있어.",
+      "학술 글도 좋은 생각뿐 아니라 독자가 기억할 표현의 개성이 필요하다는 글이야. 브랜딩은 이를 설명하는 비유이며 제품을 판매하는 법이 주제는 아니야."
+    ]
   },
   {
     "title": "경쟁에서 이기는 것이 왜 의욕을 꺾을까",
@@ -686,49 +723,56 @@ window.EXAM_DATA["vocabulary"] = [
         "en": "Studies in psychology have reported cases in which competitive incentives resulted in lower task effort, and their focus was on the psychological underpinnings of the reduction in motivation.",
         "ko": "심리학 연구는 경쟁 유인이 오히려 과제 노력을 줄인 사례를 보고하며 동기 감소의 심리적 토대에 주목했다.",
         "role": "문제 제기",
-        "why": "경쟁이 항상 노력을 높인다는 예상과 다른 현상을 제시한다."
+        "why": "경쟁이 항상 노력을 높인다는 예상과 다른 현상을 제시한다.",
+        "literal": "심리학 연구는 경쟁 유인이 오히려 과제 노력을 줄인 사례를 보고하며 동기 감소의 심리적 토대에 주목했다."
       },
       {
         "n": 2,
         "en": "For example, competition presents an inevitable conflict between the motivation to achieve one's personal goal and the desire to maintain good relationships with others.",
         "ko": "예를 들어 경쟁은 개인 목표 달성 동기와 타인과 좋은 관계를 유지하려는 욕구를 충돌시킨다.",
         "role": "설명 원리",
-        "why": "동기 감소를 설명할 두 욕구의 긴장을 제시한다."
+        "why": "동기 감소를 설명할 두 욕구의 긴장을 제시한다.",
+        "literal": "예를 들어 경쟁은 개인 목표 달성 동기와 타인과 좋은 관계를 유지하려는 욕구를 충돌시킨다."
       },
       {
         "n": 3,
         "en": "When the maintenance of interpersonal relationships is important, with their counterparts in particular or with others generally, competitors experience an internal conflict that can harm their desire to achieve their goal and taint the good feeling brought about by winning.",
         "ko": "특히 경쟁 상대나 다른 사람과의 관계 유지가 중요하면 내적 갈등이 목표 의욕을 해치고 승리의 기쁨을 흐릴 수 있다.",
         "role": "조건·결과",
-        "why": "관계가 중요할 때 S2의 갈등이 실제 동기 감소로 이어진다."
+        "why": "관계가 중요할 때 S2의 갈등이 실제 동기 감소로 이어진다.",
+        "literal": "특히 경쟁 상대나 다른 사람과의 관계 유지가 중요하면 내적 갈등이 목표 의욕을 해치고 승리의 기쁨을 흐릴 수 있다."
       },
       {
         "n": 4,
         "en": "Exline and Lobel found that the perception of oneself as a target for upward social comparison often makes people uncomfortable.",
         "ko": "엑슬라인과 로벨은 자신이 타인의 상향 비교 대상이라고 느끼면 불편해진다는 점을 발견했다.",
         "role": "연구 근거",
-        "why": "승자가 왜 불편한지 비교의 대상이 되는 심리를 밝힌다."
+        "why": "승자가 왜 불편한지 비교의 대상이 되는 심리를 밝힌다.",
+        "literal": "엑슬라인과 로벨은 자신이 타인의 상향 비교 대상이라고 느끼면 불편해진다는 점을 발견했다."
       },
       {
         "n": 5,
         "en": "When they believe that others are making envious comparisons with them, people feel uneasiness, distress, or sorrow.",
         "ko": "다른 사람이 자신과 비교하며 부러워한다고 믿을 때 사람들은 불안·괴로움·슬픔을 느낀다.",
         "role": "구체화",
-        "why": "S4의 불편함을 구체적인 감정으로 설명한다."
+        "why": "S4의 불편함을 구체적인 감정으로 설명한다.",
+        "literal": "다른 사람이 자신과 비교하며 부러워한다고 믿을 때 사람들은 불안·괴로움·슬픔을 느낀다."
       },
       {
         "n": 6,
         "en": "Feelings of guilt, an emotion generally associated with high motivation for goal-achievement, lead to stronger motivation and performance in the pursuit of competitive goals.",
         "ko": "일반적으로는 목표 달성 동기와 관련 있는 죄책감도 경쟁 목표를 추구하는 이 상황에서는 동기와 수행을 약화시킨다.",
         "role": "맥락별 결과",
-        "why": "원문 stronger는 weaker로 고쳐 읽는다. 일반적인 죄책감 기능보다 현재 경쟁·관계 갈등의 맥락이 우선한다."
+        "why": "원문 stronger는 weaker로 고쳐 읽는다. 일반적인 죄책감 기능보다 현재 경쟁·관계 갈등의 맥락이 우선한다.",
+        "literal": "일반적으로는 목표 달성 동기와 관련 있는 죄책감도 경쟁 목표를 추구하는 이 상황에서는 동기와 수행을 약화시킨다."
       },
       {
         "n": 7,
         "en": "Consequences of this emotional state include lower task motivation in a competition and preferences for more cooperative and altruistic outcomes, such as diminishing the significance of the outcome or sharing the winner's reward.",
         "ko": "이 감정은 경쟁 과제 동기를 낮추고 결과의 의미를 줄이거나 승자 보상을 나누는 등 협력적·이타적 결과를 선호하게 한다.",
         "role": "결론·행동 예시",
-        "why": "감정이 경쟁 동기 약화와 관계 회복 행동으로 이어짐을 보여준다."
+        "why": "감정이 경쟁 동기 약화와 관계 회복 행동으로 이어짐을 보여준다.",
+        "literal": "이 감정은 경쟁 과제 동기를 낮추고 결과의 의미를 줄이거나 승자 보상을 나누는 등 협력적·이타적 결과를 선호하게 한다."
       }
     ],
     "flow": [
@@ -887,7 +931,11 @@ window.EXAM_DATA["vocabulary"] = [
     ],
     "id": "vocabulary-04",
     "num": 4,
-    "type": "어휘"
+    "type": "어휘",
+    "easy": [
+      "이겼는데 상대가 부러워하거나 관계가 불편해질 것 같으면 승리만 즐겁지는 않을 수 있지.",
+      "관계가 중요한 상황에서는 이런 죄책감이 경쟁 의욕을 줄일 수 있다는 글이야. 이기는 것이 언제나 의욕을 높인다고 생각하면 핵심 대비를 놓치게 돼."
+    ]
   },
   {
     "title": "비합리성을 알아야 더 합리적일 수 있다",
@@ -901,56 +949,64 @@ window.EXAM_DATA["vocabulary"] = [
         "en": "We all like to think of ourselves as rational actors, careful and considered in our thinking, capable of sound and reliable judgments.",
         "ko": "우리는 자신이 신중하게 생각하고 건전하고 믿을 만한 판단을 하는 합리적 행위자라고 여기고 싶어 한다.",
         "role": "기존 자기 인식",
-        "why": "필자가 검토할 긍정적 자기상을 제시한다."
+        "why": "필자가 검토할 긍정적 자기상을 제시한다.",
+        "literal": "우리는 자신이 신중하게 생각하고 건전하고 믿을 만한 판단을 하는 합리적 행위자라고 여기고 싶어 한다."
       },
       {
         "n": 2,
         "en": "We might believe that we generally consider different points of view and make informed decisions.",
         "ko": "우리는 여러 관점을 고려해 충분한 정보를 바탕으로 결정한다고 믿을 수 있다.",
         "role": "구체화",
-        "why": "합리적이라는 믿음의 내용을 풀어 쓴다."
+        "why": "합리적이라는 믿음의 내용을 풀어 쓴다.",
+        "literal": "우리는 여러 관점을 고려해 충분한 정보를 바탕으로 결정한다고 믿을 수 있다."
       },
       {
         "n": 3,
         "en": "We are, in fact, “predictably irrational,” as psychologist Dan Ariely titled his book on the topic.",
         "ko": "그러나 실제로 우리는 댄 애리얼리의 책 제목처럼 ‘예측 가능하게 비합리적’이다.",
         "role": "핵심 반박",
-        "why": "믿음에서 실제 사고 특성으로 판단을 바꾼다."
+        "why": "믿음에서 실제 사고 특성으로 판단을 바꾼다.",
+        "literal": "그러나 실제로 우리는 댄 애리얼리의 책 제목처럼 ‘예측 가능하게 비합리적’이다."
       },
       {
         "n": 4,
         "en": "All of us engage in automatic, reflexive thinking, typically taking the easier path and conserving mental effort.",
         "ko": "우리는 모두 보통 더 쉬운 길을 택하고 정신적 노력을 아끼는 자동적·반사적 사고를 한다.",
         "role": "이유",
-        "why": "비합리성이 나타나는 일상적 사고의 작동 방식을 설명한다."
+        "why": "비합리성이 나타나는 일상적 사고의 작동 방식을 설명한다.",
+        "literal": "우리는 모두 보통 더 쉬운 길을 택하고 정신적 노력을 아끼는 자동적·반사적 사고를 한다."
       },
       {
         "n": 5,
         "en": "Although we each may have the subjective impression that we are careful thinkers, we often make snap judgments or no real judgments at all.",
         "ko": "자신이 신중한 사상가라는 주관적 인상이 있어도 우리는 즉흥적으로 판단하거나 제대로 판단하지 않기도 한다.",
         "role": "양보·대조",
-        "why": "S1–2의 자기상과 S4의 실제 작동을 직접 비교한다."
+        "why": "S1–2의 자기상과 S4의 실제 작동을 직접 비교한다.",
+        "literal": "자신이 신중한 사상가라는 주관적 인상이 있어도 우리는 즉흥적으로 판단하거나 제대로 판단하지 않기도 한다."
       },
       {
         "n": 6,
         "en": "In addition, numerous biases inhibit or override reflective, deliberative thought; intuitive theories can also interfere with acceptance of accurate scientific explanations.",
         "ko": "또한 여러 편향은 성찰적·숙고적 사고를 억제하거나 압도하고, 직관적 이론은 정확한 과학적 설명의 수용도 방해할 수 있다.",
         "role": "추가 원인·결과",
-        "why": "노력 절약에 더해 편향이라는 또 다른 장애를 제시한다."
+        "why": "노력 절약에 더해 편향이라는 또 다른 장애를 제시한다.",
+        "literal": "또한 여러 편향은 성찰적·숙고적 사고를 억제하거나 압도하고, 직관적 이론은 정확한 과학적 설명의 수용도 방해할 수 있다."
       },
       {
         "n": 7,
         "en": "Understanding more about how our minds work and how biases may operate can make us each less subject to fallacious reasoning, more rational, and more aware of the problems in others' thinking.",
         "ko": "마음과 편향의 작동을 더 이해하면 오류 추론에 덜 휘둘리고 더 합리적이며 타인의 사고 문제에도 더 민감해질 수 있다.",
         "role": "대안·효과",
-        "why": "한계를 아는 것이 개선의 수단이라는 방향으로 전환한다."
+        "why": "한계를 아는 것이 개선의 수단이라는 방향으로 전환한다.",
+        "literal": "마음과 편향의 작동을 더 이해하면 오류 추론에 덜 휘둘리고 더 합리적이며 타인의 사고 문제에도 더 민감해질 수 있다."
       },
       {
         "n": 8,
         "en": "Learning to understand the built-in rationality of our mental processes can also help us improve our ability to inform others more effectively.",
         "ko": "정신 과정에 내재한 비합리성을 이해하면 다른 사람에게 더 효과적으로 정보를 전달하는 능력도 좋아질 수 있다.",
         "role": "대안 확장",
-        "why": "원문 rationality는 irrationality로 읽는다. 자기 개선에서 타인과의 소통 개선으로 효과를 넓힌다."
+        "why": "원문 rationality는 irrationality로 읽는다. 자기 개선에서 타인과의 소통 개선으로 효과를 넓힌다.",
+        "literal": "정신 과정에 내재한 비합리성을 이해하면 다른 사람에게 더 효과적으로 정보를 전달하는 능력도 좋아질 수 있다."
       }
     ],
     "flow": [
@@ -1114,7 +1170,11 @@ window.EXAM_DATA["vocabulary"] = [
     ],
     "id": "vocabulary-05",
     "num": 5,
-    "type": "어휘"
+    "type": "어휘",
+    "easy": [
+      "나는 늘 합리적으로 판단한다고 믿어도 자동적인 생각과 편향이 판단에 끼어들 수 있어.",
+      "그 비합리적인 부분을 알아야 고칠 기회도 생긴다는 거야. 처음의 “합리적이라고 믿음”과 실제로 알아야 할 “비합리성”을 나눠 읽자."
+    ]
   },
   {
     "title": "행동을 시키는 것과 가치를 내면화하는 것",
@@ -1128,56 +1188,64 @@ window.EXAM_DATA["vocabulary"] = [
         "en": "Internalization depends on supports for autonomy.",
         "ko": "내면화는 자율성을 지지하는 데 달려 있다.",
         "role": "핵심 주장",
-        "why": "행동 유발이 아니라 스스로 가치 있게 여기는 내면화를 설명한다."
+        "why": "행동 유발이 아니라 스스로 가치 있게 여기는 내면화를 설명한다.",
+        "literal": "내면화는 자율성을 지지하는 데 달려 있다."
       },
       {
         "n": 2,
         "en": "Contexts that use controlling strategies such as salient rewards and punishments or evaluative, selfesteem-hooking pressures are least likely to lead people to value activities as their own.",
         "ko": "두드러진 보상·처벌이나 자존감을 압박하는 평가 같은 통제 전략은 활동을 자기 것으로 가치 있게 여기도록 할 가능성이 가장 낮다.",
         "role": "대조·이유",
-        "why": "자율성의 반대인 통제가 내면화를 막는다고 설명한다."
+        "why": "자율성의 반대인 통제가 내면화를 막는다고 설명한다.",
+        "literal": "두드러진 보상·처벌이나 자존감을 압박하는 평가 같은 통제 전략은 활동을 자기 것으로 가치 있게 여기도록 할 가능성이 가장 낮다."
       },
       {
         "n": 3,
         "en": "This is not to say that controls don't work to produce behavior—decades of operant psychology prove that they can.",
         "ko": "통제가 행동을 만들어 내는 데 효과가 없다는 뜻은 아니다. 수십 년의 조작적 심리학 연구는 그 효과를 보여 준다.",
         "role": "오해 차단·양보",
-        "why": "내면화 실패를 행동 유발 실패로 잘못 확대하지 못하게 한다."
+        "why": "내면화 실패를 행동 유발 실패로 잘못 확대하지 못하게 한다.",
+        "literal": "통제가 행동을 만들어 내는 데 효과가 없다는 뜻은 아니다. 수십 년의 조작적 심리학 연구는 그 효과를 보여 준다."
       },
       {
         "n": 4,
         "en": "It is rather that the more salient the external control over a person's behavior, the more the person is likely to be merely externally regulated or introjected in his or her actions.",
         "ko": "오히려 외부 통제가 두드러질수록 그 사람은 행동에서 외부 조절이나 내사된 압력에 의존할 가능성이 커진다는 뜻이다.",
         "role": "정확한 주장",
-        "why": "행동은 일어나도 자율적 가치 수용이 아닌 압력에 의한 수행일 수 있다."
+        "why": "행동은 일어나도 자율적 가치 수용이 아닌 압력에 의한 수행일 수 있다.",
+        "literal": "오히려 외부 통제가 두드러질수록 그 사람은 행동에서 외부 조절이나 내사된 압력에 의존할 가능성이 커진다는 뜻이다."
       },
       {
         "n": 5,
         "en": "Consequently, the person does not develop a value or investment in the behaviors, but instead remains dependent on external controls.",
         "ko": "결과적으로 그 사람은 행동의 가치나 자발적 몰입을 기르지 못하고 외부 통제에 계속 의존한다.",
         "role": "결과",
-        "why": "S4의 압력 의존이 내면화를 막는 이유다."
+        "why": "S4의 압력 의존이 내면화를 막는 이유다.",
+        "literal": "결과적으로 그 사람은 행동의 가치나 자발적 몰입을 기르지 못하고 외부 통제에 계속 의존한다."
       },
       {
         "n": 6,
         "en": "Thus, parents who reward, force, or cajole their child to do homework are more likely to have a child who does so only when rewarded, cajoled, or forced.",
         "ko": "따라서 숙제를 보상·강요·회유하는 부모의 아이는 그런 자극이 있을 때만 숙제할 가능성이 높다.",
         "role": "예시",
-        "why": "추상적 외부 조절을 숙제라는 익숙한 장면으로 보여준다."
+        "why": "추상적 외부 조절을 숙제라는 익숙한 장면으로 보여준다.",
+        "literal": "따라서 숙제를 보상·강요·회유하는 부모의 아이는 그런 자극이 있을 때만 숙제할 가능성이 높다."
       },
       {
         "n": 7,
         "en": "The salience of external controls drives the acquisition of self-responsibility.",
         "ko": "외부 통제의 두드러짐은 자기 책임감의 습득을 방해한다.",
         "role": "사례 요약",
-        "why": "원문 drives는 hinders로 읽는다. 외부 의존의 결과가 자율적 책임 획득일 수는 없다."
+        "why": "원문 drives는 hinders로 읽는다. 외부 의존의 결과가 자율적 책임 획득일 수는 없다.",
+        "literal": "외부 통제의 두드러짐은 자기 책임감의 습득을 방해한다."
       },
       {
         "n": 8,
         "en": "Alternatively, parents who supply reasons, show an emotional understanding of difficulties overcoming problems, and use a minimum of external incentives are more likely to cultivate a sense of willingness and value for work in their child.",
         "ko": "반면 이유를 설명하고 문제 해결의 어려움에 공감하며 외적 유인을 최소화하는 부모는 아이의 자발성과 일의 가치를 기르기 쉽다.",
         "role": "대안·결론",
-        "why": "통제 대신 이유·공감·최소 유인으로 S1의 자율성 지지를 구현한다."
+        "why": "통제 대신 이유·공감·최소 유인으로 S1의 자율성 지지를 구현한다.",
+        "literal": "반면 이유를 설명하고 문제 해결의 어려움에 공감하며 외적 유인을 최소화하는 부모는 아이의 자발성과 일의 가치를 기르기 쉽다."
       }
     ],
     "flow": [
@@ -1351,7 +1419,11 @@ window.EXAM_DATA["vocabulary"] = [
     ],
     "id": "vocabulary-06",
     "num": 6,
-    "type": "어휘"
+    "type": "어휘",
+    "easy": [
+      "상을 준다고 시킨 일을 하게 만들 수는 있어. 하지만 그 일이 왜 중요한지 스스로 받아들였다고 보장할 수는 없지.",
+      "글은 겉으로 행동하는 것과 가치를 자기 것으로 만드는 것을 구별해. 내면화를 돕고 싶다면 이유를 설명하고 상대의 마음을 이해하는 지원이 필요하다는 거야."
+    ]
   },
   {
     "title": "흥정 뒤에 있는 공유된 생활의 이해",
@@ -1365,49 +1437,56 @@ window.EXAM_DATA["vocabulary"] = [
         "en": "Bazaar economies feature an apparently flexible price-setting mechanism that sits atop more enduring ties of shared culture.",
         "ko": "시장 경제의 겉보기에 유연한 가격 결정 방식은 더 지속적인 공유 문화의 유대 위에 놓인다.",
         "role": "핵심 주장",
-        "why": "가격은 임의로 정해지는 것이 아니라 문화적 이해에 기반한다."
+        "why": "가격은 임의로 정해지는 것이 아니라 문화적 이해에 기반한다.",
+        "literal": "시장 경제의 겉보기에 유연한 가격 결정 방식은 더 지속적인 공유 문화의 유대 위에 놓인다."
       },
       {
         "n": 2,
         "en": "Both the buyer and seller are aware of each other's restrictions.",
         "ko": "구매자와 판매자는 서로의 제약을 안다.",
         "role": "원리 구체화",
-        "why": "공유 문화가 경제적 한계를 이해하는 형태로 작용한다."
+        "why": "공유 문화가 경제적 한계를 이해하는 형태로 작용한다.",
+        "literal": "구매자와 판매자는 서로의 제약을 안다."
       },
       {
         "n": 3,
         "en": "In Delhi's bazaars, buyers and sellers can assess to a large extent the financial constraints that other actors have in their everyday life.",
         "ko": "델리의 시장에서는 거래자들이 상대의 일상적 재정 제약을 상당 부분 판단할 수 있다.",
         "role": "예시",
-        "why": "S2의 상호 이해를 실제 시장으로 좁힌다."
+        "why": "S2의 상호 이해를 실제 시장으로 좁힌다.",
+        "literal": "델리의 시장에서는 거래자들이 상대의 일상적 재정 제약을 상당 부분 판단할 수 있다."
       },
       {
         "n": 4,
         "en": "Each actor belonging to a specific economic class understands what the other sees as a necessity and a luxury.",
         "ko": "특정 경제 계층의 거래자는 상대가 무엇을 필수품과 사치품으로 보는지 이해한다.",
         "role": "지식의 내용",
-        "why": "제약을 이해한다는 말이 물건의 필요성 평가를 포함함을 밝힌다."
+        "why": "제약을 이해한다는 말이 물건의 필요성 평가를 포함함을 밝힌다.",
+        "literal": "특정 경제 계층의 거래자는 상대가 무엇을 필수품과 사치품으로 보는지 이해한다."
       },
       {
         "n": 5,
         "en": "In the case of electronic products like video games, they are not a necessity at the same level as other household purchases such as food items.",
         "ko": "비디오 게임 같은 전자제품은 식품 같은 생활 구매품과 같은 수준의 필수품이 아니다.",
         "role": "구체적 대비",
-        "why": "필수성 차이가 가격 요구에 영향을 줄 근거다."
+        "why": "필수성 차이가 가격 요구에 영향을 줄 근거다.",
+        "literal": "비디오 게임 같은 전자제품은 식품 같은 생활 구매품과 같은 수준의 필수품이 아니다."
       },
       {
         "n": 6,
         "en": "So, the seller in Delhi's bazaars is careful not to directly ask for very low prices for video games because at no point will the buyer see possession of them as an absolute necessity.",
         "ko": "따라서 구매자가 게임을 절대적 필수품으로 여기지 않으므로 판매자는 처음부터 매우 높은 가격을 요구하지 않도록 조심한다.",
         "role": "가격 행동의 결과",
-        "why": "원문 low는 high로 읽는다. 필수품이 아니면 지나친 가격에 구매를 포기할 수 있다."
+        "why": "원문 low는 high로 읽는다. 필수품이 아니면 지나친 가격에 구매를 포기할 수 있다.",
+        "literal": "따라서 구매자가 게임을 절대적 필수품으로 여기지 않으므로 판매자는 처음부터 매우 높은 가격을 요구하지 않도록 조심한다."
       },
       {
         "n": 7,
         "en": "Access to this type of knowledge establishes a price consensus by relating to each other's preferences and limitations of belonging to a similar cultural and economic universe.",
         "ko": "비슷한 문화·경제 세계 속의 선호와 한계를 서로 이해하는 이런 지식이 가격 합의를 이룬다.",
         "role": "결론",
-        "why": "게임 사례를 공유 문화에 기반한 가격 합의라는 상위 개념으로 회수한다."
+        "why": "게임 사례를 공유 문화에 기반한 가격 합의라는 상위 개념으로 회수한다.",
+        "literal": "비슷한 문화·경제 세계 속의 선호와 한계를 서로 이해하는 이런 지식이 가격 합의를 이룬다."
       }
     ],
     "flow": [
@@ -1570,7 +1649,11 @@ window.EXAM_DATA["vocabulary"] = [
     ],
     "id": "vocabulary-07",
     "num": 7,
-    "type": "어휘"
+    "type": "어휘",
+    "easy": [
+      "흥정은 단순히 한쪽이 최대한 돈을 빼앗는 경쟁만은 아니야. 상대가 무엇이 필요하고 얼마나 감당할 수 있는지 아는 관계가 가격 합의를 도울 수 있어.",
+      "공유된 생활과 문화의 이해가 과도한 요구를 피하게 한다는 글이야. 가장 싸게 사는 요령보다 상대의 사정 이해가 중심이야."
+    ]
   },
   {
     "title": "옷과 그 옷이 온 장소를 다시 연결하기",
@@ -1584,49 +1667,56 @@ window.EXAM_DATA["vocabulary"] = [
         "en": "Why is the value of place so important?",
         "ko": "장소의 가치는 왜 중요할까?",
         "role": "질문",
-        "why": "뒤의 역사적 설명이 답할 문제를 세운다."
+        "why": "뒤의 역사적 설명이 답할 문제를 세운다.",
+        "literal": "장소의 가치는 왜 중요할까?"
       },
       {
         "n": 2,
         "en": "From a historical perspective, until the 1700s textile production was a hand process using the fibers available within a particular geographic region, for example, cotton, wool, silk, and flax.",
         "ko": "역사적으로 1700년대까지 직물은 특정 지역에서 구할 수 있는 면·양모·비단·아마 같은 섬유로 수작업 생산되었다.",
         "role": "과거 배경",
-        "why": "생산과 장소가 밀접했던 출발 상태다."
+        "why": "생산과 장소가 밀접했던 출발 상태다.",
+        "literal": "역사적으로 1700년대까지 직물은 특정 지역에서 구할 수 있는 면·양모·비단·아마 같은 섬유로 수작업 생산되었다."
       },
       {
         "n": 3,
         "en": "Trade among regions increased the availability of these fibers and associated textiles made from the fibers.",
         "ko": "지역 간 무역은 이런 섬유와 직물의 이용 가능성을 늘렸다.",
         "role": "변화 1",
-        "why": "원래의 지역적 한계가 무역으로 약해진다."
+        "why": "원래의 지역적 한계가 무역으로 약해진다.",
+        "literal": "지역 간 무역은 이런 섬유와 직물의 이용 가능성을 늘렸다."
       },
       {
         "n": 4,
         "en": "The First Industrial Revolution and subsequent technological advancements in manufactured fibers added to the fact that fibers and textiles were no longer “place-bound.”",
         "ko": "1차 산업혁명과 이후 인조 섬유 기술 발전은 섬유와 직물이 더 이상 특정 장소에 묶이지 않게 하는 데 기여했다.",
         "role": "변화 2",
-        "why": "무역에 이어 기술이 장소 결속을 더 약화시킨다."
+        "why": "무역에 이어 기술이 장소 결속을 더 약화시킨다.",
+        "literal": "1차 산업혁명과 이후 인조 섬유 기술 발전은 섬유와 직물이 더 이상 특정 장소에 묶이지 않게 하는 데 기여했다."
       },
       {
         "n": 5,
         "en": "Fashion companies created and consumers could acquire textiles and products made from textiles with little or no connection to where, how, or by whom the products were made.",
         "ko": "기업은 제품을 만들고 소비자는 그것이 어디서 어떻게 누구에 의해 생산되었는지 거의 연결감 없이 구입할 수 있게 되었다.",
         "role": "결과 구체화",
-        "why": "장소 분리가 생산·소비자의 경험에서 어떤 뜻인지 보여준다."
+        "why": "장소 분리가 생산·소비자의 경험에서 어떤 뜻인지 보여준다.",
+        "literal": "기업은 제품을 만들고 소비자는 그것이 어디서 어떻게 누구에 의해 생산되었는지 거의 연결감 없이 구입할 수 있게 되었다."
       },
       {
         "n": 6,
         "en": "This countered a disconnect between consumers and the products they use on a daily basis, a loss of understanding and appreciation in the skills and resources necessary to create these products, and an associated disregard for the human and natural resources necessary for the products' creation.",
         "ko": "이는 소비자와 일상 제품의 단절, 생산 기술·자원에 대한 이해와 감사의 상실, 필요한 인간·자연 자원에 대한 무관심을 낳았다.",
         "role": "문제·연쇄 결과",
-        "why": "원문 countered는 caused로 읽는다. S5의 연결 부재가 단절을 해소한 것이 아니라 심화한다."
+        "why": "원문 countered는 caused로 읽는다. S5의 연결 부재가 단절을 해소한 것이 아니라 심화한다.",
+        "literal": "이는 소비자와 일상 제품의 단절, 생산 기술·자원에 대한 이해와 감사의 상실, 필요한 인간·자연 자원에 대한 무관심을 낳았다."
       },
       {
         "n": 7,
         "en": "Therefore, renewing a value on place reconnects the company and the consumer with the people, geography, and culture of a particular location.",
         "ko": "따라서 장소의 가치를 되살리면 기업과 소비자가 특정 지역의 사람·지리·문화와 다시 연결된다.",
         "role": "해결·결론",
-        "why": "역사적 분리의 문제를 장소 가치 회복으로 해결한다."
+        "why": "역사적 분리의 문제를 장소 가치 회복으로 해결한다.",
+        "literal": "따라서 장소의 가치를 되살리면 기업과 소비자가 특정 지역의 사람·지리·문화와 다시 연결된다."
       }
     ],
     "flow": [
@@ -1773,6 +1863,10 @@ window.EXAM_DATA["vocabulary"] = [
     ],
     "id": "vocabulary-08",
     "num": 8,
-    "type": "어휘"
+    "type": "어휘",
+    "easy": [
+      "옷을 편하게 살 수 있어도 누가 어떤 기술과 자원으로 어디에서 만들었는지는 모를 수 있어.",
+      "생산과 소비가 멀어진 만큼 잃기 쉬운 그 맥락을 다시 보자는 글이야. 먼 곳의 물건을 쓰지 말라는 뜻보다 장소와 사람의 가치를 잊지 말라는 뜻이야."
+    ]
   }
 ];

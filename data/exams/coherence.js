@@ -12,49 +12,56 @@ window.EXAM_DATA["coherence"] = [
         "en": "There are few of us who don't at least want to make time for self-care activities such as exercise, hobbies, or relaxation.",
         "ko": "운동·취미·휴식 같은 자기 돌봄의 시간을 내고 싶어 하지 않는 사람은 거의 없다.",
         "role": "공감대 도입",
-        "why": "대부분에게 돌봄 의도가 있다는 점을 먼저 인정한다."
+        "why": "대부분에게 돌봄 의도가 있다는 점을 먼저 인정한다.",
+        "literal": "운동·취미·휴식 같은 자기 돌봄의 시간을 내고 싶어 하지 않는 사람은 거의 없다."
       },
       {
         "n": 2,
         "en": "We start each day with the best of intentions but then get stuck by the flood of email messages or pulled into an unexpected meeting.",
         "ko": "좋은 의도로 하루를 시작하지만 쏟아지는 이메일이나 갑작스러운 회의에 붙잡힌다.",
         "role": "현실의 방해",
-        "why": "의도가 있는데도 실행이 어려운 이유를 보여준다."
+        "why": "의도가 있는데도 실행이 어려운 이유를 보여준다.",
+        "literal": "좋은 의도로 하루를 시작하지만 쏟아지는 이메일이나 갑작스러운 회의에 붙잡힌다."
       },
       {
         "n": 3,
         "en": "As we struggle to reprioritize so we can get everything done before our deadlines, often our self-care activities are the first thing to be given up.",
         "ko": "마감 전에 일을 끝내려고 우선순위를 다시 매기다 보면 자기 돌봄부터 포기하기 쉽다.",
         "role": "결과",
-        "why": "업무의 시간 압박이 돌봄 희생으로 이어진다."
+        "why": "업무의 시간 압박이 돌봄 희생으로 이어진다.",
+        "literal": "마감 전에 일을 끝내려고 우선순위를 다시 매기다 보면 자기 돌봄부터 포기하기 쉽다."
       },
       {
         "n": 4,
         "en": "No matter how much we plan, we all occasionally have days when that happens.",
         "ko": "아무리 계획해도 그런 날은 누구에게나 가끔 있다.",
         "role": "양보",
-        "why": "일시적 실패까지 비난하는 주장이 아님을 밝힌다."
+        "why": "일시적 실패까지 비난하는 주장이 아님을 밝힌다.",
+        "literal": "아무리 계획해도 그런 날은 누구에게나 가끔 있다."
       },
       {
         "n": 5,
         "en": "In the short term, the impact of missing that grant deadline may be greater than the impact of missing a woodworking class.",
         "ko": "단기적으로는 연구비 신청 마감을 놓치는 영향이 목공 수업을 빠지는 것보다 클 수 있다.",
         "role": "양보의 이유",
-        "why": "당장 업무를 택할 합리적 사정은 인정한다."
+        "why": "당장 업무를 택할 합리적 사정은 인정한다.",
+        "literal": "단기적으로는 연구비 신청 마감을 놓치는 영향이 목공 수업을 빠지는 것보다 클 수 있다."
       },
       {
         "n": 6,
         "en": "Needless to say, we should try to enroll in the woodworking class before the design class because it is more competitive to get into and more beneficial to us.",
         "ko": "말할 것도 없이 목공 수업이 더 경쟁적이고 유익하므로 디자인 수업보다 먼저 신청해야 한다.",
         "role": "무관한 문장",
-        "why": "업무와 자기 돌봄의 장기 우선순위에서 목공·디자인 수업 사이의 신청 순위로 대상이 바뀐다."
+        "why": "업무와 자기 돌봄의 장기 우선순위에서 목공·디자인 수업 사이의 신청 순위로 대상이 바뀐다.",
+        "literal": "말할 것도 없이 목공 수업이 더 경쟁적이고 유익하므로 디자인 수업보다 먼저 신청해야 한다."
       },
       {
         "n": 7,
         "en": "But it's important to recognize the cumulative impact of not prioritizing self-care and to make sure that in the long term, this is the exception rather than the norm.",
         "ko": "하지만 자기 돌봄을 우선하지 않을 때의 누적 영향을 알고 장기적으로는 그런 일이 일상이 아니라 예외가 되도록 해야 한다.",
         "role": "핵심 전환·주장",
-        "why": "S5의 단기 양보를 받은 뒤 장기적 기준을 제시한다. S6을 제외하면 대비가 선명해진다."
+        "why": "S5의 단기 양보를 받은 뒤 장기적 기준을 제시한다. S6을 제외하면 대비가 선명해진다.",
+        "literal": "하지만 자기 돌봄을 우선하지 않을 때의 누적 영향을 알고 장기적으로는 그런 일이 일상이 아니라 예외가 되도록 해야 한다."
       }
     ],
     "flow": [
@@ -198,7 +205,11 @@ window.EXAM_DATA["coherence"] = [
     ],
     "id": "coherence-01",
     "num": 1,
-    "type": "무관한 문장"
+    "type": "무관한 문장",
+    "easy": [
+      "바빠서 취미나 휴식을 하루 미루는 일은 있을 수 있어. 하지만 계속 미루다 자기 돌봄이 삶에서 사라지면 문제가 되지.",
+      "글은 일과 자기 돌봄 사이의 장기적인 균형을 말해. 목공 같은 활동은 한 가지 예시이지 다른 취미와 우열을 비교하는 주제가 아니야."
+    ]
   },
   {
     "title": "다양한 멘토가 필요한 것은 모두에게 같다",
@@ -212,49 +223,56 @@ window.EXAM_DATA["coherence"] = [
         "en": "All workers need access to mentors that can provide them with valuable information about their job, their workplace, and the resources that are available within their organization.",
         "ko": "모든 노동자는 자신의 일·직장·조직 자원에 대한 유용한 정보를 주는 멘토를 만날 수 있어야 한다.",
         "role": "일반 주장",
-        "why": "대상을 모든 노동자로 설정한다."
+        "why": "대상을 모든 노동자로 설정한다.",
+        "literal": "모든 노동자는 자신의 일·직장·조직 자원에 대한 유용한 정보를 주는 멘토를 만날 수 있어야 한다."
       },
       {
         "n": 2,
         "en": "Mentors also provide much needed psychosocial support.",
         "ko": "멘토는 꼭 필요한 심리사회적 지원도 제공한다.",
         "role": "기능 보충",
-        "why": "정보 전달 외의 기능을 추가한다."
+        "why": "정보 전달 외의 기능을 추가한다.",
+        "literal": "멘토는 꼭 필요한 심리사회적 지원도 제공한다."
       },
       {
         "n": 3,
         "en": "Having a diverse network of mentors is important for dominant and minority group members alike.",
         "ko": "다양한 멘토망은 다수·지배 집단과 소수 집단 모두에게 중요하다.",
         "role": "핵심 구체화",
-        "why": "멘토가 있다는 것에서 다양한 멘토가 모두에게 필요하다는 초점으로 좁힌다."
+        "why": "멘토가 있다는 것에서 다양한 멘토가 모두에게 필요하다는 초점으로 좁힌다.",
+        "literal": "다양한 멘토망은 다수·지배 집단과 소수 집단 모두에게 중요하다."
       },
       {
         "n": 4,
         "en": "Minority group members need diverse mentors so that they can gain insight into what it means to be employed by a particular organization or in a particular field or profession.",
         "ko": "소수 집단은 특정 조직이나 분야에서 일하는 의미를 이해하기 위해 다양한 멘토가 필요하다.",
         "role": "첫 집단의 이유",
-        "why": "소수 집단에게 주는 조직·직업 이해의 이점을 설명한다."
+        "why": "소수 집단에게 주는 조직·직업 이해의 이점을 설명한다.",
+        "literal": "소수 집단은 특정 조직이나 분야에서 일하는 의미를 이해하기 위해 다양한 멘토가 필요하다."
       },
       {
         "n": 5,
         "en": "Majority workers benefit by having a network of diverse mentors because it increases their understanding and sensitivity to the unique realities of diverse workers and their own identity, and perhaps even their own forms of privilege.",
         "ko": "다수 집단도 다양한 노동자의 현실과 자신의 정체성, 나아가 자신이 누리는 특권을 이해하고 민감하게 인식하게 되므로 이익을 얻는다.",
         "role": "병렬 이유",
-        "why": "소수 집단뿐 아니라 다수 집단도 배워야 할 것이 있음을 설명한다."
+        "why": "소수 집단뿐 아니라 다수 집단도 배워야 할 것이 있음을 설명한다.",
+        "literal": "다수 집단도 다양한 노동자의 현실과 자신의 정체성, 나아가 자신이 누리는 특권을 이해하고 민감하게 인식하게 되므로 이익을 얻는다."
       },
       {
         "n": 6,
         "en": "Mentoring has been typically required and praised as an essential component in the personal development of employers.",
         "ko": "멘토링은 고용주의 개인적 성장에 필수적인 요소로 요구되고 찬사를 받아 왔다.",
         "role": "무관한 문장",
-        "why": "노동자 집단별 다양한 멘토의 이점에서 고용주의 개인 성장에 대한 관행적 평가로 주체와 초점이 이동한다."
+        "why": "노동자 집단별 다양한 멘토의 이점에서 고용주의 개인 성장에 대한 관행적 평가로 주체와 초점이 이동한다.",
+        "literal": "멘토링은 고용주의 개인적 성장에 필수적인 요소로 요구되고 찬사를 받아 왔다."
       },
       {
         "n": 7,
         "en": "The ultimate goal of these mentoring opportunities is to have individuals be more informed, identified, and engaged in their work and in their organization.",
         "ko": "이 멘토링 기회의 최종 목표는 개인이 일과 조직을 더 잘 알고 정체성을 느끼며 적극적으로 참여하도록 하는 것이다.",
         "role": "결론",
-        "why": "소수·다수 집단의 서로 다른 이점을 조직 참여라는 공통 목적 아래 묶는다."
+        "why": "소수·다수 집단의 서로 다른 이점을 조직 참여라는 공통 목적 아래 묶는다.",
+        "literal": "이 멘토링 기회의 최종 목표는 개인이 일과 조직을 더 잘 알고 정체성을 느끼며 적극적으로 참여하도록 하는 것이다."
       }
     ],
     "flow": [
@@ -399,7 +417,11 @@ window.EXAM_DATA["coherence"] = [
     ],
     "id": "coherence-02",
     "num": 2,
-    "type": "무관한 문장"
+    "type": "무관한 문장",
+    "easy": [
+      "한 사람의 조언만 받으면 놓치는 관점이 있을 수 있어. 다양한 멘토와 연결되면 자신과 조직을 더 넓게 이해할 수 있지.",
+      "이 필요는 소수 집단만이 아니라 다수 집단에도 있다는 글이야. 단순히 멘토라는 단어가 반복된다고 모두 같은 논리를 잇는 문장은 아니야."
+    ]
   },
   {
     "title": "영구적이어야 할 빙하가 줄어드는 현실",
@@ -413,49 +435,56 @@ window.EXAM_DATA["coherence"] = [
         "en": "A genuine glacier must be permanent.",
         "ko": "진정한 빙하는 지속적으로 존재해야 한다.",
         "role": "정의",
-        "why": "빙하를 이루는 지속성의 기준을 제시한다."
+        "why": "빙하를 이루는 지속성의 기준을 제시한다.",
+        "literal": "진정한 빙하는 지속적으로 존재해야 한다."
       },
       {
         "n": 2,
         "en": "Generally, this implies that sufficient fresh snow must accumulate during the cold months to offset melting during the summer, although on a year-to-year basis, glaciers may expand or contract, depending on local and global climatic conditions.",
         "ko": "보통 겨울에 충분한 눈이 쌓여 여름의 융해를 상쇄해야 한다는 뜻이다. 다만 매년 지역·세계 기후 조건에 따라 빙하는 커지거나 작아질 수 있다.",
         "role": "정의 설명·양보",
-        "why": "지속성과 매년 크기 변동은 다르다는 범위 구분을 미리 한다."
+        "why": "지속성과 매년 크기 변동은 다르다는 범위 구분을 미리 한다.",
+        "literal": "보통 겨울에 충분한 눈이 쌓여 여름의 융해를 상쇄해야 한다는 뜻이다. 다만 매년 지역·세계 기후 조건에 따라 빙하는 커지거나 작아질 수 있다."
       },
       {
         "n": 3,
         "en": "Today, most glaciers around the world are melting because of the warming climate, and it appears that the rate of melting is accelerating.",
         "ko": "오늘날 세계의 많은 빙하는 온난화로 녹고 있으며 그 속도도 빨라지는 듯하다.",
         "role": "문제 전환",
-        "why": "정상적인 지속·변동 설명에서 현재의 급격한 감소로 초점이 바뀐다."
+        "why": "정상적인 지속·변동 설명에서 현재의 급격한 감소로 초점이 바뀐다.",
+        "literal": "오늘날 세계의 많은 빙하는 온난화로 녹고 있으며 그 속도도 빨라지는 듯하다."
       },
       {
         "n": 4,
         "en": "This has been documented spectacularly in places such as the Alps, where historical records have been kept and dated sketches and photographs are available to compare with the present extent of ice.",
         "ko": "이 현상은 알프스처럼 역사 기록과 날짜가 있는 그림·사진을 현재 얼음 범위와 비교할 수 있는 곳에서 뚜렷하게 기록되었다.",
         "role": "근거 1",
-        "why": "과거와 현재의 기록 비교로 감소를 뒷받침한다."
+        "why": "과거와 현재의 기록 비교로 감소를 뒷받침한다.",
+        "literal": "이 현상은 알프스처럼 역사 기록과 날짜가 있는 그림·사진을 현재 얼음 범위와 비교할 수 있는 곳에서 뚜렷하게 기록되었다."
       },
       {
         "n": 5,
         "en": "Even over periods as short as a few decades, satellite images show that dramatic reduction of mountain glaciers has occurred in the Andes, the Himalayas, and elsewhere.",
         "ko": "불과 수십 년의 짧은 기간에도 위성 영상은 안데스·히말라야 등 산악 빙하의 큰 감소를 보여준다.",
         "role": "근거 강화",
-        "why": "자료와 지역을 확대하고 변화의 빠르기를 강조한다."
+        "why": "자료와 지역을 확대하고 변화의 빠르기를 강조한다.",
+        "literal": "불과 수십 년의 짧은 기간에도 위성 영상은 안데스·히말라야 등 산악 빙하의 큰 감소를 보여준다."
       },
       {
         "n": 6,
         "en": "The various rocks and minerals contained in glaciers have become a popular subject of science projects in schools.",
         "ko": "빙하 속 여러 암석과 광물은 학교 과학 프로젝트의 인기 주제가 되었다.",
         "role": "무관한 문장",
-        "why": "빙하의 시간적 감소에서 빙하 내부 물질의 교육적 활용으로 대상과 목적이 달라진다."
+        "why": "빙하의 시간적 감소에서 빙하 내부 물질의 교육적 활용으로 대상과 목적이 달라진다.",
+        "literal": "빙하 속 여러 암석과 광물은 학교 과학 프로젝트의 인기 주제가 되었다."
       },
       {
         "n": 7,
         "en": "It is estimated that many small mountain glaciers will disappear completely within ten to twenty years unless there is a sudden and unexpected change in the present warming trend.",
         "ko": "현재 온난화 추세가 갑작스럽게 바뀌지 않으면 많은 작은 산악 빙하가 10~20년 안에 완전히 사라질 것으로 추정된다.",
         "role": "전망·결론",
-        "why": "기록된 감소에서 앞으로의 소멸 가능성으로 이어진다. 이는 원문이 제시한 전망이다."
+        "why": "기록된 감소에서 앞으로의 소멸 가능성으로 이어진다. 이는 원문이 제시한 전망이다.",
+        "literal": "현재 온난화 추세가 갑작스럽게 바뀌지 않으면 많은 작은 산악 빙하가 10~20년 안에 완전히 사라질 것으로 추정된다."
       }
     ],
     "flow": [
@@ -613,7 +642,11 @@ window.EXAM_DATA["coherence"] = [
     ],
     "id": "coherence-03",
     "num": 3,
-    "type": "무관한 문장"
+    "type": "무관한 문장",
+    "easy": [
+      "빙하는 오래 지속되는 얼음이지만 크기가 절대 변하지 않는다는 뜻은 아니야.",
+      "기록과 위성 관찰은 빙하가 줄어드는 추세를 보여 줘. 마지막 소멸 전망은 원문 당시의 조건부 예측으로 읽고, 현재 확정된 소멸 날짜처럼 외우지 말자."
+    ]
   },
   {
     "title": "자동차가 스포츠 관광을 확장한 방식",
@@ -628,49 +661,56 @@ window.EXAM_DATA["coherence"] = [
         "en": "The expansion of sports tourism in the twentieth century has been influenced by further developments in transportation.",
         "ko": "20세기 스포츠 관광의 확대는 교통의 추가적 발전에 영향을 받았다.",
         "role": "핵심 화제",
-        "why": "교통 발전과 스포츠 관광 확대의 인과를 설정한다."
+        "why": "교통 발전과 스포츠 관광 확대의 인과를 설정한다.",
+        "literal": "20세기 스포츠 관광의 확대는 교통의 추가적 발전에 영향을 받았다."
       },
       {
         "n": 2,
         "en": "Just as the railways revolutionized travel in the nineteenth century, so the automobile produced even more dramatic changes in the twentieth.",
         "ko": "19세기 철도가 여행을 혁신했듯 20세기 자동차는 더욱 극적인 변화를 낳았다.",
         "role": "시대 대조·유추",
-        "why": "핵심 교통수단을 자동차로 좁힌다."
+        "why": "핵심 교통수단을 자동차로 좁힌다.",
+        "literal": "19세기 철도가 여행을 혁신했듯 20세기 자동차는 더욱 극적인 변화를 낳았다."
       },
       {
         "n": 3,
         "en": "The significance of the car in the development of sport and tourism generally has attracted considerable coverage and it has had no less an impact on sports tourism specifically.",
         "ko": "자동차가 스포츠와 관광 전반에 미친 중요성은 많이 다뤄졌고, 특히 스포츠 관광에도 그만큼 큰 영향을 주었다.",
         "role": "범위 구체화",
-        "why": "스포츠·관광 일반에서 두 활동의 결합인 스포츠 관광을 초점으로 삼는다."
+        "why": "스포츠·관광 일반에서 두 활동의 결합인 스포츠 관광을 초점으로 삼는다.",
+        "literal": "자동차가 스포츠와 관광 전반에 미친 중요성은 많이 다뤄졌고, 특히 스포츠 관광에도 그만큼 큰 영향을 주었다."
       },
       {
         "n": 4,
         "en": "Although originally invented towards the end of the nineteenth century, it started to become a mass form of transport in the 1920s in the USA and rather later in Britain.",
         "ko": "자동차는 19세기 말 발명되었지만 대중적 교통수단이 된 것은 미국에서는 1920년대, 영국에서는 그보다 뒤였다.",
         "role": "역사적 배경",
-        "why": "발명 시점과 대중화 시점을 구분해 20세기 영향을 설명한다."
+        "why": "발명 시점과 대중화 시점을 구분해 20세기 영향을 설명한다.",
+        "literal": "자동차는 19세기 말 발명되었지만 대중적 교통수단이 된 것은 미국에서는 1920년대, 영국에서는 그보다 뒤였다."
       },
       {
         "n": 5,
         "en": "Apart from its convenience and flexibility, the car has the additional advantages of affording access to many areas not served by public transport, as well as allowing the easy transport of luggage and equipment.",
         "ko": "자동차는 편리하고 유연할 뿐 아니라 대중교통이 닿지 않는 지역에 접근하게 하고 짐·장비도 쉽게 옮기게 한다.",
         "role": "구체적 원인",
-        "why": "왜 스포츠 관광에 특히 유리한지 접근성과 장비 운반으로 설명한다."
+        "why": "왜 스포츠 관광에 특히 유리한지 접근성과 장비 운반으로 설명한다.",
+        "literal": "자동차는 편리하고 유연할 뿐 아니라 대중교통이 닿지 않는 지역에 접근하게 하고 짐·장비도 쉽게 옮기게 한다."
       },
       {
         "n": 6,
         "en": "The expansion of reasonably priced, good quality accommodation associated with tourism growth has also facilitated the growth of locally based restaurants.",
         "ko": "관광 성장과 관련된 적정 가격·양질 숙박시설의 확대는 지역 식당의 성장도 촉진했다.",
         "role": "무관한 문장",
-        "why": "자동차가 스포츠 관광을 돕는 기제에서 숙박이 식당을 돕는 별도 인과로 바뀐다."
+        "why": "자동차가 스포츠 관광을 돕는 기제에서 숙박이 식당을 돕는 별도 인과로 바뀐다.",
+        "literal": "관광 성장과 관련된 적정 가격·양질 숙박시설의 확대는 지역 식당의 성장도 촉진했다."
       },
       {
         "n": 7,
         "en": "As a result, it was invaluable for the development of many forms of sports tourism but especially those which require the transportation of people and equipment to relatively remote locations.",
         "ko": "그 결과 자동차는 여러 스포츠 관광, 특히 사람과 장비를 비교적 외진 곳으로 옮겨야 하는 형태의 발전에 매우 유용했다.",
         "role": "결론",
-        "why": "S5의 접근·운반 장점을 스포츠 관광의 요구와 연결한다."
+        "why": "S5의 접근·운반 장점을 스포츠 관광의 요구와 연결한다.",
+        "literal": "그 결과 자동차는 여러 스포츠 관광, 특히 사람과 장비를 비교적 외진 곳으로 옮겨야 하는 형태의 발전에 매우 유용했다."
       }
     ],
     "flow": [
@@ -828,7 +868,11 @@ window.EXAM_DATA["coherence"] = [
     ],
     "id": "coherence-04",
     "num": 4,
-    "type": "무관한 문장"
+    "type": "무관한 문장",
+    "easy": [
+      "스포츠를 즐기러 가려면 사람뿐 아니라 장비도 옮겨야 할 때가 있어. 차는 이 둘을 함께 실을 수 있고 대중교통이 닿기 어려운 곳에도 갈 수 있지.",
+      "그래서 자동차가 스포츠 관광을 확장했다는 글이야. 자동차 일반의 편리함보다 장비와 목적지 접근이라는 구체적 연결이 중요해."
+    ]
   },
   {
     "title": "수집상을 통한 정보망의 확장",
@@ -842,49 +886,56 @@ window.EXAM_DATA["coherence"] = [
         "en": "The best dealers offer a much broader service than merely having their goods on display and selling from stock.",
         "ko": "좋은 거래상은 물건을 진열하고 재고를 파는 것보다 훨씬 넓은 서비스를 제공한다.",
         "role": "핵심 주장",
-        "why": "판매 외에 어떤 서비스가 있는지 질문을 만든다."
+        "why": "판매 외에 어떤 서비스가 있는지 질문을 만든다.",
+        "literal": "좋은 거래상은 물건을 진열하고 재고를 파는 것보다 훨씬 넓은 서비스를 제공한다."
       },
       {
         "n": 2,
         "en": "Once they know the needs of a particular collector they can actively seek specific items to fill gaps in the collection.",
         "ko": "특정 수집가의 필요를 알면 수집품의 빈자리를 채울 물건을 적극적으로 찾을 수 있다.",
         "role": "구체화",
-        "why": "확장된 서비스의 핵심을 수요에 맞춘 탐색으로 좁힌다."
+        "why": "확장된 서비스의 핵심을 수요에 맞춘 탐색으로 좁힌다.",
+        "literal": "특정 수집가의 필요를 알면 수집품의 빈자리를 채울 물건을 적극적으로 찾을 수 있다."
       },
       {
         "n": 3,
         "en": "Because it is their business, to which they devote themselves full-time, they will inevitably have a much wider network than any non-professional collector can ever develop.",
         "ko": "전업으로 하는 일이므로 비전문 수집가보다 훨씬 넓은 인맥망을 갖게 된다.",
         "role": "이유",
-        "why": "거래상이 물건을 더 잘 찾아낼 수 있는 구조적 이점이다."
+        "why": "거래상이 물건을 더 잘 찾아낼 수 있는 구조적 이점이다.",
+        "literal": "전업으로 하는 일이므로 비전문 수집가보다 훨씬 넓은 인맥망을 갖게 된다."
       },
       {
         "n": 4,
         "en": "As a matter of course they can enquire about the availability of pieces from dealers in other cities and, most crucially in some categories, from overseas.",
         "ko": "다른 도시, 어떤 분야에서는 특히 해외 거래상에게도 물건이 있는지 자연스럽게 문의할 수 있다.",
         "role": "망의 범위",
-        "why": "정보망이 지역 밖까지 확장된다는 사례다."
+        "why": "정보망이 지역 밖까지 확장된다는 사례다.",
+        "literal": "다른 도시, 어떤 분야에서는 특히 해외 거래상에게도 물건이 있는지 자연스럽게 문의할 수 있다."
       },
       {
         "n": 5,
         "en": "They will be routinely informed of news of all auctions and important private sales, and should be well-enough connected to hear occasionally of items which are not yet quite on sale but might be available for a certain price.",
         "ko": "경매·중요한 개인 거래 소식을 정기적으로 듣고, 인맥을 통해 아직 매물은 아니지만 가격이 맞으면 살 수 있는 물건 소식도 얻는다.",
         "role": "망의 깊이",
-        "why": "공개 정보뿐 아니라 잠재적 매물까지 접근함을 보여준다."
+        "why": "공개 정보뿐 아니라 잠재적 매물까지 접근함을 보여준다.",
+        "literal": "경매·중요한 개인 거래 소식을 정기적으로 듣고, 인맥을 통해 아직 매물은 아니지만 가격이 맞으면 살 수 있는 물건 소식도 얻는다."
       },
       {
         "n": 6,
         "en": "The main advantage of buying from a dealer is getting personalised service on your purchases.",
         "ko": "거래상에게 사는 주된 장점은 구매에 대한 개인 맞춤 서비스를 받는 것이다.",
         "role": "무관한 문장",
-        "why": "넓은 의미에서는 관련 있어 보이지만 현재의 세부 흐름은 거래상의 정보망 작동이다. 이 문장이 끼면 정보 받기→요청 돌리기의 연결이 끊긴다."
+        "why": "넓은 의미에서는 관련 있어 보이지만 현재의 세부 흐름은 거래상의 정보망 작동이다. 이 문장이 끼면 정보 받기→요청 돌리기의 연결이 끊긴다.",
+        "literal": "거래상에게 사는 주된 장점은 구매에 대한 개인 맞춤 서비스를 받는 것이다."
       },
       {
         "n": 7,
         "en": "In turn, they can circulate their own contacts with ‘want-lists’ of desired items or subjects, multiplying their client collectors' chances of expanding their collections.",
         "ko": "이어 거래상은 원하는 물건 목록을 자신의 인맥망에 돌려 고객 수집가의 수집품 확대 가능성을 높일 수 있다.",
         "role": "대응 행동·결론",
-        "why": "S5에서 정보를 받는 거래상이 이번에는 원하는 물건 정보를 보내는 쌍방향 연결이다."
+        "why": "S5에서 정보를 받는 거래상이 이번에는 원하는 물건 정보를 보내는 쌍방향 연결이다.",
+        "literal": "이어 거래상은 원하는 물건 목록을 자신의 인맥망에 돌려 고객 수집가의 수집품 확대 가능성을 높일 수 있다."
       }
     ],
     "flow": [
@@ -1029,7 +1080,11 @@ window.EXAM_DATA["coherence"] = [
     ],
     "id": "coherence-05",
     "num": 5,
-    "type": "무관한 문장"
+    "type": "무관한 문장",
+    "easy": [
+      "혼자 찾기 어려운 수집품도 거래상이 알고 있는 다른 사람들의 연결망을 통해 발견할 수 있어.",
+      "거래상의 넓은 정보망이 고객의 수집 가능성을 늘린다는 글이야. 수집이라는 소재가 같아도 이 정보 전달의 연결을 끊으면 무관한 문장이 될 수 있어."
+    ]
   },
   {
     "title": "새의 노래는 기억 다음에 연습으로 완성된다",
@@ -1043,49 +1098,56 @@ window.EXAM_DATA["coherence"] = [
         "en": "Avian song learning occurs in two stages: first, songs must be memorized and, second, they must be practiced.",
         "ko": "새의 노래 학습은 먼저 기억하고 다음으로 연습하는 두 단계로 이루어진다.",
         "role": "핵심 구조",
-        "why": "기억과 발성 연습을 구별할 기준이다."
+        "why": "기억과 발성 연습을 구별할 기준이다.",
+        "literal": "새의 노래 학습은 먼저 기억하고 다음으로 연습하는 두 단계로 이루어진다."
       },
       {
         "n": 2,
         "en": "In some species these two events overlap, but in others memorization can occur before practice by several months, providing an impressive example of long-term memory storage.",
         "ko": "어떤 종에서는 두 단계가 겹치지만 다른 종에서는 기억이 연습보다 몇 달 앞서 일어나 장기 기억 저장의 사례를 보여준다.",
         "role": "종별 차이",
-        "why": "두 단계가 시간상 분리될 수도 있음을 보여준다."
+        "why": "두 단계가 시간상 분리될 수도 있음을 보여준다.",
+        "literal": "어떤 종에서는 두 단계가 겹치지만 다른 종에서는 기억이 연습보다 몇 달 앞서 일어나 장기 기억 저장의 사례를 보여준다."
       },
       {
         "n": 3,
         "en": "The young bird's initial efforts to reproduce the memorized song are usually not successful.",
         "ko": "어린 새가 기억한 노래를 처음 재현하려는 시도는 대개 성공하지 못한다.",
         "role": "연습 단계 도입",
-        "why": "기억했다고 즉시 정확히 부를 수 있는 것은 아니다."
+        "why": "기억했다고 즉시 정확히 부를 수 있는 것은 아니다.",
+        "literal": "어린 새가 기억한 노래를 처음 재현하려는 시도는 대개 성공하지 못한다."
       },
       {
         "n": 4,
         "en": "These early songs may have uneven pitch, irregular tempo, and notes that are out of order or poorly reproduced.",
         "ko": "초기 노래는 높이가 고르지 않고 박자가 불규칙하며 음의 순서나 재현이 부정확할 수 있다.",
         "role": "구체화",
-        "why": "S3의 실패가 어떤 모습인지 열거한다."
+        "why": "S3의 실패가 어떤 모습인지 열거한다.",
+        "literal": "초기 노래는 높이가 고르지 않고 박자가 불규칙하며 음의 순서나 재현이 부정확할 수 있다."
       },
       {
         "n": 5,
         "en": "However, sound graphs of songs recorded over several weeks or months reveal that during this practice period the bird fine-tunes his efforts until he produces an accurate copy of the memorized template.",
         "ko": "그러나 몇 주·몇 달의 소리 기록은 연습 중에 조절을 거듭해 기억한 본보기의 정확한 복사본을 만들어 냄을 보여준다.",
         "role": "반전·발달",
-        "why": "처음 실패와 달리 지속적 연습이 정밀한 재현으로 이어진다."
+        "why": "처음 실패와 달리 지속적 연습이 정밀한 재현으로 이어진다.",
+        "literal": "그러나 몇 주·몇 달의 소리 기록은 연습 중에 조절을 거듭해 기억한 본보기의 정확한 복사본을 만들어 냄을 보여준다."
       },
       {
         "n": 6,
         "en": "An important idea to emerge from the study of birdsong is that song learning is shaped by preferences and limitations.",
         "ko": "새 노래 연구에서 나온 중요한 생각은 노래 학습이 선호와 제약에 의해 형성된다는 것이다.",
         "role": "무관한 문장",
-        "why": "앞은 기억한 본보기에 맞춰 연습하는 구체적 과정인데, 선호·제약이라는 설명되지 않은 다른 결정 요인을 꺼낸다."
+        "why": "앞은 기억한 본보기에 맞춰 연습하는 구체적 과정인데, 선호·제약이라는 설명되지 않은 다른 결정 요인을 꺼낸다.",
+        "literal": "새 노래 연구에서 나온 중요한 생각은 노래 학습이 선호와 제약에 의해 형성된다는 것이다."
       },
       {
         "n": 7,
         "en": "This process requires hearing oneself sing; birds are unable to reproduce memorized songs if they are deafened after memorization but before the practice period.",
         "ko": "이 과정에는 자신의 노래를 듣는 것이 필요하다. 기억한 후 연습 전에 청력을 잃으면 새는 기억한 노래를 재현하지 못한다.",
         "role": "필수 조건·근거",
-        "why": "S5의 조절 과정이 자기 소리를 듣는 피드백에 의존함을 보여준다."
+        "why": "S5의 조절 과정이 자기 소리를 듣는 피드백에 의존함을 보여준다.",
+        "literal": "이 과정에는 자신의 노래를 듣는 것이 필요하다. 기억한 후 연습 전에 청력을 잃으면 새는 기억한 노래를 재현하지 못한다."
       }
     ],
     "flow": [
@@ -1242,7 +1304,11 @@ window.EXAM_DATA["coherence"] = [
     ],
     "id": "coherence-06",
     "num": 6,
-    "type": "무관한 문장"
+    "type": "무관한 문장",
+    "easy": [
+      "노래를 머릿속에 기억한다고 바로 정확히 부를 수 있는 건 아니지. 직접 불러 보고 내 소리를 들으며 고쳐야 해.",
+      "새도 기억한 노래를 연습과 청각 피드백으로 맞춰 간다는 글이야. 노래 학습의 모든 원인을 나열하는 것이 아니라 기억 다음의 연습 과정을 따라가."
+    ]
   },
   {
     "title": "입이 뇌보다 빨라질 때 생기는 군말",
@@ -1256,49 +1322,56 @@ window.EXAM_DATA["coherence"] = [
         "en": "Speaking fast is a high-risk proposition.",
         "ko": "빠르게 말하는 것은 위험이 큰 일이다.",
         "role": "핵심 주장",
-        "why": "빠른 말의 문제를 먼저 제시한다."
+        "why": "빠른 말의 문제를 먼저 제시한다.",
+        "literal": "빠르게 말하는 것은 위험이 큰 일이다."
       },
       {
         "n": 2,
         "en": "It's nearly impossible to maintain the ideal conditions to be persuasive, well-spoken, and effective when the mouth is traveling well over the speed limit.",
         "ko": "입이 제한속도를 훨씬 넘으면 설득력 있고 유창하고 효과적인 말의 조건을 유지하기가 거의 불가능하다.",
         "role": "주장 구체화·비유",
-        "why": "발화 속도를 운전 속도에 빗대 손실을 설명한다."
+        "why": "발화 속도를 운전 속도에 빗대 손실을 설명한다.",
+        "literal": "입이 제한속도를 훨씬 넘으면 설득력 있고 유창하고 효과적인 말의 조건을 유지하기가 거의 불가능하다."
       },
       {
         "n": 3,
         "en": "Although we'd like to think that our minds are sharp enough to always make good decisions with the greatest efficiency, they just aren't.",
         "ko": "마음이 늘 최대 효율로 좋은 결정을 내릴 만큼 예리하다고 믿고 싶지만 실제로는 그렇지 않다.",
         "role": "양보 후 반박",
-        "why": "뇌가 입의 속도를 항상 따라갈 수 있다는 가정을 부정한다."
+        "why": "뇌가 입의 속도를 항상 따라갈 수 있다는 가정을 부정한다.",
+        "literal": "마음이 늘 최대 효율로 좋은 결정을 내릴 만큼 예리하다고 믿고 싶지만 실제로는 그렇지 않다."
       },
       {
         "n": 4,
         "en": "In reality, the brain arrives at an intersection of four or five possible things to say and sits idling for a couple of seconds, considering the options.",
         "ko": "실제로 뇌는 네다섯 가지 말의 갈림길에서 선택지를 검토하느라 몇 초 멈춰 서 있다.",
         "role": "작동 설명·비유",
-        "why": "어떤 말을 할지 선택하는 데 시간이 든다는 이유다."
+        "why": "어떤 말을 할지 선택하는 데 시간이 든다는 이유다.",
+        "literal": "실제로 뇌는 네다섯 가지 말의 갈림길에서 선택지를 검토하느라 몇 초 멈춰 서 있다."
       },
       {
         "n": 5,
         "en": "Making a good decision helps you speak faster because it provides you with more time to come up with your responses.",
         "ko": "좋은 결정을 하면 응답을 생각할 시간이 더 생겨 더 빨리 말할 수 있다.",
         "role": "무관한 문장",
-        "why": "뇌의 선택에 시간이 필요해 빠른 말이 위험하다는 설명에서, 결정이 빠른 말을 돕는다는 별도·역방향 인과로 바뀐다."
+        "why": "뇌의 선택에 시간이 필요해 빠른 말이 위험하다는 설명에서, 결정이 빠른 말을 돕는다는 별도·역방향 인과로 바뀐다.",
+        "literal": "좋은 결정을 하면 응답을 생각할 시간이 더 생겨 더 빨리 말할 수 있다."
       },
       {
         "n": 6,
         "en": "When the brain stops sending navigational instructions back to the mouth and the mouth is moving too fast to pause, that's when you get a verbal fender bender, otherwise known as filler.",
         "ko": "뇌가 입에 길 안내를 보내지 못하는데 입은 너무 빨라 멈추지 못할 때 말의 접촉 사고, 즉 군말이 생긴다.",
         "role": "결과",
-        "why": "S4의 뇌 정지와 계속 움직이는 입의 불일치가 군말을 만든다."
+        "why": "S4의 뇌 정지와 계속 움직이는 입의 불일치가 군말을 만든다.",
+        "literal": "뇌가 입에 길 안내를 보내지 못하는데 입은 너무 빨라 멈추지 못할 때 말의 접촉 사고, 즉 군말이 생긴다."
       },
       {
         "n": 7,
         "en": "Um, ah, you know, and like are what your mouth does when it has nowhere to go.",
         "ko": "‘음’, ‘어’, ‘있잖아’, ‘뭐랄까’는 입이 갈 곳을 잃었을 때 하는 말이다.",
         "role": "예시·비유 완결",
-        "why": "추상적 filler를 실제 군말 예로 마무리한다."
+        "why": "추상적 filler를 실제 군말 예로 마무리한다.",
+        "literal": "‘음’, ‘어’, ‘있잖아’, ‘뭐랄까’는 입이 갈 곳을 잃었을 때 하는 말이다."
       }
     ],
     "flow": [
@@ -1450,7 +1523,11 @@ window.EXAM_DATA["coherence"] = [
     ],
     "id": "coherence-07",
     "num": 7,
-    "type": "무관한 문장"
+    "type": "무관한 문장",
+    "easy": [
+      "하고 싶은 말을 아직 고르지 못했는데 입이 먼저 움직이면 “어… 음…” 같은 군말이 나올 수 있어.",
+      "빠른 발화 속도와 뇌가 말을 준비하는 속도가 어긋나는 것이 원인이라는 글이야. 군말이 나와서 생각이 빨라진다는 식으로 인과를 뒤집지 말자."
+    ]
   },
   {
     "title": "장벽이 있어도 확산되는 원격근무",
@@ -1464,42 +1541,48 @@ window.EXAM_DATA["coherence"] = [
         "en": "Although organizations are offering telecommuting programs in greater numbers than ever before, acceptance and use of these programs are still limited by a number of factors.",
         "ko": "조직이 이전보다 더 많은 원격근무 제도를 제공하지만 수용과 이용은 여전히 여러 요인에 제한된다.",
         "role": "양보·문제 제기",
-        "why": "제도 공급의 증가와 실제 사용의 장벽을 구분한다."
+        "why": "제도 공급의 증가와 실제 사용의 장벽을 구분한다.",
+        "literal": "조직이 이전보다 더 많은 원격근무 제도를 제공하지만 수용과 이용은 여전히 여러 요인에 제한된다."
       },
       {
         "n": 2,
         "en": "These factors include manager reliance on face-to-face management practices, lack of telecommuting training within an organization, misperceptions of and discomfort with flexible workplace programs, and a lack of information about the effects of telecommuting on an organization's bottom line.",
         "ko": "이 요인에는 관리자의 대면 관리 의존, 원격근무 교육 부족, 유연근무에 대한 오해·불편함, 조직 손익에 미치는 영향에 대한 정보 부족이 있다.",
         "role": "구체화",
-        "why": "S1의 장벽을 목록으로 풀어 준다."
+        "why": "S1의 장벽을 목록으로 풀어 준다.",
+        "literal": "이 요인에는 관리자의 대면 관리 의존, 원격근무 교육 부족, 유연근무에 대한 오해·불편함, 조직 손익에 미치는 영향에 대한 정보 부족이 있다."
       },
       {
         "n": 3,
         "en": "Despite these limitations, at the beginning of the 21st century, a new “anytime, anywhere” work culture is emerging.",
         "ko": "이런 제약에도 21세기 초에는 언제 어디서나 일하는 새 문화가 등장하고 있다.",
         "role": "핵심 전환",
-        "why": "장벽을 인정한 상태에서 확산 전망으로 방향이 바뀐다."
+        "why": "장벽을 인정한 상태에서 확산 전망으로 방향이 바뀐다.",
+        "literal": "이런 제약에도 21세기 초에는 언제 어디서나 일하는 새 문화가 등장하고 있다."
       },
       {
         "n": 4,
         "en": "Care must be taken to select employees whose personal and working characteristics are best suited for telecommuting.",
         "ko": "원격근무에 개인적·업무적 특성이 가장 잘 맞는 직원을 신중히 뽑아야 한다.",
         "role": "무관한 문장",
-        "why": "원격근무의 확산과 장벽 완화 전망에서 직원 선발의 실무 지침으로 목적이 달라진다."
+        "why": "원격근무의 확산과 장벽 완화 전망에서 직원 선발의 실무 지침으로 목적이 달라진다.",
+        "literal": "원격근무에 개인적·업무적 특성이 가장 잘 맞는 직원을 신중히 뽑아야 한다."
       },
       {
         "n": 5,
         "en": "Continuing advances in information technology, the expansion of a global workforce, and increased desire to balance work and family are only three of the many factors that will gradually reduce the current barriers to telecommuting as a dominant workforce development.",
         "ko": "정보 기술 발전, 세계적 노동력 확대, 일·가정 균형 욕구는 원격근무가 주요 노동 형태로 자리 잡는 데 걸림돌을 줄일 여러 요인 중 세 가지다.",
         "role": "전망의 이유",
-        "why": "S3의 확산이 왜 지속될지 장벽을 줄이는 힘을 제시한다."
+        "why": "S3의 확산이 왜 지속될지 장벽을 줄이는 힘을 제시한다.",
+        "literal": "정보 기술 발전, 세계적 노동력 확대, 일·가정 균형 욕구는 원격근무가 주요 노동 형태로 자리 잡는 데 걸림돌을 줄일 여러 요인 중 세 가지다."
       },
       {
         "n": 6,
         "en": "With implications for organizational cost savings, especially with regard to lower facility costs, increased employee flexibility, and productivity, telecommuting is increasingly of interest to many organizations.",
         "ko": "시설비 절감 등 조직 비용 감소, 직원 유연성 및 생산성의 이점 때문에 원격근무에 대한 조직의 관심은 커지고 있다.",
         "role": "결론·유인",
-        "why": "원격근무를 확대할 조직 차원의 동기까지 보탠다."
+        "why": "원격근무를 확대할 조직 차원의 동기까지 보탠다.",
+        "literal": "시설비 절감 등 조직 비용 감소, 직원 유연성 및 생산성의 이점 때문에 원격근무에 대한 조직의 관심은 커지고 있다."
       }
     ],
     "flow": [
@@ -1650,6 +1733,10 @@ window.EXAM_DATA["coherence"] = [
     ],
     "id": "coherence-08",
     "num": 8,
-    "type": "무관한 문장"
+    "type": "무관한 문장",
+    "easy": [
+      "원격근무가 편리해도 조직이 받아들이기 어려운 장벽은 있을 수 있어.",
+      "하지만 기술·노동·생활 방식이 바뀌고 조직의 이익이 생기면서 그 장벽이 줄어든다는 설명이야. 지금 제약이 있다는 말과 앞으로 확산된다는 말은 시간과 방향이 달라 함께 성립해."
+    ]
   }
 ];
