@@ -6178,5 +6178,2059 @@ window.EXAM_DATA["blank"] = [
     "num": 30,
     "type": "빈칸",
     "source": "2022학년도 6월 모의평가 32번"
+  },
+  {
+    "title": "건물을 쓸 사람에게 설계 과정에서 의견을 묻기",
+    "source": "2026학년도 수능 33번",
+    "photos": [
+      44
+    ],
+    "originalBlank": true,
+    "connectors": [
+      [
+        2,
+        "Similarly / as well as",
+        "의뢰인의 설계 반응을 받는 것이 중요하다.",
+        "미래의 실제 사용자도 참여해야 한다. 의뢰인과 사용자를 같다고 보지 않는다."
+      ],
+      [
+        4,
+        "While",
+        "병원 행정부가 의뢰인일 수 있다.",
+        "그 관점이 상시 사용자인 의료진의 관점과는 다르다."
+      ],
+      [
+        5,
+        "In addition",
+        "행정부와 의료진의 관점 차이를 설명했다.",
+        "비정기적 이용자인 환자·방문객의 다른 경험을 추가한다."
+      ],
+      [
+        7,
+        "if",
+        "좋은 건물은 사용자 경험과 설계 반응을 이해할 때 나온다.",
+        "설계 과정에서 의견을 물은 경우 만족도가 높아질 가능성을 조건으로 제시한다."
+      ]
+    ],
+    "compare": [
+      [
+        "client: 의뢰인",
+        "prospective building users: 향후 사용자",
+        "주체·범위",
+        "병원 행정부는 계약 상대이지만 의료진·환자·방문객까지 대표하는 동일한 경험을 갖지는 않는다."
+      ],
+      [
+        "better building을 만드는 이해",
+        "satisfaction이 커질 가능성",
+        "대상·표현 강도",
+        "S6의 inevitably를 S7의 are likely to에 그대로 옮기면 안 된다. 설계 개선 주장과 만족의 가능성을 구분한다."
+      ]
+    ],
+    "refs": [
+      [
+        2,
+        "clients",
+        "S1의 설계 의뢰인"
+      ],
+      [
+        4,
+        "those",
+        "perspectives; 뒤의 의료진이 가진 관점"
+      ],
+      [
+        6,
+        "each",
+        "각 유형의 사용자"
+      ],
+      [
+        7,
+        "they",
+        "새 건물이나 증축 공간을 사용할 사람들"
+      ],
+      [
+        8,
+        "this",
+        "설계 과정에서 의견을 들은 사용자들의 만족도가 높아지는 앞 문장 내용 전체"
+      ]
+    ],
+    "syntax": [
+      [
+        4,
+        "While절은 양보·대조의 배경이다. 주절 주어 the perspectives of administration personnel → 동사 will differ → 비교 대상 from those of doctors ... . who use the building regularly는 앞의 의료진을 수식한다."
+      ],
+      [
+        6,
+        "주어 Understanding [how ...] as well as [how ...] → 동사 produces → 목적어 a better building. 두 how절은 이해할 내용이며, 주어는 단수 동명사구이므로 produces를 쓴다."
+      ],
+      [
+        7,
+        "if절의 have been consulted는 현재완료 수동태다. 사용자가 직접 설계했다가 아니라 설계 과정에서 의견을 질문받았다는 뜻이다."
+      ]
+    ],
+    "insert": [
+      5,
+      "In addition은 S4의 상시 사용자를 설명한 뒤 비정기적 사용자를 추가한다. 이후 each type of user가 두 종류를 모두 받아 종합하므로 S4와 S6 사이가 자연스럽다."
+    ],
+    "blank": [
+      7,
+      "have been consulted in the design process",
+      "S1의 opportunity to react와 S2의 involving users를 수동 표현으로 바꾼 핵심이다. 직접 설계나 교육을 받았다는 뜻은 아니다."
+    ],
+    "central": "의뢰인뿐 아니라 다양한 실제 사용자의 의견을 설계 과정에서 수렴하면 건물의 질과 만족도, 기관의 성과를 높일 수 있다.",
+    "tip": "사용자가 설계자가 되는 것이 아니라, 설계자가 사용자에게 의견을 묻는 것이다.",
+    "topicEN": "Consulting diverse building users during the design process",
+    "titleEN": "Better Buildings Begin with Listening to Their Users",
+    "answer": "④ 정답. have been consulted는 설계 과정에 사용자의 의견을 반영한다는 전체 흐름을 재진술한다. ① 설계 교육에 여러 차례 참여한다는 조건은 없다. ② 사용자에게 설계안 작성 기회를 준다는 것은 의견 제공을 직접 설계로 바꾼다. ③ 설계자와의 신뢰 관계는 가능해도 핵심 조건인 의견 수렴 자체가 아니다. ⑤ 사용자끼리 관점을 공유하는 것으로 의사소통 상대를 바꾼다. 글은 사용자 의견이 설계 과정에 반영되는 것을 강조한다.",
+    "easy": [
+      "병원을 지을 때 계약을 맡긴 행정부에만 물으면 놓치는 게 많아. 매일 일하는 간호사와 갑자기 응급실에 온 환자가 불편해하는 점은 다를 수 있거든.",
+      "그래서 건물을 실제로 쓸 여러 사람에게 지금 무엇이 불편한지, 새 설계는 어떤지 물어야 해. 그 사람들이 직접 건물을 설계하라는 뜻은 아니야.",
+      "자신의 필요가 반영되면 만족도도 높아질 수 있고, 병원 입장에서도 일의 효율이나 비용에 도움이 된다는 흐름이야."
+    ],
+    "vocab": [
+      [
+        "prospective",
+        "장래의",
+        "아직 사용 전인 미래 이용자"
+      ],
+      [
+        "consult",
+        "의견을 묻다",
+        "사용자 참여의 핵심 동사"
+      ],
+      [
+        "perspective",
+        "관점",
+        "의뢰인과 사용자의 차이"
+      ],
+      [
+        "absenteeism",
+        "결근",
+        "만족 증가의 기관 차원 결과"
+      ],
+      [
+        "turnover",
+        "이직",
+        "여기서는 직원 교체·이직"
+      ],
+      [
+        "translate into",
+        "~로 이어지다",
+        "만족에서 조직 성과로 연결"
+      ]
+    ],
+    "sentences": [
+      {
+        "n": 1,
+        "en": "Giving clients sufficient opportunity to react to your designs while in progress is a key to professional success.",
+        "ko": "설계가 진행 중일 때 의뢰인에게 설계에 반응할 충분한 기회를 주는 것은 전문적인 성공의 핵심이다.",
+        "role": "핵심 주장",
+        "why": "완성 후 평가가 아니라 설계 도중의 의견 수렴을 출발점으로 삼는다.",
+        "literal": "설계가 진행 중일 때 의뢰인에게 설계에 반응할 충분한 기회를 주는 것은 전문적인 성공의 핵심이다."
+      },
+      {
+        "n": 2,
+        "en": "Similarly, involving prospective building users as well as clients is even more valuable in the long run.",
+        "ko": "마찬가지로 의뢰인뿐 아니라 장차 건물을 사용할 사람들을 참여시키는 것은 장기적으로 훨씬 더 가치 있다.",
+        "role": "범위 확장",
+        "why": "의견을 물어야 할 대상을 계약 상대에서 실제 사용자까지 넓힌다.",
+        "literal": "마찬가지로 의뢰인뿐 아니라 장차 건물을 사용할 사람들을 참여시키는 것은 장기적으로 훨씬 더 가치 있다."
+      },
+      {
+        "n": 3,
+        "en": "Say your client is a large corporation, such as a health care provider.",
+        "ko": "의뢰인이 의료 서비스 제공 기관 같은 대기업이라고 해 보자.",
+        "role": "예시 도입",
+        "why": "의뢰인과 사용자가 다를 수 있음을 병원 사례로 보여 주려 한다.",
+        "literal": "의뢰인이 의료 서비스 제공 기관 같은 대기업이라고 해 보자."
+      },
+      {
+        "n": 4,
+        "en": "While the hospital administration may serve as your client, no doubt the perspectives of administration personnel will differ significantly from those of doctors, interns, residents, nurses, and other medical staff who use the building regularly.",
+        "ko": "병원 행정부가 의뢰인 역할을 할 수 있지만, 행정 직원의 관점은 건물을 정기적으로 사용하는 의사·인턴·전공의·간호사와 다른 의료진의 관점과 분명 크게 다를 것이다.",
+        "role": "대조·근거",
+        "why": "의뢰인의 의견만 듣는 것으로 사용자 전체를 이해할 수 없는 첫 이유다.",
+        "literal": "병원 행정부가 의뢰인 역할을 할 수 있지만, 행정 직원의 관점은 건물을 정기적으로 사용하는 의사·인턴·전공의·간호사와 다른 의료진의 관점과 분명 크게 다를 것이다."
+      },
+      {
+        "n": 5,
+        "en": "In addition, the experiences of patients and visitors who use the building irregularly, often as a result of life-threatening emergencies, are altogether different as well.",
+        "ko": "게다가 흔히 생명을 위협하는 응급 상황 때문에 건물을 비정기적으로 사용하는 환자와 방문객의 경험 역시 완전히 다르다.",
+        "role": "추가 근거",
+        "why": "상시 근무자 외에 일시적인 이용자까지 포함해야 한다고 범위를 더 넓힌다.",
+        "literal": "게다가 흔히 생명을 위협하는 응급 상황 때문에 건물을 비정기적으로 사용하는 환자와 방문객의 경험 역시 완전히 다르다."
+      },
+      {
+        "n": 6,
+        "en": "Understanding how each type of user experiences the current medical environment as well as how each reacts to your prospective designs inevitably produces a better building.",
+        "ko": "각 유형의 사용자가 현재 의료 환경을 어떻게 경험하는지뿐 아니라 제안된 설계에 각각 어떻게 반응하는지도 이해하면 필연적으로 더 나은 건물이 만들어진다.",
+        "role": "종합·결과",
+        "why": "다양한 관점의 수집이 설계 개선으로 이어지는 이유를 일반화한다.",
+        "literal": "각 유형의 사용자가 현재 의료 환경을 어떻게 경험하는지뿐 아니라 제안된 설계에 각각 어떻게 반응하는지도 이해하면 필연적으로 더 나은 건물이 만들어진다."
+      },
+      {
+        "n": 7,
+        "en": "People are likely to be more satisfied with a new building or addition if they have been consulted in the design process.",
+        "ko": "사람들은 설계 과정에서 자신의 의견을 질문받았다면 새 건물이나 증축 공간에 더 만족할 가능성이 크다.",
+        "role": "핵심 결과",
+        "why": "참여가 만족을 높인다는 조건을 빈칸 문장으로 정리한다.",
+        "literal": "사람들은 설계 과정에서 자신의 의견을 질문받았다면 새 건물이나 증축 공간에 더 만족할 가능성이 크다."
+      },
+      {
+        "n": 8,
+        "en": "For a large institution, this can translate into increased productivity on the job, reduced absenteeism, less turnover, and lower costs.",
+        "ko": "큰 기관에서는 이것이 업무 생산성 증가, 결근 감소, 이직 감소, 비용 절감으로 이어질 수 있다.",
+        "role": "파급 효과",
+        "why": "사용자 만족이 기관에도 이익이라는 장기적 이유로 마무리한다.",
+        "literal": "큰 기관에서는 이것이 업무 생산성 증가, 결근 감소, 이직 감소, 비용 절감으로 이어질 수 있다."
+      }
+    ],
+    "flow": [
+      [
+        "진행 중 설계에 의견을 받기",
+        1,
+        2,
+        "의뢰인에게 유익하다면 실제 사용자 참여는 어떤 가치가 있는지 범위를 넓힌다."
+      ],
+      [
+        "서로 다른 병원 이용자의 관점",
+        3,
+        5,
+        "행정부·의료진·환자의 차이로 다양한 의견이 필요한 이유를 보여 준다."
+      ],
+      [
+        "경험과 반응을 반영한 설계 개선",
+        6,
+        6,
+        "다른 관점들을 이해하면 건물 개선과 만족이라는 결과로 이어진다."
+      ],
+      [
+        "참여자의 만족과 기관의 이익",
+        7,
+        8,
+        "만족이 생산성과 비용까지 바꿀 수 있어 장기적 가치를 뒷받침한다."
+      ]
+    ],
+    "order": [
+      [
+        1,
+        2,
+        "A · 진행 중 설계에 의견을 받기"
+      ],
+      [
+        3,
+        6,
+        "B · 논리의 전개"
+      ],
+      [
+        7,
+        8,
+        "C · 참여자의 만족과 기관의 이익"
+      ]
+    ],
+    "turns": [
+      2
+    ],
+    "id": "blank-31",
+    "num": 31,
+    "type": "빈칸"
+  },
+  {
+    "title": "합리적으로 선택할 법은 자유를 제약하는가",
+    "source": "2026학년도 수능 34번",
+    "photos": [
+      44
+    ],
+    "originalBlank": true,
+    "connectors": [
+      [
+        1,
+        "not only ... but also",
+        "법이 안전과 평화를 보장한다.",
+        "그 보장 범위에 자유도 더한다."
+      ],
+      [
+        3,
+        "However",
+        "칸트는 사회의 합리적 발전을 믿었다.",
+        "그 믿음의 근거가 낙관적 인간관이라는 해석을 부정한다."
+      ],
+      [
+        4,
+        "On the contrary",
+        "인간의 선함에 근거한다는 설명을 부정했다.",
+        "갈등적인 본성 때문에 법이 필요하다는 반대 근거를 세운다."
+      ],
+      [
+        5,
+        "but even",
+        "사람들의 선의는 믿을 수 없다.",
+        "그래도 동등한 법 체계는 극단적으로 악한 집단에도 조화를 가능하게 한다."
+      ],
+      [
+        7,
+        "If ... then",
+        "이상적 법은 합리적 존재가 자유롭게 고를 원칙을 구현한다.",
+        "그런 법이 합리적으로 원하지 않을 행동만 금지한다면 자유 제한으로 볼 수 없다고 결론 낸다."
+      ]
+    ],
+    "compare": [
+      [
+        "법이 행동을 구속함",
+        "법이 자유를 보장함",
+        "조건·행동의 대상",
+        "아무 법이나 자유를 보장한다는 말이 아니다. S6~7의 이상적 법이 합리적으로 선택하지 않을 행동을 금지한다는 조건에서 구속과 자유가 양립한다."
+      ],
+      [
+        "사회 진보에 대한 믿음",
+        "인간 본성에 대한 낙관",
+        "대상·근거",
+        "사회는 법 제도로 나아질 수 있지만 개개인의 본성이 선하다고 믿을 필요는 없다. 두 낙관의 대상이 다르다."
+      ]
+    ],
+    "refs": [
+      [
+        2,
+        "He",
+        "Kant"
+      ],
+      [
+        2,
+        "such frameworks",
+        "effective and binding legal frameworks"
+      ],
+      [
+        4,
+        "it",
+        "칸트의 인간 본성에 대한 관점; 낙관적 인간관이 아니라는 S3의 논지"
+      ],
+      [
+        6,
+        "those political principles",
+        "뒤의 that절로 한정되는, 모든 합리적 존재가 자유롭게 선택할 정치 원칙"
+      ],
+      [
+        7,
+        "such laws",
+        "S6의 합리적 존재가 자유롭게 선택할 원칙을 구현하는 이상적 법"
+      ],
+      [
+        7,
+        "them / they / their",
+        "all rational beings"
+      ]
+    ],
+    "syntax": [
+      [
+        4,
+        "주어 man’s violent and conflict-prone nature → 동사 makes → 가목적어 it → 목적격 보어 necessary → 진목적어 to establish and maintain ... . in order to secure peace는 법 체계를 세우고 유지하는 목적이다."
+      ],
+      [
+        7,
+        "If절 주어 such laws → 동사 forbid → 목적어 them → to do something. that they would not ...는 something을 수식한다. 주절 cannot be understood는 수동태이며 as a restriction은 어떤 것으로 이해되는지 나타낸다."
+      ]
+    ],
+    "insert": [
+      6,
+      "Ideally로 이상적 법의 내용을 정의해야 S7의 such laws가 무엇인지 분명해진다. S5의 동등한 법 체계와 S7의 자유 관련 결론 사이에서 논리를 연결한다."
+    ],
+    "blank": [
+      7,
+      "understood as a restriction on their freedom",
+      "법이 금지하는 것은 합리적 존재가 어차피 선택하지 않을 행동이므로, 조건 아래서는 자유를 제한한다는 해석을 부정한다. cannot을 함께 읽어야 한다."
+    ],
+    "central": "칸트의 관점에서 갈등적인 인간에게 법치는 필요하며, 합리적 존재가 자유롭게 선택할 원칙을 구현하는 이상적 법은 그들의 자유를 제한하는 것으로 볼 수 없다.",
+    "tip": "빈칸 앞 cannot과 If의 조건을 함께 읽자. 모든 현실의 법이 언제나 자유롭다는 일반화는 금물이다.",
+    "topicEN": "The compatibility of rational legal constraints and freedom in Kant’s view",
+    "titleEN": "Rational Law: Binding Conduct, Guaranteeing Freedom",
+    "answer": "③ 정답. cannot과 결합해 “자유의 제약으로 이해될 수 없다”가 되어야 한다. ① human liberty와 confining이 비슷해 보여도 reasonably는 금지가 합리적이라는 논지를 부정하는 방향으로 cannot에 걸린다. ② 법이 사법 체계의 강한 옹호자로 보일 수 없다는 것은 논점과 맞지 않는다. ④ 법을 효과적으로 집행할 수 없다는 결과를 말하지 않는다. ⑤ 이상적 법의 틀 안에서 받아들일 수 없다고 하면 S6의 정의와 뒤집힌다.",
+    "easy": [
+      "법은 하지 말라는 게 많으니 자유와 반대처럼 보이지. 그런데 이 글은 합리적인 사람들이 스스로 고를 원칙을 담은 법이라면 자유를 보장할 수도 있다고 말해.",
+      "그렇다고 칸트가 인간을 모두 착하다고 믿은 건 아니야. 오히려 싸우기 쉬운 사람들이 함께 살려면 모두에게 같은 법이 필요하다는 거야.",
+      "마지막은 조건부야. 내가 합리적으로도 하지 않을 행동을 그런 법이 금지한다면, 내가 자유롭게 선택하려던 것을 빼앗는 금지로 볼 수 없다는 설명이지."
+    ],
+    "vocab": [
+      [
+        "binding",
+        "구속력 있는",
+        "법 체계의 효력"
+      ],
+      [
+        "benevolence",
+        "자비",
+        "질서의 충분한 근거로 믿을 수 없는 선의"
+      ],
+      [
+        "embodiment",
+        "구현",
+        "추상 원칙을 법으로 구체화"
+      ],
+      [
+        "restriction",
+        "제약",
+        "cannot과 결합하는 결론 핵심"
+      ],
+      [
+        "count on",
+        "의존하다",
+        "선의에 기대는 태도"
+      ],
+      [
+        "conflict-prone",
+        "갈등을 일으키기 쉬운",
+        "법이 필요한 인간 본성"
+      ]
+    ],
+    "sentences": [
+      {
+        "n": 1,
+        "en": "Kant was a strong defender of the rule of law as the ultimate guarantee, not only of security and peace, but also of freedom.",
+        "ko": "칸트는 법치를 안전과 평화뿐 아니라 자유까지 궁극적으로 보장하는 것으로 강하게 옹호했다.",
+        "role": "핵심 관점 소개",
+        "why": "법이 자유를 보장할 수 있다는, 빈칸까지 이어질 역설적인 논점을 세운다.",
+        "literal": "칸트는 법치를 안전과 평화뿐 아니라 자유까지 궁극적으로 보장하는 것으로 강하게 옹호했다."
+      },
+      {
+        "n": 2,
+        "en": "He believed that human societies were moving towards more rational forms regulated by effective and binding legal frameworks because only such frameworks enabled people to live in harmony, to prosper and to co-operate.",
+        "ko": "그는 오직 효과적이고 구속력 있는 법적 체계만이 사람들이 조화롭게 살고 번영하며 협력하게 하므로, 인간 사회가 그러한 체계로 규율되는 더 합리적인 형태로 나아간다고 믿었다.",
+        "role": "이유·설명",
+        "why": "법치가 사회를 발전시키는 제도적 조건임을 설명한다.",
+        "literal": "그는 오직 효과적이고 구속력 있는 법적 체계만이 사람들이 조화롭게 살고 번영하며 협력하게 하므로, 인간 사회가 그러한 체계로 규율되는 더 합리적인 형태로 나아간다고 믿었다."
+      },
+      {
+        "n": 3,
+        "en": "However, his belief in inevitable progress was not based on an optimistic or high-minded view of human nature.",
+        "ko": "그러나 필연적인 진보에 대한 그의 믿음은 인간 본성에 대한 낙관적이거나 고결한 관점에 근거하지 않았다.",
+        "role": "오해 차단",
+        "why": "사회가 진보한다는 믿음을 인간은 선하다는 전제와 구별한다.",
+        "literal": "그러나 필연적인 진보에 대한 그의 믿음은 인간 본성에 대한 낙관적이거나 고결한 관점에 근거하지 않았다."
+      },
+      {
+        "n": 4,
+        "en": "On the contrary, it comes close to Hobbes’s outlook: man’s violent and conflict-prone nature makes it necessary to establish and maintain an effective legal framework in order to secure peace.",
+        "ko": "오히려 그것은 홉스의 관점에 가깝다. 인간의 폭력적이고 갈등을 일으키기 쉬운 본성 때문에 평화를 확보하려면 효과적인 법적 체계를 수립하고 유지하는 일이 필요하다.",
+        "role": "반대 근거 제시",
+        "why": "법이 필요한 이유는 인간의 선함이 아니라 갈등 성향임을 정확히 뒤집어 설명한다.",
+        "literal": "오히려 그것은 홉스의 관점에 가깝다. 인간의 폭력적이고 갈등을 일으키기 쉬운 본성 때문에 평화를 확보하려면 효과적인 법적 체계를 수립하고 유지하는 일이 필요하다."
+      },
+      {
+        "n": 5,
+        "en": "We cannot count on people’s benevolence or goodwill, but even ‘a nation of devils’ can live in harmony in a legal system that binds every citizen equally.",
+        "ko": "우리는 사람들의 자비나 선의에 의존할 수 없지만, 모든 시민을 동등하게 구속하는 법 체계에서는 심지어 ‘악마들의 나라’도 조화롭게 살 수 있다.",
+        "role": "구체화·강조",
+        "why": "선한 사람이 아니어도 동등한 법의 구속으로 질서가 가능함을 극단적 예로 강조한다.",
+        "literal": "우리는 사람들의 자비나 선의에 의존할 수 없지만, 모든 시민을 동등하게 구속하는 법 체계에서는 심지어 ‘악마들의 나라’도 조화롭게 살 수 있다."
+      },
+      {
+        "n": 6,
+        "en": "Ideally, the law is the embodiment of those political principles that all rational beings would freely choose.",
+        "ko": "이상적으로 법은 모든 합리적 존재가 자유롭게 선택할 정치적 원칙의 구현이다.",
+        "role": "자유와의 연결",
+        "why": "앞의 법적 구속 논의를 처음의 자유 보장 주장에 연결할 조건을 제시한다.",
+        "literal": "이상적으로 법은 모든 합리적 존재가 자유롭게 선택할 정치적 원칙의 구현이다."
+      },
+      {
+        "n": 7,
+        "en": "If such laws forbid them to do something that they would not rationally choose to do anyway, then the law cannot be understood as a restriction on their freedom.",
+        "ko": "그러한 법이 그들에게 어차피 합리적으로 선택하지 않을 일을 하지 못하게 한다면, 그 법은 그들의 자유를 제한하는 것으로 이해될 수 없다.",
+        "role": "조건부 결론",
+        "why": "자유로운 합리적 선택과 일치하는 금지는 자유의 제약이 아니라는 논리를 완성한다.",
+        "literal": "그러한 법이 그들에게 어차피 합리적으로 선택하지 않을 일을 하지 못하게 한다면, 그 법은 그들의 자유를 제한하는 것으로 이해될 수 없다."
+      }
+    ],
+    "flow": [
+      [
+        "법치는 평화와 자유를 보장",
+        1,
+        2,
+        "사회 발전을 가능하게 하는 법의 역할을 설명한 뒤 그 근거를 따져 본다."
+      ],
+      [
+        "진보가 인간의 선함을 전제하지 않음",
+        3,
+        3,
+        "낙관적 인간관을 부정했으므로 법이 필요한 실제 이유를 이어 제시한다."
+      ],
+      [
+        "갈등 성향을 다루는 동등한 법",
+        4,
+        5,
+        "구속력 있는 법이 어떻게 자유와 양립하는지 추가 설명이 필요해진다."
+      ],
+      [
+        "합리적 선택과 일치하는 법의 금지",
+        6,
+        7,
+        "이상적 법의 내용을 정의한 뒤 그 조건 아래 자유 제한이 아니라는 결론을 낸다."
+      ]
+    ],
+    "order": [
+      [
+        1,
+        2,
+        "A · 법치는 평화와 자유를 보장"
+      ],
+      [
+        3,
+        5,
+        "B · 논리의 전개"
+      ],
+      [
+        6,
+        7,
+        "C · 합리적 선택과 일치하는 법의 금지"
+      ]
+    ],
+    "turns": [
+      3
+    ],
+    "id": "blank-32",
+    "num": 32,
+    "type": "빈칸"
+  },
+  {
+    "title": "공감이 갈등을 오히려 키울 수 있다는 비판",
+    "source": "2026학년도 9월 모의평가 32번",
+    "photos": [
+      44,
+      45
+    ],
+    "originalBlank": true,
+    "connectors": [
+      [
+        1,
+        "Although",
+        "공감은 사회적으로 널리 칭찬받는다.",
+        "모든 사람이 지지하지는 않는다고 비판적 관점을 연다."
+      ],
+      [
+        3,
+        "In fact",
+        "공감은 갈등을 구해 주지 못한다.",
+        "갈등을 더 악화시킬 수 있다는 강한 주장으로 나아간다."
+      ],
+      [
+        6,
+        "Thus",
+        "공감은 소진을 낳고 우리 편에게 편향될 수 있다.",
+        "더 많이 공감하라는 처방이 갈등에서 역효과를 낸다는 결론을 낸다."
+      ],
+      [
+        8,
+        "Finally / even when",
+        "내집단 편향이 대립을 강화한다고 설명했다.",
+        "마지막으로 편향을 넘으려 애써도 상대 경험을 정확하게 이해하지 못할 수 있음을 양보 구조로 추가한다."
+      ]
+    ],
+    "compare": [
+      [
+        "널리 칭찬받는 공감",
+        "갈등을 악화시킨다는 공감 비판",
+        "발화 주체·범위",
+        "S1 앞부분은 통념이고 이후는 비판자들의 논지다. 글이 서로 반대되는 말을 동시에 사실로 단정한 것이 아니다."
+      ],
+      [
+        "내집단에 대한 강한 공감",
+        "집단을 넘는 사회적 조화",
+        "대상·범위",
+        "우리 편에게 더 공감하는 것이 모두를 이해하는 것과 같지는 않다. 일부를 향한 공감이 전체 갈등을 키울 수 있다."
+      ],
+      [
+        "공감하려는 시도",
+        "상대 경험에 대한 정확한 이해",
+        "목적·결과",
+        "S8은 선한 의도 자체를 부정하지 않지만 그 의도가 정확한 공감이라는 결과를 보장하지 않는다고 말한다."
+      ]
+    ],
+    "refs": [
+      [
+        3,
+        "they",
+        "Critics of empathy"
+      ],
+      [
+        3,
+        "such conflicts",
+        "interpersonal and intergroup conflict"
+      ],
+      [
+        4,
+        "These critics",
+        "앞서 공감의 갈등 해결 효과를 비판한 사람들"
+      ],
+      [
+        5,
+        "They",
+        "공감 비판자들"
+      ],
+      [
+        8,
+        "their experiences",
+        "우리와 다르거나 낯선 상황에 있는 타인들의 경험"
+      ]
+    ],
+    "syntax": [
+      [
+        5,
+        "주어 They → 동사 argue → 목적어 that절. that절 안에서 we tend to [empathize ... / resist ... / even enjoy ...]가 병렬이다. resist 뒤에는 동명사 empathizing을 쓴다."
+      ],
+      [
+        8,
+        "even when절은 양보적 상황이다. 주절 we are unable to accurately empathize ... 뒤의 causing ...은 그 실패가 낳는 결과를 나타내는 분사구문이다. who are dissimilar ...는 others를 수식한다."
+      ]
+    ],
+    "insert": [
+      6,
+      "Thus는 소진·내집단 편향의 근거 뒤에 와야 한다. 이어지는 S7의 further entrench conflict가 빈칸의 counterproductive를 풀어 주므로 S5와 S7 사이가 자연스럽다."
+    ],
+    "blank": [
+      6,
+      "is often counterproductive in cases of conflict",
+      "S3 makes such conflicts worse와 S7 further entrench conflict가 같은 방향의 재진술이다. 공감 확대가 해결책이라는 통념과 반대다."
+    ],
+    "central": "공감 비판자들은 공감이 소진·집단 편향·오해를 통해 갈등을 오히려 심화시킬 수 있으므로 사회적 조화를 위한 다른 도구가 필요하다고 주장한다.",
+    "tip": "they argue와 critics의 반복을 따라 비판자의 주장임을 유지하고, often·can·sometimes를 always로 확대하지 말자.",
+    "topicEN": "Critics’ arguments that greater empathy can worsen conflict",
+    "titleEN": "When More Empathy Deepens Division",
+    "answer": "③ 정답. counterproductive는 갈등을 악화시킨다는 S3·S7을 포괄한다. ① 보이지 않는 집단 내부 갈등만으로 범위를 좁힌다. 본문은 집단 간 편향도 핵심 근거다. ② 해결책의 필요가 처방을 촉발한다는 동기 설명으로 처방의 부정적 효과를 바꾼다. ④ 사회적 불화를 해결한다는 것은 비판자들의 주장과 긍정·부정이 반대다. ⑤ 사회적 불화에 대한 부정적 태도를 의문시하는 것이 아니라, 공감 확대 처방의 효과를 의문시한다.",
+    "easy": [
+      "“서로 더 공감하면 싸움이 줄겠지”라는 생각에 반대하는 사람들의 주장이야. 그들의 말로는 우리 편에만 공감하면 상대편을 더 미워하게 될 수도 있어.",
+      "공감 때문에 지치기도 하고, 낯선 사람의 마음을 이해하려다가 잘못 짐작해 오해를 더 만들 수도 있다고 해.",
+      "그래서 이 비판자들은 공감을 무조건 늘리기보다 다른 방법을 찾자고 해. 모든 공감이 언제나 나쁘다는 절대 명제로 읽지는 말자."
+    ],
+    "vocab": [
+      [
+        "empathy",
+        "공감",
+        "통념과 비판의 공통 대상"
+      ],
+      [
+        "counterproductive",
+        "역효과를 내는",
+        "빈칸의 결론"
+      ],
+      [
+        "entrench",
+        "고착시키다",
+        "갈등 악화의 구체적 방향"
+      ],
+      [
+        "compassion",
+        "연민",
+        "비판자들이 대안으로 드는 태도"
+      ],
+      [
+        "in-group",
+        "내집단",
+        "선택적 공감의 대상"
+      ],
+      [
+        "insensitivity",
+        "무감각",
+        "소진이 낳을 수 있는 부작용"
+      ]
+    ],
+    "sentences": [
+      {
+        "n": 1,
+        "en": "Although empathy is widely praised by scholars and public figures, not everyone is an empathy booster.",
+        "ko": "공감은 학자와 공인들에게 널리 찬사를 받지만, 모든 사람이 공감을 적극 지지하는 것은 아니다.",
+        "role": "통념과 문제 제기",
+        "why": "공감 예찬을 먼저 인정하면서 반대하는 관점으로 초점을 옮긴다.",
+        "literal": "공감은 학자와 공인들에게 널리 찬사를 받지만, 모든 사람이 공감을 적극 지지하는 것은 아니다."
+      },
+      {
+        "n": 2,
+        "en": "Critics of empathy argue that empathy will not save us from interpersonal and intergroup conflict.",
+        "ko": "공감을 비판하는 사람들은 공감이 개인 간 및 집단 간 갈등에서 우리를 구해 주지 못할 것이라고 주장한다.",
+        "role": "비판적 주장 소개",
+        "why": "첫 문장의 반대자가 구체적으로 무엇을 문제 삼는지 밝힌다.",
+        "literal": "공감을 비판하는 사람들은 공감이 개인 간 및 집단 간 갈등에서 우리를 구해 주지 못할 것이라고 주장한다."
+      },
+      {
+        "n": 3,
+        "en": "In fact, they argue, empathy makes such conflicts worse.",
+        "ko": "실제로 그들은 공감이 그러한 갈등을 더 악화시킨다고 주장한다.",
+        "role": "강화·반전",
+        "why": "도움이 없다는 수준을 넘어 해로울 수도 있다는 더 강한 주장으로 나아간다.",
+        "literal": "실제로 그들은 공감이 그러한 갈등을 더 악화시킨다고 주장한다."
+      },
+      {
+        "n": 4,
+        "en": "These critics maintain that empathy can be exhausting and lead to burnout, insensitivity to suffering, or worse.",
+        "ko": "이 비판자들은 공감이 소모적일 수 있고 소진이나 고통에 대한 무감각, 또는 더 나쁜 결과로 이어질 수 있다고 주장한다.",
+        "role": "첫 근거",
+        "why": "공감의 과도한 부담이라는 개인 차원의 부작용을 설명한다.",
+        "literal": "이 비판자들은 공감이 소모적일 수 있고 소진이나 고통에 대한 무감각, 또는 더 나쁜 결과로 이어질 수 있다고 주장한다."
+      },
+      {
+        "n": 5,
+        "en": "They argue that we tend to empathize strongly with our in-group and resist empathizing with out-groups, and even enjoy the suffering of out-groups in competitive or threatening contexts.",
+        "ko": "그들은 우리가 내집단에는 강하게 공감하면서 외집단에 공감하기는 꺼리는 경향이 있고, 경쟁적이거나 위협적인 상황에서는 외집단의 고통을 즐기기까지 한다고 주장한다.",
+        "role": "둘째 근거",
+        "why": "공감이 선택적으로 향하기 때문에 집단 갈등을 강화할 수 있음을 설명한다.",
+        "literal": "그들은 우리가 내집단에는 강하게 공감하면서 외집단에 공감하기는 꺼리는 경향이 있고, 경쟁적이거나 위협적인 상황에서는 외집단의 고통을 즐기기까지 한다고 주장한다."
+      },
+      {
+        "n": 6,
+        "en": "Thus, the prescription for more empathy is often counterproductive in cases of conflict.",
+        "ko": "따라서 더 많이 공감하라는 처방은 갈등 상황에서 흔히 역효과를 낸다.",
+        "role": "중간 결론",
+        "why": "공감의 부담과 집단 편향을 종합해 공감 확대 처방을 비판한다.",
+        "literal": "따라서 더 많이 공감하라는 처방은 갈등 상황에서 흔히 역효과를 낸다."
+      },
+      {
+        "n": 7,
+        "en": "Empathy, they argue, can further entrench conflict and force us into an us vs. them mentality.",
+        "ko": "그들의 주장에 따르면 공감은 갈등을 더 고착시키고 우리를 ‘우리 대 그들’이라는 사고방식으로 몰아넣을 수 있다.",
+        "role": "결론의 구체화",
+        "why": "역효과가 무엇인지 집단 대립의 강화로 풀어 설명한다.",
+        "literal": "그들의 주장에 따르면 공감은 갈등을 더 고착시키고 우리를 ‘우리 대 그들’이라는 사고방식으로 몰아넣을 수 있다."
+      },
+      {
+        "n": 8,
+        "en": "Finally, even when we try to empathize with others who are dissimilar from us or in unfamiliar contexts, sometimes we are unable to accurately empathize with their experiences, causing further misunderstandings and frustration.",
+        "ko": "마지막으로 우리와 다른 타인이나 낯선 맥락에서 공감하려고 애쓰더라도, 때로는 그들의 경험에 정확히 공감하지 못해 오해와 좌절을 더 일으킨다.",
+        "role": "셋째 근거·양보",
+        "why": "외집단에도 공감하려는 좋은 의도가 있어도 정확성의 문제가 남는다고 보충한다.",
+        "literal": "마지막으로 우리와 다른 타인이나 낯선 맥락에서 공감하려고 애쓰더라도, 때로는 그들의 경험에 정확히 공감하지 못해 오해와 좌절을 더 일으킨다."
+      },
+      {
+        "n": 9,
+        "en": "Critics of empathy argue that we should give up on empathy and employ other tools in pursuit of social harmony, e.g., rational compassion or moral emotions like fear, anger, and shame.",
+        "ko": "공감 비판자들은 우리가 공감에 기대는 것을 포기하고 사회적 조화를 추구하기 위해 합리적 연민이나 두려움·분노·수치심 같은 도덕적 감정 등 다른 도구를 사용해야 한다고 주장한다.",
+        "role": "비판자들의 대안",
+        "why": "단순히 공감을 비판하는 데서 끝내지 않고 그들이 제안하는 대안으로 마무리한다.",
+        "literal": "공감 비판자들은 우리가 공감에 기대는 것을 포기하고 사회적 조화를 추구하기 위해 합리적 연민이나 두려움·분노·수치심 같은 도덕적 감정 등 다른 도구를 사용해야 한다고 주장한다."
+      }
+    ],
+    "flow": [
+      [
+        "공감 예찬과 반대 관점",
+        1,
+        2,
+        "공감을 반대하는 이유를 알기 위해 갈등에 대한 비판자들의 주장을 소개한다."
+      ],
+      [
+        "소진과 내집단 편향",
+        3,
+        5,
+        "도움이 없는 수준을 넘어 악화시킨다는 주장에 구체적인 이유를 붙인다."
+      ],
+      [
+        "더 많은 공감 처방의 역효과",
+        6,
+        7,
+        "앞의 근거를 집단 대립의 고착으로 종합한 뒤 또 다른 한계를 덧붙인다."
+      ],
+      [
+        "정확한 공감의 어려움과 대안",
+        8,
+        9,
+        "선한 시도도 오해를 만들 수 있어 비판자들이 다른 도구를 제안한다."
+      ]
+    ],
+    "order": [
+      [
+        1,
+        2,
+        "A · 공감 예찬과 반대 관점"
+      ],
+      [
+        3,
+        7,
+        "B · 논리의 전개"
+      ],
+      [
+        8,
+        9,
+        "C · 정확한 공감의 어려움과 대안"
+      ]
+    ],
+    "turns": [
+      6
+    ],
+    "id": "blank-33",
+    "num": 33,
+    "type": "빈칸"
+  },
+  {
+    "title": "공정한 집단 선택에 추첨이 필요한 이유",
+    "source": "2026학년도 9월 모의평가 34번",
+    "photos": [
+      45
+    ],
+    "originalBlank": true,
+    "connectors": [
+      [
+        2,
+        "For example",
+        "특정 경우에는 동률 해소 수단이 필요하다.",
+        "두 사람과 두 대안의 대칭적인 선호 상황을 구체적으로 제시한다."
+      ],
+      [
+        3,
+        "whereas",
+        "익명성은 누가 선택하느냐에 좌우되지 말라는 조건이다.",
+        "중립성은 어떤 대안이냐에 따라 편애하지 말라는 조건이다. 보호 대상의 차이를 대조한다."
+      ],
+      [
+        4,
+        "hence",
+        "공정한 결정론적 단일 선택이 불가능한 대칭 사례가 있다.",
+        "그래서 공정한 집단 선택을 위해 추첨을 허용할 필요가 있다고 결론 낸다."
+      ],
+      [
+        5,
+        "Indeed / as long as",
+        "추첨의 필요성을 이론적으로 설명했다.",
+        "일반적인 최다 득표제도 동률이 없을 때에만 결정론적이라는 조건을 실제 규칙으로 확인한다."
+      ]
+    ],
+    "compare": [
+      [
+        "anonymity: 익명성",
+        "neutrality: 중립성",
+        "대상",
+        "익명성은 투표자의 정체성, 중립성은 대안의 정체성에 대한 비편향이다. 둘을 같은 조건으로 합치면 안 된다."
+      ],
+      [
+        "결정론적 투표 규칙",
+        "동률일 때의 추첨",
+        "조건",
+        "동률이 없으면 득표 규칙이 답을 정하지만 동률이면 추첨을 덧붙일 수 있다. 규칙이 동시에 결정론적이고 무작위적이라는 모순이 아니라 적용 조건이 다르다."
+      ],
+      [
+        "특정 대칭 사례",
+        "모든 집단 결정",
+        "범위",
+        "certain cases와 as long as를 보면 모든 결정을 반드시 추첨하라는 주장이 아니다."
+      ]
+    ],
+    "refs": [
+      [
+        2,
+        "the other one",
+        "두 행위자 중 b를 선호하는 다른 한 명; 뒤의 prefers는 생략됨"
+      ],
+      [
+        3,
+        "the agents’ identities",
+        "S2의 선택에 참여하는 두 사람의 정체성"
+      ],
+      [
+        5,
+        "which",
+        "바로 앞의 a tie: 동률"
+      ],
+      [
+        6,
+        "where",
+        "Athens"
+      ],
+      [
+        6,
+        "it",
+        "공직자 선발에 추첨을 사용하는 관행"
+      ]
+    ],
+    "syntax": [
+      [
+        2,
+        "there is no deterministic way ... without violating ...은 두 조건을 지키면서 결정론적으로 하나를 고르는 방법이 없다는 구조다. such that절은 two agents가 가진 선호 관계를 설명한다."
+      ],
+      [
+        3,
+        "requires that절의 be independent of는 사람의 정체성과 무관함을 뜻한다. whereas 뒤에는 neutrality requires impartiality로 별도의 주어·동사가 온다."
+      ],
+      [
+        6,
+        "주어 The use of lotteries for the selection of officials → 동사 goes back / has ... gained. where절은 Athens를 설명하며 두 본동사의 병렬을 끊는 삽입 수식이다."
+      ]
+    ],
+    "insert": [
+      3,
+      "S2에서 이름만 제시한 anonymity and neutrality를 각각 정의한다. 이 정의를 읽어야 S4의 impartial collective choice와 추첨 해법이 왜 필요한지 이해되므로 S2 뒤가 자연스럽다."
+    ],
+    "blank": [
+      1,
+      "call for randomization or other means of tiebreaking",
+      "대칭 사례, lotteries, drawing a lot이 반복되며 빈칸의 무작위화·동률 해소를 구체화한다. 마지막 민주주의 역사는 보충 사례다."
+    ],
+    "central": "집단 선택에서 사람과 대안에 대한 공정성을 지키려면 동률 같은 특정 상황에서 추첨 등 무작위적 결정 절차가 필요할 수 있다.",
+    "tip": "익명성은 사람, 중립성은 대안에 대한 공정성이다. 추첨의 필요를 모든 투표의 무작위화로 확대하지 말자.",
+    "topicEN": "Randomization as a way to preserve fairness in collective choice",
+    "titleEN": "Why Fair Collective Decisions Sometimes Need a Lottery",
+    "answer": "① 정답. 추첨은 사람이나 대안을 미리 우대하지 않고 동률을 해결하는 수단이다. ② 공정한 선택이 무효화되는 방식의 증명이 아니라 공정성을 유지할 해법이 핵심이다. ③ 결정론적 체계의 필요로 바꾸면 본문의 한계 지적과 반대이며, voters를 선발한다는 것은 대안 선택과도 다르다. ④ 중립적인 행위자에게 지침을 맡기라는 대안은 없다. ⑤ 민주주의의 예측 불가능성에 대한 이해는 마지막 역사 사례를 중심 주장으로 확대한다.",
+    "easy": [
+      "두 사람이 두 메뉴를 고르는데 한 명은 A, 다른 한 명은 B를 원한다고 해 보자. 특정 사람의 말을 무조건 따르거나 A를 항상 고르면 한쪽을 우대하는 셈이야.",
+      "여기서 “누가 말했는지로 차별하지 않기”가 익명성이고, “어떤 메뉴인지로 편애하지 않기”가 중립성이야. 그런 대칭 상황에서는 추첨이 해법이 될 수 있어.",
+      "득표수가 다르면 투표 규칙대로 고르면 되고, 같을 때 추첨을 붙이면 돼. 모든 결정을 추첨하라는 글은 아니야."
+    ],
+    "vocab": [
+      [
+        "anonymity",
+        "익명성",
+        "행위자의 정체성에 좌우되지 않는 조건"
+      ],
+      [
+        "neutrality",
+        "중립성",
+        "대안에 대한 공정성"
+      ],
+      [
+        "impartiality",
+        "공정성",
+        "추첨을 허용하는 목적"
+      ],
+      [
+        "deterministic",
+        "결정론적인",
+        "조건이 주어지면 결과가 정해지는 방식"
+      ],
+      [
+        "tiebreaking",
+        "동률 해소",
+        "추첨이 필요한 상황"
+      ],
+      [
+        "lottery",
+        "추첨",
+        "공정한 선택의 한 수단"
+      ]
+    ],
+    "sentences": [
+      {
+        "n": 1,
+        "en": "When gathering the preferences of multiple agents into one collective choice, it is easily seen that certain cases call for randomization or other means of tiebreaking.",
+        "ko": "여러 행위자의 선호를 하나의 집단적 선택으로 모을 때, 특정한 경우에는 무작위화나 동률을 해소할 다른 수단이 필요하다는 것을 쉽게 알 수 있다.",
+        "role": "핵심 주장",
+        "why": "집단의 선택을 만들 때 결정적인 규칙만으로 충분하지 않은 경우를 제시한다.",
+        "literal": "여러 행위자의 선호를 하나의 집단적 선택으로 모을 때, 특정한 경우에는 무작위화나 동률을 해소할 다른 수단이 필요하다는 것을 쉽게 알 수 있다."
+      },
+      {
+        "n": 2,
+        "en": "For example, if there are two alternatives, a and b, and two agents such that one prefers a and the other one b, there is no deterministic way of selecting a single alternative without violating one of two basic fairness conditions known as anonymity and neutrality.",
+        "ko": "예를 들어 대안 a와 b가 있고 두 행위자 중 한 명은 a를, 다른 한 명은 b를 선호한다면, 익명성과 중립성이라는 두 기본 공정성 조건 중 하나를 위반하지 않고 단 하나의 대안을 고르는 결정론적 방법은 없다.",
+        "role": "예시·문제 구체화",
+        "why": "완전히 대칭적인 선호에서 특정 사람이나 대안을 우대하지 않고 승자를 정하는 어려움을 보여 준다.",
+        "literal": "예를 들어 대안 a와 b가 있고 두 행위자 중 한 명은 a를, 다른 한 명은 b를 선호한다면, 익명성과 중립성이라는 두 기본 공정성 조건 중 하나를 위반하지 않고 단 하나의 대안을 고르는 결정론적 방법은 없다."
+      },
+      {
+        "n": 3,
+        "en": "Anonymity requires that the collective choice ought to be independent of the agents’ identities whereas neutrality requires impartiality towards the alternatives.",
+        "ko": "익명성은 집단의 선택이 행위자의 정체성과 무관해야 한다고 요구하는 반면, 중립성은 대안들에 대해 공정할 것을 요구한다.",
+        "role": "개념 구분",
+        "why": "앞 문장의 두 공정성 조건이 서로 다른 대상을 보호한다는 점을 정의한다.",
+        "literal": "익명성은 집단의 선택이 행위자의 정체성과 무관해야 한다고 요구하는 반면, 중립성은 대안들에 대해 공정할 것을 요구한다."
+      },
+      {
+        "n": 4,
+        "en": "Allowing lotteries as social outcomes hence seems like a necessity for impartial collective choice.",
+        "ko": "따라서 사회적 결과로서 추첨을 허용하는 것은 공정한 집단적 선택을 위해 필요한 것으로 보인다.",
+        "role": "결론·해법",
+        "why": "사람도 대안도 미리 우대하지 않는 방식으로 추첨의 필요성을 제시한다.",
+        "literal": "따라서 사회적 결과로서 추첨을 허용하는 것은 공정한 집단적 선택을 위해 필요한 것으로 보인다."
+      },
+      {
+        "n": 5,
+        "en": "Indeed, most common “deterministic” social choice functions such as plurality rule are only deterministic as long as there is no tie, which is usually resolved by drawing a lot.",
+        "ko": "실제로 최다 득표제 같은 가장 흔한 ‘결정론적’ 사회 선택 함수도 동률이 없는 동안에만 결정론적이며, 동률은 보통 추첨으로 해결된다.",
+        "role": "현실적 보강",
+        "why": "일반적인 투표 규칙도 동률에서는 무작위 절차를 쓴다는 사례로 앞 결론을 강화한다.",
+        "literal": "실제로 최다 득표제 같은 가장 흔한 ‘결정론적’ 사회 선택 함수도 동률이 없는 동안에만 결정론적이며, 동률은 보통 추첨으로 해결된다."
+      },
+      {
+        "n": 6,
+        "en": "The use of lotteries for the selection of officials interestingly goes back to the world’s first democracy in Athens, where it was widely regarded as a principal characteristic of democracy, and has recently gained increasing attention in political science.",
+        "ko": "흥미롭게도 공직자 선발에 추첨을 사용하는 일은 아테네의 세계 최초 민주정까지 거슬러 올라가며, 그곳에서는 민주주의의 주요 특징으로 널리 여겨졌고 최근 정치학에서도 점점 더 많은 관심을 받고 있다.",
+        "role": "역사·현재의 보충",
+        "why": "추첨이 이상한 예외만은 아니라는 점을 역사와 현재 연구 관심으로 덧붙인다.",
+        "literal": "흥미롭게도 공직자 선발에 추첨을 사용하는 일은 아테네의 세계 최초 민주정까지 거슬러 올라가며, 그곳에서는 민주주의의 주요 특징으로 널리 여겨졌고 최근 정치학에서도 점점 더 많은 관심을 받고 있다."
+      }
+    ],
+    "flow": [
+      [
+        "집단 선택에서 동률 문제 제기",
+        1,
+        1,
+        "무작위 절차가 필요한 이유를 알아보기 위해 가장 단순한 대칭 사례를 제시한다."
+      ],
+      [
+        "공정성을 지켜야 하는 두 대상",
+        2,
+        3,
+        "사람과 대안을 각각 우대하지 않아야 한다는 조건을 정의하면 결정론적 선택의 한계가 보인다."
+      ],
+      [
+        "공정한 해법으로 추첨 허용",
+        4,
+        4,
+        "원리상의 해법이 실제 선택 규칙에도 쓰이는지 확인한다."
+      ],
+      [
+        "투표 규칙과 역사에서의 추첨",
+        5,
+        6,
+        "동률 처리와 아테네의 사례가 추첨의 역할을 뒷받침한다."
+      ]
+    ],
+    "order": [
+      [
+        1,
+        1,
+        "A · 집단 선택에서 동률 문제 제기"
+      ],
+      [
+        2,
+        4,
+        "B · 논리의 전개"
+      ],
+      [
+        5,
+        6,
+        "C · 투표 규칙과 역사에서의 추첨"
+      ]
+    ],
+    "turns": [
+      2
+    ],
+    "id": "blank-34",
+    "num": 34,
+    "type": "빈칸"
+  },
+  {
+    "title": "인물의 외모 대신 효과를 묘사하는 글쓰기",
+    "source": "2026학년도 6월 모의평가 32번",
+    "photos": [
+      45
+    ],
+    "originalBlank": true,
+    "connectors": [
+      [
+        1,
+        "when in fact",
+        "작가는 얼굴을 묘사한 듯한 인상을 준다.",
+        "실제 제공한 것은 독자가 채울 윤곽뿐이라는 차이를 드러낸다."
+      ],
+      [
+        3,
+        "Even so",
+        "에슈의 외모 정보는 큰 이뿐이다.",
+        "그래도 독자는 이만 덩그러니 있는 빈 얼굴로 느끼지 않는다."
+      ],
+      [
+        5,
+        "not ... but ...",
+        "그려야 할 대상을 사물 자체로 생각하기 쉽다.",
+        "묘사의 초점을 그 사물이 주는 효과로 바꾼다."
+      ],
+      [
+        6,
+        "Actually",
+        "효과만 묘사하라는 원칙은 자기 제약처럼 들린다.",
+        "실제로는 어려운 문제를 푸는 영리한 방법이라고 평가를 바꾼다."
+      ],
+      [
+        7,
+        "still / as if",
+        "작가는 그 유형의 외모라고만 말한다.",
+        "구체적 설명이 없는데도 정확한 묘사를 받은 듯한 느낌은 생긴다."
+      ]
+    ],
+    "compare": [
+      [
+        "작가가 실제로 제공한 정보",
+        "독자가 설명받았다고 느끼는 정보",
+        "주체·실제와 인상",
+        "outline, only, nothing else는 정보가 적다는 뜻이고 impression, feel as if는 풍부하게 묘사받았다는 독자의 느낌이다. 실제 세부 묘사가 있었다고 결론 내리면 안 된다."
+      ],
+      [
+        "외모 자체의 설명",
+        "외모가 주는 효과",
+        "대상",
+        "외모는 눈·코·얼굴의 구체적인 모양이고 효과는 그 외모가 주는 인상이다. 효과에서 외모를 상상하는 것이 글의 원리다."
+      ],
+      [
+        "자기 제약처럼 들림",
+        "영리한 해결책임",
+        "평가 관점",
+        "sounds like는 첫인상이며 Actually 뒤가 글의 실제 평가다."
+      ]
+    ],
+    "refs": [
+      [
+        2,
+        "he",
+        "Esch"
+      ],
+      [
+        3,
+        "his face",
+        "에슈의 얼굴"
+      ],
+      [
+        4,
+        "that appearance",
+        "someone’s appearance, 앞서 언급한 그 외모"
+      ],
+      [
+        5,
+        "it produces",
+        "it은 the thing: 묘사 대상인 사물"
+      ],
+      [
+        6,
+        "it",
+        "사물 자체 대신 효과를 그리라는 말라르메의 조언·방법"
+      ],
+      [
+        7,
+        "he / his",
+        "워가 소개하는 새로운 남성 등장인물"
+      ]
+    ],
+    "syntax": [
+      [
+        4,
+        "주어 we → 동사 mistake → 목적어 being told what effect someone’s appearance has → for an account of that appearance. mistake A for B는 A를 B로 착각하다이다. what절은 tell의 내용이다."
+      ],
+      [
+        7,
+        "When절의 주어 Evelyn Waugh → 동사 says → that절 내용. 주절 you still feel → as if you have been told ... . one would expect ...는 the kind of appearance를 설명한다. 긴 인용문을 빼고 “그렇게만 말해도 독자는 묘사받았다고 느낀다”를 먼저 잡는다."
+      ]
+    ],
+    "insert": [
+      6,
+      "Actually의 평가 반전은 S5의 sounds like a self-denying ordinance를 받아야 한다. 이후 워의 사례가 그 방법의 효과를 입증하므로 조언과 사례 사이가 알맞다."
+    ],
+    "blank": [
+      7,
+      "have been told exactly what he looks like",
+      "첫 문장의 impression that they have described the faces와 같다. 외모의 효과만 제시해도 외모 자체를 정확히 들었다고 느끼는 것이 글의 중심이다."
+    ],
+    "central": "작가는 인물의 외모를 상세히 설명하지 않고 윤곽이나 효과만 제시해도 독자의 상상을 통해 구체적 외모를 묘사한 듯한 인상을 줄 수 있다.",
+    "tip": "“정확히 묘사했다”가 아니라 “정확히 묘사받은 것처럼 느낀다”이다. as if를 놓치지 말자.",
+    "topicEN": "Creating an impression of detailed appearance through effects and reader imagination",
+    "titleEN": "Suggest the Effect, Let the Reader Fill the Face",
+    "answer": "① 정답. feel as if와 결합하여 얼굴을 정확히 설명받았다는 독자의 인상을 말한다. ② 인물의 사회 집단에 속한다는 것은 type에서 연상한 내용일 뿐이다. ③ 이후 사건을 안다는 것은 외모에서 줄거리로 대상을 바꾼다. ④ 행동의 세부 묘사는 얼굴·외모라는 본문의 대상을 바꾼다. ⑤ 성격의 핵심을 안다는 것도 외모와 성격을 혼동한 것이다.",
+    "easy": [
+      "소설이 “큰 이를 가진 남자”라고만 했는데도 머릿속에는 얼굴 전체가 떠오를 수 있지. 독자가 빈 부분을 스스로 채우기 때문이야.",
+      "작가는 눈·코의 모양을 일일이 설명하는 대신 그 사람이 어떤 인상을 주는지를 말해. 독자는 그 인상을 얼굴의 상세 묘사처럼 받아들일 수 있어.",
+      "그러니 마지막 빈칸도 인물의 성격이나 미래 사건이 아니라 “그가 어떻게 생겼는지 정확히 들은 것처럼 느낀다”가 돼야 해."
+    ],
+    "vocab": [
+      [
+        "outline",
+        "윤곽",
+        "독자가 채워 넣는 제한된 정보"
+      ],
+      [
+        "appearance",
+        "외모",
+        "효과와 구별해야 할 묘사 대상"
+      ],
+      [
+        "intractable",
+        "다루기 어려운",
+        "직접 묘사가 해결하기 힘든 문제"
+      ],
+      [
+        "account",
+        "설명",
+        "외모 자체에 대한 기술"
+      ],
+      [
+        "mistake A for B",
+        "A를 B로 착각하다",
+        "효과의 설명을 외모 묘사로 오인"
+      ],
+      [
+        "impression",
+        "인상",
+        "실제 묘사량과 구분되는 독자의 느낌"
+      ]
+    ],
+    "sentences": [
+      {
+        "n": 1,
+        "en": "Writers often give us the impression that they have described the faces of their characters, when in fact they have simply given you an outline to fill in.",
+        "ko": "작가들은 흔히 등장인물의 얼굴을 묘사했다는 인상을 우리에게 주지만, 사실은 독자가 채워 넣을 윤곽만 제공했을 뿐이다.",
+        "role": "핵심 주장",
+        "why": "실제로 주어진 묘사와 독자가 묘사받았다고 느끼는 정도의 차이를 제시한다.",
+        "literal": "작가들은 흔히 등장인물의 얼굴을 묘사했다는 인상을 우리에게 주지만, 사실은 독자가 채워 넣을 윤곽만 제공했을 뿐이다."
+      },
+      {
+        "n": 2,
+        "en": "Of Esch, the most important character in Hermann Broch’s masterpiece The Sleepwalkers, we learn only that he has big teeth.",
+        "ko": "헤르만 브로흐의 걸작 『몽유병자들』에서 가장 중요한 인물 에슈에 대해 우리가 알게 되는 것은 그가 큰 이를 가졌다는 것뿐이다.",
+        "role": "첫 사례",
+        "why": "얼굴의 세부 묘사가 매우 제한적임을 실제 작품으로 보여 준다.",
+        "literal": "헤르만 브로흐의 걸작 『몽유병자들』에서 가장 중요한 인물 에슈에 대해 우리가 알게 되는 것은 그가 큰 이를 가졌다는 것뿐이다."
+      },
+      {
+        "n": 3,
+        "en": "Even so, we don’t feel as if his face is a dentate blankness.",
+        "ko": "그럼에도 우리는 그의 얼굴이 이만 있는 빈 공간인 것처럼 느끼지 않는다.",
+        "role": "대조적 결과",
+        "why": "정보가 적어도 독자가 완성된 얼굴을 떠올린다는 점을 확인한다.",
+        "literal": "그럼에도 우리는 그의 얼굴이 이만 있는 빈 공간인 것처럼 느끼지 않는다."
+      },
+      {
+        "n": 4,
+        "en": "Most often, we mistake being told what effect someone’s appearance has for an account of that appearance.",
+        "ko": "대개 우리는 누군가의 외모가 어떤 효과를 내는지 전해 듣는 것을 그 외모 자체에 대한 묘사로 착각한다.",
+        "role": "작동 원리",
+        "why": "앞의 사례가 가능한 이유를 외모의 효과와 외모 자체의 혼동으로 일반화한다.",
+        "literal": "대개 우리는 누군가의 외모가 어떤 효과를 내는지 전해 듣는 것을 그 외모 자체에 대한 묘사로 착각한다."
+      },
+      {
+        "n": 5,
+        "en": "The poet Mallarmé’s advice — Peindre non la chose, mais l’effet qu’elle produit (“Paint not the thing itself but the effect it produces”) sounds like a self-denying ordinance.",
+        "ko": "시인 말라르메의 조언, 곧 ‘사물 자체가 아니라 그것이 만들어 내는 효과를 그려라’는 말은 스스로를 제약하는 법령처럼 들린다.",
+        "role": "예상 반응 소개",
+        "why": "대상을 직접 묘사하지 말라는 원칙이 처음에는 표현을 포기하는 제약처럼 보임을 인정한다.",
+        "literal": "시인 말라르메의 조언, 곧 ‘사물 자체가 아니라 그것이 만들어 내는 효과를 그려라’는 말은 스스로를 제약하는 법령처럼 들린다."
+      },
+      {
+        "n": 6,
+        "en": "Actually it is a rather clever way out of an intractable problem.",
+        "ko": "실제로 그것은 다루기 어려운 문제를 빠져나가는 꽤 영리한 방법이다.",
+        "role": "핵심 전환·평가",
+        "why": "제약처럼 보인 원칙을 효과적인 해결책으로 다시 평가한다.",
+        "literal": "실제로 그것은 다루기 어려운 문제를 빠져나가는 꽤 영리한 방법이다."
+      },
+      {
+        "n": 7,
+        "en": "When, in one of his novels, Evelyn Waugh says of a new character, that ‘he had just the kind of appearance one would expect a young man of his type to have’ and nothing else, you still feel as if you have been told exactly what he looks like.",
+        "ko": "에벌린 워가 소설에서 새 등장인물에 대해 ‘그는 그와 같은 유형의 젊은이가 가졌으리라 예상할 바로 그런 외모를 지녔다’고만 말하고 다른 것은 말하지 않아도, 독자는 여전히 그가 정확히 어떻게 생겼는지 설명을 들은 것처럼 느낀다.",
+        "role": "두 번째 사례·결론",
+        "why": "구체적 얼굴 정보가 없어도 인상이 독자의 상상을 채운다는 주장을 마지막 사례로 재현한다.",
+        "literal": "에벌린 워가 소설에서 새 등장인물에 대해 ‘그는 그와 같은 유형의 젊은이가 가졌으리라 예상할 바로 그런 외모를 지녔다’고만 말하고 다른 것은 말하지 않아도, 독자는 여전히 그가 정확히 어떻게 생겼는지 설명을 들은 것처럼 느낀다."
+      }
+    ],
+    "flow": [
+      [
+        "상세 묘사처럼 느껴지는 윤곽",
+        1,
+        1,
+        "묘사의 인상과 실제 정보량의 차이를 사례로 확인한다."
+      ],
+      [
+        "큰 이만으로도 얼굴이 떠오름",
+        2,
+        3,
+        "제한된 정보가 완성된 얼굴의 느낌을 주는 이유를 설명해야 한다."
+      ],
+      [
+        "외모의 효과를 외모 자체로 받아들임",
+        4,
+        5,
+        "이 원리를 표현 원칙으로 제시하고, 제약처럼 보이는 인상을 다시 평가한다."
+      ],
+      [
+        "효과를 통한 묘사는 영리한 해결책",
+        6,
+        7,
+        "두 번째 작가의 사례로 독자가 상세 묘사를 들었다고 느끼는 결과를 확인한다."
+      ]
+    ],
+    "order": [
+      [
+        1,
+        1,
+        "A · 상세 묘사처럼 느껴지는 윤곽"
+      ],
+      [
+        2,
+        5,
+        "B · 논리의 전개"
+      ],
+      [
+        6,
+        7,
+        "C · 효과를 통한 묘사는 영리한 해결책"
+      ]
+    ],
+    "turns": [
+      1
+    ],
+    "id": "blank-35",
+    "num": 35,
+    "type": "빈칸"
+  },
+  {
+    "title": "지리학은 위치를 넘어 공간의 관계를 묻는다",
+    "source": "2026학년도 6월 모의평가 34번",
+    "photos": [
+      46
+    ],
+    "originalBlank": true,
+    "connectors": [
+      [
+        2,
+        "That is because",
+        "어디라는 말이 지리학과 밀접하다.",
+        "발생 위치가 중요하다는 지리학의 전제를 이유로 제시한다."
+      ],
+      [
+        3,
+        "not simply / though",
+        "지리학의 출발점은 위치다.",
+        "위치만 확인하는 데서 끝내지 않고 그 원인과 의미까지 묻는다고 확장한다."
+      ],
+      [
+        5,
+        "even",
+        "공간적 배치와 관계를 고려해야 한다.",
+        "단순한 일상 활동조차 공간 이해가 필요하다는 사례를 든다."
+      ],
+      [
+        6,
+        "Moving up in scale / without",
+        "일상의 작은 규모를 설명했다.",
+        "사업·정책·세계 이해라는 큰 규모로 넓히고 공간 인식 부재의 어려움을 설명한다."
+      ]
+    ],
+    "compare": [
+      [
+        "where: 위치 확인",
+        "why there / so what: 원인과 의미",
+        "사고 범위",
+        "S3은 S1을 뒤집어 위치가 중요하지 않다고 하지 않는다. not simply는 위치를 포함하되 더 넓게 생각하라는 표현이다."
+      ],
+      [
+        "음식 찾기·출근",
+        "사업 판단·입지 선정·이주 이해",
+        "규모",
+        "사례의 규모는 달라도 공간적 배치와 관계를 알아야 한다는 공통 원리로 묶인다."
+      ],
+      [
+        "자연 지형만",
+        "인구·도로·차별·사회경제 양상",
+        "대상 범위",
+        "공간의 현상은 자연뿐 아니라 인간 사회도 포함한다. 특정 환경 문제만으로 주제를 좁히면 안 된다."
+      ]
+    ],
+    "refs": [
+      [
+        2,
+        "That",
+        "where가 지리학과 불가분하게 연결된다는 앞 문장 내용 전체"
+      ],
+      [
+        3,
+        "they",
+        "the key questions"
+      ],
+      [
+        4,
+        "such questions",
+        "why there와 so what이라는 원인·의미 질문"
+      ],
+      [
+        5,
+        "the like",
+        "음식·서비스 찾기나 출근처럼 공간 이해가 필요한 비슷한 활동"
+      ]
+    ],
+    "syntax": [
+      [
+        2,
+        "starts from the premise 뒤 that절은 전제의 내용이다. it matters where ...에서 it은 가주어이고 where절이 무엇이 중요한지 나타낸다."
+      ],
+      [
+        6,
+        "without some awareness of [how ...]가 조건을 이룬다. 주절 it is difficult의 진주어는 to make ... , make sense ... , or grasp ...의 병렬 부정사구다. shaping life는 forces를 수식한다."
+      ],
+      [
+        8,
+        "주어 Understanding why and where migration happens → 동사 requires → 목적어 consideration of ... . why and where는 이해할 원인과 위치를 병렬로 나타낸다."
+      ]
+    ],
+    "insert": [
+      6,
+      "Moving up in scale은 S5의 day-to-day activity라는 작은 규모를 받아야 한다. 뒤의 상점 입지와 이주는 큰 규모 판단의 사례라 S5와 S7 사이에서 범위를 전환한다."
+    ],
+    "blank": [
+      6,
+      "how phenomena are arranged on Earth’s surface",
+      "S4의 spatial arrangements를 재진술하고, S7~8의 인구·도로·영토·환경 배치가 구체화한다. 특정 갈등·자원·기후만으로 좁힐 수 없다."
+    ],
+    "central": "지리학적 이해는 현상의 위치뿐 아니라 공간적 배치·차이·연결과 그 원인·의미를 파악하는 것이며, 일상과 사업·정책 판단에 필요하다.",
+    "tip": "where에서 why there·so what으로 확장되는 지점과 Moving up in scale의 규모 변화를 연결해서 읽자.",
+    "topicEN": "Spatial arrangements and relationships as foundations for understanding and decision-making",
+    "titleEN": "Beyond Where: Understanding the Spatial Patterns of Life",
+    "answer": "② 정답. 현상의 공간적 배치는 앞의 spatial arrangements와 뒤의 입지·이주 사례를 모두 포함한다. ① 문화 간 갈등이 증가할 이유로 대상과 결과를 한정한다. ③ 자원 고갈 시점은 공간 배치와 다르고 언급되지 않는다. ④ 기후 피해 지역은 가능한 지리 주제의 일부일 뿐 본문의 넓은 사업·사회 판단을 포괄하지 못한다. ⑤ 결정 권한을 가진 사람이 누구인지로 묻는 대상을 바꾼다.",
+    "easy": [
+      "지리학은 지도에서 위치를 외우는 데서 끝나지 않아. 왜 거기에 있고, 그 배치가 무슨 영향을 주는지까지 묻는 거야.",
+      "가게를 연다면 사람이 어디 사는지, 도로가 어디 있는지를 함께 봐야 하지. 이주를 이해할 때도 정치·사회 조건과 환경이 어떻게 놓였는지 살펴야 하고.",
+      "음식점을 찾는 작은 일부터 정책을 정하는 큰 일까지, 공간의 배치와 연결을 이해하는 것이 필요하다는 글이야."
+    ],
+    "vocab": [
+      [
+        "spatial",
+        "공간의",
+        "위치·배치·연결의 공통 범주"
+      ],
+      [
+        "arrangement",
+        "배치",
+        "빈칸의 중심 개념"
+      ],
+      [
+        "interconnection",
+        "상호 연결",
+        "따로 떨어진 위치 이상을 봐야 하는 이유"
+      ],
+      [
+        "premise",
+        "전제",
+        "발생 장소가 중요하다는 출발점"
+      ],
+      [
+        "migration",
+        "이주",
+        "공간적 이해가 필요한 사회 현상"
+      ],
+      [
+        "make sense of",
+        "이해하다",
+        "공간 인식으로 가능해지는 일"
+      ]
+    ],
+    "sentences": [
+      {
+        "n": 1,
+        "en": "One word is inextricably associated with geography: where.",
+        "ko": "한 단어는 지리학과 불가분하게 연결되어 있다. 바로 ‘어디’이다.",
+        "role": "화제 도입",
+        "why": "지리학을 대표하는 질문으로 독자의 익숙한 이해에서 시작한다.",
+        "literal": "한 단어는 지리학과 불가분하게 연결되어 있다. 바로 ‘어디’이다."
+      },
+      {
+        "n": 2,
+        "en": "That is because geography starts from the premise that it matters where something takes place on Earth’s surface.",
+        "ko": "그것은 지리학이 지표면에서 어떤 일이 어디서 일어나는지가 중요하다는 전제에서 출발하기 때문이다.",
+        "role": "이유",
+        "why": "위치 질문이 핵심인 이유를 학문의 전제로 설명한다.",
+        "literal": "그것은 지리학이 지표면에서 어떤 일이 어디서 일어나는지가 중요하다는 전제에서 출발하기 때문이다."
+      },
+      {
+        "n": 3,
+        "en": "The key questions are not simply “where” questions, though; they are “why there” and “so what” questions.",
+        "ko": "하지만 핵심 질문은 단순히 ‘어디’라는 질문이 아니다. ‘왜 거기인가’와 ‘그래서 무엇을 뜻하는가’라는 질문이다.",
+        "role": "범위 확장·전환",
+        "why": "위치 확인을 부정하지 않고 원인과 의미까지 물어야 한다고 깊이를 더한다.",
+        "literal": "하지만 핵심 질문은 단순히 ‘어디’라는 질문이 아니다. ‘왜 거기인가’와 ‘그래서 무엇을 뜻하는가’라는 질문이다."
+      },
+      {
+        "n": 4,
+        "en": "Getting to such questions means taking spatial arrangements, variations, and interconnections seriously.",
+        "ko": "그런 질문에 도달한다는 것은 공간적 배치·차이·상호 연결을 진지하게 고려한다는 뜻이다.",
+        "role": "구체화",
+        "why": "원인과 의미를 이해하려면 무엇을 살펴야 하는지 세 가지 공간 특성을 제시한다.",
+        "literal": "그런 질문에 도달한다는 것은 공간적 배치·차이·상호 연결을 진지하게 고려한다는 뜻이다."
+      },
+      {
+        "n": 5,
+        "en": "Engaging in even the simplest day-to-day activity requires some appreciation of spatial circumstances — where to find food and services, how to get to work places, and the like.",
+        "ko": "가장 단순한 일상 활동에 참여하는 데조차 공간적 여건에 대한 어느 정도의 이해가 필요하다. 음식과 서비스를 어디서 찾는지, 일터에 어떻게 가는지 등이 그것이다.",
+        "role": "일상 사례",
+        "why": "공간 이해의 필요를 작은 규모의 익숙한 활동으로 보여 준다.",
+        "literal": "가장 단순한 일상 활동에 참여하는 데조차 공간적 여건에 대한 어느 정도의 이해가 필요하다. 음식과 서비스를 어디서 찾는지, 일터에 어떻게 가는지 등이 그것이다."
+      },
+      {
+        "n": 6,
+        "en": "Moving up in scale, without some awareness of how phenomena are arranged on Earth’s surface, it is difficult to make reasoned business or policy judgments, make sense of events, or grasp some of the basic forces shaping life on the planet.",
+        "ko": "규모를 키워 보면, 현상들이 지표면에 어떻게 배치되어 있는지 어느 정도 알지 못하면 합리적인 사업·정책 판단을 내리거나 사건을 이해하거나 지구의 삶을 형성하는 기본적인 힘 일부를 파악하기 어렵다.",
+        "role": "규모 확대·핵심 주장",
+        "why": "일상에서 사업·정책과 세계 이해로 범위를 넓혀 공간 인식의 중요성을 일반화한다.",
+        "literal": "규모를 키워 보면, 현상들이 지표면에 어떻게 배치되어 있는지 어느 정도 알지 못하면 합리적인 사업·정책 판단을 내리거나 사건을 이해하거나 지구의 삶을 형성하는 기본적인 힘 일부를 파악하기 어렵다."
+      },
+      {
+        "n": 7,
+        "en": "Locating a new store or public service requires taking into consideration population distributions, the location of roads and utilities, socio-economic patterns, and more.",
+        "ko": "새 상점이나 공공 서비스의 위치를 정하려면 인구 분포, 도로와 기반 시설의 위치, 사회·경제적 양상 등을 고려해야 한다.",
+        "role": "사업·정책 사례",
+        "why": "합리적 위치 판단에 여러 공간적 요소의 배치가 필요함을 구체적으로 입증한다.",
+        "literal": "새 상점이나 공공 서비스의 위치를 정하려면 인구 분포, 도로와 기반 시설의 위치, 사회·경제적 양상 등을 고려해야 한다."
+      },
+      {
+        "n": 8,
+        "en": "Understanding why and where migration happens requires consideration of the political organization of territory, the spatial consequences of discrimination, socio-economic patterns, and the layout of the physical environment.",
+        "ko": "이주가 왜 그리고 어디서 일어나는지 이해하려면 영토의 정치적 조직, 차별의 공간적 결과, 사회·경제적 양상, 물리적 환경의 배치를 고려해야 한다.",
+        "role": "사회 현상 사례",
+        "why": "자연의 위치뿐 아니라 정치·사회적 배치도 지리학적 설명의 대상임을 보여 준다.",
+        "literal": "이주가 왜 그리고 어디서 일어나는지 이해하려면 영토의 정치적 조직, 차별의 공간적 결과, 사회·경제적 양상, 물리적 환경의 배치를 고려해야 한다."
+      }
+    ],
+    "flow": [
+      [
+        "지리학과 어디라는 질문",
+        1,
+        2,
+        "위치의 중요성을 확인한 다음 위치만 묻는 이해를 넘어선다."
+      ],
+      [
+        "왜 그곳인지와 그 의미로 확장",
+        3,
+        4,
+        "확장된 질문에 답하려면 공간적 배치와 연결을 고려해야 한다."
+      ],
+      [
+        "일상에서 사업·정책으로 규모 확대",
+        5,
+        6,
+        "작은 활동에서 필요한 공간 이해가 큰 판단에도 필요함을 설명한다."
+      ],
+      [
+        "입지와 이주의 공간적 조건",
+        7,
+        8,
+        "구체적 두 사례가 배치·연결을 이해해야 한다는 주장을 뒷받침한다."
+      ]
+    ],
+    "order": [
+      [
+        1,
+        2,
+        "A · 지리학과 어디라는 질문"
+      ],
+      [
+        3,
+        6,
+        "B · 논리의 전개"
+      ],
+      [
+        7,
+        8,
+        "C · 입지와 이주의 공간적 조건"
+      ]
+    ],
+    "turns": [
+      2
+    ],
+    "id": "blank-36",
+    "num": 36,
+    "type": "빈칸"
+  },
+  {
+    "title": "무료 서비스가 판매하는 것은 이용자의 주의다",
+    "source": "2025학년도 수능 33번",
+    "photos": [
+      46
+    ],
+    "originalBlank": true,
+    "connectors": [
+      [
+        3,
+        "but",
+        "많은 유용한 소프트웨어가 무료라는 것은 놀라워 보인다.",
+        "실제로는 이용자가 상품인 구조라는 이면으로 전환한다."
+      ],
+      [
+        3,
+        "if ... then",
+        "겉으로 무료인 서비스의 비용 지불자가 보이지 않는다.",
+        "그 경우 사용자가 실제 판매 상품이라는 통념을 제시한다."
+      ],
+      [
+        4,
+        "rather than",
+        "추천 시스템이 기업이 제공하는 세계에 주의를 유지시킨다.",
+        "여러 기업 중 특정 기업 쪽에 머물게 한다는 선택적 방향을 밝힌다."
+      ],
+      [
+        4,
+        "replacing ... with ...",
+        "추천 시스템이 주의를 붙잡는 수단이다.",
+        "그 결과 개인의 자유로운 탐색이 알고리즘의 선택물로 대체됨을 설명한다."
+      ]
+    ],
+    "compare": [
+      [
+        "이용료가 무료",
+        "누군가가 비용을 부담하고 수익이 발생",
+        "주체·거래 대상",
+        "이용자가 서비스 사용료를 직접 내지 않는다고 거래가 없는 것은 아니다. 광고 구조에서는 이용자의 시간·주의가 다른 상대에게 판매된다."
+      ],
+      [
+        "유용하고 흥미로운 소프트웨어",
+        "주의를 붙잡아 탐색 자유를 대체하는 시스템",
+        "평가 대상",
+        "사용상 유용함과 수익 구조·자유의 문제는 서로 다른 측면이다. 유용하다는 인정이 비판을 취소하지 않는다."
+      ],
+      [
+        "you라는 상품",
+        "사람 자체의 물리적 매매",
+        "비유·대상",
+        "문맥상 거래 대상은 사용자의 주의와 깨어 있는 시간이다. 사람 자체가 물건으로 팔린다는 뜻으로 읽지 않는다."
+      ]
+    ],
+    "refs": [
+      [
+        1,
+        "where",
+        "the era of the attention economy라는 시대적 상황"
+      ],
+      [
+        1,
+        "those",
+        "businesses"
+      ],
+      [
+        2,
+        "them",
+        "the conscious hours of my life"
+      ],
+      [
+        3,
+        "something that appears to be free",
+        "겉으로 무료처럼 제공되는 소프트웨어·서비스"
+      ],
+      [
+        4,
+        "that are designed",
+        "선행사는 AI-based recommendation systems"
+      ],
+      [
+        4,
+        "that Nick Seaver calls captology",
+        "that은 the process를 받으며 calls의 목적어"
+      ]
+    ],
+    "syntax": [
+      [
+        3,
+        "첫 it은 가주어, that so many ...가 진주어다. but 뒤도 it is ... wisdom + that절 구조이며 그 내용 안에 if ... then이 들어 있다. 빈칸은 then 뒤 절의 보어가 아니라 “the real product ... is you” 전체 결론이다."
+      ],
+      [
+        4,
+        "주어 Our creative engagement with other people → 동사 is mediated → by AI-based recommendation systems. that are designed ...는 systems를 수식한다. through the process 뒤 that절은 process를 수식한다. keeping ... , replacing ...은 시스템의 작용과 결과를 덧붙이는 병렬 분사구문이다."
+      ]
+    ],
+    "insert": [
+      2,
+      "S1의 attention economy를 conscious hours의 확보·판매로 풀어 준다. S3에서 이용자가 상품이라고 말하기 전에 무엇이 팔리는지 밝혀 주는 연결 문장이다."
+    ],
+    "blank": [
+      3,
+      "the real product being sold is you",
+      "S1의 my attention과 S2의 conscious hours를 you로 압축한다. 비용을 내지 않는 이용자의 주의가 판매 대상이므로 ②가 맞는다."
+    ],
+    "central": "주의 경제의 무료 서비스에서는 이용자의 주의와 시간이 상품이 되며, AI 추천은 그 주의를 붙잡아 개인의 자유로운 탐색을 대신할 수 있다.",
+    "tip": "free는 사용료가 없다는 뜻이지 경제적 대가나 판매 대상이 없다는 뜻이 아니다. you는 문맥상 사용자의 주의·시간을 가리킨다.",
+    "topicEN": "Users’ attention as the product behind free services and AI recommendations",
+    "titleEN": "Free to Use, but Your Attention Is for Sale",
+    "answer": "② 정답. 실제 판매 상품이 이용자라는 말은 S2의 시간·주의 판매를 압축한다. ① 모든 주의가 이미 소모됐다는 완료·전체의 의미는 없다. ③ 사생활 침해는 연상 가능한 문제지만 글의 주의 판매 구조와 같은 주장이 아니다. ④ 대중이 후원한다는 지불 주체는 제시되지 않는다. ⑤ AI에게 혜택을 빚졌다는 감사·보답 관계는 본문의 경제 구조 비판을 바꾼다.",
+    "easy": [
+      "앱을 돈 안 내고 쓰는데 회사는 어떻게 돈을 벌까? 이 글은 이용자가 화면을 보는 시간과 주의가 다른 누군가에게 팔리는 구조에 주목해.",
+      "그래서 “팔리는 상품은 너”라는 말은 사람 자체를 판다는 뜻이 아니라 네 시간과 관심이 수익의 재료라는 뜻이야.",
+      "추천 알고리즘은 계속 보게 만들고, 내가 스스로 찾아다니는 대신 정해 준 목록을 따라가게 할 수 있어. 무료라는 표면에서 주의를 거래하는 구조로 넘어가는 게 핵심이야."
+    ],
+    "vocab": [
+      [
+        "attention economy",
+        "주의 경제",
+        "주의가 경제적 자원이 되는 구조"
+      ],
+      [
+        "capture",
+        "붙잡다",
+        "이용자의 시간을 확보하는 행위"
+      ],
+      [
+        "mediate",
+        "매개하다",
+        "추천 시스템이 교류 사이에서 하는 역할"
+      ],
+      [
+        "conventional wisdom",
+        "통념",
+        "무료 서비스의 이면을 설명하는 널리 알려진 생각"
+      ],
+      [
+        "exploration",
+        "탐색",
+        "추천으로 대체될 수 있는 개인의 자유"
+      ],
+      [
+        "profitable",
+        "수익성이 높은",
+        "주의를 확보하는 기업의 경제적 성과"
+      ]
+    ],
+    "sentences": [
+      {
+        "n": 1,
+        "en": "We are famously living in the era of the attention economy, where the largest and most profitable businesses in the world are those that consume my attention.",
+        "ko": "잘 알려져 있듯 우리는 주의 경제의 시대에 살고 있으며, 이 시대에 세계에서 가장 크고 수익성이 높은 기업은 나의 주의를 소비하는 기업들이다.",
+        "role": "시대·핵심 개념",
+        "why": "기업의 경제적 자원이 사용자의 주의라는 논점으로 시작한다.",
+        "literal": "잘 알려져 있듯 우리는 주의 경제의 시대에 살고 있으며, 이 시대에 세계에서 가장 크고 수익성이 높은 기업은 나의 주의를 소비하는 기업들이다."
+      },
+      {
+        "n": 2,
+        "en": "The advertising industry is literally dedicated to capturing the conscious hours of my life and selling them to someone else.",
+        "ko": "광고 산업은 말 그대로 내 삶에서 의식이 깨어 있는 시간들을 붙잡아 다른 누군가에게 파는 데 전념한다.",
+        "role": "작동 방식",
+        "why": "주의가 어떻게 상품이 되는지 사용자의 시간을 확보해 판매하는 과정으로 설명한다.",
+        "literal": "광고 산업은 말 그대로 내 삶에서 의식이 깨어 있는 시간들을 붙잡아 다른 누군가에게 파는 데 전념한다."
+      },
+      {
+        "n": 3,
+        "en": "It might seem magical that so many exciting and useful software systems are available to use for free, but it is now conventional wisdom that if you can’t see who is paying for something that appears to be free, then the real product being sold is you.",
+        "ko": "그토록 많은 흥미롭고 유용한 소프트웨어를 무료로 사용할 수 있다는 것이 마법처럼 보일 수 있지만, 무료처럼 보이는 것의 비용을 누가 내는지 알 수 없다면 실제로 팔리는 상품은 바로 당신이라는 것이 이제 통념이다.",
+        "role": "표면과 실제의 대조",
+        "why": "사용료가 없다는 표면을 사용자의 주의가 팔린다는 수익 구조와 연결해 빈칸을 완성한다.",
+        "literal": "그토록 많은 흥미롭고 유용한 소프트웨어를 무료로 사용할 수 있다는 것이 마법처럼 보일 수 있지만, 무료처럼 보이는 것의 비용을 누가 내는지 알 수 없다면 실제로 팔리는 상품은 바로 당신이라는 것이 이제 통념이다."
+      },
+      {
+        "n": 4,
+        "en": "Our creative engagement with other people is mediated by AI-based recommendation systems that are designed to trap our attention through the process that Nick Seaver calls captology, keeping us attending to the world sold by one company rather than another, replacing the freedom of personal exploration with algorithm-generated playlists or even algorithm-generated art.",
+        "ko": "다른 사람들과 맺는 우리의 창의적 교류는 AI 기반 추천 시스템을 통해 매개되는데, 이 시스템은 닉 시버가 캡톨로지라고 부르는 과정을 통해 우리의 주의를 붙잡도록 설계되어, 다른 회사가 아닌 한 회사가 판매하는 세계에 계속 주의를 기울이게 하고 개인적 탐색의 자유를 알고리즘이 생성한 재생 목록이나 심지어 예술로 대체한다.",
+        "role": "구체적 수단·결과",
+        "why": "주의를 붙잡는 경제 구조가 추천 시스템을 통해 개인의 탐색 자유에 어떤 영향을 주는지 설명한다.",
+        "literal": "다른 사람들과 맺는 우리의 창의적 교류는 AI 기반 추천 시스템을 통해 매개되는데, 이 시스템은 닉 시버가 캡톨로지라고 부르는 과정을 통해 우리의 주의를 붙잡도록 설계되어, 다른 회사가 아닌 한 회사가 판매하는 세계에 계속 주의를 기울이게 하고 개인적 탐색의 자유를 알고리즘이 생성한 재생 목록이나 심지어 예술로 대체한다."
+      }
+    ],
+    "flow": [
+      [
+        "주의가 자원인 경제",
+        1,
+        1,
+        "주의를 소비하는 기업이 왜 수익을 얻는지 광고 산업의 작동을 살펴본다."
+      ],
+      [
+        "사용자의 시간을 확보해 판매",
+        2,
+        2,
+        "누군가에게 팔리는 주의가 무료 서비스의 비용 구조를 설명한다."
+      ],
+      [
+        "무료처럼 보이지만 이용자가 상품",
+        3,
+        3,
+        "무료라는 외관 뒤에서 사용자가 판매 대상이 되는 원리를 추천 기술에 적용한다."
+      ],
+      [
+        "추천 시스템이 주의를 붙잡고 탐색을 대신함",
+        4,
+        4,
+        "경제적 원리가 개인의 교류와 선택에 미치는 결과로 마무리한다."
+      ]
+    ],
+    "order": [
+      [
+        1,
+        1,
+        "A · 주의가 자원인 경제"
+      ],
+      [
+        2,
+        3,
+        "B · 논리의 전개"
+      ],
+      [
+        4,
+        4,
+        "C · 추천 시스템이 주의를 붙잡고 탐색을 대신함"
+      ]
+    ],
+    "turns": [
+      3
+    ],
+    "id": "blank-37",
+    "num": 37,
+    "type": "빈칸"
+  },
+  {
+    "title": "규칙은 행동을 제한하면서 역할과 활동을 만든다",
+    "source": "2025학년도 수능 34번",
+    "photos": [
+      46,
+      47
+    ],
+    "originalBlank": true,
+    "connectors": [
+      [
+        2,
+        "don’t just",
+        "규칙은 선수의 행동을 규제한다.",
+        "그뿐 아니라 어떤 행동이 야구인지 정의하는 기능까지 더한다."
+      ],
+      [
+        3,
+        "do not ... ; they ...",
+        "규칙이 야구 참여를 막는 것으로 볼 수 있다.",
+        "실제 논지는 규칙이 야구라는 활동을 성립시킨다는 것이다."
+      ],
+      [
+        4,
+        "but ... also",
+        "악보는 규칙을 부과한다.",
+        "동시에 음악을 생산할 행동 양식도 만든다. 제한의 부정이 아니라 추가 기능이다."
+      ],
+      [
+        6,
+        "And",
+        "법 규칙은 활동과 기회를 만든다.",
+        "활동뿐 아니라 개인이 맡을 역할도 만든다."
+      ],
+      [
+        7,
+        "True ... but",
+        "역할에 관한 규칙은 그 역할의 행동을 제약한다는 점을 인정한다.",
+        "그 역할 자체도 규칙이 만든다는 핵심 기능을 다시 강조한다."
+      ],
+      [
+        8,
+        "Without",
+        "규칙에는 제약과 창출 기능이 함께 있다.",
+        "규칙이 없다면 역할을 맡을 기회도 없다는 가정으로 필요성을 확인한다."
+      ]
+    ],
+    "compare": [
+      [
+        "역할 안에서 행동을 제약",
+        "역할 자체를 성립시킴",
+        "대상·상위와 하위",
+        "같은 규칙이 세부 행동은 제한하면서 상위 활동·역할을 가능하게 한다. 행동의 제한이 활동 전체를 불가능하게 한다는 뜻은 아니다."
+      ],
+      [
+        "규칙이 이미 있는 관행을 강화",
+        "규칙이 역할·관행을 창출",
+        "논리 방향",
+        "reinforce보다 create, establish, constitute가 핵심이다. 기존 행위의 강화만으로는 없던 기회가 생기는 점을 담지 못한다."
+      ],
+      [
+        "야구·음악·계약·판사",
+        "규칙의 구성·창출 기능",
+        "예시·중심 주장",
+        "특정 경기나 직업이 주제가 아니라 다양한 사례를 포괄하는 규칙의 기능이 중심이다."
+      ]
+    ],
+    "refs": [
+      [
+        2,
+        "they",
+        "The rules of baseball"
+      ],
+      [
+        3,
+        "they",
+        "Rules"
+      ],
+      [
+        4,
+        "it",
+        "A score of music"
+      ],
+      [
+        7,
+        "these roles",
+        "S6의 judges, trustees, partners, guardians 같은 법적 역할"
+      ],
+      [
+        7,
+        "them",
+        "these roles; 개인이 맡는 역할"
+      ],
+      [
+        8,
+        "them",
+        "rules; 역할을 만들어 내는 규칙들. S7의 occupy them과 같은 지시 대상이 아니다."
+      ],
+      [
+        8,
+        "the role",
+        "그 규칙을 통해 성립하는 해당 역할"
+      ]
+    ],
+    "syntax": [
+      [
+        5,
+        "주어 Legal rules 뒤에 that enable / that enable / that create / that establish의 관계절 네 개가 병렬이다. 본동사는 all make이고 목적어는 practices다. 마지막 that create new opportunities는 practices를 수식한다."
+      ],
+      [
+        6,
+        "roles individuals play ...에는 목적격 관계대명사가 생략되어 있다. individuals play가 roles를 설명하며 such as 뒤는 roles의 구체적 예다."
+      ],
+      [
+        7,
+        "첫 that절은 legal rules, who절은 individuals를 수식한다. 주절의 핵심은 rules constrain behavior, but rules also create roles이다."
+      ],
+      [
+        8,
+        "Without them은 규칙이 없다면이라는 가정이고 would not have가 그 결과다. 기회가 없다는 것은 행동 제약이 사라지는 것과는 다른 차원이다."
+      ]
+    ],
+    "insert": [
+      7,
+      "True로 행동 제한이라는 반론을 인정하면서 these roles와 occupy them으로 S6의 역할 목록을 받는다. 이어지는 Without them은 rules를 받아 규칙 부재의 결과를 말한다."
+    ],
+    "blank": [
+      1,
+      "facilitate productive activity by establishing roles and practices",
+      "야구와 악보는 activities/practices, 판사와 수탁자는 roles의 예다. create, determine, establish가 일관되게 창출 기능을 재진술한다."
+    ],
+    "central": "공식 규칙은 행동을 제약하는 동시에 역할과 활동 방식 자체를 성립시켜 개인에게 생산적인 활동과 새로운 기회를 가능하게 한다.",
+    "tip": "역할 속 행동을 제한하는 것과 역할 자체를 가능하게 하는 것을 구분하자. 마지막 두 문장의 them도 각각 역할과 규칙으로 다르다.",
+    "topicEN": "Formal rules as creators of roles, practices, and productive opportunities",
+    "titleEN": "Rules Do More Than Restrict: They Make Activities Possible",
+    "answer": "⑤ 정답. 역할과 활동 방식을 확립해 생산적인 활동을 가능하게 한다는 주장이 모든 사례를 포괄한다. ① 행동 양식을 분류하는 것이 아니라 활동과 역할 자체를 만든다. ② 사람들이 자신의 역할을 재평가하게 한다는 심리적 변화는 없다. ③ 새 사고방식과 창의적 아이디어를 장려한다는 말은 음악 사례를 창의성 일반으로 확대한다. ④ 기존의 법적 맥락 안에서 행동을 강화한다는 것은 규칙이 그 맥락·역할을 창출한다는 핵심을 놓친다.",
+    "easy": [
+      "야구 규칙은 마음대로 못 하게 하지만, 그 규칙이 있어야 어떤 행동이 야구인지 정해져. 규칙이 없다면 자유로운 야구가 남는 게 아니라 야구라는 활동의 기준부터 사라지는 거야.",
+      "악보와 법도 비슷해. 악보는 음악을 연주할 틀을 만들고, 법은 계약이나 판사 같은 활동과 역할을 만들어.",
+      "따라서 “제약한다”와 “가능하게 한다”는 모순이 아니야. 역할 안에서 할 행동은 제한하지만, 그 역할을 맡을 기회 자체는 규칙 덕분에 생긴다는 뜻이야."
+    ],
+    "vocab": [
+      [
+        "facilitate",
+        "촉진하다",
+        "규칙의 생산적 기능"
+      ],
+      [
+        "constitute",
+        "~에 해당하다",
+        "어떤 행동이 경기 참여인지 정함"
+      ],
+      [
+        "constrain",
+        "제약하다",
+        "인정하되 전부로 보지 않는 기능"
+      ],
+      [
+        "establish",
+        "확립하다",
+        "역할과 관행을 성립시킴"
+      ],
+      [
+        "trustee",
+        "수탁자",
+        "규칙이 만들어 내는 역할의 예"
+      ],
+      [
+        "conduct",
+        "행동",
+        "규칙이 형성하는 행동 양식"
+      ]
+    ],
+    "sentences": [
+      {
+        "n": 1,
+        "en": "Centralized, formal rules can facilitate productive activity by establishing roles and practices.",
+        "ko": "중앙에서 정해진 공식 규칙은 역할과 활동 방식을 확립함으로써 생산적인 활동을 촉진할 수 있다.",
+        "role": "핵심 주장",
+        "why": "규칙을 단순한 금지보다 활동을 가능하게 하는 구성 조건으로 본다.",
+        "literal": "중앙에서 정해진 공식 규칙은 역할과 활동 방식을 확립함으로써 생산적인 활동을 촉진할 수 있다."
+      },
+      {
+        "n": 2,
+        "en": "The rules of baseball don’t just regulate the behavior of the players; they determine the behavior that constitutes playing the game.",
+        "ko": "야구 규칙은 선수의 행동을 규제하기만 하는 것이 아니라, 어떤 행동이 그 경기를 하는 것에 해당하는지를 결정한다.",
+        "role": "첫 사례·개념 구체화",
+        "why": "규칙이 이미 있는 활동을 막는 것과 활동 자체를 정의하는 것의 차이를 보여 준다.",
+        "literal": "야구 규칙은 선수의 행동을 규제하기만 하는 것이 아니라, 어떤 행동이 그 경기를 하는 것에 해당하는지를 결정한다."
+      },
+      {
+        "n": 3,
+        "en": "Rules do not prevent people from playing baseball; they create the very practice that allows people to play baseball.",
+        "ko": "규칙은 사람들이 야구를 하지 못하게 하는 것이 아니라, 사람들이 야구를 할 수 있게 하는 바로 그 활동 방식을 만들어 낸다.",
+        "role": "핵심 재진술",
+        "why": "야구 사례에서 규칙의 가능하게 하는 기능을 다시 명확히 한다.",
+        "literal": "규칙은 사람들이 야구를 하지 못하게 하는 것이 아니라, 사람들이 야구를 할 수 있게 하는 바로 그 활동 방식을 만들어 낸다."
+      },
+      {
+        "n": 4,
+        "en": "A score of music imposes rules, but it also creates a pattern of conduct that enables people to produce music.",
+        "ko": "악보는 규칙을 부과하지만, 사람들이 음악을 만들어 낼 수 있도록 하는 행동 양식도 만들어 낸다.",
+        "role": "두 번째 사례·양면성",
+        "why": "예술에서도 제한과 활동의 가능성이 함께 존재함을 보여 준다.",
+        "literal": "악보는 규칙을 부과하지만, 사람들이 음악을 만들어 낼 수 있도록 하는 행동 양식도 만들어 낸다."
+      },
+      {
+        "n": 5,
+        "en": "Legal rules that enable the formation of corporations, that enable the use of wills and trusts, that create negotiable instruments, and that establish the practice of contracting all make practices that create new opportunities for individuals.",
+        "ko": "법인의 설립을 가능하게 하고, 유언과 신탁의 이용을 가능하게 하며, 유통 증권을 만들고, 계약 체결 관행을 확립하는 법 규칙들은 모두 개인에게 새로운 기회를 만드는 활동 방식을 만들어 낸다.",
+        "role": "법적 활동으로 확장",
+        "why": "규칙의 창출 기능을 경제·법 제도의 다양한 활동에 적용한다.",
+        "literal": "법인의 설립을 가능하게 하고, 유언과 신탁의 이용을 가능하게 하며, 유통 증권을 만들고, 계약 체결 관행을 확립하는 법 규칙들은 모두 개인에게 새로운 기회를 만드는 활동 방식을 만들어 낸다."
+      },
+      {
+        "n": 6,
+        "en": "And we have legal rules that establish roles individuals play within the legal system, such as judges, trustees, partners, and guardians.",
+        "ko": "또한 판사·수탁자·동업자·후견인처럼 법 체계 안에서 개인들이 맡는 역할을 확립하는 법 규칙도 있다.",
+        "role": "역할로 확장",
+        "why": "활동 방식에 이어 규칙이 역할 자체도 성립시킨다는 핵심의 나머지 절반을 보충한다.",
+        "literal": "또한 판사·수탁자·동업자·후견인처럼 법 체계 안에서 개인들이 맡는 역할을 확립하는 법 규칙도 있다."
+      },
+      {
+        "n": 7,
+        "en": "True, the legal rules that establish these roles constrain the behavior of individuals who occupy them, but rules also create the roles themselves.",
+        "ko": "물론 이런 역할을 확립하는 법 규칙은 그 역할을 맡는 개인의 행동을 제약하지만, 규칙은 역할 자체도 만들어 낸다.",
+        "role": "양보 후 핵심 회복",
+        "why": "규칙의 제약을 인정한 뒤 역할을 가능하게 하는 기능과 함께 보아야 한다고 종합한다.",
+        "literal": "물론 이런 역할을 확립하는 법 규칙은 그 역할을 맡는 개인의 행동을 제약하지만, 규칙은 역할 자체도 만들어 낸다."
+      },
+      {
+        "n": 8,
+        "en": "Without them an individual would not have the opportunity to occupy the role.",
+        "ko": "그 규칙들이 없다면 개인은 그 역할을 맡을 기회를 얻지 못할 것이다.",
+        "role": "조건부 결론",
+        "why": "규칙을 없앤 경우 역할의 기회도 사라진다는 반대 상황으로 창출 기능을 강조한다.",
+        "literal": "그 규칙들이 없다면 개인은 그 역할을 맡을 기회를 얻지 못할 것이다."
+      }
+    ],
+    "flow": [
+      [
+        "규칙이 역할과 활동을 가능하게 함",
+        1,
+        1,
+        "추상적인 창출 기능을 익숙한 야구 사례로 보여 준다."
+      ],
+      [
+        "야구와 음악에서 활동을 구성",
+        2,
+        4,
+        "게임·예술뿐 아니라 사회 제도도 같은 원리로 볼 수 있는지 확장한다."
+      ],
+      [
+        "법적 활동과 사회적 역할 창출",
+        5,
+        6,
+        "계약 등의 활동에서 판사 같은 역할까지 규칙이 성립시키는 범위를 넓힌다."
+      ],
+      [
+        "제약을 인정해도 역할의 기회는 규칙 덕분",
+        7,
+        8,
+        "제한이라는 반론을 수용하고, 규칙이 없을 때 역할도 없다는 결론으로 돌아온다."
+      ]
+    ],
+    "order": [
+      [
+        1,
+        1,
+        "A · 규칙이 역할과 활동을 가능하게 함"
+      ],
+      [
+        2,
+        6,
+        "B · 논리의 전개"
+      ],
+      [
+        7,
+        8,
+        "C · 제약을 인정해도 역할의 기회는 규칙 덕분"
+      ]
+    ],
+    "turns": [
+      2
+    ],
+    "id": "blank-38",
+    "num": 38,
+    "type": "빈칸"
   }
 ];
