@@ -198,7 +198,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-01",
     "num": 1,
     "type": "제목",
-    "source": "2026학년도 수능 24번"
+    "source": "2026학년도 수능 24번",
+    "grammarLinks": [
+      {
+        "n": 2,
+        "category": "수일치",
+        "quote": "is an incentive",
+        "rule": "주어 중심은 단수 increase이므로 is다. coupled with their demand ...는 주어를 수식한다.",
+        "trap": "numbers, goods, services 등 가까운 복수 명사에 맞추어 are로 바꾸지 않는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "수도원은 사회와 떨어져 사회를 위해 살았다",
@@ -399,7 +409,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-02",
     "num": 2,
     "type": "제목",
-    "source": "2026학년도 9월 모의평가 24번"
+    "source": "2026학년도 9월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "대명사·재귀대명사",
+        "quote": "monks in separating themselves",
+        "rule": "separating의 행위자는 monks이고 분리되는 대상도 수도사들 자신이므로 themselves다.",
+        "trap": "monastic lives를 받아 itself로 쓰지 않는다. ‘누가 누구를 분리하는가’를 복원한다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "생존의 필요를 넘어 음식 문화로",
@@ -611,7 +631,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-03",
     "num": 3,
     "type": "제목",
-    "source": "2026학년도 6월 모의평가 24번"
+    "source": "2026학년도 6월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "분사·태",
+        "quote": "institution offering people",
+        "rule": "기관인 음식점이 사람들에게 선택과 서비스를 제공하는 능동 관계라 offering이다.",
+        "trap": "offered로 바꾸면 people 등 목적어가 그대로 남아 있는 능동 구조와 맞지 않는다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "셀피는 자기 표현의 오랜 역사를 확장한다",
@@ -803,7 +833,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-04",
     "num": 4,
     "type": "제목",
-    "source": "2025학년도 수능 24번"
+    "source": "2025학년도 수능 24번",
+    "grammarLinks": [
+      {
+        "n": 3,
+        "category": "접속사·관계사",
+        "quote": "what we have come to call",
+        "rule": "what은 call의 목적어를 겸하고 our own image가 그 목적격 보어다. what절 전체가 주절 is의 주어다.",
+        "trap": "what을 that으로 고치면 call의 목적어가 없어진다. 대시 안 설명을 빼고 뼈대를 확인한다.",
+        "from": "grammar-special-2021"
+      }
+    ]
   },
   {
     "title": "사무실 설계는 직선 발전보다 순환한다",
@@ -1012,7 +1052,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-05",
     "num": 5,
     "type": "제목",
-    "source": "2025학년도 9월 모의평가 24번"
+    "source": "2025학년도 9월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "수일치",
+        "quote": "shows that",
+        "rule": "Comparing the offices ... with ...라는 동명사구 전체가 주어라 shows다.",
+        "trap": "복수 offices나 spaces에 맞추어 show로 바꾸지 않는다. 비교하는 행위가 주어다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "미술 속 그림자 표현의 역사",
@@ -1213,7 +1263,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-06",
     "num": 6,
     "type": "제목",
-    "source": "2025학년도 6월 모의평가 24번"
+    "source": "2025학년도 6월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "강조·도치",
+        "quote": "It was only after",
+        "rule": "It was ... that이 only after절을 강조한다. 뒤 claimed that의 that은 주장 내용을 이끄는 접속사다.",
+        "trap": "강조 구문의 that과 claimed의 목적절 that을 같은 기능으로 보지 않는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "과잉 관광은 단순한 인원 초과가 아니다",
@@ -1445,7 +1505,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-07",
     "num": 7,
     "type": "제목",
-    "source": "2024학년도 수능 24번"
+    "source": "2024학년도 수능 24번",
+    "grammarLinks": [
+      {
+        "n": 10,
+        "category": "형용사·부사",
+        "quote": "highly relative",
+        "rule": "relative는 주어의 성질을 나타내는 형용사이고 highly는 그 정도를 꾸미는 부사다.",
+        "trap": "high relative로 바꾸지 않는다. is의 보어는 relative이며 그 앞 수식어는 부사다.",
+        "from": "grammar-special-2023"
+      }
+    ]
   },
   {
     "title": "온라인 뉴스는 오래 남고 맥락이 넓어진다",
@@ -1625,7 +1695,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-08",
     "num": 8,
     "type": "제목",
-    "source": "2024학년도 9월 모의평가 24번"
+    "source": "2024학년도 9월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "수일치",
+        "quote": "One of the emergent qualities",
+        "rule": "one of + 복수 명사 구조에서 주어 중심은 One이므로 seems다. determined ...는 부가 수식어다.",
+        "trap": "qualities가 복수라고 seem을 고르지 않는다. 하나의 특성을 말하는 문장이다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "이동이 늘어도 접근은 어려워질 수 있다",
@@ -1679,7 +1759,7 @@ window.EXAM_DATA["title"] = [
       ],
       [
         7,
-        "Not only가 문두에 와서 is it으로 도치된다. but 뒤 moving around가 주어 역할을 한다."
+        "Not only가 문두에 와서 is it으로 도치된다. it은 가주어, to access locations가 진주어다. but 뒤의 주어 중심은 the very process이며 of moving around in cities가 이를 수식한다. 본동사는 generates다."
       ]
     ],
     "insert": [
@@ -1838,7 +1918,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-09",
     "num": 9,
     "type": "제목",
-    "source": "2024학년도 6월 모의평가 24번"
+    "source": "2024학년도 6월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 3,
+        "category": "분사·태",
+        "quote": "infrastructure and energy prices permitting",
+        "rule": "기반 시설과 에너지 가격이 허용한다는 조건을 독립분사구문으로 덧붙인다. 주절과 주어가 다르므로 명사구가 남는다.",
+        "trap": "permitted로 바꾸면 그 명사구가 허용하는 능동 관계와 달라진다. 주절에는 may be라는 동사가 이미 있다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "뇌의 시각 기능은 나누어 정보를 처리한다",
@@ -2061,7 +2151,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-10",
     "num": 10,
     "type": "제목",
-    "source": "2023학년도 수능 24번"
+    "source": "2023학년도 수능 24번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "수일치",
+        "quote": "anyone who sees an object sees",
+        "rule": "that절의 주어 anyone은 단수다. 관계절 동사 sees와 그 밖 본동사 sees가 각각 같은 사람에 맞춰진다.",
+        "trap": "두 sees가 보인다고 하나를 seeing으로 바꾸지 않는다. who절과 주절은 동사가 각각 필요하다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "같은 악보도 연주마다 다른 표현의 가치",
@@ -2283,7 +2383,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-11",
     "num": 11,
     "type": "제목",
-    "source": "2023학년도 9월 모의평가 24번"
+    "source": "2023학년도 9월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "준동사",
+        "quote": "hear different artists perform",
+        "rule": "지각동사 hear + 목적어 different artists + 동사원형 perform 구조다.",
+        "trap": "to perform으로 바꾸지 않는다. 공연하는 주체는 artists이며 능동 관계다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "인간과 로봇이 함께 만드는 팀의 지능",
@@ -2483,7 +2593,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-12",
     "num": 12,
     "type": "제목",
-    "source": "2023학년도 6월 모의평가 24번"
+    "source": "2023학년도 6월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "분사·태",
+        "quote": "arising from the contributions",
+        "rule": "지능이 각 구성원의 기여로부터 생겨나므로 arising이라는 능동 분사 표현을 쓴다. arise는 여기서 자동사다.",
+        "trap": "arisen이라는 수동 표현으로 바꾸지 않는다. ‘생겨나다’와 ‘누군가에 의해 만들어지다’를 혼동하지 않는다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "기계 생산 시대에도 수리에는 창의성이 필요하다",
@@ -2693,7 +2813,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-13",
     "num": 13,
     "type": "제목",
-    "source": "2022학년도 수능 24번"
+    "source": "2022학년도 수능 24번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "비교·병렬",
+        "quote": "a larger grasp of design and materials",
+        "rule": "require의 목적어로 a grasp, an understanding, a comprehension이라는 세 명사구가 병렬이다. 본동사는 continued다.",
+        "trap": "중간 understanding은 관사 an을 가진 명사다. 병렬 목적어 중 하나를 독립 동사로 바꾸지 않는다.",
+        "from": "grammar-special-2022"
+      }
+    ]
   },
   {
     "title": "정부 서비스가 시민의 책임을 대신할 때",
@@ -2910,7 +3040,17 @@ window.EXAM_DATA["title"] = [
     "id": "title-14",
     "num": 14,
     "type": "제목",
-    "source": "2022학년도 9월 모의평가 24번"
+    "source": "2022학년도 9월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 2,
+        "category": "분사·태",
+        "quote": "provided through a taxation process",
+        "rule": "서비스가 세금 또는 요금을 통해 제공되는 수동 관계라 provided가 services를 설명한다.",
+        "trap": "providing으로 바꾸면 서비스 자체가 제공하는 주체가 된다. 본동사는 have evolved다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "노년의 사회적 지각에는 이점도 있다",
@@ -3090,6 +3230,16 @@ window.EXAM_DATA["title"] = [
     "id": "title-15",
     "num": 15,
     "type": "제목",
-    "source": "2022학년도 6월 모의평가 24번"
+    "source": "2022학년도 6월 모의평가 24번",
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "수일치",
+        "quote": "is the presence of a positivity bias",
+        "rule": "보어 Of particular importance가 문두에 나오고 주어 the presence가 뒤에 놓인 도치문이다. 단수 presence에 맞춰 is다.",
+        "trap": "앞의 복수 changes를 주어로 잡아 are로 바꾸지 않는다. in considering ...은 수식어다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   }
 ];

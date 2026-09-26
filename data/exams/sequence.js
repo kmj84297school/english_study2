@@ -245,6 +245,16 @@ window.EXAM_DATA["sequence"] = [
     "easy": [
       "시계를 동그란 물건으로만 생각하지 말고 반복되는 과정을 세는 장치로 생각해 봐.",
       "양초처럼 계속 이어져 보이는 변화도 더 작은 반복 과정으로 볼 수 있다는 글이야. 먼저 일반 원리를 읽고 양초와 다른 사례를 연결해야 another 같은 말이 이해돼."
+    ],
+    "grammarLinks": [
+      {
+        "n": 9,
+        "category": "수일치",
+        "quote": "the decay of atoms of carbon-14 is",
+        "rule": "중심 명사는 단수 decay이고 of atoms of carbon-14는 수식어다. 따라서 is repetitive가 맞다.",
+        "trap": "가까운 복수 atoms를 주어로 착각해 are를 고르지 않는다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -475,6 +485,16 @@ window.EXAM_DATA["sequence"] = [
     "easy": [
       "철학은 의식에 관해 큰 질문을 던지고 넓은 관점을 줄 수 있어. 그런데 실제 뇌가 어떻게 작동하는지까지 알려면 관찰과 실험도 필요하지.",
       "철학의 가치를 인정하면서 경험 과학과 함께하자는 글이야. 철학을 칭찬한 뒤 보완이 필요하다고 말하는 것은 모순이 아니야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "분사·태",
+        "quote": "needs to be supplemented",
+        "rule": "철학이 경험적 발견과 실험에 의해 보완되는 관계여서 to be supplemented라는 수동 부정사를 쓴다.",
+        "trap": "to supplement로 바꾸면 철학이 무언가를 보완한다는 능동 의미가 되고 목적어도 필요해진다.",
+        "from": "grammar-special-2026"
+      }
     ]
   },
   {
@@ -691,6 +711,16 @@ window.EXAM_DATA["sequence"] = [
     "easy": [
       "글을 다 쓴 뒤 점수만 받는 것과 쓰는 중간에 조언을 듣고 고치는 것은 학습 방식이 달라.",
       "과정 중심 쓰기는 피드백과 재작성으로 독자가 이해할 글을 만들게 한다는 거야. 교사가 교실에 있다는 사실과 작성 과정에 실제로 참여하는 것은 구별해야 해."
+    ],
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "접속사·관계사",
+        "quote": "during which",
+        "rule": "선행사 conferences 동안 피드백을 받는다는 뜻이다. 관계절 안 receive, make, carry on이 같은 주어 they에 연결된다.",
+        "trap": "during that은 이 계속적 관계절에서 불가능하다. conferences와 시간의 관계를 확인한다.",
+        "from": "grammar-special-2021"
+      }
     ]
   },
   {
@@ -917,6 +947,16 @@ window.EXAM_DATA["sequence"] = [
     "easy": [
       "처음 보는 고대 문서에 지금 쓰는 수학 기호가 없으면 수학이 아니라고 할 수 있을까?",
       "중요한 것은 익숙한 기호 모양보다 실제로 어떤 수학적 내용을 담는지라는 글이야. 기호라는 잠정 답을 내놓은 뒤 그 한계를 지적하는 순서로 읽어."
+    ],
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "수일치",
+        "quote": "there has to be something",
+        "rule": "there 구문에서 뒤의 something mathematical이 단수이므로 has to be다. mathematical과 going on은 something을 뒤에서 꾸민다.",
+        "trap": "there를 주어처럼 보고 수를 정하지 않는다. 앞의 us는 to say의 의미상 주어다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -1135,6 +1175,16 @@ window.EXAM_DATA["sequence"] = [
     "easy": [
       "기계가 많은 일을 대신해 주면 생활은 편해져. 동시에 원래 일상에서 하던 몸 움직임도 줄어들 수 있지.",
       "편리함의 장점을 부정하는 게 아니라 활동 감소가 건강에 주는 비용도 보자는 글이야. 생활 변화에서 신체 활동 감소, 건강 문제로 이어지는 연결을 따라가."
+    ],
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "접속사·관계사",
+        "quote": "almost all of which",
+        "rule": "which는 앞의 17 unhealthy conditions를 받으며 almost all of which가 관계절 주어다. 복수 대상이라 are다.",
+        "trap": "of 뒤에는 that을 쓸 수 없다. 주절의 Lack와 관계절의 conditions는 서로 다른 수일치 기준이다.",
+        "from": "grammar-special-2021"
+      }
     ]
   },
   {
@@ -1390,6 +1440,16 @@ window.EXAM_DATA["sequence"] = [
     "easy": [
       "같은 규칙을 반복한다고 결과가 모두 혼란스러워지는 것은 아니야. 어떤 규칙과 조건을 반복하는지가 중요해.",
       "자기 진자의 혼돈을 설명하면서 반복만으로 충분하지 않다고 제한하는 글이야. 반복이 관련 있다는 말을 반복만 하면 반드시 혼돈이라는 말로 바꾸지 말자."
+    ],
+    "grammarLinks": [
+      {
+        "n": 9,
+        "category": "강조·도치",
+        "quote": "Nor are all nonlinear systems chaotic",
+        "rule": "부정어 Nor가 문두에 와서 are가 주어 all nonlinear systems 앞에 놓였다. 기본 관계는 systems are chaotic다.",
+        "trap": "are를 being으로 바꾸면 본동사가 없어진다. not all은 ‘모두가 ~인 것은 아니다’라는 부분 부정이다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -1617,6 +1677,16 @@ window.EXAM_DATA["sequence"] = [
     "easy": [
       "오늘 약속을 어기면 다음에 사람들이 나와 거래하지 않을 수 있어. 그 미래 손해를 생각하면 지금 계약을 지킬 이유가 생기지.",
       "평판이 공유되고 쌓이는 공동체에서는 농부와 지주 모두에게 이 원리가 적용된다는 글이야. Similarly는 한쪽 사례를 다른 쪽에도 똑같이 적용하는 신호야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "분사·태",
+        "quote": "can be devalued",
+        "rule": "평판 자본이 가치 하락을 당하는 관계라 can be devalued다. 뒤 contracts are violated도 계약이 위반되는 수동태다.",
+        "trap": "devalue나 violating으로 능동 전환할 때 행위자와 대상이 바뀜을 확인한다.",
+        "from": "grammar-special-2026"
+      }
     ]
   },
   {
@@ -1848,6 +1918,16 @@ window.EXAM_DATA["sequence"] = [
     "easy": [
       "무리 안에서 다른 새들이 긴장하는지 보려면 서로가 보여야 하겠지. 시야가 막히면 주변 상태를 알기 어려울 수 있어.",
       "글은 배치와 시야가 새들의 경계·감정 공유에 어떤 영향을 주는지 관찰하고 설명해. 관찰된 결과와 그것을 설명하는 연구자의 가설은 순서와 증거 수준이 달라."
+    ],
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "분사·태",
+        "quote": "changing their body and head positions",
+        "rule": "줄로 선 새들이 몸과 머리 위치를 바꾸는 능동 관계다. 본동사 were에 행동 설명을 덧붙이는 changing이다.",
+        "trap": "positions가 목적어로 남아 있으므로 changed라는 수동 분사로 바꾸지 않는다.",
+        "from": "grammar-special-2026"
+      }
     ]
   }
 ];

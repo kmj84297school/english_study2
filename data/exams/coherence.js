@@ -209,6 +209,16 @@ window.EXAM_DATA["coherence"] = [
     "easy": [
       "바빠서 취미나 휴식을 하루 미루는 일은 있을 수 있어. 하지만 계속 미루다 자기 돌봄이 삶에서 사라지면 문제가 되지.",
       "글은 일과 자기 돌봄 사이의 장기적인 균형을 말해. 목공 같은 활동은 한 가지 예시이지 다른 취미와 우열을 비교하는 주제가 아니야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "비교·병렬",
+        "quote": "to recognize",
+        "rule": "가주어 it 뒤의 진주어에서 to recognize와 to make sure가 and로 병렬 연결된다.",
+        "trap": "to recognize 다음이라고 뒤 동사를 making으로 바꾸지 않는다. recognize와 make sure의 목적어도 구분한다.",
+        "from": "grammar-special-2022"
+      }
     ]
   },
   {
@@ -421,6 +431,16 @@ window.EXAM_DATA["coherence"] = [
     "easy": [
       "한 사람의 조언만 받으면 놓치는 관점이 있을 수 있어. 다양한 멘토와 연결되면 자신과 조직을 더 넓게 이해할 수 있지.",
       "이 필요는 소수 집단만이 아니라 다수 집단에도 있다는 글이야. 단순히 멘토라는 단어가 반복된다고 모두 같은 논리를 잇는 문장은 아니야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "준동사",
+        "quote": "have individuals be",
+        "rule": "사역동사 have + 목적어 individuals + 동사원형 be 구조다. 그 뒤 세 표현은 개인들의 상태를 병렬로 설명한다.",
+        "trap": "have가 있다고 완료시제로 보아 been을 고르거나 사역 목적격 보어를 to be로 바꾸지 않는다.",
+        "from": "grammar-special-2024"
+      }
     ]
   },
   {
@@ -646,6 +666,16 @@ window.EXAM_DATA["coherence"] = [
     "easy": [
       "빙하는 오래 지속되는 얼음이지만 크기가 절대 변하지 않는다는 뜻은 아니야.",
       "기록과 위성 관찰은 빙하가 줄어드는 추세를 보여 줘. 마지막 소멸 전망은 원문 당시의 조건부 예측으로 읽고, 현재 확정된 소멸 날짜처럼 외우지 말자."
+    ],
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "분사·태",
+        "quote": "It is estimated that",
+        "rule": "‘~라고 추정된다’라는 수동 구문이다. it은 가주어이며 that절이 추정되는 내용이다.",
+        "trap": "estimating으로 바꾸면 it이 추정하는 주체가 되어 의미가 달라진다. that절의 many glaciers가 주절 주어는 아니다.",
+        "from": "grammar-special-2026"
+      }
     ]
   },
   {
@@ -872,6 +902,16 @@ window.EXAM_DATA["coherence"] = [
     "easy": [
       "스포츠를 즐기러 가려면 사람뿐 아니라 장비도 옮겨야 할 때가 있어. 차는 이 둘을 함께 실을 수 있고 대중교통이 닿기 어려운 곳에도 갈 수 있지.",
       "그래서 자동차가 스포츠 관광을 확장했다는 글이야. 자동차 일반의 편리함보다 장비와 목적지 접근이라는 구체적 연결이 중요해."
+    ],
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "분사·태",
+        "quote": "not served by public transport",
+        "rule": "areas가 대중교통의 서비스를 받는 대상이므로 과거분사 served가 areas를 수식한다.",
+        "trap": "serving으로 바꾸면 지역들이 서비스를 제공한다는 능동 관계가 된다. by public transport가 수동의 단서다.",
+        "from": "grammar-special-2026"
+      }
     ]
   },
   {
@@ -1084,6 +1124,16 @@ window.EXAM_DATA["coherence"] = [
     "easy": [
       "혼자 찾기 어려운 수집품도 거래상이 알고 있는 다른 사람들의 연결망을 통해 발견할 수 있어.",
       "거래상의 넓은 정보망이 고객의 수집 가능성을 늘린다는 글이야. 수집이라는 소재가 같아도 이 정보 전달의 연결을 끊으면 무관한 문장이 될 수 있어."
+    ],
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "준동사",
+        "quote": "well-enough connected to hear",
+        "rule": "충분히 연결되어 있어 소식을 들을 수 있다는 enough + to부정사 구조다. to hear는 그 정도의 결과·가능성을 설명한다.",
+        "trap": "hear를 본동사로 바꾸지 않는다. well은 connected의 정도를 꾸미는 부사다.",
+        "from": "grammar-special-2024"
+      }
     ]
   },
   {
@@ -1308,6 +1358,16 @@ window.EXAM_DATA["coherence"] = [
     "easy": [
       "노래를 머릿속에 기억한다고 바로 정확히 부를 수 있는 건 아니지. 직접 불러 보고 내 소리를 들으며 고쳐야 해.",
       "새도 기억한 노래를 연습과 청각 피드백으로 맞춰 간다는 글이야. 노래 학습의 모든 원인을 나열하는 것이 아니라 기억 다음의 연습 과정을 따라가."
+    ],
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "대명사·재귀대명사",
+        "quote": "hearing oneself sing",
+        "rule": "자기 자신이 노래하는 것을 듣는다는 뜻으로 듣는 주체와 노래하는 대상이 같다. hearing + 목적어 oneself + 동사원형 sing 구조다.",
+        "trap": "one이나 him으로 바꾸면 ‘자신’이라는 동일 지시가 사라진다. sing을 to sing으로 바꾸는 것도 피한다.",
+        "from": "grammar-special-2024"
+      }
     ]
   },
   {
@@ -1527,6 +1587,16 @@ window.EXAM_DATA["coherence"] = [
     "easy": [
       "하고 싶은 말을 아직 고르지 못했는데 입이 먼저 움직이면 “어… 음…” 같은 군말이 나올 수 있어.",
       "빠른 발화 속도와 뇌가 말을 준비하는 속도가 어긋나는 것이 원인이라는 글이야. 군말이 나와서 생각이 빨라진다는 식으로 인과를 뒤집지 말자."
+    ],
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "준동사",
+        "quote": "stops sending",
+        "rule": "stop + -ing는 보내던 행위를 중단한다는 뜻이다. 뇌가 지시를 멈추는 상황이다.",
+        "trap": "stop to send는 보내기 위해 다른 일을 멈춘다는 뜻이므로 반대 상황이 된다.",
+        "from": "grammar-special-2024"
+      }
     ]
   },
   {
@@ -1737,6 +1807,16 @@ window.EXAM_DATA["coherence"] = [
     "easy": [
       "원격근무가 편리해도 조직이 받아들이기 어려운 장벽은 있을 수 있어.",
       "하지만 기술·노동·생활 방식이 바뀌고 조직의 이익이 생기면서 그 장벽이 줄어든다는 설명이야. 지금 제약이 있다는 말과 앞으로 확산된다는 말은 시간과 방향이 달라 함께 성립해."
+    ],
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "수일치",
+        "quote": "are only three",
+        "rule": "advances, expansion, desire라는 세 명사구가 and로 연결된 복합 주어이므로 are다.",
+        "trap": "동사 가까이의 단수 family나 desire만 보고 is로 고치지 않는다. 긴 주어의 병렬 전체를 찾는다.",
+        "from": "grammar-special-2025"
+      }
     ]
   }
 ];

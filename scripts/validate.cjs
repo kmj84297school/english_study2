@@ -23,6 +23,11 @@ try{
     for(const photo of p.photos)check(fs.existsSync(path.join(root,`assets/sources/${photo}.jpg`)),`${tag}: PDF page image`);
     continue;
    }
+   check(Array.isArray(p.grammarLinks)&&p.grammarLinks.length>0,`${tag}: special grammar connection missing`);
+   for(const g of p.grammarLinks||[]){
+    check(valid(g.n)&&p.sentences[g.n-1].en.includes(g.quote)&&g.rule&&g.trap,`${tag}: grammar connection quote/rule`);
+    check(index.some(group=>group.id==='grammar-special'&&group.passages.some(x=>x.id===g.from)),`${tag}: grammar special link target`);
+   }
    check(p.turns.length>0&&p.turns.every(valid),`${tag}: turning points`);
    check(p.flow.length>=4&&p.flow.length<=7,`${tag}: 4–7 flow steps`);
    for(const f of p.flow)check(valid(f[1])&&valid(f[2])&&f[1]<=f[2]&&f[3],`${tag}: flow range`);

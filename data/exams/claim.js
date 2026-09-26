@@ -180,6 +180,16 @@ window.EXAM_DATA["claim"] = [
     "easy": [
       "셰익스피어가 언어를 풍부하게 했다고 인정하면서, 노래 가사로 언어와 문학을 발전시킨 작사가를 무시하면 공정하지 않다는 글이야.",
       "작사가의 작품이 어떤 성과를 냈는지 먼저 보여 준 뒤, 마지막에 문학 연구도 그 기여를 인정해야 한다고 요구해. 셰익스피어는 비교 기준이지 비판 대상이 아니야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "분사·태",
+        "quote": "Producing lyrics",
+        "rule": "작사가들이 가사를 만들어 내므로 Producing은 능동 분사구문이다. 본동사는 have had다.",
+        "trap": "Produced로 바꾸면 뒤 목적어 lyrics가 남은 능동 구조와 맞지 않는다.",
+        "from": "grammar-special-2026"
+      }
     ]
   },
   {
@@ -391,6 +401,16 @@ window.EXAM_DATA["claim"] = [
     "easy": [
       "규칙을 어긴 직원이라고 모두 일부러 나쁘게 행동한 것은 아닐 수 있어. 어떤 직원은 무엇이 허용되는지 제대로 모르는 거지.",
       "그래서 처벌할 사람만 찾기보다 행동 기준과 실천 방법을 분명히 알려 주자는 글이야. 같은 행동이라도 고의와 무지는 원인이 다르다는 점을 기억해."
+    ],
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "접속사·관계사",
+        "quote": "reason that employees give",
+        "rule": "첫 that은 give의 목적어가 빠진 관계절로 reason을 수식한다. is 뒤 that절은 주어 they와 서술부가 갖추어진 보어절이다.",
+        "trap": "두 that을 모두 같은 종류로 처리하지 않는다. reason이라는 명사가 있다고 무조건 why를 쓰면 give의 목적어가 없어진다.",
+        "from": "grammar-special-2021"
+      }
     ]
   },
   {
@@ -618,6 +638,16 @@ window.EXAM_DATA["claim"] = [
     "easy": [
       "비가 올까 봐 우산을 챙기는 준비는 도움이 돼. 하지만 내가 바꿀 수 없는 미래를 끝없이 상상하며 걱정하는 것은 다른 일이야. 이 예는 이해를 위한 비유야.",
       "글은 준비 전체를 버리라고 하지 않아. 대비로 해결할 수 있는 일과 생각만 반복해도 바뀌지 않는 걱정을 구별하자는 거야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "대명사·재귀대명사",
+        "quote": "they cause us",
+        "rule": "they는 복수 our worries를 받으며 cause의 주어다. us는 걱정 때문에 고통받는 우리다.",
+        "trap": "앞 절의 단수 control을 they의 선행사로 잡지 않는다. 주어와 목적어가 다르므로 ourselves로 바꿀 이유가 없다.",
+        "from": "grammar-special-2024"
+      }
     ]
   },
   {
@@ -833,6 +863,16 @@ window.EXAM_DATA["claim"] = [
     "easy": [
       "게임에 오래 집중하는 힘을 공부에 잘 연결하면 어떨까 하는 글이야. 게임이 학습을 방해한다는 익숙한 생각에서 출발하지만 거기서 끝나지 않아.",
       "While 뒤에서는 그 집중력을 학습 성과에 쓰는 방향으로 바꿔. 게임을 아무렇게나 많이 하라는 게 아니라 학습과 연결되는 게임을 만들자는 주장이야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "분사·태",
+        "quote": "could be used",
+        "rule": "도구가 생산성을 높이기 위해 사용되는 수동 관계다. 관계절의 that은 tool을 받는 주어다.",
+        "trap": "could used처럼 be를 빼거나 could be using으로 바꾸면 수동 구조가 무너진다.",
+        "from": "grammar-special-2026"
+      }
     ]
   },
   {
@@ -1035,6 +1075,16 @@ window.EXAM_DATA["claim"] = [
     "easy": [
       "소셜 미디어에서는 내가 글을 읽는 사람인 동시에 다른 사람에게 퍼뜨리는 사람이기도 해.",
       "그러니 올라온 정보를 그냥 믿고 전달하기보다 사실을 확인해야 한다는 거야. 회사의 개인정보 보호 문제보다 이용자의 정확한 정보 공유 책임이 중심이야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "접속사·관계사",
+        "quote": "upon which",
+        "rule": "understanding is built upon the foundation을 관계절로 바꾼 것이다. foundation을 선행사로 upon which가 연결한다.",
+        "trap": "which만 쓰면 기반 ‘위에’ 세워진다는 전치사 관계가 빠진다. 전치사 뒤 that도 쓸 수 없다.",
+        "from": "grammar-special-2021"
+      }
     ]
   },
   {
@@ -1249,6 +1299,16 @@ window.EXAM_DATA["claim"] = [
     "easy": [
       "사람도 편견이 있고 틀릴 수 있지. 그런데 사람은 자신의 잘못을 알아차리고 고쳐 온 경험도 있어.",
       "글은 바로 그 능력이 AI를 감독할 근거라고 해. 인간이 완벽해서 감독하자는 게 아니라 오류를 다루는 능력을 사용하자는 거야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "수일치",
+        "quote": "Little evidence exists",
+        "rule": "evidence는 불가산 단수 취급이므로 exists다. 관계절의 suggests와 predicts도 evidence에 맞는다.",
+        "trap": "little은 양이 적음을 나타내는 말이지 복수형 표시가 아니다. exist/suggest/predict로 바꾸지 않는다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -1465,6 +1525,16 @@ window.EXAM_DATA["claim"] = [
     "easy": [
       "회사 벽에 “협력”이라고 적어 놓는 것만으로 직원이 어떻게 행동해야 할지 알지는 못할 수 있어. 이 예는 이해를 위한 비유야.",
       "가치를 실제 행동으로 바꾸려면 어떤 행동을 해야 하는지 구체적으로 보여 주고 공유해야 한다는 글이야. 가치를 고르는 단계보다 이미 정한 가치를 실천시키는 단계에 집중해."
+    ],
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "준동사",
+        "quote": "It is critical to have",
+        "rule": "It은 가주어이고 to have ...가 진주어다. critical은 그 행위의 중요성을 설명하는 보어다.",
+        "trap": "It is ... that 강조 구문과 다르다. it이 특정 명사를 가리키는지, 뒤 행위를 대신하는지 먼저 확인한다.",
+        "from": "grammar-special-2024"
+      }
     ]
   },
   {
@@ -1664,6 +1734,16 @@ window.EXAM_DATA["claim"] = [
     "easy": [
       "과학자는 읽고 연구하는 것뿐 아니라 자신의 연구를 다른 사람이 이해하게 쓰는 일도 해야 해.",
       "내가 아는 순서대로만 적지 말고 독자가 어디에서 막히는지 생각하며 쓰자는 거야. 읽기가 필요 없다는 말이 아니라 글쓰기에도 독자의 관점이 필요하다는 뜻이야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 3,
+        "category": "접속사·관계사",
+        "quote": "what is often overlooked here",
+        "rule": "what은 ‘간과되는 것’으로 뒤 수동절의 주어 역할까지 한다. 주절 보어 that scientists ...에는 scientists라는 주어가 따로 있다.",
+        "trap": "주어 역할을 하는 what을 That으로 바꾸면 안 된다. 뒤 보어절 that과 기능이 다르다.",
+        "from": "grammar-special-2021"
+      }
     ]
   }
 ];

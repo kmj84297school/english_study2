@@ -227,7 +227,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-01",
     "num": 1,
     "type": "요지",
-    "source": "2026학년도 수능 22번"
+    "source": "2026학년도 수능 22번",
+    "grammarLinks": [
+      {
+        "n": 3,
+        "category": "접속사·관계사",
+        "quote": "businesses which need",
+        "rule": "which는 businesses를 받는 주격 관계대명사다. need의 주어가 관계절 안에 따로 없다.",
+        "trap": "which를 where로 바꾸면 need의 주어가 사라진다. 기업이 장소처럼 느껴져도 절 성분부터 본다.",
+        "from": "grammar-special-2021"
+      }
+    ]
   },
   {
     "title": "소셜 미디어의 관계망은 사회적 자본이다",
@@ -435,7 +445,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-02",
     "num": 2,
     "type": "요지",
-    "source": "2026학년도 9월 모의평가 22번"
+    "source": "2026학년도 9월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "강조·도치",
+        "quote": "it is who you know",
+        "rule": "It is ... that 강조 구문으로 who you know를 부각한다. know의 목적어인 who와 뒤 shapes의 주어 역할을 구분한다.",
+        "trap": "앞의 you에 맞추어 shapes를 shape로 바꾸지 않는다. 강조되는 명사절 전체가 주어다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "정보는 해석을 거쳐 의미가 된다",
@@ -628,7 +648,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-03",
     "num": 3,
     "type": "요지",
-    "source": "2026학년도 6월 모의평가 22번"
+    "source": "2026학년도 6월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 2,
+        "category": "접속사·관계사",
+        "quote": "whose probability",
+        "rule": "whose는 data or sensory states의 소유 관계를 나타내며 뒤 명사 probability를 한정한다.",
+        "trap": "which probability로 바꾸지 않는다. 관계절의 주어는 whose probability이며 can be measured는 수동이다.",
+        "from": "grammar-special-2021"
+      }
+    ]
   },
   {
     "title": "감정 이해는 집단의 소통과 협력을 돕는다",
@@ -826,7 +856,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-04",
     "num": 4,
     "type": "요지",
-    "source": "2025학년도 수능 22번"
+    "source": "2025학년도 수능 22번",
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "수일치",
+        "quote": "is particularly relevant",
+        "rule": "주어 중심은 단수 ability라 is다. 대시 안의 to have/to understand는 능력의 내용을 풀어 쓴 삽입 설명이다.",
+        "trap": "대시 안 causes and consequences에 맞추어 are로 바꾸지 않는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "도덕적 책임은 인간 사회에서 배우는 문화적 도구다",
@@ -1024,7 +1064,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-05",
     "num": 5,
     "type": "요지",
-    "source": "2025학년도 9월 모의평가 22번"
+    "source": "2025학년도 9월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "강조·도치",
+        "quote": "only within human society do we come",
+        "rule": "only + 부사구가 문두에 나와 do + 주어 we + 동사원형 come으로 도치된다.",
+        "trap": "do we comes로 쓰지 않는다. within human society가 강조되는 범위 조건이다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "평등한 의사소통에서 공유와 공조의 가치로",
@@ -1238,7 +1288,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-06",
     "num": 6,
     "type": "요지",
-    "source": "2025학년도 6월 모의평가 22번"
+    "source": "2025학년도 6월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "접속사·관계사",
+        "quote": "the notion that property should be held",
+        "rule": "that절은 notion의 내용을 밝히는 동격 내용절이다. property should be held in common은 완전한 수동절이다.",
+        "trap": "that을 which로 바꾸면 불필요한 절 성분이 생긴다. notion이 바로 앞에 있다고 무조건 관계절은 아니다.",
+        "from": "grammar-special-2021"
+      }
+    ]
   },
   {
     "title": "고객의 칭찬에 응답하면 관계가 깊어진다",
@@ -1430,7 +1490,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-07",
     "num": 7,
     "type": "요지",
-    "source": "2024학년도 수능 22번"
+    "source": "2024학년도 수능 22번",
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "수일치",
+        "quote": "allows you to connect",
+        "rule": "Being able to prioritize your responses 전체가 동명사구 주어라 allows다. you는 allow의 목적어다.",
+        "trap": "가까운 복수 responses를 주어로 보아 allow로 바꾸지 않는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "이민자가 문화적 정체성을 유지할 권리",
@@ -1645,7 +1715,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-08",
     "num": 8,
     "type": "요지",
-    "source": "2024학년도 9월 모의평가 22번"
+    "source": "2024학년도 9월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "비교·병렬",
+        "quote": "think and act differently",
+        "rule": "think와 act가 and로 병렬이며 differently가 두 행동의 방식을 꾸미는 부사다.",
+        "trap": "different를 쓰면 동사의 방식이라는 기능에 맞지 않는다. 이 문장에서는 형용사 보어를 요구하는 동사가 아니다.",
+        "from": "grammar-special-2022"
+      }
+    ]
   },
   {
     "title": "온라인에서도 정보를 검증하는 방어가 필요하다",
@@ -1846,7 +1926,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-09",
     "num": 9,
     "type": "요지",
-    "source": "2024학년도 6월 모의평가 22번"
+    "source": "2024학년도 6월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "형용사·부사",
+        "quote": "to be less defensive",
+        "rule": "defensive는 주어 we의 경계하는 상태를 나타내는 형용사 보어다. less가 그 정도를 낮춘다.",
+        "trap": "defensively는 행동의 방식을 꾸미는 부사이므로 be 뒤의 상태 보어와 다르다.",
+        "from": "grammar-special-2023"
+      }
+    ]
   },
   {
     "title": "자전거는 도시의 효율적인 배송 수단이다",
@@ -2033,7 +2123,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-10",
     "num": 10,
     "type": "요지",
-    "source": "2023학년도 수능 22번"
+    "source": "2023학년도 수능 22번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "수일치",
+        "quote": "Using bicycles as cargo vehicles is",
+        "rule": "Using ...이라는 활동 전체가 주어라 단수 is encouraged다. 활동은 장려되는 대상이므로 수동태다.",
+        "trap": "bicycles/vehicles가 복수여도 are로 쓰지 않는다. using의 목적어를 주어로 착각하지 않는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "세금 정책의 목표에는 도덕적 판단이 필요하다",
@@ -2235,7 +2335,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-11",
     "num": 11,
     "type": "요지",
-    "source": "2023학년도 9월 모의평가 22번"
+    "source": "2023학년도 9월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "접속사·관계사",
+        "quote": "whether or not a particular tax law",
+        "rule": "determine의 목적어로 ‘세법이 목표 달성에 도움이 될지 아닌지’를 묻는 whether절이다. 뒤 절은 주어와 동사가 완전하다.",
+        "trap": "what으로 바꾸면 ‘~인지’ 의미와 완전한 절 구조에 맞지 않는다. whether ... or not의 짝도 확인한다.",
+        "from": "grammar-special-2021"
+      }
+    ]
   },
   {
     "title": "개인정보 제공을 이해하고 능동적으로 선택하라",
@@ -2437,7 +2547,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-12",
     "num": 12,
     "type": "요지",
-    "source": "2023학년도 6월 모의평가 22번"
+    "source": "2023학년도 6월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "분사·태",
+        "quote": "Armed with tools",
+        "rule": "소비자가 도구를 갖춘 상태를 말하는 수동 분사구문이다. 주절의 주어 the consumer와 연결된다.",
+        "trap": "Arming으로 바꾸면 소비자가 다른 대상을 무장시키는 능동 의미가 된다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "피하기 어려운 환경 위험에는 사회적 대응이 필요하다",
@@ -2625,7 +2745,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-13",
     "num": 13,
     "type": "요지",
-    "source": "2022학년도 수능 22번"
+    "source": "2022학년도 수능 22번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "분사·태",
+        "quote": "water contaminated with",
+        "rule": "물이 비소로 오염된 수동 관계여서 contaminated가 water를 수식한다. 본동사는 긴 주어 뒤 outrages다.",
+        "trap": "contaminating으로 바꾸면 물이 무언가를 오염시키는 주체가 된다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "전문직의 자율성에는 사회적 책임이 따른다",
@@ -2817,7 +2947,17 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-14",
     "num": 14,
     "type": "요지",
-    "source": "2022학년도 9월 모의평가 22번"
+    "source": "2022학년도 9월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 2,
+        "category": "수일치",
+        "quote": "is the tension",
+        "rule": "장소 부사구가 앞으로 나오고 주어 the tension이 동사 뒤에 놓였다. 단수 tension에 맞는 is다.",
+        "trap": "뒤 professions나 values를 기준으로 are를 고르지 않는다. 도치문에서도 실제 주어를 찾는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "면밀한 계획은 성공 가능성을 높인다",
@@ -3033,6 +3173,16 @@ window.EXAM_DATA["gist"] = [
     "id": "gist-15",
     "num": 15,
     "type": "요지",
-    "source": "2022학년도 6월 모의평가 22번"
+    "source": "2022학년도 6월 모의평가 22번",
+    "grammarLinks": [
+      {
+        "n": 8,
+        "category": "형용사·부사",
+        "quote": "proceed flawlessly",
+        "rule": "flawlessly는 동사 proceed의 진행 방식을 수식하는 부사다. that절은 guarantee의 목적어다.",
+        "trap": "형용사 flawless로 바꾸면 여기서 동사를 꾸미는 기능에 맞지 않는다.",
+        "from": "grammar-special-2023"
+      }
+    ]
   }
 ];

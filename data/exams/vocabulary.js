@@ -228,6 +228,16 @@ window.EXAM_DATA["vocabulary"] = [
     "easy": [
       "친구와 즐기는 경기와 꼭 이겨야 하는 경기에서는 같은 행동을 다르게 판단할 수 있다는 설명이야.",
       "판단이 상황과 관계의 목적에 따라 달라지는 것을 상황 윤리라고 해. 글쓴이가 모든 반칙을 좋다고 권하는 말로 바꾸지는 말자."
+    ],
+    "grammarLinks": [
+      {
+        "n": 3,
+        "category": "접속사·관계사",
+        "quote": "what matters",
+        "rule": "what은 ‘중요한 것’이며 matters의 주어도 겸한다. 명사절 전체가 주절 is의 주어다.",
+        "trap": "what을 that으로 바꾸면 matters의 주어가 없어지는 점을 확인한다.",
+        "from": "grammar-special-2021"
+      }
     ]
   },
   {
@@ -478,6 +488,16 @@ window.EXAM_DATA["vocabulary"] = [
     "easy": [
       "강을 내 마음대로 고정하려 하기보다 강의 변화와 생태 관계를 고려하는 공학을 설명해.",
       "우리가 자연을 전부 알지는 못하니 작은 요소도 함부로 불필요하다고 지우지 말자는 거야. 덜 개입하는 것은 관심이 없어서가 아니라 아는 데 한계가 있음을 인정해서야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 10,
+        "category": "분사·태",
+        "quote": "are presumed by soft-path engineers to be",
+        "rule": "여러 지형이 공학자들에 의해 중요하다고 여겨지는 수동 구문이다. 삽입구 밖 주어들이 복수라 are다.",
+        "trap": "presuming으로 바꾸면 지형이 추정의 행위자가 된다. 뒤 to be는 추정되는 상태를 말한다.",
+        "from": "grammar-special-2026"
+      }
     ]
   },
   {
@@ -709,6 +729,16 @@ window.EXAM_DATA["vocabulary"] = [
     "easy": [
       "비슷한 연구 글 중에서도 어떤 글은 누가 썼는지 떠오를 만큼 목소리가 뚜렷할 수 있어.",
       "학술 글도 좋은 생각뿐 아니라 독자가 기억할 표현의 개성이 필요하다는 글이야. 브랜딩은 이를 설명하는 비유이며 제품을 판매하는 법이 주제는 아니야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "비교·병렬",
+        "quote": "not just in developing innovative ideas but in cultivating",
+        "rule": "not just A but B에서 in developing과 in cultivating이 병렬이다. 전치사 in 뒤에는 동명사를 쓴다.",
+        "trap": "cultivate로 바꾸거나 앞 절의 is와 직접 연결해 진행형으로 읽지 않는다.",
+        "from": "grammar-special-2022"
+      }
     ]
   },
   {
@@ -935,6 +965,16 @@ window.EXAM_DATA["vocabulary"] = [
     "easy": [
       "이겼는데 상대가 부러워하거나 관계가 불편해질 것 같으면 승리만 즐겁지는 않을 수 있지.",
       "관계가 중요한 상황에서는 이런 죄책감이 경쟁 의욕을 줄일 수 있다는 글이야. 이기는 것이 언제나 의욕을 높인다고 생각하면 핵심 대비를 놓치게 돼."
+    ],
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "수일치",
+        "quote": "Feelings of guilt",
+        "rule": "주어 중심은 복수 Feelings라 lead가 쓰인다. an emotion ...은 guilt를 설명하는 삽입구다.",
+        "trap": "삽입구의 단수 emotion이나 motivation에 맞춰 leads로 바꾸지 않는다. 원문의 어휘 정오와 수일치 판단은 별개다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -1174,6 +1214,16 @@ window.EXAM_DATA["vocabulary"] = [
     "easy": [
       "나는 늘 합리적으로 판단한다고 믿어도 자동적인 생각과 편향이 판단에 끼어들 수 있어.",
       "그 비합리적인 부분을 알아야 고칠 기회도 생긴다는 거야. 처음의 “합리적이라고 믿음”과 실제로 알아야 할 “비합리성”을 나눠 읽자."
+    ],
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "형용사·부사",
+        "quote": "more rational",
+        "rule": "make us + 형용사 보어 구조로 us의 상태를 설명한다. less subject, more rational, more aware가 병렬이다.",
+        "trap": "rationally처럼 부사로 바꾸면 목적어의 상태를 나타내는 보어 기능을 잃는다.",
+        "from": "grammar-special-2023"
+      }
     ]
   },
   {
@@ -1423,6 +1473,16 @@ window.EXAM_DATA["vocabulary"] = [
     "easy": [
       "상을 준다고 시킨 일을 하게 만들 수는 있어. 하지만 그 일이 왜 중요한지 스스로 받아들였다고 보장할 수는 없지.",
       "글은 겉으로 행동하는 것과 가치를 자기 것으로 만드는 것을 구별해. 내면화를 돕고 싶다면 이유를 설명하고 상대의 마음을 이해하는 지원이 필요하다는 거야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 8,
+        "category": "수일치",
+        "quote": "parents who supply reasons",
+        "rule": "parents가 주어이고 who절의 supply/show/use는 부모를 수식한다. 주절 동사는 are다.",
+        "trap": "긴 관계절 속 단수 minimum에 끌려 is를 쓰지 않는다. 관계절 안 동사와 주절 동사를 분리한다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -1653,6 +1713,16 @@ window.EXAM_DATA["vocabulary"] = [
     "easy": [
       "흥정은 단순히 한쪽이 최대한 돈을 빼앗는 경쟁만은 아니야. 상대가 무엇이 필요하고 얼마나 감당할 수 있는지 아는 관계가 가격 합의를 도울 수 있어.",
       "공유된 생활과 문화의 이해가 과도한 요구를 피하게 한다는 글이야. 가장 싸게 사는 요령보다 상대의 사정 이해가 중심이야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "강조·도치",
+        "quote": "at no point will the buyer see",
+        "rule": "부정어구 at no point가 앞에 와서 will이 the buyer 앞에 놓인다. will 뒤 see는 동사원형이다.",
+        "trap": "will the buyer sees는 틀리다. 부정어구가 앞에 있는 도치 어순을 보존한다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -1867,6 +1937,16 @@ window.EXAM_DATA["vocabulary"] = [
     "easy": [
       "옷을 편하게 살 수 있어도 누가 어떤 기술과 자원으로 어디에서 만들었는지는 모를 수 있어.",
       "생산과 소비가 멀어진 만큼 잃기 쉬운 그 맥락을 다시 보자는 글이야. 먼 곳의 물건을 쓰지 말라는 뜻보다 장소와 사람의 가치를 잊지 말라는 뜻이야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "분사·태",
+        "quote": "products made from textiles",
+        "rule": "제품이 직물로 만들어진 것이므로 made from textiles가 products를 뒤에서 수식한다. 본동사는 could acquire다.",
+        "trap": "making으로 바꾸면 제품이 직물을 만들거나 재료로 사용한다는 능동 관계가 된다.",
+        "from": "grammar-special-2026"
+      }
     ]
   }
 ];

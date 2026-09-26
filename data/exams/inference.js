@@ -209,6 +209,16 @@ window.EXAM_DATA["inference"] = [
     "easy": [
       "온라인으로 일을 작은 단위로 나누어 맡기면 같은 사무실에 있는 사람만 고를 필요가 줄어들어.",
       "계약과 작업 전달이 쉬워지는 것은 이유이고, 그 결과 일이 특정 장소에 덜 묶이는 것이 핵심이야. 모든 일이 장소와 무관해진다고 확대하지는 말자."
+    ],
+    "grammarLinks": [
+      {
+        "n": 3,
+        "category": "접속사·관계사",
+        "quote": "at which",
+        "rule": "work can take place at the volume and granularity라는 관계를 잇는다. at which 이하가 규모와 세분화 정도를 수식한다.",
+        "trap": "전치사 at과 관계대명사 which를 묶어서 본다. 뒤가 주어·동사를 갖췄다고 불필요한 관계절로 지우지 않는다.",
+        "from": "grammar-special-2021"
+      }
     ]
   },
   {
@@ -439,6 +449,16 @@ window.EXAM_DATA["inference"] = [
     "easy": [
       "낮은 도와 높은 도는 분명 높이가 다른데도 둘 다 도라고 느껴지지.",
       "글은 음의 높이가 올라가는 성질과 같은 이름으로 돌아오는 듯한 성질이 함께 있다고 설명해. 같은 음 이름이라는 말이 진동수도 같다는 말은 아니야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 8,
+        "category": "접속사·관계사",
+        "quote": "one that accounts for",
+        "rule": "one과 another는 앞의 two dimensions 각각이다. 두 that절은 각 차원을 설명하고 that이 accounts의 주어다.",
+        "trap": "one/another가 단수이므로 accounts가 맞다. 뒤 tones가 복수여도 account로 바꾸지 않는다.",
+        "from": "grammar-special-2021"
+      }
     ]
   },
   {
@@ -688,6 +708,16 @@ window.EXAM_DATA["inference"] = [
     "easy": [
       "기록이 좋아졌다고 모두 내 능력만 좋아진 결과일까? 상황이나 비교 상대가 달라졌을 수도 있어.",
       "글은 기록 자체가 가짜라는 게 아니라, 그 기록을 전부 내 공로로 돌려 자존감을 세우는 근거가 불확실하다고 해. 결과와 결과의 해석을 나눠 읽어."
+    ],
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "수일치",
+        "quote": "puts you",
+        "rule": "Basing your self-worth on climbing performance라는 동명사구 전체가 주어이므로 puts다.",
+        "trap": "외부 요인 factors가 복수라는 이유로 put을 쓰지 않는다. 주어는 그 요인들이 아니라 자기가치를 성과에 두는 행위다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -874,6 +904,16 @@ window.EXAM_DATA["inference"] = [
     "easy": [
       "설계 이론만 알고 실제로 구현하지 못해도 문제고, 손기술만 있고 이론이 부족해도 한계가 있겠지.",
       "건축에는 실제 만드는 능력과 폭넓은 지식이 함께 필요하다는 글이야. 이론만의 한계를 지적하는 부분을 이론 전체가 쓸모없다는 말로 읽으면 안 돼."
+    ],
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "대명사·재귀대명사",
+        "quote": "those who have relied",
+        "rule": "those는 앞의 architects와 같은 종류의 사람들 중 이론에만 의존한 사람들을 받는다. 복수이므로 have다.",
+        "trap": "those를 study로 받아 단수 that이나 has로 바꾸지 않는다. those who는 ‘~하는 사람들’이라는 구조다.",
+        "from": "grammar-special-2024"
+      }
     ]
   },
   {
@@ -1083,6 +1123,16 @@ window.EXAM_DATA["inference"] = [
     "easy": [
       "어떤 마을에 방문했다고 그곳 사람들과 깊이 어울리고 생활을 이해한 것은 아니겠지.",
       "초기 연구자들은 현장에는 갔지만 현지인과 충분히 직접 교류하지 않은 채 관찰했다는 글이야. 현장 방문 여부와 사람들과의 교류 깊이는 다른 기준이야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "강조·도치",
+        "quote": "did at times venture",
+        "rule": "did는 venture를 강조하는 조동사이며 venture는 동사원형이다. at times는 두 요소 사이에 들어간 빈도 표현이다.",
+        "trap": "과거 사건이라도 did ventured로 쓰면 안 된다. 과거 표시는 이미 did가 담당한다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -1300,6 +1350,16 @@ window.EXAM_DATA["inference"] = [
     "easy": [
       "휴대전화 배터리가 0이 아니어도 거의 닳아 있을 수 있듯이, 일을 하고 있다고 소진이 없는 것은 아닐 수 있어. 비유로 이해해 봐.",
       "번아웃을 완전히 있거나 없거나로만 나누지 말고 여러 정도의 상태로 보자는 거야. 마지막 단계에 이르지 않았어도 돌볼 필요가 있다는 뜻이야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "접속사·관계사",
+        "quote": "people who say",
+        "rule": "who는 people을 받는 주격 관계대명사다. 관계절 안 say와 manage가 but으로 이어진다.",
+        "trap": "who를 whom으로 바꾸면 관계절의 주어가 없어진다. say 뒤 they are burned out은 별도 내용절이다.",
+        "from": "grammar-special-2021"
+      }
     ]
   },
   {
@@ -1526,6 +1586,16 @@ window.EXAM_DATA["inference"] = [
     "easy": [
       "걱정 하나에만 시선이 붙어 있으면 경험 전체가 그 걱정처럼 느껴질 수 있어. 주변의 다른 감각과 상황도 함께 보자는 글이야.",
       "여기저기 생각을 마구 옮기는 산만함과 한 문제를 포함한 더 넓은 경험을 보는 것은 달라. 관심을 무조건 흩으라는 뜻이 아니야."
+    ],
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "수일치",
+        "quote": "plays a critical role",
+        "rule": "How you focus your attention이라는 명사절 전체가 주어여서 plays를 쓴다.",
+        "trap": "명사절 내부의 you에 동사를 맞추어 play로 고치지 않는다. 주절과 안쪽 절을 구분한다.",
+        "from": "grammar-special-2025"
+      }
     ]
   },
   {
@@ -1759,6 +1829,16 @@ window.EXAM_DATA["inference"] = [
     "easy": [
       "실험실 물질과 달리 경제에는 스스로 판단하고 서로 영향을 주는 사람이 아주 많아.",
       "그래서 경제 전체를 똑같이 복제해서 조건 하나만 바꾸는 통제 실험이 어렵다는 거야. 경제를 연구할 수 없다는 뜻보다 전체 조건을 통제하기 어렵다는 범위를 보자."
+    ],
+    "grammarLinks": [
+      {
+        "n": 9,
+        "category": "가정법",
+        "quote": "physics would be if particles could think",
+        "rule": "입자가 생각할 수 있다는 비현실적인 가정을 could think로, 그 결과를 would be로 표현한다.",
+        "trap": "과거의 물리학 사건을 서술한 것이 아니다. how hard physics would be는 간접의문 어순이므로 would physics be로 도치하지 않는다.",
+        "from": "grammar-special-2025"
+      }
     ]
   }
 ];

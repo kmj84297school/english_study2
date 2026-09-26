@@ -205,7 +205,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-01",
     "num": 1,
     "type": "빈칸",
-    "source": "2026학년도 수능 31번"
+    "source": "2026학년도 수능 31번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "준동사",
+        "quote": "by buying and selling",
+        "rule": "전치사 by 뒤 buying과 selling이 동명사로 병렬이며 방법을 나타낸다. 문장 전체 주어도 Locking-in ...이라는 동명사구다.",
+        "trap": "by buy and sell로 바꾸지 않는다. helped 뒤 these firms to minimize는 help의 목적어·목적격 보어 구조다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "글쓰기는 보이지 않는 독자의 반응을 예상하는 일",
@@ -412,7 +422,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-02",
     "num": 2,
     "type": "빈칸",
-    "source": "2026학년도 수능 32번"
+    "source": "2026학년도 수능 32번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "접속사·관계사",
+        "quote": "that are part of conversation",
+        "rule": "that은 communication and feedback을 받는 주어이므로 복수 동사 are가 온다.",
+        "trap": "바로 앞 feedback만 보아 is로 바꾸지 않는다. 두 가지가 and로 연결되어 있다.",
+        "from": "grammar-special-2021"
+      }
+    ]
   },
   {
     "title": "바우어새가 이용하는 시각적 착각",
@@ -634,7 +654,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-03",
     "num": 3,
     "type": "빈칸",
-    "source": "2026학년도 9월 모의평가 31번"
+    "source": "2026학년도 9월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "비교·병렬",
+        "quote": "the smaller objects farther away",
+        "rule": "두 번째 절에는 앞과 같은 are placed가 생략되어 있다. larger objects are placed closer와 smaller objects are placed farther가 대비된다.",
+        "trap": "동사가 눈에 안 보인다는 이유만으로 오류로 보지 않는다. 앞 절에서 생략을 복원할 수 있는지 확인한다.",
+        "from": "grammar-special-2022"
+      }
+    ]
   },
   {
     "title": "숲이 다양하다고 습지를 숲으로 바꿔도 될까",
@@ -833,7 +863,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-04",
     "num": 4,
     "type": "빈칸",
-    "source": "2026학년도 9월 모의평가 33번"
+    "source": "2026학년도 9월 모의평가 33번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "분사·태",
+        "quote": "the wildlife threatened by this activity",
+        "rule": "야생 생물이 활동 때문에 위협받는 수동 관계다. threatened ...는 wildlife 수식어이고 본동사는 includes다.",
+        "trap": "threatening으로 바꾸면 야생 생물이 위협하는 주체가 된다. by가 행위 원인을 나타낸다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "동물의 사회적 학습을 가르침이라 부를 수 있을까",
@@ -1024,7 +1064,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-05",
     "num": 5,
     "type": "빈칸",
-    "source": "2026학년도 6월 모의평가 31번"
+    "source": "2026학년도 6월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "수일치",
+        "quote": "communities",
+        "rule": "주어의 중심 communities가 복수라 have been이다. 괄호 속 as well as some animal researchers는 주어의 수를 결정하는 중심이 아니다.",
+        "trap": "때문에절의 teaching implies는 동명사 주어이므로 단수다. 서로 다른 두 절의 수일치 기준을 섞지 않는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "집중은 유용하지만 너무 오래 좁히면 위험하다",
@@ -1241,7 +1291,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-06",
     "num": 6,
     "type": "빈칸",
-    "source": "2026학년도 6월 모의평가 33번"
+    "source": "2026학년도 6월 모의평가 33번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "형용사·부사",
+        "quote": "can be worthwhile",
+        "rule": "worthwhile은 주어 trade-off의 가치를 설명하는 형용사 보어다.",
+        "trap": "be 다음이라고 무조건 수동 분사를 찾지 않는다. worthwhile는 ‘가치 있는’이라는 상태를 나타낸다.",
+        "from": "grammar-special-2023"
+      }
+    ]
   },
   {
     "title": "문학은 언어 학습자를 이야기 속으로 끌어들인다",
@@ -1458,7 +1518,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-07",
     "num": 7,
     "type": "빈칸",
-    "source": "2025학년도 수능 31번"
+    "source": "2025학년도 수능 31번",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "수일치",
+        "quote": "becomes less important",
+        "rule": "Pinpointing ...이라는 동명사구 전체가 주어라 becomes다. 내부의 words or phrases는 may mean의 주어다.",
+        "trap": "내부 복수 words에 맞추어 become으로 바꾸지 않는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "비판적 사고는 자극에 끌려가는 삶에서 벗어나게 한다",
@@ -1688,7 +1758,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-08",
     "num": 8,
     "type": "빈칸",
-    "source": "2025학년도 수능 32번"
+    "source": "2025학년도 수능 32번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "수일치",
+        "quote": "possession of it frees",
+        "rule": "주어 중심은 단수 possession이므로 frees다. of it은 무엇을 갖는지 설명하는 수식어다.",
+        "trap": "뒤 person과 burden을 주어로 잡지 않는다. reacting은 본동사가 아니라 자극에 반응하는 상태를 덧붙인다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "나방은 빛에 끌리는가 갇히는가",
@@ -1911,7 +1991,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-09",
     "num": 9,
     "type": "빈칸",
-    "source": "2025학년도 9월 모의평가 31번"
+    "source": "2025학년도 9월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "분사·태",
+        "quote": "attempting to escape the light",
+        "rule": "나방이 빛에서 벗어나려고 시도하는 능동 관계다. 주절은 The moths fly다.",
+        "trap": "attempted로 바꾸지 않는다. 뒤 bringing은 그 비행이 낳는 결과를 덧붙이며 별도의 본동사가 아니다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "루소의 자아는 타인과의 정서적 관계 속에서 형성된다",
@@ -2120,7 +2210,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-10",
     "num": 10,
     "type": "빈칸",
-    "source": "2025학년도 9월 모의평가 34번"
+    "source": "2025학년도 9월 모의평가 34번",
+    "grammarLinks": [
+      {
+        "n": 8,
+        "category": "강조·도치",
+        "quote": "it is kindness",
+        "rule": "대시 안 삽입 설명을 빼면 it is kindness that is the key라는 강조 구문이다. 기본문은 kindness is the key다.",
+        "trap": "첫 is와 뒤 is가 함께 있다고 동사 중복 오류로 보지 않는다. 강조 구조 안에서 각각 역할이 있다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "디지털 보존의 대상은 매체가 아니라 정보다",
@@ -2327,7 +2427,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-11",
     "num": 11,
     "type": "빈칸",
-    "source": "2025학년도 6월 모의평가 31번"
+    "source": "2025학년도 6월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "분사·태",
+        "quote": "making the preservation",
+        "rule": "앞의 복제 가능성이 원래 매체 보존의 중요성을 낮추는 결과를 making으로 덧붙인다. make + 목적어 + 보어 구조다.",
+        "trap": "made로 바꾸면 능동 결과 관계가 사라진다. 원문의 of diminishing importance는 보존의 중요도가 줄어드는 상태다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "창의성은 아이디어를 내는 데서 끝나지 않는다",
@@ -2541,7 +2651,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-12",
     "num": 12,
     "type": "빈칸",
-    "source": "2025학년도 6월 모의평가 32번"
+    "source": "2025학년도 6월 모의평가 32번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "준동사",
+        "quote": "promising enough to develop further",
+        "rule": "enough는 형용사 promising 뒤에서 정도를 나타내고 to develop further가 어느 정도인지 설명한다.",
+        "trap": "enough promising으로 순서를 바꾸지 않는다. 동사 develop의 대상은 앞의 ideas로 이해한다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "읽기는 단어 인식 이상의 해석이다",
@@ -2748,7 +2868,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-13",
     "num": 13,
     "type": "빈칸",
-    "source": "2024학년도 수능 31번"
+    "source": "2024학년도 수능 31번",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "접속사·관계사",
+        "quote": "what a sentence “says”",
+        "rule": "첫 what은 says의 목적어 역할을 하면서 절 전체를 주어로 만든다. 두 번째 what도 means의 대상이다.",
+        "trap": "단순 접속사 that을 쓰면 각 절 안 동사의 목적어가 비게 된다.",
+        "from": "grammar-special-2021"
+      }
+    ]
   },
   {
     "title": "익숙한 영화 음악은 낯선 세계로 들어가는 길이다",
@@ -2942,7 +3072,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-14",
     "num": 14,
     "type": "빈칸",
-    "source": "2024학년도 수능 32번"
+    "source": "2024학년도 수능 32번",
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "대명사·재귀대명사",
+        "quote": "it is possible that",
+        "rule": "While절의 it은 that절을 뒤로 보낸 가주어다. 주절 it in fact aids의 it은 익숙한 음악의 사용을 가리킨다.",
+        "trap": "같은 it 두 개를 모두 같은 명사의 반복이라고 해석하지 않는다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "교외화와 함께 여가는 집 안으로 이동했다",
@@ -3153,7 +3293,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-15",
     "num": 15,
     "type": "빈칸",
-    "source": "2024학년도 9월 모의평가 31번"
+    "source": "2024학년도 9월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "강조·도치",
+        "quote": "No longer did one have",
+        "rule": "부정어구 No longer가 문두에 와서 did가 주어 one 앞에 나왔다. 뒤에는 동사원형 have가 온다.",
+        "trap": "did one had로 쓰지 않는다. 과거 시제는 did에서 이미 표시된다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "이미지 태그는 장면의 관계까지 설명하지 못한다",
@@ -3203,7 +3353,7 @@ window.EXAM_DATA["blank"] = [
     "syntax": [
       [
         8,
-        "주어 tagging a picture ... with ... → 동사 leaves out → 목적어 the information. that절은 information의 내용을 설명하며 pulling A out of B가 빠진 관계다."
+        "주어 tagging a picture ... with ... → 동사 leaves out → 목적어 the information. that절은 information의 내용을 밝히는 완전한 동격 내용절이다. pulling A out of B가 태그 목록에서 누락된 행동 관계다."
       ]
     ],
     "insert": [
@@ -3363,7 +3513,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-16",
     "num": 16,
     "type": "빈칸",
-    "source": "2024학년도 9월 모의평가 32번"
+    "source": "2024학년도 9월 모의평가 32번",
+    "grammarLinks": [
+      {
+        "n": 8,
+        "category": "수일치",
+        "quote": "leaves out the information",
+        "rule": "긴 동명사구 tagging a picture ... with ... 전체가 주어이므로 leaves out이다. that the cat is pulling ...은 information의 내용을 밝힌다.",
+        "trap": "cat, street, trash can, fish bones라는 여러 목적어 명사를 주어로 착각해 leave로 쓰지 않는다. 여기 that 뒤는 완전한 절이다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "소비는 생존뿐 아니라 경험과 가치를 표현한다",
@@ -3575,7 +3735,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-17",
     "num": 17,
     "type": "빈칸",
-    "source": "2024학년도 6월 모의평가 31번"
+    "source": "2024학년도 6월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "비교·병렬",
+        "quote": "on doing stimulating work and being able",
+        "rule": "전치사 on 뒤 doing과 being이 동명사로 병렬이다. being able 뒤 to follow는 능력의 내용이다.",
+        "trap": "on 뒤 to do로 바꾸거나 being을 be로 바꾸면 병렬 단위가 달라진다.",
+        "from": "grammar-special-2022"
+      }
+    ]
   },
   {
     "title": "품앗이는 장부 대신 공동체의 신뢰로 조절된다",
@@ -3798,7 +3968,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-18",
     "num": 18,
     "type": "빈칸",
-    "source": "2024학년도 6월 모의평가 32번"
+    "source": "2024학년도 6월 모의평가 32번",
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "분사·태",
+        "quote": "a barn damaged by fire",
+        "rule": "헛간이 화재로 손상된 수동 관계라 damaged by fire가 barn을 수식한다.",
+        "trap": "damaging으로 바꾸면 헛간이 손상을 가하는 주체가 된다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "많이 읽히지만 존중받지 못하는 스포츠 기자",
@@ -3979,7 +4159,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-19",
     "num": 19,
     "type": "빈칸",
-    "source": "2023학년도 수능 31번"
+    "source": "2023학년도 수능 31번",
+    "grammarLinks": [
+      {
+        "n": 3,
+        "category": "분사·태",
+        "quote": "their lucrative contracts being",
+        "rule": "분사구문의 의미상 주어 contracts는 주절 주어 ruminations와 다르므로 따로 남겨 둔다. being은 그 계약들의 상태를 덧붙인다.",
+        "trap": "여기는 주절 동사 are sought가 이미 있다. 2026 특별 지문의 being처럼 본동사가 빠진 문장과 구분한다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "도시는 사람의 접촉으로 언어 변화를 이끈다",
@@ -4186,7 +4376,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-20",
     "num": 20,
     "type": "빈칸",
-    "source": "2023학년도 수능 32번"
+    "source": "2023학년도 수능 32번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "접속사·관계사",
+        "quote": "what he has heard before",
+        "rule": "what은 has heard의 목적어 역할과 ‘그가 전에 들은 것’이라는 명사절 기능을 함께 한다. 전치사 of의 목적어다.",
+        "trap": "what을 that으로 바꾸면 heard의 대상이 사라진다. 앞의 result를 무조건 선행사로 잡지 않는다.",
+        "from": "grammar-special-2021"
+      }
+    ]
   },
   {
     "title": "동물의 영역도 용도에 따라 나뉜다",
@@ -4401,7 +4601,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-21",
     "num": 21,
     "type": "빈칸",
-    "source": "2023학년도 9월 모의평가 31번"
+    "source": "2023학년도 9월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 8,
+        "category": "분사·태",
+        "quote": "may be set aside",
+        "rule": "영역의 일부가 쓰레기를 위한 공간으로 따로 지정되는 수동 관계다. may + be + p.p. 구조다.",
+        "trap": "may set aside로 바꾸면 그 공간이 무언가를 따로 지정하는 능동 의미가 되어 목적어가 필요해진다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "팬 활동의 즐거움은 다른 팬과의 연결에서 온다",
@@ -4610,7 +4820,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-22",
     "num": 22,
     "type": "빈칸",
-    "source": "2023학년도 9월 모의평가 32번"
+    "source": "2023학년도 9월 모의평가 32번",
+    "grammarLinks": [
+      {
+        "n": 8,
+        "category": "접속사·관계사",
+        "quote": "what fans love",
+        "rule": "what은 fans love의 목적어이자 명사절을 이루며, 이 절이 is의 주어다.",
+        "trap": "fans가 복수라고 주절 is를 are로 바꾸지 않는다. 주어는 what절 전체다.",
+        "from": "grammar-special-2021"
+      }
+    ]
   },
   {
     "title": "컴퓨터 예술가라는 별도 이름이 사라지는 이유",
@@ -4809,7 +5029,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-23",
     "num": 23,
     "type": "빈칸",
-    "source": "2023학년도 6월 모의평가 31번"
+    "source": "2023학년도 6월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "분사·태",
+        "quote": "With tablets and cell phones surpassing",
+        "rule": "with + 명사구 + 현재분사 구조다. 태블릿과 휴대전화가 컴퓨터를 능가하므로 능동 surpassing이다.",
+        "trap": "surpassed로 바꾸면 능동·수동 관계가 뒤집힌다. personal computers가 목적어로 남아 있다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "형식주의 비평은 작품 내부에서 의미를 찾는다",
@@ -4997,7 +5227,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-24",
     "num": 24,
     "type": "빈칸",
-    "source": "2023학년도 6월 모의평가 32번"
+    "source": "2023학년도 6월 모의평가 32번",
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "대명사·재귀대명사",
+        "quote": "the story contains within itself",
+        "rule": "itself는 관계절의 주어 the story와 동일한 작품을 가리킨다. 정보가 작품 자체 안에 있다는 뜻이다.",
+        "trap": "사람들 people을 받아 themselves로 고치지 않는다. 관계절의 주어와 재귀대명사의 대상을 맞춘다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "유머의 목적은 정확한 정보보다 즐거움이다",
@@ -5196,7 +5436,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-25",
     "num": 25,
     "type": "빈칸",
-    "source": "2022학년도 수능 31번"
+    "source": "2022학년도 수능 31번",
+    "grammarLinks": [
+      {
+        "n": 5,
+        "category": "분사·태",
+        "quote": "someone listening to a funny story",
+        "rule": "someone이 이야기를 듣는 능동 관계라 listening이 수식한다. 문장 본동사는 will be told라는 수동태다.",
+        "trap": "listened로 바꾸지 않는다. 누군가 ‘듣는’ 행위와 다른 청중에게 ‘말을 듣는’ 수동 관계를 나누어 본다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "뉴스의 전달 형식은 이해 방식도 바꾼다",
@@ -5396,7 +5646,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-26",
     "num": 26,
     "type": "빈칸",
-    "source": "2022학년도 수능 32번"
+    "source": "2022학년도 수능 32번",
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "수일치",
+        "quote": "News, especially in its televised form, is",
+        "rule": "News는 형태가 -s로 끝나도 이 문장에서 불가산 단수 명사라 is다. 쉼표 사이 especially ...는 부가 설명이다.",
+        "trap": "news를 복수로 착각해 are constituted로 바꾸지 않는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "고고학 기록은 인간 문화의 일부만 남긴다",
@@ -5602,7 +5862,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-27",
     "num": 27,
     "type": "빈칸",
-    "source": "2022학년도 9월 모의평가 31번"
+    "source": "2022학년도 9월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "수일치",
+        "quote": "is more difficult",
+        "rule": "Using these same kinds ...라는 동명사구 전체가 주어여서 is다. 내부의 systems 등 복수 명사는 주절 주어가 아니다.",
+        "trap": "using과 to draw를 본동사로 세지 않는다. 주어 전체를 묶은 뒤 is를 찾는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "TV는 실패한 자신에게서 잠시 눈을 돌리게 한다",
@@ -5795,7 +6065,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-28",
     "num": 28,
     "type": "빈칸",
-    "source": "2022학년도 9월 모의평가 32번"
+    "source": "2022학년도 9월 모의평가 32번",
+    "grammarLinks": [
+      {
+        "n": 1,
+        "category": "준동사",
+        "quote": "for some people to escape",
+        "rule": "for some people은 to escape의 의미상 주어다. a way to escape가 ‘벗어날 방법’을 이룬다.",
+        "trap": "some people을 주절의 주어로 보고 may be를 고치지 않는다. 주절 주어의 중심은 behavior다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "과학에서 수집의 학문적 위상이 낮아진 과정",
@@ -5978,7 +6258,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-29",
     "num": 29,
     "type": "빈칸",
-    "source": "2022학년도 6월 모의평가 31번"
+    "source": "2022학년도 6월 모의평가 31번",
+    "grammarLinks": [
+      {
+        "n": 2,
+        "category": "대명사·재귀대명사",
+        "quote": "collecting began to lose its status",
+        "rule": "its는 동명사 collecting, 즉 수집 활동을 가리킨다. 하나의 활동으로 취급하므로 단수 소유격이다.",
+        "trap": "앞의 복수 museums and universities를 받아 their로 고치지 않는다. 지위가 낮아진 대상은 수집이다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "지금의 즐거움을 위해 일부러 모르는 상태를 택한다",
@@ -6177,7 +6467,17 @@ window.EXAM_DATA["blank"] = [
     "id": "blank-30",
     "num": 30,
     "type": "빈칸",
-    "source": "2022학년도 6월 모의평가 32번"
+    "source": "2022학년도 6월 모의평가 32번",
+    "grammarLinks": [
+      {
+        "n": 2,
+        "category": "형용사·부사",
+        "quote": "make current activities less attractive",
+        "rule": "make + 목적어 current activities + 형용사 보어 less attractive 구조다. 활동들이 덜 매력적인 상태가 되게 한다.",
+        "trap": "attractively는 동작을 꾸미는 부사여서 이 목적격 보어 자리에 맞지 않는다.",
+        "from": "grammar-special-2023"
+      }
+    ]
   },
   {
     "title": "건물을 쓸 사람에게 설계 과정에서 의견을 묻기",
@@ -6432,7 +6732,17 @@ window.EXAM_DATA["blank"] = [
     ],
     "id": "blank-31",
     "num": 31,
-    "type": "빈칸"
+    "type": "빈칸",
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "대명사·재귀대명사",
+        "quote": "from those of doctors",
+        "rule": "those는 perspectives를 대신하는 복수 대명사다. 행정 직원의 관점과 의료진의 관점을 비교한다.",
+        "trap": "those를 doctors를 대신하는 말로 읽지 않는다. 관점과 사람을 직접 비교하지 않도록 명사를 복원한다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "합리적으로 선택할 법은 자유를 제약하는가",
@@ -6686,7 +6996,17 @@ window.EXAM_DATA["blank"] = [
     ],
     "id": "blank-32",
     "num": 32,
-    "type": "빈칸"
+    "type": "빈칸",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "준동사",
+        "quote": "forbid them to do",
+        "rule": "forbid + 목적어 them + to부정사 구조로 그들에게 어떤 행동을 금지한다. 뒤 관계절의 that은 do의 목적어다.",
+        "trap": "forbid 뒤 to do가 금지하는 대상의 행동이다. 단순히 전치사 to로 보아 doing으로 바꾸지 않는다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   },
   {
     "title": "공감이 갈등을 오히려 키울 수 있다는 비판",
@@ -6952,7 +7272,17 @@ window.EXAM_DATA["blank"] = [
     ],
     "id": "blank-33",
     "num": 33,
-    "type": "빈칸"
+    "type": "빈칸",
+    "grammarLinks": [
+      {
+        "n": 8,
+        "category": "분사·태",
+        "quote": "causing further misunderstandings",
+        "rule": "정확한 공감에 실패하는 앞 상황이 오해를 일으키므로 causing은 능동 결과 분사구문이다.",
+        "trap": "caused로 바꾸면 목적어 misunderstandings가 남은 능동 구조와 맞지 않는다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "공정한 집단 선택에 추첨이 필요한 이유",
@@ -7197,7 +7527,17 @@ window.EXAM_DATA["blank"] = [
     ],
     "id": "blank-34",
     "num": 34,
-    "type": "빈칸"
+    "type": "빈칸",
+    "grammarLinks": [
+      {
+        "n": 6,
+        "category": "수일치",
+        "quote": "The use of lotteries",
+        "rule": "주어의 중심은 단수 use라 goes back과 has gained가 맞다. where절은 삽입된 장소 설명이다.",
+        "trap": "가까운 lotteries나 officials에 맞추어 go/have로 바꾸지 않는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "인물의 외모 대신 효과를 묘사하는 글쓰기",
@@ -7457,7 +7797,17 @@ window.EXAM_DATA["blank"] = [
     ],
     "id": "blank-35",
     "num": 35,
-    "type": "빈칸"
+    "type": "빈칸",
+    "grammarLinks": [
+      {
+        "n": 4,
+        "category": "분사·태",
+        "quote": "being told",
+        "rule": "누군가에게 외모의 효과에 관해 설명을 듣는다는 수동 동명사다. mistake의 목적어 자리에 being told ...가 온다.",
+        "trap": "telling으로 바꾸면 설명을 하는 주체가 되어 의미가 달라진다. being이 있다고 본동사가 빠진 것은 아니다. 본동사는 mistake다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "지리학은 위치를 넘어 공간의 관계를 묻는다",
@@ -7713,7 +8063,17 @@ window.EXAM_DATA["blank"] = [
     ],
     "id": "blank-36",
     "num": 36,
-    "type": "빈칸"
+    "type": "빈칸",
+    "grammarLinks": [
+      {
+        "n": 8,
+        "category": "수일치",
+        "quote": "requires consideration",
+        "rule": "Understanding why and where migration happens라는 동명사구 전체가 주어라 requires다.",
+        "trap": "내부 why/where가 두 개라는 이유로 require를 쓰지 않는다. 하나의 이해 행위를 주어로 삼는다.",
+        "from": "grammar-special-2025"
+      }
+    ]
   },
   {
     "title": "무료 서비스가 판매하는 것은 이용자의 주의다",
@@ -7943,7 +8303,17 @@ window.EXAM_DATA["blank"] = [
     ],
     "id": "blank-37",
     "num": 37,
-    "type": "빈칸"
+    "type": "빈칸",
+    "grammarLinks": [
+      {
+        "n": 3,
+        "category": "분사·태",
+        "quote": "the real product being sold is you",
+        "rule": "product가 팔리는 수동 관계이며 being sold는 product를 수식한다. 문장의 본동사는 is다.",
+        "trap": "2026 특별 지문의 being 오류와 달리 여기에는 본동사 is가 있다. 모든 being을 is로 고치는 규칙은 없다.",
+        "from": "grammar-special-2026"
+      }
+    ]
   },
   {
     "title": "규칙은 행동을 제한하면서 역할과 활동을 만든다",
@@ -8231,6 +8601,16 @@ window.EXAM_DATA["blank"] = [
     ],
     "id": "blank-38",
     "num": 38,
-    "type": "빈칸"
+    "type": "빈칸",
+    "grammarLinks": [
+      {
+        "n": 7,
+        "category": "대명사·재귀대명사",
+        "quote": "the roles themselves",
+        "rule": "themselves는 roles를 강조하는 강조 용법이다. create의 목적어는 the roles이며 ‘역할 자체’를 뜻한다.",
+        "trap": "주어 rules가 자기 자신을 만든다는 재귀 목적어 용법과 다르다. themselves를 빼도 기본 문장은 성립한다.",
+        "from": "grammar-special-2024"
+      }
+    ]
   }
 ];
