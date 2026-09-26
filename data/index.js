@@ -919,5 +919,68 @@ window.EXAM_INDEX = [
         "count": 5
       }
     ]
+  },
+  {
+    "id": "grammar-special",
+    "name": "어법 특별",
+    "file": "data/exams/grammar-special.js",
+    "passages": [
+      {
+        "id": "grammar-special-2020",
+        "num": 1,
+        "title": "선사 예술과 인간·자연의 연결",
+        "source": "캐서린의 어법 Finish · 2020학년도 수능 29번",
+        "central": "선사 예술의 동물 표현은 인간과 자연을 통합해 이해하는 사고와 연결된다.",
+        "count": 7
+      },
+      {
+        "id": "grammar-special-2021",
+        "num": 2,
+        "title": "자기 실험의 한계",
+        "source": "캐서린의 어법 Finish · 2021학년도 수능 29번",
+        "central": "자기 실험은 일부 규제와 윤리 문제를 피할 수 있지만 위험과 일반화의 한계가 남는다.",
+        "count": 9
+      },
+      {
+        "id": "grammar-special-2022",
+        "num": 3,
+        "title": "세포의 성장과 분화",
+        "source": "캐서린의 어법 Finish · 2022학년도 수능 29번",
+        "central": "세포는 성장하고 분화하지만 복잡해 보이는 작용은 소수 부분의 논리적 기능으로 이루어진다.",
+        "count": 9
+      },
+      {
+        "id": "grammar-special-2023",
+        "num": 4,
+        "title": "패션과 자기표현의 자유",
+        "source": "캐서린의 어법 Finish · 2023학년도 수능 29번",
+        "central": "패션은 사람들이 자신을 새롭게 표현하고 행동 가능성을 넓히게 한다.",
+        "count": 7
+      },
+      {
+        "id": "grammar-special-2024",
+        "num": 5,
+        "title": "아기의 타고난 모방 능력",
+        "source": "캐서린의 어법 Finish · 2024학년도 수능 29번",
+        "central": "아기는 타인의 움직임을 따라 할 능력뿐 아니라 모방하려는 타고난 욕구도 보인다.",
+        "count": 7
+      },
+      {
+        "id": "grammar-special-2025",
+        "num": 6,
+        "title": "뇌의 자동 처리와 의식",
+        "source": "캐서린의 어법 Finish · 2025학년도 수능 29번",
+        "central": "뇌의 많은 과정은 자동으로 작동해 의식을 더 중요한 일에 사용할 수 있게 한다.",
+        "count": 8
+      },
+      {
+        "id": "grammar-special-2026",
+        "num": 7,
+        "title": "사회적 학습과 집단의 지식",
+        "source": "캐서린의 어법 Finish · 2026학년도 수능 29번",
+        "central": "인간은 타인에게 배우고 지식을 축적해 개인의 발명 능력을 넘어선 적응을 이룬다.",
+        "count": 6
+      }
+    ]
   }
 ];

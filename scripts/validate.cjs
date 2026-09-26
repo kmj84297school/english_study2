@@ -11,10 +11,18 @@ try{
   check(data.length===group.passages.length,`${group.id}: index length`);
   for(const p of data){total++;const tag=p.id;check(!ids.has(tag),`${tag}: duplicate ID`);ids.add(tag);const n=p.sentences.length;sentences+=n;
    const valid=i=>Number.isInteger(i)&&i>=1&&i<=n;
-   for(const key of ['title','source','central','tip','topicEN','titleEN','answer'])check(typeof p[key]==='string'&&p[key].trim(),`${tag}: ${key}`);
+   for(const key of (p.specialGrammar?['title','source','central','tip']:['title','source','central','tip','topicEN','titleEN','answer']))check(typeof p[key]==='string'&&p[key].trim(),`${tag}: ${key}`);
    const meta=group.passages.find(m=>m.id===p.id);check(meta&&meta.title===p.title&&meta.count===n,`${tag}: index metadata`);
    p.sentences.forEach((s,i)=>{check(s.n===i+1,`${tag}: sentence number`);for(const key of ['en','ko','literal','role','why'])check(typeof s[key]==='string'&&s[key].trim(),`${tag} S${i+1}: ${key}`)});
    check(Array.isArray(p.easy)&&p.easy.length>=2&&p.easy.every(x=>typeof x==='string'&&x.trim()),`${tag}: easy explanation`);
+   if(p.specialGrammar){
+    check(p.grammarPoints.length===5,`${tag}: five grammar points`);
+    p.grammarPoints.forEach((g,i)=>check(g.number===i+1&&valid(g.n)&&p.sentences[g.n-1].en.includes(g.quote)&&g.category&&g.rule&&g.trap,`${tag}: grammar point ${i+1}`));
+    check(p.grammarPoints.filter(g=>g.replacement).length===1,`${tag}: exactly one incorrect original expression`);
+    for(const e of p.edits)check(valid(e[0])&&p.sentences[e[0]-1].en.includes(e[1])&&e[2]&&e[3],`${tag}: correction`);
+    for(const photo of p.photos)check(fs.existsSync(path.join(root,`assets/sources/${photo}.jpg`)),`${tag}: PDF page image`);
+    continue;
+   }
    check(p.turns.length>0&&p.turns.every(valid),`${tag}: turning points`);
    check(p.flow.length>=4&&p.flow.length<=7,`${tag}: 4–7 flow steps`);
    for(const f of p.flow)check(valid(f[1])&&valid(f[2])&&f[1]<=f[2]&&f[3],`${tag}: flow range`);
