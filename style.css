@@ -19,3 +19,17 @@
 
 /* Classroom evidence is independent of personal completion. */
 .taught-tag{display:inline-flex;align-items:center;gap:4px;background:#f4e9c9;color:#6c4a12;border:1px solid #dfc98f;border-radius:6px;padding:3px 8px;font-size:12px;font-weight:700;line-height:1.5;vertical-align:middle}.passage-card>.taught-tag{margin-top:12px;align-self:flex-start}.study-title .taught-tag{white-space:nowrap}
+
+/* Word meanings unfold in the text flow, so neither pane clips them. */
+.original .sentence{cursor:default;font-weight:400}
+.original .sentence-num{padding:2px 3px;min-height:32px;min-width:26px;top:10px;border:1px solid transparent;background:transparent;font:11px/1.5 system-ui;color:#6c7772}
+.original .sentence-num:hover{border-color:#b4c6bb;background:#edf2eb}
+.word-unit{display:inline-grid;grid-template-columns:minmax(0,auto);vertical-align:top;max-width:100%;text-indent:0}
+button.word-toggle{display:inline;min-height:0;min-width:0;border:0;border-radius:3px;padding:0;background:transparent;color:inherit;font:inherit;letter-spacing:inherit;line-height:inherit;text-align:inherit;cursor:pointer;box-shadow:none}
+button.word-toggle:hover{background:#e5eee3;text-decoration:underline;text-decoration-color:#6e8b76;text-underline-offset:4px}
+button.word-toggle[aria-expanded=true]{background:#dce9d5;color:#244d46;text-decoration:underline;text-underline-offset:4px}
+.word-meaning{display:block;max-width:210px;margin:3px 0 5px;padding:7px 10px;border:1px solid #c8d6bf;border-radius:7px;background:#edf3e6;color:#284b3d;font:400 13px/1.6 'Malgun Gothic',system-ui,sans-serif;white-space:normal;word-break:keep-all;overflow-wrap:anywhere;letter-spacing:0;text-align:left}
+.word-meaning[hidden]{display:none}
+@media(pointer:coarse){button.word-toggle{min-height:32px}}
+@media(prefers-reduced-motion:reduce){.word-unit{scroll-behavior:auto}}
+@media print{.word-meaning{display:none!important}.word-toggle{background:transparent!important;text-decoration:none!important}}
