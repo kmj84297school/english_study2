@@ -23,7 +23,7 @@ try{
     for(const photo of p.photos)check(fs.existsSync(path.join(root,`assets/sources/${photo}.jpg`)),`${tag}: PDF page image`);
     continue;
    }
-   check(Array.isArray(p.grammarLinks)&&p.grammarLinks.length>0,`${tag}: special grammar connection missing`);
+   check(p.id===`final-${p.lesson}-${String(p.num).padStart(2,'0')}`,`${tag}: finals ID`); check(meta.taught===p.taught,`${tag}: classroom metadata`); if(p.lesson===17)check(valid(p.givenSentence)&&p.insert[0]===p.givenSentence&&p.sourceInsertion>=1&&p.sourceInsertion<=5,`${tag}: insertion metadata`);
    for(const g of p.grammarLinks||[]){
     check(valid(g.n)&&p.sentences[g.n-1].en.includes(g.quote)&&g.rule&&g.trap,`${tag}: grammar connection quote/rule`);
     check(index.some(group=>group.id==='grammar-special'&&group.passages.some(x=>x.id===g.from)),`${tag}: grammar special link target`);
@@ -42,5 +42,9 @@ try{
    for(const photo of p.photos)check(fs.existsSync(path.join(root,`assets/sources/${String(photo).padStart(2,'0')}.jpg`)),`${tag}: source photo ${photo}`);
   }
  }
+ check(total===54,'finals must contain 54 passages');
+ check(index.length===3,'finals must contain three groups');
+ for(const [lesson,start,end] of [[14,9,26],[17,1,24],[18,1,12]])for(let n=start;n<=end;n++)check(ids.has(`final-${lesson}-${String(n).padStart(2,'0')}`),`missing lesson ${lesson} number ${n}`);
+ check(index.flatMap(g=>g.passages).filter(p=>p.taught).length===13,'expected 13 photographed classroom markings');
 }catch(e){errors.push(e.stack)}
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1}else console.log(`PASS: ${total} passages, ${sentences} sentences; index, references, quotations, block coverage and source photos verified.`);
