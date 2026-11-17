@@ -23,7 +23,7 @@ try{
     for(const photo of p.photos)check(fs.existsSync(path.join(root,`assets/sources/${photo}.jpg`)),`${tag}: PDF page image`);
     continue;
    }
-   check(p.id===`final-${p.lesson}-${String(p.num).padStart(2,'0')}`,`${tag}: finals ID`); check(meta.taught===p.taught,`${tag}: classroom metadata`); if(p.lesson===17)check(valid(p.givenSentence)&&p.insert[0]===p.givenSentence&&p.sourceInsertion>=1&&p.sourceInsertion<=5,`${tag}: insertion metadata`);
+   check(p.id===(p.exam==='oct2026'?`final-oct2026-${p.num}`:`final-${p.lesson}-${String(p.num).padStart(2,'0')}`),`${tag}: finals ID`); check(meta.taught===p.taught,`${tag}: classroom metadata`); if(p.lesson===17)check(valid(p.givenSentence)&&p.insert[0]===p.givenSentence&&p.sourceInsertion>=1&&p.sourceInsertion<=5,`${tag}: insertion metadata`);
    for(const g of p.grammarLinks||[]){
     check(valid(g.n)&&p.sentences[g.n-1].en.includes(g.quote)&&g.rule&&g.trap,`${tag}: grammar connection quote/rule`);
     check(index.some(group=>group.id==='grammar-special'&&group.passages.some(x=>x.id===g.from)),`${tag}: grammar special link target`);
@@ -42,9 +42,13 @@ try{
    for(const photo of p.photos)check(fs.existsSync(path.join(root,`assets/sources/${String(photo).padStart(2,'0')}.jpg`)),`${tag}: source photo ${photo}`);
   }
  }
- check(total===54,'finals must contain 54 passages');
- check(index.length===3,'finals must contain three groups');
- for(const [lesson,start,end] of [[14,9,26],[17,1,24],[18,1,12]])for(let n=start;n<=end;n++)check(ids.has(`final-${lesson}-${String(n).padStart(2,'0')}`),`missing lesson ${lesson} number ${n}`);
+ for(const n of [2,8,11])check(ids.has(`final-11-${String(n).padStart(2,'0')}`),'missing grammar '+n);
+ for(const n of [21,24,29,32,34])check(ids.has(`final-oct2026-${n}`),'missing October '+n);
+ check(total===105,'finals must contain 105 passages');
+ check(index.length===10,'finals must contain ten groups');
+ for(const [lesson,start,end] of [[3,9,16],[4,9,16],[12,9,12],[15,9,15],[16,9,24],[14,9,26],[17,1,24],[18,1,12]])for(let n=start;n<=end;n++)check(ids.has(`final-${lesson}-${String(n).padStart(2,'0')}`),`missing lesson ${lesson} number ${n}`);
+ const taughtExpected=[...[10,15,17,18,19,20,23,25].map(n=>`final-14-${n}`),...[1,2,4,12,21].map(n=>`final-17-${String(n).padStart(2,'0')}`)].sort();
+ check(JSON.stringify(index.flatMap(g=>g.passages).filter(p=>p.taught).map(p=>p.id).sort())===JSON.stringify(taughtExpected),'classroom markings must remain on original 13 passages');
  check(index.flatMap(g=>g.passages).filter(p=>p.taught).length===13,'expected 13 photographed classroom markings');
 }catch(e){errors.push(e.stack)}
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1}else console.log(`PASS: ${total} passages, ${sentences} sentences; index, references, quotations, block coverage and source photos verified.`);
