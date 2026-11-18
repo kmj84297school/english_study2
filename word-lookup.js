@@ -3,6 +3,7 @@
   'use strict';
   const dictionary = window.WORD_MEANINGS || {};
   let opened = null, serial = 0;
+  const wordData = new WeakMap();
   const normalize = word => word.toLowerCase().replace(/’/g, "'");
   function close() {
     if (!opened) return;
@@ -42,7 +43,10 @@
         const label = document.createElement('span');
         label.id = 'word-meaning-' + (++serial); label.className = 'word-meaning';
         label.lang = 'ko'; label.hidden = true;
-        label.textContent = meaning;
+        const meaningText=document.createElement('span');meaningText.textContent=meaning;
+        const star=document.createElement('button');star.type='button';star.className='word-star';
+        wordData.set(star,{word,meaning,passage});
+        updateStar(star);label.append(meaningText,star);
         button.setAttribute('aria-controls', label.id);
         unit.append(button, label); fragment.append(unit);
         end = match.index + word.length;
@@ -51,7 +55,11 @@
       node.replaceWith(fragment);
     }
   }
+  function updateStar(button){const {word,meaning}=wordData.get(button);const on=window.Vocabulary.has(word,meaning);button.textContent=on?'★ 저장됨':'☆ 단어 저장';button.setAttribute('aria-pressed',String(on));button.setAttribute('aria-label',word+(on?' 별표 해제':' 별표 저장'));}
+  window.addEventListener('vocabularychange',()=>document.querySelectorAll('.word-star').forEach(b=>{if(wordData.has(b))updateStar(b);}));
   document.addEventListener('click', event => {
+    const star=event.target.closest('.word-star');
+    if(star){const {word,meaning,passage}=wordData.get(star);window.Vocabulary.toggle(word,meaning,passage);return;}
     const button = event.target.closest('.word-toggle');
     if (!button) {
       if (!event.target.closest('.word-meaning')) close();
