@@ -15,6 +15,13 @@ try{
    const meta=group.passages.find(m=>m.id===p.id);check(meta&&meta.title===p.title&&meta.count===n,`${tag}: index metadata`);
    p.sentences.forEach((s,i)=>{check(s.n===i+1,`${tag}: sentence number`);for(const key of ['en','ko','literal','role','why'])check(typeof s[key]==='string'&&s[key].trim(),`${tag} S${i+1}: ${key}`)});
    check(Array.isArray(p.easy)&&p.easy.length>=2&&p.easy.every(x=>typeof x==='string'&&x.trim()),`${tag}: easy explanation`);
+   if(p.easyStory){
+    const story=p.easyStory;
+    check(typeof story.title==='string'&&story.title.trim(),`${tag}: story title`);
+    check(Array.isArray(story.paragraphs)&&story.paragraphs.length===3&&story.paragraphs.every(t=>typeof t==='string'&&t.trim()),`${tag}: three story paragraphs`);
+    check(typeof story.alt==='string'&&story.alt.trim()&&story.caption,`${tag}: story accessible description`);
+    check(story.image.startsWith('assets/illustrations/stories/')&&story.image.endsWith('.svg')&&fs.existsSync(path.join(root,story.image)),`${tag}: story diagram`);
+   }
    if(p.specialGrammar){
     check(p.grammarPoints.length===5,`${tag}: five grammar points`);
     p.grammarPoints.forEach((g,i)=>check(g.number===i+1&&valid(g.n)&&p.sentences[g.n-1].en.includes(g.quote)&&g.category&&g.rule&&g.trap,`${tag}: grammar point ${i+1}`));
