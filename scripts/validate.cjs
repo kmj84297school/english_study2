@@ -20,7 +20,7 @@ try{
     check(typeof story.title==='string'&&story.title.trim(),`${tag}: story title`);
     check(Array.isArray(story.paragraphs)&&story.paragraphs.length===3&&story.paragraphs.every(t=>typeof t==='string'&&t.trim()),`${tag}: three story paragraphs`);
     check(typeof story.alt==='string'&&story.alt.trim()&&story.caption,`${tag}: story accessible description`);
-    check(story.image.startsWith('assets/illustrations/stories/')&&story.image.endsWith('.svg')&&fs.existsSync(path.join(root,story.image)),`${tag}: story diagram`);
+    check(/^assets\/illustrations\/(stories\/[^/]+\.svg|scenes\/[^/]+\.png)$/.test(story.image)&&fs.existsSync(path.join(root,story.image)),`${tag}: story illustration`);
    }
    if(p.specialGrammar){
     check(p.grammarPoints.length===5,`${tag}: five grammar points`);
