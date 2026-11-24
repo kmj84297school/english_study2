@@ -45,7 +45,7 @@
         label.lang = 'ko'; label.hidden = true;
         const meaningText=document.createElement('span');meaningText.textContent=meaning;
         const star=document.createElement('button');star.type='button';star.className='word-star';
-        wordData.set(star,{word,meaning,passage});
+        wordData.set(star,{word,meaning,passage,sentenceNumber:Number(node.parentElement.closest(".sentence[data-s]")?.dataset.s)||null});
         updateStar(star);label.append(meaningText,star);
         button.setAttribute('aria-controls', label.id);
         unit.append(button, label); fragment.append(unit);
@@ -59,7 +59,7 @@
   window.addEventListener('vocabularychange',()=>document.querySelectorAll('.word-star').forEach(b=>{if(wordData.has(b))updateStar(b);}));
   document.addEventListener('click', event => {
     const star=event.target.closest('.word-star');
-    if(star){const {word,meaning,passage}=wordData.get(star);window.Vocabulary.toggle(word,meaning,passage);return;}
+    if(star){const {word,meaning,passage,sentenceNumber}=wordData.get(star);window.Vocabulary.toggle(word,meaning,passage,sentenceNumber);return;}
     const button = event.target.closest('.word-toggle');
     if (!button) {
       if (!event.target.closest('.word-meaning')) close();
