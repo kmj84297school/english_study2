@@ -20,7 +20,7 @@
     }
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
-        if (node.parentElement.closest('button,a,textarea,input,script,style,.word-unit,.eyebrow,.sentence-num,.order-letter,.gloss-label,.section-heading,.note,.sentence-ko')) return NodeFilter.FILTER_REJECT;
+        if (node.parentElement.closest('button,a,textarea,input,script,style,.exam-practice,.word-unit,.eyebrow,.sentence-num,.order-letter,.gloss-label,.section-heading,.note,.sentence-ko')) return NodeFilter.FILTER_REJECT;
         return /[A-Za-z]/.test(node.data) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
       }
     });
