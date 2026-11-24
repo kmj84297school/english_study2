@@ -1,16 +1,7 @@
 const fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('assert');
 const root=path.resolve(__dirname,'..'),c={window:{}};
-vm.runInNewContext(fs.readFileSync(path.join(root,'data/exam-prep.js'),'utf8'),c);
-for(const f of fs.readdirSync(path.join(root,'data/exams')))if(f.endsWith('.js'))vm.runInNewContext(fs.readFileSync(path.join(root,'data/exams',f),'utf8'),c);
-const passages=Object.values(c.window.EXAM_DATA).flat();
-for(const [id,d] of Object.entries(c.window.EXAM_PREP)){
- const p=passages.find(x=>x.id===id);assert(p,id);const ns=new Set(p.sentences.map(s=>s.n));
- assert.equal(d.bigPicture.length,3,id);assert(d.focus&&d.basis,id);
- for(const q of [...d.bigPicture,d.blank]){assert.equal(q.choices.length,5,id);assert(Number.isInteger(q.correct)&&q.correct>=0&&q.correct<5,id);assert.equal(new Set(q.choices.map(c=>c[0])).size,5,id);for(const v of q.choices)assert(v.length===3&&v.every(x=>typeof x==='string'&&x.length),id);assert(q.evidence.length&&q.evidence.every(n=>ns.has(n)),id);}
- assert(p.sentences.find(s=>s.n===d.blank.n)?.en.includes(d.blank.phrase),id+' blank missing');assert.equal(d.blank.choices[d.blank.correct][0],d.blank.phrase,id+' blank answer mismatch');
- assert(ns.has(d.insert.n)&&d.insert.before&&d.insert.after&&d.insert.trap,id);
- assert(d.grammar.length>=2&&d.vocab.length>=2,id);for(const g of [...d.grammar,...d.vocab])assert(ns.has(g.n)&&g.right&&g.wrong&&g.reason,id);
- const covered=d.order.blocks.flatMap(b=>Array.from({length:b[1]-b[0]+1},(_,i)=>b[0]+i));assert.deepEqual(covered,p.sentences.map(s=>s.n),id+' order coverage');assert(d.order.links.length>=2,id);
- assert(ns.has(d.coherence.after)&&d.coherence.evidence.every(n=>ns.has(n)),id);
-}
-console.log('PASS:',Object.keys(c.window.EXAM_PREP).length,'authored passages; choices, answer keys, exact blanks, evidence and block coverage');
+for(const f of ['data/index.js','data/exam-prep.js',...fs.readdirSync(path.join(root,'data/exams')).filter(f=>f.endsWith('.js')).map(f=>'data/exams/'+f)])vm.runInNewContext(fs.readFileSync(path.join(root,f),'utf8'),c);
+const ids=c.window.EXAM_INDEX.flatMap(g=>g.passages.map(p=>p.id));assert.equal(ids.length,105);assert.equal(Object.keys(c.window.EXAM_PREP).length,105);
+const ps=Object.values(c.window.EXAM_DATA).flat();
+for(const id of ids){const d=c.window.EXAM_PREP[id],p=ps.find(p=>p.id===id);assert(d&&p,id);for(const k of ['topicEN','gistEN','titleEN'])assert(typeof d[k]==='string'&&d[k].length>12,id+k);assert(!d.bigPicture&&!d.choices,id);if(d.insert)assert(p.sentences.some(s=>s.n===d.insert[0]),id);if(d.blank)assert(p.sentences.find(s=>s.n===d.blank[0]).en.includes(d.blank[1]),id+' exact blank');}
+console.log('PASS: all 105 compact sets and source references');
