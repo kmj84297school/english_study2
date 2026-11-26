@@ -43,6 +43,7 @@ try{
    check(valid(p.insert[0])&&p.insert[1],`${tag}: insertion`);check(valid(p.blank[0])&&p.sentences[p.blank[0]-1].en.includes(p.blank[1]),`${tag}: blank quote mismatch`);
    for(const e of p.edits||[])check(valid(e[0])&&p.sentences[e[0]-1].en.includes(e[1])&&e[2]&&e[3],`${tag}: edit quote mismatch`);
    if(p.irrelevant)check(valid(p.irrelevant),`${tag}: irrelevant`);
+   check(p.order.length+(p.introCount?1:0)===4,`${tag}: expected four study order blocks including introduction`);
    const covered=[];for(const o of p.order){check(valid(o[0])&&valid(o[1])&&o[0]<=o[1],`${tag}: order range`);for(let i=o[0];i<=o[1];i++)if(i!==p.irrelevant)covered.push(i)}
    const expected=p.sentences.filter(s=>s.n>(p.introCount||0)&&s.n!==p.irrelevant).map(s=>s.n);check(JSON.stringify(covered)===JSON.stringify(expected),`${tag}: order coverage ${covered} != ${expected}`);
    if(p.sequence)check(p.sequence.split(' → ').sort().join('')==='ABC'&&p.introCount>0,`${tag}: source sequence`);
