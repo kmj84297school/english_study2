@@ -51,9 +51,10 @@ try{
  }
  for(const n of [2,8,11])check(ids.has(`final-11-${String(n).padStart(2,'0')}`),'missing grammar '+n);
  for(const n of [21,24,29,32,34])check(ids.has(`final-oct2026-${n}`),'missing October '+n);
- check(total===105,'finals must contain 105 passages');
+ check(total===98,'finals must contain 98 passages');
  check(index.length===10,'finals must contain ten groups');
- for(const [lesson,start,end] of [[3,9,16],[4,9,16],[12,9,12],[15,9,15],[16,9,24],[14,9,26],[17,1,24],[18,1,12]])for(let n=start;n<=end;n++)check(ids.has(`final-${lesson}-${String(n).padStart(2,'0')}`),`missing lesson ${lesson} number ${n}`);
+ for(const [lesson,start,end] of [[3,9,16],[4,9,16],[12,9,12],[15,9,15],[16,9,24],[14,9,26],[17,1,24],[18,8,12]])for(let n=start;n<=end;n++)check(ids.has(`final-${lesson}-${String(n).padStart(2,'0')}`),`missing lesson ${lesson} number ${n}`);
+ for(let n=1;n<=7;n++)check(!ids.has(`final-18-0${n}`),'excluded passage must stay outside active scope');
  const taughtExpected=[...[10,15,17,18,19,20,23,25].map(n=>`final-14-${n}`),...[1,2,4,12,21].map(n=>`final-17-${String(n).padStart(2,'0')}`)].sort();
  check(JSON.stringify(index.flatMap(g=>g.passages).filter(p=>p.taught).map(p=>p.id).sort())===JSON.stringify(taughtExpected),'classroom markings must remain on original 13 passages');
  check(index.flatMap(g=>g.passages).filter(p=>p.taught).length===13,'expected 13 photographed classroom markings');
